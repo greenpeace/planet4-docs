@@ -1,4 +1,5 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [Planet 4](README.md)
+* [Using Test Environments](using-test-environments.md)
 
