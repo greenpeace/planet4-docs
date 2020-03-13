@@ -1,0 +1,2 @@
+# Visual Regression Tests
+

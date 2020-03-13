@@ -1,4 +1,4 @@
-# Using Test Environments
+# Test Instances
 
 In order to test new code, but also to help requestors do UAT, we have created a swarm of test instances that can be used by P4 dev team to test and showcase specific changes.
 
