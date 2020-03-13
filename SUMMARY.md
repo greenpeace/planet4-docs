@@ -38,5 +38,5 @@
 ## Tech
 
 * [ElasticSearch](tech/elasticsearch.md)
-* [Set up the P4 Settings](untitled.md)
+* [Set up the P4 Settings](setup-the-p4-settings.md)
 
