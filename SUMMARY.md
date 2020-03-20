@@ -5,7 +5,6 @@
 ## Development
 
 * [Contribute](development/contribute.md)
-* [Coding Standards](development/coding-standards.md)
 * [Git Guidelines](development/git-guidelines.md)
 
 ## CI/CD
