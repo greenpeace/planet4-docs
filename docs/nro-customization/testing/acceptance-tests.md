@@ -1,2 +1,38 @@
-# Acceptance Tests
+---
+description: How to add extra acceptance tests for your website
+---
 
+# NRO-specific Acceptance Tests
+
+Planet 4 is setup to run [automated acceptance tests](../ci-cd/testing/acceptance-tests.md) tests on each deployment pipeline.
+
+But you can also add extra scenarios to test other parts of your website's functionality. The purpose of these test is multiple:
+
+1. To test if any customisations done by NRO developers are working as they should.
+2. To test if the latest planet4 release works together with the NRO customisations.
+
+To create tests for your site you have to do the following:
+
+1. In your planet4-nro repository, create a folder called "tests", like the example in the [planet4-netherlands](https://github.com/greenpeace/planet4-netherlands/tree/master/tests) repository.
+
+![nro tests folder](.gitbook/assets/nro-tests-folder.png)
+
+2. Inside that directory, write tests, following the [Codeception](https://codeception.com/) syntax, in php files.
+
+![nro test file](.gitbook/assets/nro-tests-file.png)
+
+Some relevant info:
+
+- The tests run on the develop and release sites of your environment. They do not run on self contained site setups, but on your actual develop and staging sites.
+    - The tests run on your develop site in the _develop_ workflow of CircleCI, after the site gets build and deployed.
+    - The tests run on your release site in the _release_ workflows after a successful deployment and before the "hold" job (that triggers production deployments).
+- If the test fails on the develop workflows, it will still trigger the release site deployment. It does not block the next steps.
+- If the test fails on the release workflows, it will block the next steps. So, production deployments cannot happen if the tests fail on the release site.
+
+Example of failed tests on the release workflow. The hold-promote job that would usually allow you to deploy to production is not triggered, as it is blocked by the test-release job failing
+
+![nro test release failure](.gitbook/assets/nro-test-release-failure.png)
+
+Example of successful tests on the release workflow. Tests succeeded, so hold-promote is available.
+
+![nro test release succss](.gitbook/assets/nro-test-release-success.png)
