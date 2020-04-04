@@ -28,7 +28,7 @@ Once you have planet4 running locally, you will find the code under `persistence
 Now pick the one you want to work on, fork it on Github and add it to your local setup. Let’s see an example based on planet4-master-theme.
 
 {% hint style="info" %}
-\(Replace all “username” occurrences below with your Github username.\)
+Replace all “username” occurrences below with your Github username.
 {% endhint %}
 
 1. Fork [planet4-master-theme](https://github.com/greenpeace/planet4-master-theme) through Github. This will create `https://github.com/<username>/planet4-master-theme/`
