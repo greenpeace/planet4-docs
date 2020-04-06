@@ -8,7 +8,7 @@ description: Hosting and Infrastructure architecture
 
 Planet 4 is built on individual instances of a very common and powerful Content Management System (CMS): [Wordpress](https://wordpress.org/). Here’s a snapshot of how the global architecture is designed:
 
-![High level multi-instance architecture for Planet 4](.gitbook/assets/nro-arch.png)
+![High level multi-instance architecture for Planet 4](../.gitbook/assets/nro-arch.png)
 
 ## General hosting setup
 
@@ -60,7 +60,7 @@ Infrastructure monitoring happens via [NewRelic Infrastructure](https://newrelic
 
 [Traefik](https://traefik.io/) [ingress controller](https://medium.com/google-cloud/kubernetes-nodeport-vs-loadbalancer-vs-ingress-when-should-i-use-what-922f010849e0) managing path-based and domain routing to Kubernetes services, and automatic [LetsEncrypt](https://letsencrypt.org/) certificates.
 
-![](.gitbook/assets/k8s-p4-infra.png)
+![](../.gitbook/assets/k8s-p4-infra.png)
 
 - Modular container system ([planet 4 code](https://github.com/greenpeace/planet4-docker)) based on **Phusion’s docker-friendly** Ubuntu base image.
 - [Openresty](http://openresty.org/en/) ([planet 4 code](https://github.com/greenpeace/planet4-docker/tree/master/src/planet-4-151612/openresty)) **reverse-proxying FastCGI data** from [PHP-FPM](https://php-fpm.org/) ([planet 4 code](https://github.com/greenpeace/planet4-docker/tree/master/src/planet-4-151612/php-fpm)).
@@ -141,7 +141,7 @@ Tagged releases require manual intervention before being deployed to production.
 
 ### Git Automation and Environment Promotion
 
-![](.gitbook/assets/git-repo-dependnecy.jpg)
+![](../.gitbook/assets/git-repo-dependnecy.jpg)
 
 The P4 Git Repo Dependency. Arrows indicate build hierarchy
 
