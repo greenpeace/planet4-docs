@@ -10,7 +10,6 @@
 
 ## CI/CD
 
-* [Introduction](ci-cd/introduction.md)
 * [Test Instances](ci-cd/test-environments.md)
 * [Deployment](ci-cd/deployment.md)
 * [Testing](ci-cd/testing/README.md)
@@ -38,5 +37,5 @@
 ## Tech
 
 * [ElasticSearch](tech/elasticsearch.md)
-* [Set up the P4 Settings](setup-the-p4-settings.md)
+* [Set up the P4 Settings](tech/set-up-the-p4-settings.md)
 
