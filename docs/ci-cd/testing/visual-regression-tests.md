@@ -18,7 +18,7 @@ By default, for all planet4 websites, when their develop and staging/release web
 
 For the develop websites, a non match does not stop the process, just appears in the circleCI workflow as "failed" (red). Example:
 
-![failed backstop develop](.gitbook/assets/failed-backstop-develop.png)
+![failed backstop develop](../../.gitbook/assets/failed-backstop-develop.png)
 
 But the process continues normally, and the release/staging website rebuild is triggered normally.
 
@@ -34,13 +34,13 @@ If the backstopJS job does not fail, then under certain conditions (specifically
 - Get in the workflow you are interested in (either `develop/develop` or `release-init` )
 - Find the job `backstop-compare` and get into it (click it so that you go in the details)
 
-![backstop compare](.gitbook/assets/backstop-compare.png)
+![backstop compare](../../.gitbook/assets/backstop-compare.png)
 
 - Go to the tab `artifacts`.
 - Drill down to find the folder `html_report`
 - Click on `index.html`. It will open in a new tab the report with the comparisons
 
-![backstop find report](.gitbook/assets/backstop-find-report.png)
+![backstop find report](../../.gitbook/assets/backstop-find-report.png)
 
 ### How to approve a job that is on hold
 
@@ -59,9 +59,9 @@ To approve a job that is on hold, you have to
 - Click on the `hold-promote` job and
 - Approve it by clicking the `Approve` button.
 
-![hold promote](.gitbook/assets/hold-promote.png)
+![hold promote](../../.gitbook/assets/hold-promote.png)
 
-![hold approve](.gitbook/assets/hold-approve.png)
+![hold approve](../../.gitbook/assets/hold-approve.png)
 
 ### How to add extra tests on your own website
 
