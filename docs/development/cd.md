@@ -12,10 +12,10 @@ At Planet 4 we adopted CD in order to be able to deliver quick iterations and mo
 
 From the moment some new Code is pushed to one of our repositories till that being deployed to production. Once a new Pull Request is created, automated tests and peer code review is taking place. The engineer assigned to work on this uses a test instance to deploy the change, so other people from the team can verify it during User Acceptance Testing (UAT).
 
-![Development Cycle](.gitbook/assets/dev-cycle.png)
+![Development Cycle](../.gitbook/assets/dev-cycle.png)
 
 ## Git branching model
 
 Our Git branching strategy is following Github-flow, where there is only one main branch (master). That branch always has code ready to be deployed in production.
 
-![Github Flow](.gitbook/assets/github-flow.png)
+![Github Flow](../.gitbook/assets/github-flow.png)
