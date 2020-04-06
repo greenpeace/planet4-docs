@@ -7,7 +7,6 @@
 * [Contribute](development/contribute.md)
 * [Git Guidelines](development/git-guidelines.md)
 * [Continuous Delivery](development/cd.md)
-* [ADRs](development/adrs.md)
 
 ## CI/CD
 
@@ -22,7 +21,7 @@
 
 * [Development](nro-customization/development/README.md)
   * [Using Child Themes](nro-customization/development/using-child-themes.md)
-  * [Package Registry]()
+  * [Package Registry](nro-customization/development/package-registry.md)
   * [Plugins](nro-customization/development/plugins.md)
 * [Testing](nro-customization/testing/README.md)
   * [Acceptance Tests](nro-customization/testing/acceptance-tests.md)
@@ -37,5 +36,6 @@
 
 ## Tech
 
+* [ADRs](tech/adrs.md)
 * [ElasticSearch](tech/elasticsearch.md)
 
