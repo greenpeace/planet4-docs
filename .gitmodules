@@ -1,0 +1,3 @@
+[submodule "planet-docker-compose"]
+	path = repos/planet4-docker-compose
+	url = https://github.com/greenpeace/planet4-docker-compose.git

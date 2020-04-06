@@ -1,1 +1,1 @@
-# Acceptance Tests
+../../../repos/planet4-docker-compose/TESTING.md
