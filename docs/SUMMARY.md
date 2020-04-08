@@ -15,7 +15,6 @@
 * [Testing](ci-cd/testing/README.md)
   * [Acceptance Tests](ci-cd/testing/acceptance-tests.md)
   * [Visual Regression Tests](ci-cd/testing/visual-regression-tests.md)
-* [NRO Generation](ci-cd/nro-generation.md)
 
 ## NRO Customization
 
@@ -33,6 +32,7 @@
 ## Infrastructure
 
 * [Architecture](infrastructure/architecture.md)
+* [NRO Generation](infrastructure/nro-generation.md)
 
 ## Tech
 
