@@ -5,7 +5,7 @@
 ## Development
 
 * [Contribute](development/contribute.md)
-* [Installation](https://github.com/greenpeace/planet4-docker-compose/blob/master/docs/installation.md)
+* [Installation](development/installation.md)
 * [Git Guidelines](development/git-guidelines.md)
 * [Continuous Delivery](development/cd.md)
 
