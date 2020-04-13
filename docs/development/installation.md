@@ -10,21 +10,22 @@ If you want to improve this document, make a Pull Request to the [docker-compose
 
 We are using `docker` and `docker-compose` to provide as consistent a local development environment as possible, in accordance with [12factor](https://12factor.net/) development principles.
 
-## System Requirements
-
 {% hint style="info" %}
-This repository has been tested and is working well on Linux and OSX. It should work on Windows WSL \(Windows Subsystem for Linux\), but not thoroughly tested.
+This repository has been tested and is working well on Linux and OSX. It should work on Windows WSL (Windows Subsystem for Linux), but not thoroughly tested.
 {% endhint %}
 
-Firstly, check you have all the requirements on your system. For Linux users, these are either preinstalled or available through your distribution's package manager.
+## System Requirements
 
-* [git](https://www.git-scm.com/downloads)
-* [make](https://www.gnu.org/software/make/) - Instructions for installing make vary, for OSX users `xcode-select --install` might work
-* [docker](https://docs.docker.com/engine/installation/)
-* [docker-compose](https://github.com/docker/compose/releases) - This should be installed along with docker on OSX and Windows
-* [npm](https://www.npmjs.com/)
-* [envsubst](https://stackoverflow.com/questions/23620827/envsubst-command-not-found-on-mac-os-x-10-8/23622446#23622446) - This should be pre-installed on most Linux distributions
-* `php-xml` and `php-mbstring` extensions
+Firstly, check you have all the requirements on your system.\
+For Linux users, these are either preinstalled or available through your distribution's package manager.
+
+- [git](https://www.git-scm.com/downloads)
+- [make](https://www.gnu.org/software/make/) - Instructions for installing make vary, for OSX users `xcode-select --install` might work
+- [docker](https://docs.docker.com/engine/installation/)
+- [docker-compose](https://github.com/docker/compose/releases) - This should be installed along with docker on OSX and Windows
+- [npm](https://www.npmjs.com/)
+- [envsubst](https://stackoverflow.com/questions/23620827/envsubst-command-not-found-on-mac-os-x-10-8/23622446#23622446) - This should be pre-installed on most Linux distributions
+- `php-xml` and `php-mbstring` extensions
 
 {% tabs %}
 {% tab title="Linux" %}
@@ -157,4 +158,3 @@ Login username is `admin` and the password is `admin`.
 ### Elasticsearch access via ElasticHQ
 
 [elastichq](https://hub.docker.com/r/elastichq/elasticsearch-hq/) Access at [localhost:5000/](http://localhost:5000/)
-
