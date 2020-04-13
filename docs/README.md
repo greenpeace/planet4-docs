@@ -6,3 +6,15 @@ description: Welcome to our Technical Documentation
 
 ![](.gitbook/assets/planet4.png)
 
+Navigate to the proper section **through the sidebar** or simply **search** for what you are looking for using the search field at the top right corner of the window.
+
+Or start from the beginning and learn how you can contribute to the project:
+
+{% page-ref page="development/contribute.md" %}
+
+{% hint style="info" %}
+If you want to contribute to these docs, feel free to open a Pull Request to the [relevant repository](https://github.com/greenpeace/planet4-docs/).
+{% endhint %}
+
+
+
