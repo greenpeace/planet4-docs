@@ -2,7 +2,7 @@
 description: Get a full Planet 4 development environment to your local machine
 ---
 
-# Development Environment
+# Installation
 
 {% hint style="info" %}
 If you want to improve this document, make a Pull Request to the [docker-compose](https://github.com/greenpeace/planet4-docker-compose) repository and edit the [relevant file](https://github.com/greenpeace/planet4-docker-compose/blob/master/docs/installation.md).
@@ -10,50 +10,56 @@ If you want to improve this document, make a Pull Request to the [docker-compose
 
 We are using `docker` and `docker-compose` to provide as consistent a local development environment as possible, in accordance with [12factor](https://12factor.net/) development principles.
 
-{% hint style="info" %}
-This repository has been tested and is working well on Linux and OSX. It should work on Windows WSL (Windows Subsystem for Linux), but not thoroughly tested.
-{% endhint %}
-
 ## System Requirements
 
-Firstly, check you have all the requirements on your system.\
-For Linux users, these are either preinstalled or available through your distribution's package manager.
+{% hint style="info" %}
+This repository has been tested and is working well on Linux and OSX. It should work on Windows WSL \(Windows Subsystem for Linux\), but not thoroughly tested.
+{% endhint %}
 
-- [git](https://www.git-scm.com/downloads)
-- [make](https://www.gnu.org/software/make/) - Instructions for installing make vary, for OSX users `xcode-select --install` might work
-- [docker](https://docs.docker.com/engine/installation/)
-- [docker-compose](https://github.com/docker/compose/releases) - This should be installed along with docker on OSX and Windows
-- [npm](https://www.npmjs.com/)
-- [envsubst](https://stackoverflow.com/questions/23620827/envsubst-command-not-found-on-mac-os-x-10-8/23622446#23622446) - This should be pre-installed on most Linux distributions
-- `php-xml` and `php-mbstring` extensions
+Firstly, check you have all the requirements on your system. For Linux users, these are either preinstalled or available through your distribution's package manager.
 
-Linux users may need to do some [post-installation steps](https://docs.docker.com/install/linux/linux-postinstall/) to give docker permissions to user.
+* [git](https://www.git-scm.com/downloads)
+* [make](https://www.gnu.org/software/make/) - Instructions for installing make vary, for OSX users `xcode-select --install` might work
+* [docker](https://docs.docker.com/engine/installation/)
+* [docker-compose](https://github.com/docker/compose/releases) - This should be installed along with docker on OSX and Windows
+* [npm](https://www.npmjs.com/)
+* [envsubst](https://stackoverflow.com/questions/23620827/envsubst-command-not-found-on-mac-os-x-10-8/23622446#23622446) - This should be pre-installed on most Linux distributions
+* `php-xml` and `php-mbstring` extensions
 
-<details><summary>Requirments installation notes for Ubuntu/Debian Linux</summary>
+{% tabs %}
+{% tab title="Linux" %}
+```bash
+# install basic packages
+sudo apt install -y curl git make
 
-   ```bash
-   # install basic packages
-   sudo apt install -y curl git make
+# install php packages
+sudo apt install -y composer php-xml php-mbstring
 
-   # install php packages
-   sudo apt install -y composer php-xml php-mbstring
+# install node and npm
+curl -sL https://deb.nodesource.com/setup_13.x | sudo -E bash -
+sudo apt install -y nodejs
 
-   # install node and npm
-   curl -sL https://deb.nodesource.com/setup_13.x | sudo -E bash -
-   sudo apt install -y nodejs
+# install docker
+sudo apt install -y docker.io
 
-   # install docker
-   sudo apt install -y docker.io
+# install docker-compose
+sudo curl -L "https://github.com/docker/compose/releases/download/1.25.4/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
 
-   # install docker-compose
-   sudo curl -L "https://github.com/docker/compose/releases/download/1.25.4/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
-   sudo chmod +x /usr/local/bin/docker-compose
+# allow user to run docker
+sudo usermod -aG docker $USER
+newgrp docker
+```
+{% endtab %}
 
-   # allow user to run docker
-   sudo usermod -aG docker $USER
-   newgrp docker
-   ```
-</details>
+{% tab title="OSX" %}
+_\(pending contribution\)_
+{% endtab %}
+
+{% tab title="Windows" %}
+_\(pending contribution\)_
+{% endtab %}
+{% endtabs %}
 
 ## First run
 
@@ -151,3 +157,4 @@ Login username is `admin` and the password is `admin`.
 ### Elasticsearch access via ElasticHQ
 
 [elastichq](https://hub.docker.com/r/elastichq/elasticsearch-hq/) Access at [localhost:5000/](http://localhost:5000/)
+
