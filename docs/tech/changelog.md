@@ -6,6 +6,18 @@ description: >-
 
 # Changelog
 
+## 2.31.0 - 2020-05-11
+
+### Features
+
+- [PLANET-4970](https://jira.greenpeace.org/browse/PLANET-4970) - Implement data attributes on Navigation Bar
+- [PLANET-4967](https://jira.greenpeace.org/browse/PLANET-4967) - Securely deploy Smartsheet's API key in all Planet 4 instances
+
+### Bug Fixes
+
+- [PLANET-4700](https://jira.greenpeace.org/browse/PLANET-4700) - TA boxout excerpt is copied to post excerpt
+- [PLANET-4653](https://jira.greenpeace.org/browse/PLANET-4653) - Remove Spacer override and use a different method to position the Take Action Boxout
+
 ## 2.30.1 - 2020-05-06
 
 ### Features
