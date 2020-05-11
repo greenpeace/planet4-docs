@@ -12,7 +12,8 @@
 ## CI/CD
 
 * [Test Instances](ci-cd/test-environments.md)
-* [Deployment](ci-cd/deployment.md)
+* [Deployment](ci-cd/deployment/README.md)
+  * [Secret management](ci-cd/deployment/secret-management.md)
 * [Testing](ci-cd/testing/README.md)
   * [Acceptance Tests](ci-cd/testing/acceptance-tests.md)
   * [Visual Regression Tests](ci-cd/testing/visual-regression-tests.md)

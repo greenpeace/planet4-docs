@@ -33,7 +33,7 @@ Some syntax and styling rules to make git log history more consistent.
 1. Separate subject from body with a blank line
 2. Capitalize the subject line
 3. Do not end the subject line with a period
-4. Use the imperative mood in the subject line
+4. Use the imperative mood in the subject line \(see [https://chris.beams.io/posts/git-commit/](https://chris.beams.io/posts/git-commit/)\)
 
 ## Branch names
 
