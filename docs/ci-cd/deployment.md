@@ -28,14 +28,23 @@ git push -f origin master
 All merge actions should take place on local branches that are synced with the remote ones. Then push to the origin remote.
 {% endhint %}
 
-It's a good practice to tag also the [styleguide](https://github.com/greenpeace/planet4-styleguide/) first so we can reference that from all the other repositories.
+It's a good practice to tag also the [styleguide](https://github.com/greenpeace/planet4-styleguide/) first \(if it has any recent changes\) so we can reference that from all the other repositories. For instance, to update one of the application repositories to the latest styleguide tag:
 
-Now on the applications repositories we can switch to the `master` branch and create a new tag. At this step we can also update the styleguide submodule to latest tag and bump the version on necessary files, so that wp-admin can display that information. For master-theme that's on the [root stylesheet](https://github.com/greenpeace/planet4-master-theme/blob/develop/style.css#L7) and for plugins it's on the [root php file](https://github.com/greenpeace/planet4-plugin-gutenberg-blocks/blob/develop/planet4-gutenberg-blocks.php#L6).
+```bash
+git submodule foreach 'git fetch origin; git checkout $(git describe --tags `git rev-list --tags --max-count=1`);'
+```
 
-Assuming we did all the above steps, all it's left is to tag and push. Dont' forget also to push the master branch, besides the tag.
+Now on each of the application repositories we can switch to the `master` branch and create a new tag. At this step we can bump the version on necessary files, so that wp-admin can display that information. For master-theme that's on the [root stylesheet](https://github.com/greenpeace/planet4-master-theme/blob/develop/style.css#L7) and for plugins it's on the [root php file](https://github.com/greenpeace/planet4-plugin-gutenberg-blocks/blob/develop/planet4-gutenberg-blocks.php#L6). We sould commit these changes and push them before we tag.
+
+```bash
+git commit -am "v1.90"
+git push origin master
+```
+
+Assuming we did all the above steps, all it's left is to tag and push.
 
 ```text
-git tag -a v1.83 -m "v1.83"
+git tag -a v1.90 -m "v1.90"
 ```
 
 {% hint style="info" %}
@@ -44,21 +53,27 @@ Note the `-a` flag above. We always use [annotated tags](https://git-scm.com/boo
 
 ### Base repository
 
-In the repository [planet4-base-fork](https://github.com/greenpeace/planet4-base-fork), in the `develop` branch, update the versions of the plugins/themes that you are releasing and the version of composer.json \([example](https://github.com/greenpeace/planet4-base-fork/commit/0a4712ff0e3d3d1d69dfd8a1fbbac7320054a8ba#diff-b5d0ee8c97c7abd7e3fa29b9a27d1780)\). Make sure to also update the [Changelog](https://github.com/greenpeace/planet4-base-fork/blob/develop/Changelog.md).
+In the repository [planet4-base-fork](https://github.com/greenpeace/planet4-base-fork), in the `develop` branch, update the versions of the plugins/themes that you are releasing and the version of composer.json \([example](https://github.com/greenpeace/planet4-base-fork/commit/0a4712ff0e3d3d1d69dfd8a1fbbac7320054a8ba#diff-b5d0ee8c97c7abd7e3fa29b9a27d1780)\). Make sure to also update the [Changelog](../tech/changelog.md).
 
 {% hint style="info" %}
-If you include in the subject line of your git commit message the string`[AUTO-PROCEED]` then, if all tests are successful, it will automatically do all the steps for deploying to production.
+🧙 If you include in the subject line of your git commit message the string`[AUTO-PROCEED]` then, if all tests are successful, it will automatically do all the steps for deploying to production.
 {% endhint %}
 
 Check [CI](https://circleci.com/gh/greenpeace/workflows/planet4-base-fork) for the planet4-base-fork branch and wait for the workflow to finish, and all the tests to pass.
 
-Merge the `develop` branch into the `release` branch.
+#### Promote
 
-Merge the `release` branch into the `master` branch.
+Now you need to merge the `develop` branch to the `release` and then the `release` branch to the `master` branch. You can do this manually if you want, but there is a job on the CI that automates this step. All you have to do is approve the "hold-promote" job.
 
-Go back to the base-fork develop workflow in the CI \(it must appear “on hold”\) and approve the job named “hold-trigger-planet4”.
+![](../.gitbook/assets/hold-promote%20%283%29.png)
 
-![](../.gitbook/assets/promote-base-fork-768x235.png)
+Go back to the base-fork workflows and wait until the pipelines for master and release complete successfully.
+
+#### Trigger Release
+
+Go back to the base-fork develop workflow in the CI \(it must appear “on hold”\) and approve the job named “hold-trigger-sites”.
+
+![](../.gitbook/assets/hold-trigger-sites.png)
 
 The above action will trigger develop workflows on all sites, and then automatically the release workflows. It would take at least 2.5h.
 
@@ -66,7 +81,23 @@ If you didn’t use the `[AUTO-PROCEED]` flag, you have to manually check all th
 
 ![](../.gitbook/assets/hold-promote%20%281%29.png)
 
-If you used then the sites that passed Visual Regression tests will automatically trigger the production pipeline. You would only have to manually approve \(as described on the previous step\) only the ones that failed. The easiest way to see which ones failed is to go [this spreadsheet](https://docs.google.com/spreadsheets/d/1uAmZLIWYsxrBByqbhoF_vVtSM7WGebYWIc0xftPRPwE/edit#gid=390993139) and run: Planet 4 &gt; Update CircleCI. This will update the CircleCI sheet using CircleCI’s API. You can the open just the ones that are on hold.
+If you used the `[AUTO-PROCEED]` flag, then the sites that passed Visual Regression tests will automatically trigger the production pipeline. You would only have to manually approve \(as described on the previous step\) only the ones that failed. The easiest way to see which ones failed is to go [this spreadsheet](https://docs.google.com/spreadsheets/d/1uAmZLIWYsxrBByqbhoF_vVtSM7WGebYWIc0xftPRPwE/edit#gid=390993139) and run: Planet 4 &gt; Update CircleCI. This will update the CircleCI sheet using CircleCI’s API. You can the open just the ones that are on hold.
+
+#### Changelog
+
+If you haven't done already, update the [Changelog](../tech/changelog.md). Go back to the base-fork develop pipeline. There is one final approval job about the Changelog. This will send an email notification to the Planet 4 community.
+
+![](../.gitbook/assets/changelog.png)
+
+#### Chain of jobs
+
+From the steps above it's clear that the order of these 3 steps should be:
+
+1. Promote
+2. Trigger Sites
+3. Changelog
+
+The reason for not configuring those in a chained dependency is to leave the option for either skipping one or doing them manually. We may re-visit that at some point.
 
 {% hint style="info" %}
 If you discover a bug during the Regression Tests report, you can open a ticket.
