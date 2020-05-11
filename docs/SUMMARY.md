@@ -40,4 +40,5 @@
 * [ADRs](tech/adrs.md)
 * [ElasticSearch](tech/elasticsearch.md)
 * [Plugins](tech/plugins.md)
+* [Changelog](tech/untitled.md)
 
