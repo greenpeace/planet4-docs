@@ -6,6 +6,18 @@ description: >-
 
 # Changelog
 
+## 2.31.1 - 2020-05-13
+
+### Features
+
+- [PLANET-4969](https://jira.greenpeace.org/browse/PLANET-4969) - Implement data attributes on Search Page
+- [PLANET-5050](https://jira.greenpeace.org/browse/PLANET-5050) - Upgrade WPML to 4.3.12
+
+### Bug Fixes
+
+- [PLANET-4695](https://jira.greenpeace.org/browse/PLANET-4695) - Exception: Cannot use object of type WP_Error as array
+- [PLANET-5027](https://jira.greenpeace.org/browse/PLANET-5027) - Submenu block: Padding missing
+
 ## 2.31.0 - 2020-05-11
 
 ### Features
