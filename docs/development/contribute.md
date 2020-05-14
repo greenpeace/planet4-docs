@@ -18,6 +18,8 @@ Planet 4 consists of many repositories, for all the themes and plugins we develo
 * [planet4-plugin-gutenberg-engagingnetworks](https://github.com/greenpeace/planet4-plugin-gutenberg-engagingnetworks)
 * [planet4-styleguide](https://github.com/greenpeace/planet4-styleguide/)
 
+![Our code repositories built the platform we call Planet 4](../.gitbook/assets/p4-code-structure.png)
+
 Now pick the one you want to work on, and if you don't have write access to it, fork it on Github.
 
 ## Pull Requests

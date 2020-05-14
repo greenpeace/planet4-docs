@@ -12,8 +12,7 @@
 ## CI/CD
 
 * [Test Instances](ci-cd/test-environments.md)
-* [Deployment](ci-cd/deployment/README.md)
-  * [Secret management](ci-cd/deployment/secret-management.md)
+* [Deployment](ci-cd/deployment.md)
 * [Testing](ci-cd/testing/README.md)
   * [Acceptance Tests](ci-cd/testing/acceptance-tests.md)
   * [Visual Regression Tests](ci-cd/testing/visual-regression-tests.md)
@@ -33,8 +32,11 @@
 
 ## Infrastructure
 
-* [Architecture](infrastructure/architecture.md)
-* [NRO Generation](infrastructure/nro-generation.md)
+* [Intro](infrastructure/intro/README.md)
+  * [Architecture](infrastructure/intro/architecture.md)
+* [Administration](infrastructure/administration/README.md)
+  * [NRO Generation](infrastructure/administration/nro-generation.md)
+  * [Secret management](infrastructure/administration/secret-management.md)
 
 ## Tech
 
