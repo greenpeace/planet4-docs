@@ -28,23 +28,11 @@ git push -f origin master
 All merge actions should take place on local branches that are synced with the remote ones. Then push to the origin remote.
 {% endhint %}
 
-It's a good practice to tag also the [styleguide](https://github.com/greenpeace/planet4-styleguide/) first \(if it has any recent changes\) so we can reference that from all the other repositories. For instance, to update one of the application repositories to the latest styleguide tag:
-
-```bash
-git submodule foreach 'git fetch origin; git checkout $(git describe --tags `git rev-list --tags --max-count=1`);'
-```
-
-Now on each of the application repositories we can switch to the `master` branch and create a new tag. At this step we can bump the version on necessary files, so that wp-admin can display that information. For master-theme that's on the [root stylesheet](https://github.com/greenpeace/planet4-master-theme/blob/develop/style.css#L7) and for plugins it's on the [root php file](https://github.com/greenpeace/planet4-plugin-gutenberg-blocks/blob/develop/planet4-gutenberg-blocks.php#L6). We sould commit these changes and push them before we tag.
-
-```bash
-git commit -am "v1.90"
-git push origin master
-```
-
-Assuming we did all the above steps, all it's left is to tag and push.
+Now on each of the application repositories we can switch to the `master` branch, create a new tag and push it.
 
 ```text
 git tag -a v1.90 -m "v1.90"
+git push origin v1.90
 ```
 
 {% hint style="info" %}
