@@ -21,7 +21,7 @@ git merge languages
 git push origin master
 git checkout languages
 git rebase master
-git push -f origin master
+git push -f origin languages
 ```
 
 {% hint style="info" %}
