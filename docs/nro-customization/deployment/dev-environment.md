@@ -48,7 +48,7 @@ Requirements:
 
 ![](../../.gitbook/assets/circle-ci-develop-2.png)
 
-* Click on "Rerun from beggining".
+* Click on "Rerun from beginning".
 * Wait for the process to finish \(could take up to 10 minutes\).
 * After the process has successfully finished, you should be able to see your changes on your develop site.
 

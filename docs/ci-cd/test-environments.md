@@ -23,7 +23,7 @@ Sometimes testing a certain feature or bug fix requires specific content. To imp
 
 These steps above will create database dump from the NRO production with only the content tables. Specifically this includes: `wp_commentmeta, wp_comments, wp_postmeta, wp_posts, wp_termmeta, wp_terms, wp_term_relationships, wp_term_taxonomy`. Planet4 settings \(Settings &gt; Planet4\) are also imported automatically.
 
-If you the `data_from` field is already there and you just want to re-trigger a new sync you can do that by creating an empty commit:
+If the `data_from` field is already there and you just want to re-trigger a new sync you can do that by creating an empty commit:
 
 ```text
 git commit --allow-empty -m "[SYNC] Trigger rebuild"

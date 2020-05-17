@@ -65,10 +65,10 @@ If you are also creating release and production environments you can repeat thes
 # get connected to the google cloud for the production cluster
 gcloud container clusters get-credentials planet4-production --zone us-central1-a --project planet4-production
 
-# or if i wanted a specific site context for the release. (replace the "cidev" bellow with your site):
+# or if I wanted a specific site context for the release. (replace the "cidev" below with your site):
 kubectl config set-context planet4-cidev-release --namespace cidev --cluster gke_planet4-production_us-central1-a_planet4-production --user gke_planet4-production_us-central1-a_planet4-production
 
-# switch to that context (replace the "cidev" bellow with your site):
+# switch to that context (replace the "cidev" below with your site):
 kubectl config use-context planet4-cidev-release
 ```
 

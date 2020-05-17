@@ -6,7 +6,7 @@ description: A quick guide to code contributing
 
 Thank you for thinking of contributing to Planet4! 💚
 
-The next few chapters will guide will get you through the very basic things you need to get started.
+The next few chapters will guide you through the very basic things you need to get started.
 
 ## Development
 
@@ -16,7 +16,7 @@ Planet 4 consists of many repositories, for all the themes and plugins we develo
 * [planet4-plugin-gutenberg-blocks](https://github.com/greenpeace/planet4-plugin-gutenberg-blocks)
 * [planet4-plugin-medialibrary](https://github.com/greenpeace/planet4-plugin-medialibrary)
 * [planet4-plugin-gutenberg-engagingnetworks](https://github.com/greenpeace/planet4-plugin-gutenberg-engagingnetworks)
-* [planet4-styleguide](https://github.com/greenpeace/planet4-styleguide/)
+* [planet4-styleguide](https://github.com/greenpeace/planet4-styleguide)
 
 ![Our code repositories built the platform we call Planet 4](../.gitbook/assets/p4-code-structure.png)
 

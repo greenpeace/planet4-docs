@@ -8,7 +8,7 @@ description: Customize P4 using a child theme
 **Please** [**talk to the P4 Team**](mailto:planet4-pm-group@greenpeace.org)  **before doing custom development and theming. If we are ever going to reach the full potential of Greenpeace’s engagement platform it is absolutely essential that we work TOGETHER.**
 {% endhint %}
 
-In order to differentiate a Planet 4 instance from the default the first step is to fork the default child-theme and create a new repository that follow a naming scheme similar to`planet4-child-theme-<nro>`. From there we can start modifying css and templates.
+In order to differentiate a Planet 4 instance from the default the first step is to fork the default child-theme and create a new repository that follows a naming scheme similar to`planet4-child-theme-<nro>`. From there we can start modifying css and templates.
 
 ### CSS
 
@@ -57,10 +57,6 @@ Assuming we want to display more metadata to the pages content, we would have to
 ```
 
 ### Live Examples
-
-{% hint style="info" %}
-sdfsdf
-{% endhint %}
 
 Since we already have some production running websites that use their own customized child-theme we can use them as a guide for more advanced and specific tweaks. Besides screenshots and live examples provided here, you can also check the code on the relevant child them of the NRO.
 
