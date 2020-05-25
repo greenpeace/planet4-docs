@@ -4,9 +4,9 @@ description: How to add extra acceptance tests for your website
 
 # Acceptance Tests
 
-Planet 4 is setup to run [automated acceptance tests](https://github.com/greenpeace/planet4-docs/tree/5d137ed3b4b4c8c258bf31f96a9565eff0e86df9/docs/nro-customization/ci-cd/testing/acceptance-tests.md) tests on each deployment pipeline.
+Planet 4 is setup to run [automated acceptance tests](https://github.com/greenpeace/planet4-docs/tree/5d137ed3b4b4c8c258bf31f96a9565eff0e86df9/docs/nro-customization/ci-cd/testing/acceptance-tests.md) on each deployment pipeline.
 
-But you can also add extra scenarios to test other parts of your website's functionality. The purpose of these test is multiple:
+But you can also add extra scenarios to test other parts of your website's functionality. The purpose of these tests is multiple:
 
 1. To test if any customisations done by NRO developers are working as they should.
 2. To test if the latest planet4 release works together with the NRO customisations.

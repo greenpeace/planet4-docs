@@ -12,7 +12,7 @@ The most important thing about commit messages, is that it should describe what 
 
 Bad example of commit message:
 
-> Images have wroing aspect ratio ❌
+> Images have wrong aspect ratio ❌
 
 Better example of commit message:
 
@@ -80,7 +80,7 @@ Sometimes we run into conflicts, because other people code is merged in the mean
 Assuming we have a PR with conflicts against the develop branch. We update develop branch first and then we rebase our own branch:
 
 ```bash
-git checkgout develop
+git checkout develop
 git pull
 git checkout planet-1234
 git rebase develop
@@ -89,7 +89,7 @@ git rebase develop
 Git will stop when it finds the conflicts and will ask us to resolve them. Once we do that in our editor we stage the changes and continue the rebase:
 
 ```bash
-git add tempaltes/footer.twig
+git add templates/footer.twig
 git rebase --continue
 ```
 

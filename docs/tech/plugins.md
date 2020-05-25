@@ -56,7 +56,7 @@ Anti-virus, Firewall and Malware Scan. More info on the [wp.org plugin page](htt
 
 #### WP Redis
 
-WordPress Object Cache using Redis. Requires the PhpRedis extension \(https://github.com/phpredis/phpredis\). More info on the [wp.org plugin page](https://wordpress.org/plugins/wp-redis/).
+WordPress Object Cache using Redis. Requires the [PhpRedis extension](https://github.com/phpredis/phpredis). More info on the [wp.org plugin page](https://wordpress.org/plugins/wp-redis/).
 
 #### WP-Stateless
 
@@ -100,6 +100,6 @@ We have described a [process that should be followed](https://drive.google.com/d
 2. Investigate if these can be done by WordPress core
 3. If not, investigate what 3rd party plugins exist, and a do a functional fit analysis
 4. Do a security analysis of the selected plugins, including reputation, maintenance history, and code analysis
-5. nstall them on the test server and do a thorough testing \(using both automatic testing and manual testing\) to see if they create problems in other areas of P4.
+5. Install them on the test server and do a thorough testing \(using both automatic testing and manual testing\) to see if they create problems in other areas of P4.
 6. Get them installed on the relevant site, by having them being added to the [relevant composer file](https://planet4.greenpeace.org/plugins/#are-you-a-dev-please-read-me)
 
