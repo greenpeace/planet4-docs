@@ -6,7 +6,7 @@ description: Our Test Swarm for testing and doing UAT
 
 In order to test new code, but also to help requestors do UAT, we have created a swarm of test instances that can be used by P4 dev team to test and showcase specific changes.
 
-### How to pick one
+## How to pick one
 
 In order to use these instance more efficiently you can follow these steps:
 
@@ -14,7 +14,7 @@ In order to use these instance more efficiently you can follow these steps:
 2. Go to Jira and enter the name of the instance you want to use in the `environment` field of the relevant ticket. This is necessary in order to reserve that instance. Keep in mind, that the ticket should be either "In Progress" or "In Review".
 3. The Dashboard provides direct link to the instance source code, so by adjusting its `composer-local.json` file you can trigger a deployment for a specific branch per repository.
 
-### Data synchronization
+## Data synchronization
 
 Sometimes testing a certain feature or bug fix requires specific content. To import data from an NRO production instance to your test one, follow these steps:
 

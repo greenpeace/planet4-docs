@@ -4,7 +4,7 @@ description: How to use CircleCI to deploy your changes
 
 # CI
 
-### Development Site
+## Development Site
 
 As a developer you want to see and demo your changes to the develop site before pushing them to staging or production. To do that, you have to do the following:
 
@@ -17,7 +17,7 @@ Assuming you are working your child theme \(or your custom plugin\) which is alr
 5. Go to [CircleCI](https://circleci.com/gh/greenpeace/workflows), find the workflows for your nro and wait to see that the develop pipeline has finished running \(it will take around 10 minutes\).
 6. Check that your changes appear in your develop website.
 
-### Staging and Production
+## Staging and Production
 
 In our current approach of hosting, each NRO gets automatically three sites.
 
@@ -42,11 +42,11 @@ Requirements:
   * Click on the small sign next to the name of your project so that you can see all its items.
   * Click on the "develop".
 
-![](../../.gitbook/assets/circle-ci-develop.png)
+![](../../.gitbook/assets/circle-ci-develop%20%281%29.png)
 
 * Click on the small icon next to "Rerun" so that you can see all the options.
 
-![](../../.gitbook/assets/circle-ci-develop-2.png)
+![](../../.gitbook/assets/circle-ci-develop-2%20%281%29.png)
 
 * Click on "Rerun from beginning".
 * Wait for the process to finish \(could take up to 10 minutes\).

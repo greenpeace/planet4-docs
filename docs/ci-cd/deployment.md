@@ -41,7 +41,7 @@ Note the `-a` flag above. We always use [annotated tags](https://git-scm.com/boo
 
 ### Base repository
 
-In the repository [planet4-base-fork](https://github.com/greenpeace/planet4-base-fork), in the `develop` branch, update the versions of the plugins/themes that you are releasing and the version of composer.json \([example](https://github.com/greenpeace/planet4-base-fork/commit/0a4712ff0e3d3d1d69dfd8a1fbbac7320054a8ba#diff-b5d0ee8c97c7abd7e3fa29b9a27d1780)\). Make sure to also update the [Changelog](../tech/changelog.md).
+In the repository [planet4-base-fork](https://github.com/greenpeace/planet4-base-fork), in the `develop` branch, update the versions of the plugins/themes that you are releasing and the version of composer.json \([example](https://github.com/greenpeace/planet4-base-fork/commit/0a4712ff0e3d3d1d69dfd8a1fbbac7320054a8ba#diff-b5d0ee8c97c7abd7e3fa29b9a27d1780)\). Make sure to also update the [Changelog](../tech/changelog/).
 
 {% hint style="info" %}
 🧙 If you include in the subject line of your git commit message the string`[AUTO-PROCEED]` then, if all tests are successful, it will automatically do all the steps for deploying to production.
@@ -73,7 +73,7 @@ If you used the `[AUTO-PROCEED]` flag, then the sites that passed Visual Regress
 
 #### Changelog
 
-If you haven't done already, update the [Changelog](../tech/changelog.md). Go back to the base-fork develop pipeline. There is one final approval job about the Changelog. This will send an email notification to the Planet 4 community.
+If you haven't done already, update the [Changelog](../tech/changelog/). Go back to the base-fork develop pipeline. There is one final approval job about the Changelog. This will send an email notification to the Planet 4 community.
 
 ![](../.gitbook/assets/changelog.png)
 

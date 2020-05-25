@@ -12,7 +12,7 @@ If you are adding a plugin you developed then make sure you have read our guide 
 
 {% page-ref page="package-registry.md" %}
 
-### Installation
+## Installation
 
 To add a plugin for only one NRO website, you need to do the following steps:
 

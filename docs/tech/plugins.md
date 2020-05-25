@@ -14,39 +14,39 @@ Installation and updates of plugins is happening via the composer scripts. All t
 
 Open source plugins are being pulled from [wpackagist.org](https://wpackagist.org/). To add a plugin, you have to find the correct wpackagist record, copy the line and insert it in the composer file as the loco translate example above.
 
-![](../.gitbook/assets/wpackagist-loco.png)
+![](../.gitbook/assets/wpackagist-loco%20%281%29.png)
 
-### Plugins used in all P4 sites
+## Plugins used in all P4 sites
 
-#### Akismet Anti-Spam
+### Akismet Anti-Spam
 
 Akismet is quite possibly the best way in the world to protect your blog from spam. Your site is fully configured and being protected, even while you sleep. More info in [P4 &gt; Settings](http://planet4.greenpeace.org/handbook/admin-setup/).
 
-#### CMB2
+### CMB2
 
 CMB2 will create metaboxes and forms with custom fields that will blow your mind. More info on the [wp.org plugin page](https://wordpress.org/plugins/cmb2/).
 
-#### **GDPR Comments**
+### **GDPR Comments**
 
 Allows administrators to anonymize the IPs of visitors who comment on the website, and retroactively delete the IPs from comments in the database. [Instructions on setup](https://planet4.greenpeace.org/handbook/plugins-gdpr-comments-anonymise-ips-of-comments/).
 
-#### Google Apps Login
+### Google Apps Login
 
 Simple secure login for WordPress through users’ Google Apps accounts \(uses secure OAuth2, and MFA if enabled\). More info in [Login to P4](https://planet4.greenpeace.org/handbook/login/) or in the [wp.org plugin page](https://wordpress.org/plugins/google-apps-login/).
 
-#### Redirection
+### Redirection
 
 Manage all your 301 redirects and monitor 404 errors. More on Redirects on the [wp.org plugin page.](https://wordpress.org/plugins/redirection/)
 
-#### Shortcake \(Shortcode UI\)
+### Shortcake \(Shortcode UI\)
 
 User Interface for adding shortcodes. More info on the [wp.org plugin page](https://wordpress.org/plugins/shortcode-ui/).
 
-#### Timber
+### Timber
 
 Required by the Planet4 master theme. The WordPress Timber Library allows you to write themes using the power of Twig templates. More info on the [wp.org plugin page](https://wordpress.org/plugins/timber-library/).
 
-#### WordFence
+### WordFence
 
 Anti-virus, Firewall and Malware Scan. More info on the [wp.org plugin page](https://wordpress.org/plugins/wordfence/).
 
@@ -54,31 +54,31 @@ Anti-virus, Firewall and Malware Scan. More info on the [wp.org plugin page](htt
 "Live Traffic" in WordFence conflicts with the Google Apps Login plugin. Do not enable it, otherwise Google Login won’t work.
 {% endhint %}
 
-#### WP Redis
+### WP Redis
 
 WordPress Object Cache using Redis. Requires the [PhpRedis extension](https://github.com/phpredis/phpredis). More info on the [wp.org plugin page](https://wordpress.org/plugins/wp-redis/).
 
-#### WP-Stateless
+### WP-Stateless
 
 Upload and serve your WordPress media files from Google Cloud Storage. More info on the [wp.org plugin page](https://wordpress.org/plugins/wp-stateless/).
 
-### Plugins used in some P4 sites
+## Plugins used in some P4 sites
 
-#### WPML
+### WPML
 
-Used in our sites that require more than one language. More info on [Set up a Multi-Language P4 Site](http://planet4.greenpeace.org/handbook/multi-language/)  or at [wpml.org](https://wpml.org/).
+Used in our sites that require more than one language. More info on [Set up a Multi-Language P4 Site](http://planet4.greenpeace.org/handbook/multi-language/) or at [wpml.org](https://wpml.org/).
 
-#### Loco Translate
+### Loco Translate
 
 Translate Planet4 themes and plugins directly in WordPress. Used only in this awesome handbook site. More info at [Translate P4 theme, strings \(commands\) and plugins](http://planet4.greenpeace.org/implement/deploy/translations/) or in the [wp.org plugin page](https://wordpress.org/plugins/loco-translate/).
 
-#### IdeaPush
+### IdeaPush
 
-Allows submissions of ideas for feature requests directly in WordPress. Used only in this awesome handbook site. More info at [Improving P4](http://planet4.greenpeace.org/implement/manage/improving-p4/)  or in the [wp.org plugin page](https://wordpress.org/plugins/ideapush/).
+Allows submissions of ideas for feature requests directly in WordPress. Used only in this awesome handbook site. More info at [Improving P4](http://planet4.greenpeace.org/implement/manage/improving-p4/) or in the [wp.org plugin page](https://wordpress.org/plugins/ideapush/).
 
-### Plugins NOT used
+## Plugins NOT used
 
-#### SEO plugins
+### SEO plugins
 
 P4 has no SEO plugin installed or recommended. SEO plugins do a lot of things, some of which are not even things that should be done \(eg. trying to "trick" Google into thinking that a page is something different than it is\).
 
@@ -86,7 +86,7 @@ We have identified several features that are also being offered by some SEO plug
 
 Our choice of operation is **not** "There is a plugin, let’s install it and see what it does", but “We need feature A, let’s find the best way to deliver its functionality”.
 
-### The P4 Plugin review process
+## The P4 Plugin review process
 
 The philosophy of adding plugins to a P4 site can be summarized in the following:
 

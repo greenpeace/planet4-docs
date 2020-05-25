@@ -43,5 +43,7 @@
 * [ADRs](tech/adrs.md)
 * [ElasticSearch](tech/elasticsearch.md)
 * [Plugins](tech/plugins.md)
-* [Changelog](tech/changelog.md)
+* [Changelog](tech/changelog/README.md)
+  * [2019](tech/changelog/changelog-2019.md)
+  * [2018](tech/changelog/changelog-2018.md)
 
