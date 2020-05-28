@@ -8,31 +8,15 @@ Our main orchestration repository for triggering deployment pipelines is [planet
 
 ### Application Repositories
 
-The only change that it's actually needed is to tag the repositories that have new code since the previous release. But before that, we need to merge new translations.
+The only change that it's actually needed is to tag the repositories that have new code since the previous release.
 
-The 3 major application repositories \([master-theme](https://github.com/greenpeace/planet4-master-theme), [plugin-gutenberg-blocks](https://github.com/greenpeace/planet4-plugin-gutenberg-blocks), [plugin-gutenberg-engagingnetworks](https://github.com/greenpeace/planet4-plugin-gutenberg-engagingnetworks)\) have a `languages` branch. This is where new translations are auto-committed from the Handbook. So first you need to merge that branch to the `master` branch. Once this is done you can rebase the languages branch from master and force push it. This will update that branch with any new translatable strings.
+So check [master-theme](https://github.com/greenpeace/planet4-master-theme), [plugin-gutenberg-blocks](https://github.com/greenpeace/planet4-plugin-gutenberg-blocks), [plugin-gutenberg-engagingnetworks](https://github.com/greenpeace/planet4-plugin-gutenberg-engagingnetworks) and [plugin-medialibrary](https://github.com/greenpeace/planet4-plugin-medialibrary).
 
-```text
-git checkout languages
-git pull
-git checkout master
-git pull
-git merge languages
-git push origin master
-git checkout languages
-git rebase master
-git push -f origin languages
-```
+On each one of the above repositories that need to be tagged switch to the `master` branch and create a new tag.
 
-{% hint style="info" %}
-All merge actions should take place on local branches that are synced with the remote ones. Then push to the origin remote.
-{% endhint %}
-
-Now on each of the application repositories we can switch to the `master` branch, create a new tag and push it.
-
-```text
-git tag -a v1.90 -m "v1.90"
-git push origin v1.90
+```bash
+git tag -a vX.XX -m "vX.XX"
+git push --tags
 ```
 
 {% hint style="info" %}
