@@ -8,43 +8,15 @@ Our main orchestration repository for triggering deployment pipelines is [planet
 
 ### Application Repositories
 
-The only change that it's actually needed is to tag the repositories that have new code since the previous release. But before that, we need to merge new translations.
+The only change that it's actually needed is to tag the repositories that have new code since the previous release.
 
-The 3 major application repositories \([master-theme](https://github.com/greenpeace/planet4-master-theme), [plugin-gutenberg-blocks](https://github.com/greenpeace/planet4-plugin-gutenberg-blocks), [plugin-gutenberg-engagingnetworks](https://github.com/greenpeace/planet4-plugin-gutenberg-engagingnetworks)\) have a `languages` branch. This is where new translations are auto-committed from the Handbook. So first you need to merge that branch to the `master` branch. Once this is done you can rebase the languages branch from master and force push it. This will update that branch with any new translatable strings.
+So check [master-theme](https://github.com/greenpeace/planet4-master-theme), [plugin-gutenberg-blocks](https://github.com/greenpeace/planet4-plugin-gutenberg-blocks), [plugin-gutenberg-engagingnetworks](https://github.com/greenpeace/planet4-plugin-gutenberg-engagingnetworks) and [plugin-medialibrary](https://github.com/greenpeace/planet4-plugin-medialibrary).
 
-```text
-git checkout languages
-git pull
-git checkout master
-git pull
-git merge languages
-git push origin master
-git checkout languages
-git rebase master
-git push -f origin master
-```
-
-{% hint style="info" %}
-All merge actions should take place on local branches that are synced with the remote ones. Then push to the origin remote.
-{% endhint %}
-
-It's a good practice to tag also the [styleguide](https://github.com/greenpeace/planet4-styleguide/) first \(if it has any recent changes\) so we can reference that from all the other repositories. For instance, to update one of the application repositories to the latest styleguide tag:
+On each one of the above repositories that need to be tagged switch to the `master` branch and create a new tag.
 
 ```bash
-git submodule foreach 'git fetch origin; git checkout $(git describe --tags `git rev-list --tags --max-count=1`);'
-```
-
-Now on each of the application repositories we can switch to the `master` branch and create a new tag. At this step we can bump the version on necessary files, so that wp-admin can display that information. For master-theme that's on the [root stylesheet](https://github.com/greenpeace/planet4-master-theme/blob/develop/style.css#L7) and for plugins it's on the [root php file](https://github.com/greenpeace/planet4-plugin-gutenberg-blocks/blob/develop/planet4-gutenberg-blocks.php#L6). We sould commit these changes and push them before we tag.
-
-```bash
-git commit -am "v1.90"
-git push origin master
-```
-
-Assuming we did all the above steps, all it's left is to tag and push.
-
-```text
-git tag -a v1.90 -m "v1.90"
+git tag -a vX.XX -m "vX.XX"
+git push --tags
 ```
 
 {% hint style="info" %}
