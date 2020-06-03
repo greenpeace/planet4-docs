@@ -27,7 +27,8 @@
   * [Acceptance Tests](nro-customization/testing/acceptance-tests.md)
   * [Visual Regression Tests](nro-customization/testing/visual-regression-tests.md)
 * [Deployment](nro-customization/deployment/README.md)
-  * [CI](nro-customization/deployment/dev-environment.md)
+  * [Develop](nro-customization/deployment/development.md)
+  * [Production](nro-customization/deployment/production.md)
   * [DB/Media Sync](nro-customization/deployment/db-media-sync.md)
 
 ## Infrastructure

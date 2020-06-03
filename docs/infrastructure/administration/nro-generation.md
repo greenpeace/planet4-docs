@@ -71,6 +71,3 @@ kubectl config set-context planet4-cidev-release --namespace cidev --cluster gke
 # switch to that context (replace the "cidev" bellow with your site):
 kubectl config use-context planet4-cidev-release
 ```
-
-
-

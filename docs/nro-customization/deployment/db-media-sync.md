@@ -10,13 +10,13 @@ Every 1st of each month at Midnight UTC, a script automatically syncs the databa
 
 Part of our CI workflows includes the ability to manually trigger a script that will sync data from the Production site to Staging and Develop.
 
-To run the process, you need to have access to your `planet4-<nro>` repository \(or ask someone with access to do it for you\).
+To run the process, you need to have access to [CircleCI](https://app.circleci.com/projects/project-dashboard/github/greenpeace).
 
 Instructions:
 
-1. From any of the branches, create a tag named `sync.X` \(where X is an incrementing number\)
-2. Go to your CircleCI workflows and check if it runs
-3. Wait for it to finish
+1. Find and click on your `planet4-<rno>`
+2. Find and click on the latest `sync-from-production` pipeline
+3. Rerun it by clicking on "Rerun" > "Rerun workflow from start"
 
 For this sync process, note that:
 
