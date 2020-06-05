@@ -10,39 +10,39 @@ description: >-
 
 ### Features
 
-- [PLANET-5111](https://jira.greenpeace.org/browse/PLANET-5111) - Rename "Analytics Local Smartsheet ID" to "Local Projects Smartsheet ID"
-- [PLANET-5078](https://jira.greenpeace.org/browse/PLANET-5078) - Create post-deploy script to cleanup duplicate metadata
-- [PLANET-5058](https://jira.greenpeace.org/browse/PLANET-5058) - Table block: implement color styles
-- [PLANET-5033](https://jira.greenpeace.org/browse/PLANET-5033) - Replace main theme background colours pale blue and cream with white
-- [PLANET-5022](https://jira.greenpeace.org/browse/PLANET-5022) - Spreadsheet block: Change description of the block
-- [PLANET-4923](https://jira.greenpeace.org/browse/PLANET-4923) - Search query is executed twice on each initial search page load
-- [PLANET-4868](https://jira.greenpeace.org/browse/PLANET-4868) - Update Timber to 1.16.0
-- [PLANET-4641](https://jira.greenpeace.org/browse/PLANET-4641) - P4 settings: reorder options
-- [PLANET-4143](https://jira.greenpeace.org/browse/PLANET-4143) - All blocks: Add https:// validation error for url fields
+* [PLANET-5111](https://jira.greenpeace.org/browse/PLANET-5111) - Rename "Analytics Local Smartsheet ID" to "Local Projects Smartsheet ID"
+* [PLANET-5078](https://jira.greenpeace.org/browse/PLANET-5078) - Create post-deploy script to cleanup duplicate metadata
+* [PLANET-5058](https://jira.greenpeace.org/browse/PLANET-5058) - Table block: implement color styles
+* [PLANET-5033](https://jira.greenpeace.org/browse/PLANET-5033) - Replace main theme background colours pale blue and cream with white
+* [PLANET-5022](https://jira.greenpeace.org/browse/PLANET-5022) - Spreadsheet block: Change description of the block
+* [PLANET-4923](https://jira.greenpeace.org/browse/PLANET-4923) - Search query is executed twice on each initial search page load
+* [PLANET-4868](https://jira.greenpeace.org/browse/PLANET-4868) - Update Timber to 1.16.0
+* [PLANET-4641](https://jira.greenpeace.org/browse/PLANET-4641) - P4 settings: reorder options
+* [PLANET-4143](https://jira.greenpeace.org/browse/PLANET-4143) - All blocks: Add https:// validation error for url fields
 
 ### Bug Fixes
 
-- [PLANET-5035](https://jira.greenpeace.org/browse/PLANET-5035) - Author bio: text box is longer than the image on M screens
-- [PLANET-5032](https://jira.greenpeace.org/browse/PLANET-5032) - Filtering on pages returns 0 results for Italy
-- [PLANET-5025](https://jira.greenpeace.org/browse/PLANET-5025) - EN Form: Social buttons not aligned on Thank You message
-- [PLANET-4926](https://jira.greenpeace.org/browse/PLANET-4926) - PDF icon not shown in CTA when URL includes GA UTM code
-- [PLANET-4511](https://jira.greenpeace.org/browse/PLANET-4511) - Separator Block not rendering the default style
+* [PLANET-5035](https://jira.greenpeace.org/browse/PLANET-5035) - Author bio: text box is longer than the image on M screens
+* [PLANET-5032](https://jira.greenpeace.org/browse/PLANET-5032) - Filtering on pages returns 0 results for Italy
+* [PLANET-5025](https://jira.greenpeace.org/browse/PLANET-5025) - EN Form: Social buttons not aligned on Thank You message
+* [PLANET-4926](https://jira.greenpeace.org/browse/PLANET-4926) - PDF icon not shown in CTA when URL includes GA UTM code
+* [PLANET-4511](https://jira.greenpeace.org/browse/PLANET-4511) - Separator Block not rendering the default style
 
 ## 2.31.2 - 2020-05-19
 
 ### Features
 
-- [PLANET-5037](https://jira.greenpeace.org/browse/PLANET-5037) - Spreadsheet block: implement color styles
-- [PLANET-4965](https://jira.greenpeace.org/browse/PLANET-4965) - Change Shedding Light header gradient colour
+* [PLANET-5037](https://jira.greenpeace.org/browse/PLANET-5037) - Spreadsheet block: implement color styles
+* [PLANET-4965](https://jira.greenpeace.org/browse/PLANET-4965) - Change Shedding Light header gradient colour
 
 ### Bug Fixes
 
-- [PLANET-5089](https://jira.greenpeace.org/browse/PLANET-5089) - Take action element on the wrong side on RTL sites
-- [PLANET-5063](https://jira.greenpeace.org/browse/PLANET-5063) - Navigation: Donate button hover color is not visible
-- [PLANET-5029](https://jira.greenpeace.org/browse/PLANET-5029) - Alignment of text wrapped around images is off
-- [PLANET-4955](https://jira.greenpeace.org/browse/PLANET-4955) - Search: TA pages low in search results
-- [PLANET-4928](https://jira.greenpeace.org/browse/PLANET-4928) - GPI Media Library: Import button fails to load
-- [PLANET-4774](https://jira.greenpeace.org/browse/PLANET-4774) - Investigate why certain attachments have many duplicate metadata records.
+* [PLANET-5089](https://jira.greenpeace.org/browse/PLANET-5089) - Take action element on the wrong side on RTL sites
+* [PLANET-5063](https://jira.greenpeace.org/browse/PLANET-5063) - Navigation: Donate button hover color is not visible
+* [PLANET-5029](https://jira.greenpeace.org/browse/PLANET-5029) - Alignment of text wrapped around images is off
+* [PLANET-4955](https://jira.greenpeace.org/browse/PLANET-4955) - Search: TA pages low in search results
+* [PLANET-4928](https://jira.greenpeace.org/browse/PLANET-4928) - GPI Media Library: Import button fails to load
+* [PLANET-4774](https://jira.greenpeace.org/browse/PLANET-4774) - Investigate why certain attachments have many duplicate metadata records.
 
 ## 2.31.1 - 2020-05-13
 
@@ -329,3 +329,4 @@ description: >-
 * [PLANET-4644](https://jira.greenpeace.org/browse/PLANET-4644) - Country Selector: fix GPSK address
 * [PLANET-4597](https://jira.greenpeace.org/browse/PLANET-4597) - Fix campaign dataLayer script on P4 Posts
 * [PLANET-4510](https://jira.greenpeace.org/browse/PLANET-4510) - Fix PHP Notice: Notice level error produces when building local env. with make command
+

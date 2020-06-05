@@ -677,3 +677,4 @@ description: 'Changelog: 2018 Releases'
 * [PLANET-1687](https://jira.greenpeace.org/browse/PLANET-1687) - Carousel block: spacing issue
 * [PLANET-1741](https://jira.greenpeace.org/browse/PLANET-1741) - Carousel Header: Button on medium sizes isn't big enough
 * [PLANET-1722](https://jira.greenpeace.org/browse/PLANET-1722) - Post: fix iframe spacing
+

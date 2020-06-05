@@ -839,3 +839,4 @@ description: 'Changelog: 2019 Releases'
 * [PLANET-3042](https://jira.greenpeace.org/browse/PLANET-3042) - Country selector: update MENA
 * [PLANET-3013](https://jira.greenpeace.org/browse/PLANET-3013) - Social icons not aligned properly on Windows
 * [PLANET-2916](https://jira.greenpeace.org/browse/PLANET-2916) - Search filters box - Title overlaps close button
+
