@@ -6,6 +6,36 @@ description: >-
 
 # Changelog
 
+## 2.32.2 - 2020-06-09
+
+### Features
+
+- [PLANET-5126](https://jira.greenpeace.org/browse/PLANET-5126) - Take Action Boxout: Simplify passive state of cards on desktop and mobile
+- [PLANET-5081](https://jira.greenpeace.org/browse/PLANET-5081) - Add option for enhanced mobile Donate button in settings
+- [PLANET-5060](https://jira.greenpeace.org/browse/PLANET-5060) - Simplify passive state of Take Action cards on  desktop and mobile
+- [PLANET-5017](https://jira.greenpeace.org/browse/PLANET-5017) - Re-implement Spreadsheet block frontend in React
+- [PLANET-4914](https://jira.greenpeace.org/browse/PLANET-4914) - Spreadsheet block: Sticky header and sorting UX
+
+### Bug Fixes
+
+- [PLANET-5166](https://jira.greenpeace.org/browse/PLANET-5166) - Integration with Smartsheet API is not working
+- [PLANET-5160](https://jira.greenpeace.org/browse/PLANET-5160) - Search seems broken, always no result (in admin)
+- [PLANET-5145](https://jira.greenpeace.org/browse/PLANET-5145) - Search 500 error when post type is deleted
+- [PLANET-5088](https://jira.greenpeace.org/browse/PLANET-5088) - Search box: magnifier overlaps 'x' button
+- [PLANET-5034](https://jira.greenpeace.org/browse/PLANET-5034) - Archive label text shown outside of label for Japan
+
+## 2.32.1 - 2020-06-03
+
+### Features
+
+- [PLANET-5071](https://jira.greenpeace.org/browse/PLANET-5071) - Implement data attributes on Covers Block
+- [PLANET-2209](https://jira.greenpeace.org/browse/PLANET-2209) - P4 settings: Display "Settings saved" notification after changes applied
+
+### Bug Fixes
+
+- [PLANET-5101](https://jira.greenpeace.org/browse/PLANET-5101) - Submenu block: Dash breaks anchor link
+- [PLANET-5062](https://jira.greenpeace.org/browse/PLANET-5062) - Saving a Take Action Boxout on Posts with code editor doesn't preserve page selection
+
 ## 2.32.0 - 2020-05-28
 
 ### Features
