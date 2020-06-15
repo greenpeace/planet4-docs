@@ -20,9 +20,9 @@ description: >-
 
 ### Infrastructure
 
-- [PLANET-4957](https://jira.greenpeace.org/browse/PLANET-4957) - CI: Don't upgrade automatically to latest WP version
-- [PLANET-5125](https://jira.greenpeace.org/browse/PLANET-5125) - CI: Integrate planet4-circleci-config into planet4-nro-generator
-- [PLANET-5112](https://jira.greenpeace.org/browse/PLANET-5112) - CI: Perform backstop-history and build-branch in parallel in all envs
+- [PLANET-4957](https://jira.greenpeace.org/browse/PLANET-4957) - Don't upgrade automatically to latest WP version
+- [PLANET-5125](https://jira.greenpeace.org/browse/PLANET-5125) - Integrate planet4-circleci-config into planet4-nro-generator
+- [PLANET-5112](https://jira.greenpeace.org/browse/PLANET-5112) - Perform backstop-history and build-branch in parallel in all envs
 
 ## 2.32.2 - 2020-06-09
 
