@@ -6,6 +6,24 @@ description: >-
 
 # Changelog
 
+## 2.33.0 - 2020-06-15
+
+### Features
+
+- [PLANET-5185](https://jira.greenpeace.org/browse/PLANET-5185) - Add permalink to the blocks usage overview
+- [PLANET-5128](https://jira.greenpeace.org/browse/PLANET-5128) - Expand images lazy-loading on Image block
+- [PLANET-4782](https://jira.greenpeace.org/browse/PLANET-4782) - Check if there are still campaigns that have the old _campaign_page_template attribute
+
+### Bug Fixes
+
+- [PLANET-5057](https://jira.greenpeace.org/browse/PLANET-5057) - Search: Excerpt cuts off at 25 words
+
+### Infrastructure
+
+- [PLANET-4957](https://jira.greenpeace.org/browse/PLANET-4957) - CI: Don't upgrade automatically to latest WP version
+- [PLANET-5125](https://jira.greenpeace.org/browse/PLANET-5125) - CI: Integrate planet4-circleci-config into planet4-nro-generator
+- [PLANET-5112](https://jira.greenpeace.org/browse/PLANET-5112) - CI: Perform backstop-history and build-branch in parallel in all envs
+
 ## 2.32.2 - 2020-06-09
 
 ### Features
