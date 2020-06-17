@@ -8,7 +8,7 @@ description: Customize P4 using a child theme
 **Please** [**talk to the P4 Team**](mailto:planet4-pm-group@greenpeace.org) **before doing custom development and theming. If we are ever going to reach the full potential of Greenpeace’s engagement platform it is absolutely essential that we work TOGETHER.**
 {% endhint %}
 
-In order to differentiate a Planet 4 instance from the default the first step is to fork the default child-theme and create a new repository that follows a naming scheme similar to`planet4-child-theme-<nro>`. From there we can start modifying css and templates.
+In order to differentiate a Planet 4 instance from the default the first step is to fork the default child-theme and create a new repository that follows a naming scheme similar to `planet4-child-theme-<nro>`. From there we can start modifying css and templates.
 
 ## CSS
 
@@ -58,7 +58,7 @@ Assuming we want to display more metadata to the pages content, we would have to
 
 ## Live Examples
 
-Since we already have some production running websites that use their own customized child-theme we can use them as a guide for more advanced and specific tweaks. Besides screenshots and live examples provided here, you can also check the code on the relevant child them of the NRO.
+Since we already have some production running websites that use their own customized child-theme we can use them as a guide for more advanced and specific tweaks. Besides screenshots and live examples provided here, you can also check the code on the relevant child theme of the NRO.
 
 ### Change default font
 
@@ -100,7 +100,7 @@ Full code for this example can be found at the [planet4-child-theme-handbook](ht
 
 ### Moving NRO switcher to the bottom of the page
 
-If you need more space in the top bar navigation \(for instance you have multilingual site and need a language switcher at the top\), you might need to move the GPI NRO selector from the top bar to the bottom of the page like on [GPLux website](https://www.greenpeace.org/luxembourg/fr/).
+If you need more space in the top bar navigation \(for instance you have a multilingual site and need a language switcher at the top\), you might need to move the GPI NRO selector from the top bar to the bottom of the page like on [GPLux website](https://www.greenpeace.org/luxembourg/fr/).
 
 ![](../../.gitbook/assets/gplux-country_selector%20%281%29.png)
 
@@ -198,7 +198,7 @@ As an example, you can see the [greece child theme](https://github.com/greenpeac
 
 ### Using css variables
 
-To make some of the custom css code more maintainable we can use css variable. Especially for the things that re-used in many places inside our code. Our theme colors is a good example for that.
+To make some of the custom css code more maintainable we can use css variables. Especially for the things that are re-used in many places inside our code. Our theme colors are a good example for that.
 
 ```css
 :root {
@@ -262,7 +262,7 @@ You will find on GP Luxembourg a custom [contact form](https://www.greenpeace.or
 If you want to reproduce this form you can simply grab the code here:
 
 * The [frontend code](https://github.com/greenpeace/planet4-child-theme-luxembourg/blob/master/templates/contact.twig).
-* and the [js code](https://github.com/greenpeace/planet4-child-theme-luxembourg/blob/master/src/gplu.js) which handle all forms actions, field filtering and event triggered.
+* and the [js code](https://github.com/greenpeace/planet4-child-theme-luxembourg/blob/master/src/gplu.js) which handles all forms actions, field filtering and event triggered.
 * on server side, the [code](https://github.com/greenpeace/planet4-child-theme-luxembourg/blob/master/functions.php) is in the function.php file the `gpf_form_submit` function.
 * and optionally the [css](https://github.com/greenpeace/planet4-child-theme-luxembourg/blob/master/src/contact.scss). \(please note scss is compiled with [a webpack script](https://github.com/greenpeace/planet4-child-theme-luxembourg/blob/master/webpack.config.js)  to minified scripts and scss in the /dist folder\)
 
