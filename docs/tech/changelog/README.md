@@ -6,6 +6,27 @@ description: >-
 
 # Changelog
 
+## 2.33.1 - 2020-06-22
+
+### Features
+
+- [PLANET-5215](https://jira.greenpeace.org/browse/PLANET-5215) - Allow customization of tag page redirect handling
+- [PLANET-5141](https://jira.greenpeace.org/browse/PLANET-5141) - Simplify NRO & Base CI configuration
+- [PLANET-5079](https://jira.greenpeace.org/browse/PLANET-5079) - Adjust in-line link colour for better accessibility
+- [PLANET-4998](https://jira.greenpeace.org/browse/PLANET-4998) - Measure PHP test coverage
+- [PLANET-4891](https://jira.greenpeace.org/browse/PLANET-4891) - Enforce Google Login for users with greenpeace.org email
+
+### Bug Fixes
+
+- [PLANET-5192](https://jira.greenpeace.org/browse/PLANET-5192) - Acceptance tests not running for blocks and EN plugin
+- [PLANET-4323](https://jira.greenpeace.org/browse/PLANET-4323) - EN form block: fix checkbox styling of form on a side style
+
+### Infrastructure
+
+- [PLANET-4977](https://jira.greenpeace.org/browse/PLANET-4977) - Upgrade k8 nodes
+- [PLANET-4976](https://jira.greenpeace.org/browse/PLANET-4976) - Redis deployment using 100% CPU in k8 1.13 & 1.14
+- [PLANET-4577](https://jira.greenpeace.org/browse/PLANET-4577) - Limit redis pod memory resources
+
 ## 2.33.0 - 2020-06-15
 
 ### Features
