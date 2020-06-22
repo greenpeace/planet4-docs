@@ -16,7 +16,7 @@ Instructions:
 
 1. Find and click on your `planet4-<rno>`
 2. Find and click on the latest `sync-from-production` pipeline
-3. Rerun it by clicking on "Rerun" > "Rerun workflow from start"
+3. Rerun it by clicking on "Rerun" &gt; "Rerun workflow from start"
 
 For this sync process, note that:
 
