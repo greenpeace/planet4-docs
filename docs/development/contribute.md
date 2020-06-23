@@ -4,9 +4,7 @@ description: A quick guide to code contributing
 
 # Contribute
 
-Thank you for thinking of contributing to Planet4! 💚
-
-The next few chapters will guide you through the very basic things you need to get started.
+![](../.gitbook/assets/welcome.png)
 
 ## Development
 

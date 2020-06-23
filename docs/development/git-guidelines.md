@@ -22,7 +22,7 @@ Typically a commit message is consisted from a subject and a body. The examples 
 
 ### Context
 
-If the commit is connected to a specific ticket, it’s a good practice to add the ticket number to the commit.
+If the commit is connected to a specific ticket, it’s a good practice to add the ticket number to the commit. If the ticket is on Github it should have a similar prefix you can use.
 
 > PLANET-1234 Force images aspect ratio
 
@@ -37,7 +37,7 @@ Some syntax and styling rules to make git log history more consistent.
 
 ## Branch names
 
-You can use the ticket number in branch names. Additionally you could add a prefix, depending on the kind of the PR.
+You can use the ticket number in branch names. Additionally you could add a prefix, depending on the kind of the PR. If the ticket is on Github it should have a similar prefix you can use.
 
 These are all good branch names:
 
