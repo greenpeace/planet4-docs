@@ -27,7 +27,7 @@ Before working on something or opening a Pull Request, please make sure that the
 * If a relevant issue already exists, leave a comment that you are interested in working on that.
 * If no relevant issue exists, open a new one and initiate the discussion.
 
-The tickets labeled as [Contribution](https://jira.greenpeace.org/issues/?jql=status%20%3D%20Open%20AND%20labels%20%3D%20contribution) are a good starting point for start coding.
+We use the [planet4](https://github.com/greenpeace/planet4/issues) repository to track tickets that are open for contribution.
 
 All Pull Requests should target the `master` branch. Make sure to reference the relevant issue in your Pull Request description and follow our [git guidelines](git-guidelines.md).
 
