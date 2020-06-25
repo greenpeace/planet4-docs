@@ -6,6 +6,22 @@ description: >-
 
 # Changelog
 
+## 2.34.0 - 2020-06-25
+
+### Features
+
+- [PLANET-5190](https://jira.greenpeace.org/browse/PLANET-5190) - Update and re-enable EN Form acceptance tests
+- [PLANET-5114](https://jira.greenpeace.org/browse/PLANET-5114) - Adding css variables for common child theme overrides
+- [PLANET-5080](https://jira.greenpeace.org/browse/PLANET-5080) - Apply same typography across all P4 blocks
+- [PLANET-5036](https://jira.greenpeace.org/browse/PLANET-5036) - Reset the colors palette for P4
+- [PLANET-4818](https://jira.greenpeace.org/browse/PLANET-4818) - P4 message board on all sites dashboard
+- [PLANET-4536](https://jira.greenpeace.org/browse/PLANET-4536) - Perfomance: reduce unused dependencies from bootstrap in code
+
+### Bug Fixes
+
+- [PLANET-5203](https://jira.greenpeace.org/browse/PLANET-5203) - Enhanced mobile donate button causing a few rendering problems
+- [PLANET-5186](https://jira.greenpeace.org/browse/PLANET-5186) - Spreadsheet block doesn't appear on frontend after being saved
+
 ## 2.33.1 - 2020-06-22
 
 ### Features
@@ -398,4 +414,3 @@ description: >-
 * [PLANET-4644](https://jira.greenpeace.org/browse/PLANET-4644) - Country Selector: fix GPSK address
 * [PLANET-4597](https://jira.greenpeace.org/browse/PLANET-4597) - Fix campaign dataLayer script on P4 Posts
 * [PLANET-4510](https://jira.greenpeace.org/browse/PLANET-4510) - Fix PHP Notice: Notice level error produces when building local env. with make command
-
