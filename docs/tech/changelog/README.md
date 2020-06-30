@@ -6,7 +6,7 @@ description: >-
 
 # Changelog
 
-## 2.34.0 - 2020-06-30
+## 2.34.1 - 2020-06-30
 
 ### Features
 
