@@ -28,17 +28,11 @@ description: >-
 
 ### Features
 
-* [PLANET-5190](https://jira.greenpeace.org/browse/PLANET-5190) - Update and re-enable EN Form acceptance tests
-* [PLANET-5114](https://jira.greenpeace.org/browse/PLANET-5114) - Adding css variables for common child theme overrides
-* [PLANET-5080](https://jira.greenpeace.org/browse/PLANET-5080) - Apply same typography across all P4 blocks
-* [PLANET-5036](https://jira.greenpeace.org/browse/PLANET-5036) - Reset the colors palette for P4
-* [PLANET-4818](https://jira.greenpeace.org/browse/PLANET-4818) - P4 message board on all sites dashboard
-* [PLANET-4536](https://jira.greenpeace.org/browse/PLANET-4536) - Perfomance: reduce unused dependencies from bootstrap in code
-
-### Bug Fixes
-
-* [PLANET-5203](https://jira.greenpeace.org/browse/PLANET-5203) - Enhanced mobile donate button causing a few rendering problems
-* [PLANET-5186](https://jira.greenpeace.org/browse/PLANET-5186) - Spreadsheet block doesn't appear on frontend after being saved
+- [PLANET-5233](https://jira.greenpeace.org/browse/PLANET-5233) - Don't enforce Google login on aliases
+- [PLANET-5202](https://jira.greenpeace.org/browse/PLANET-5202) - Fix the data-ga-action on the Search Page
+- [PLANET-5201](https://jira.greenpeace.org/browse/PLANET-5201) - Implement data attributes on Header (pages, posts, campaigns)
+- [PLANET-5099](https://jira.greenpeace.org/browse/PLANET-5099) - Implement PSR-4 autoloading in master theme
+- [PLANET-5082](https://jira.greenpeace.org/browse/PLANET-5082) - Accessibility change red based greys to blue based ones.
 
 ## 2.34.0 - 2020-06-25
 
