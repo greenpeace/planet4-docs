@@ -10,51 +10,51 @@ description: >-
 
 ### Features
 
-- [PLANET-5199](https://jira.greenpeace.org/browse/PLANET-5199) - Implement data attributes on Columns Block
-- [PLANET-5116](https://jira.greenpeace.org/browse/PLANET-5116) - Fix all the remaining vertical spacing issues.
-- [PLANET-4987](https://jira.greenpeace.org/browse/PLANET-4987) - Prevent sync of non-pdf attachments to ElasticSearch
+* [PLANET-5199](https://jira.greenpeace.org/browse/PLANET-5199) - Implement data attributes on Columns Block
+* [PLANET-5116](https://jira.greenpeace.org/browse/PLANET-5116) - Fix all the remaining vertical spacing issues.
+* [PLANET-4987](https://jira.greenpeace.org/browse/PLANET-4987) - Prevent sync of non-pdf attachments to ElasticSearch
 
 ### Bug Fixes
 
-- [PLANET-5285](https://jira.greenpeace.org/browse/PLANET-5285) - EN Form Block not firing gGoal dataLayer value
-- [PLANET-5231](https://jira.greenpeace.org/browse/PLANET-5231) - On PDF links remove External Link icon
+* [PLANET-5285](https://jira.greenpeace.org/browse/PLANET-5285) - EN Form Block not firing gGoal dataLayer value
+* [PLANET-5231](https://jira.greenpeace.org/browse/PLANET-5231) - On PDF links remove External Link icon
 
 ### Infrastructure
 
-- [PLANET-5271](https://jira.greenpeace.org/browse/PLANET-5271) - Reduce cpu and memory requests for static chart
-- [PLANET-5260](https://jira.greenpeace.org/browse/PLANET-5260) - Reduce cpu and memory requests for wordpress containers
+* [PLANET-5271](https://jira.greenpeace.org/browse/PLANET-5271) - Reduce cpu and memory requests for static chart
+* [PLANET-5260](https://jira.greenpeace.org/browse/PLANET-5260) - Reduce cpu and memory requests for wordpress containers
 
 ## 2.34.1 - 2020-06-30
 
 ### Features
 
-- [PLANET-5190](https://jira.greenpeace.org/browse/PLANET-5190) - Update and re-enable EN Form acceptance tests
-- [PLANET-5114](https://jira.greenpeace.org/browse/PLANET-5114) - Adding css variables for common child theme overrides
-- [PLANET-5080](https://jira.greenpeace.org/browse/PLANET-5080) - Apply same typography across all P4 blocks
-- [PLANET-5036](https://jira.greenpeace.org/browse/PLANET-5036) - Reset the colors palette for P4
-- [PLANET-4818](https://jira.greenpeace.org/browse/PLANET-4818) - P4 message board on all sites dashboard
-- [PLANET-4536](https://jira.greenpeace.org/browse/PLANET-4536) - Perfomance: reduce unused dependencies from bootstrap in code
+* [PLANET-5190](https://jira.greenpeace.org/browse/PLANET-5190) - Update and re-enable EN Form acceptance tests
+* [PLANET-5114](https://jira.greenpeace.org/browse/PLANET-5114) - Adding css variables for common child theme overrides
+* [PLANET-5080](https://jira.greenpeace.org/browse/PLANET-5080) - Apply same typography across all P4 blocks
+* [PLANET-5036](https://jira.greenpeace.org/browse/PLANET-5036) - Reset the colors palette for P4
+* [PLANET-4818](https://jira.greenpeace.org/browse/PLANET-4818) - P4 message board on all sites dashboard
+* [PLANET-4536](https://jira.greenpeace.org/browse/PLANET-4536) - Perfomance: reduce unused dependencies from bootstrap in code
 
 ### Bug Fixes
 
-- [PLANET-5203](https://jira.greenpeace.org/browse/PLANET-5203) - Enhanced mobile donate button causing a few rendering problems
-- [PLANET-5186](https://jira.greenpeace.org/browse/PLANET-5186) - Spreadsheet block doesn't appear on frontend after being saved
+* [PLANET-5203](https://jira.greenpeace.org/browse/PLANET-5203) - Enhanced mobile donate button causing a few rendering problems
+* [PLANET-5186](https://jira.greenpeace.org/browse/PLANET-5186) - Spreadsheet block doesn't appear on frontend after being saved
 
 ## 2.34.0 - 2020-06-25
 
 ### Features
 
-- [PLANET-5190](https://jira.greenpeace.org/browse/PLANET-5190) - Update and re-enable EN Form acceptance tests
-- [PLANET-5114](https://jira.greenpeace.org/browse/PLANET-5114) - Adding css variables for common child theme overrides
-- [PLANET-5080](https://jira.greenpeace.org/browse/PLANET-5080) - Apply same typography across all P4 blocks
-- [PLANET-5036](https://jira.greenpeace.org/browse/PLANET-5036) - Reset the colors palette for P4
-- [PLANET-4818](https://jira.greenpeace.org/browse/PLANET-4818) - P4 message board on all sites dashboard
-- [PLANET-4536](https://jira.greenpeace.org/browse/PLANET-4536) - Perfomance: reduce unused dependencies from bootstrap in code
+* [PLANET-5190](https://jira.greenpeace.org/browse/PLANET-5190) - Update and re-enable EN Form acceptance tests
+* [PLANET-5114](https://jira.greenpeace.org/browse/PLANET-5114) - Adding css variables for common child theme overrides
+* [PLANET-5080](https://jira.greenpeace.org/browse/PLANET-5080) - Apply same typography across all P4 blocks
+* [PLANET-5036](https://jira.greenpeace.org/browse/PLANET-5036) - Reset the colors palette for P4
+* [PLANET-4818](https://jira.greenpeace.org/browse/PLANET-4818) - P4 message board on all sites dashboard
+* [PLANET-4536](https://jira.greenpeace.org/browse/PLANET-4536) - Perfomance: reduce unused dependencies from bootstrap in code
 
 ### Bug Fixes
 
-- [PLANET-5203](https://jira.greenpeace.org/browse/PLANET-5203) - Enhanced mobile donate button causing a few rendering problems
-- [PLANET-5186](https://jira.greenpeace.org/browse/PLANET-5186) - Spreadsheet block doesn't appear on frontend after being saved
+* [PLANET-5203](https://jira.greenpeace.org/browse/PLANET-5203) - Enhanced mobile donate button causing a few rendering problems
+* [PLANET-5186](https://jira.greenpeace.org/browse/PLANET-5186) - Spreadsheet block doesn't appear on frontend after being saved
 
 ## 2.33.1 - 2020-06-22
 
@@ -448,3 +448,4 @@ description: >-
 * [PLANET-4644](https://jira.greenpeace.org/browse/PLANET-4644) - Country Selector: fix GPSK address
 * [PLANET-4597](https://jira.greenpeace.org/browse/PLANET-4597) - Fix campaign dataLayer script on P4 Posts
 * [PLANET-4510](https://jira.greenpeace.org/browse/PLANET-4510) - Fix PHP Notice: Notice level error produces when building local env. with make command
+

@@ -41,6 +41,7 @@
 
 ## Tech
 
+* [Blocks](tech/blocks.md)
 * [Wordpress](tech/wordpress.md)
 * [ADRs](tech/adrs.md)
 * [ElasticSearch](tech/elasticsearch.md)
