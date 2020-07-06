@@ -6,6 +6,24 @@ description: >-
 
 # Changelog
 
+## 2.34.2 - 2020-07-06
+
+### Features
+
+- [PLANET-5199](https://jira.greenpeace.org/browse/PLANET-5199) - Implement data attributes on Columns Block
+- [PLANET-5116](https://jira.greenpeace.org/browse/PLANET-5116) - Fix all the remaining vertical spacing issues.
+- [PLANET-4987](https://jira.greenpeace.org/browse/PLANET-4987) - Prevent sync of non-pdf attachments to ElasticSearch
+
+### Bug Fixes
+
+- [PLANET-5285](https://jira.greenpeace.org/browse/PLANET-5285) - EN Form Block not firing gGoal dataLayer value
+- [PLANET-5231](https://jira.greenpeace.org/browse/PLANET-5231) - On PDF links remove External Link icon
+
+### Infrastructure
+
+- [PLANET-5271](https://jira.greenpeace.org/browse/PLANET-5271) - Reduce cpu and memory requests for static chart
+- [PLANET-5260](https://jira.greenpeace.org/browse/PLANET-5260) - Reduce cpu and memory requests for wordpress containers
+
 ## 2.34.1 - 2020-06-30
 
 ### Features
