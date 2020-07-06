@@ -34,10 +34,15 @@
 ## Infrastructure
 
 * [Intro](infrastructure/intro/README.md)
+  * [Reading List](infrastructure/intro/infra-reading-list.md)
   * [Architecture](infrastructure/intro/architecture.md)
 * [Administration](infrastructure/administration/README.md)
   * [NRO Generation](infrastructure/administration/nro-generation.md)
   * [Secret management](infrastructure/administration/secret-management.md)
+  * [Working with K8S](infrastructure/administration/infra-working-with-k8s.md)
+  * [Routine Checks](infrastructure/administration/infra-routine-checks.md)
+  * [Docker Images](infrastructure/administration/infra-docker-images.md)
+  * [Helm Charts](infrastructure/administration/infra-helm-charts.md)
 
 ## Tech
 
