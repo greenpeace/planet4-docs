@@ -1,5 +1,5 @@
 ---
-description: Development documentation on P4 WYSIWGY Gutenberg blocks
+description: Development documentation on P4 WYSIWYG Gutenberg blocks
 ---
 
 # Blocks

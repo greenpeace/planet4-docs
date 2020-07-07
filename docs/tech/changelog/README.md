@@ -28,11 +28,11 @@ description: >-
 
 ### Features
 
-- [PLANET-5233](https://jira.greenpeace.org/browse/PLANET-5233) - Don't enforce Google login on aliases
-- [PLANET-5202](https://jira.greenpeace.org/browse/PLANET-5202) - Fix the data-ga-action on the Search Page
-- [PLANET-5201](https://jira.greenpeace.org/browse/PLANET-5201) - Implement data attributes on Header (pages, posts, campaigns)
-- [PLANET-5099](https://jira.greenpeace.org/browse/PLANET-5099) - Implement PSR-4 autoloading in master theme
-- [PLANET-5082](https://jira.greenpeace.org/browse/PLANET-5082) - Accessibility change red based greys to blue based ones.
+* [PLANET-5233](https://jira.greenpeace.org/browse/PLANET-5233) - Don't enforce Google login on aliases
+* [PLANET-5202](https://jira.greenpeace.org/browse/PLANET-5202) - Fix the data-ga-action on the Search Page
+* [PLANET-5201](https://jira.greenpeace.org/browse/PLANET-5201) - Implement data attributes on Header \(pages, posts, campaigns\)
+* [PLANET-5099](https://jira.greenpeace.org/browse/PLANET-5099) - Implement PSR-4 autoloading in master theme
+* [PLANET-5082](https://jira.greenpeace.org/browse/PLANET-5082) - Accessibility change red based greys to blue based ones.
 
 ## 2.34.0 - 2020-06-25
 
