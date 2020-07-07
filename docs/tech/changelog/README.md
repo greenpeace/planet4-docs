@@ -6,6 +6,13 @@ description: >-
 
 # Changelog
 
+## 2.34.3 - 2020-07-07
+
+### Features
+
+- [PLANET-5293](https://jira.greenpeace.org/browse/PLANET-5293) - EN Form: Make "Goal" field mandatory
+- [PLANET-5151](https://jira.greenpeace.org/browse/PLANET-5151) - Migrate the EN Form plugin as a block to Blocks plugin
+
 ## 2.34.2 - 2020-07-06
 
 ### Features
