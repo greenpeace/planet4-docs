@@ -6,6 +6,18 @@ description: >-
 
 # Changelog
 
+## 2.35.0 - 2020-07-15
+
+### Features
+
+- [PLANET-5142](https://jira.greenpeace.org/browse/PLANET-5142) - Implement Cloudflare's Image Optimization on Carousel block
+- [PLANET-4795](https://jira.greenpeace.org/browse/PLANET-4795) - Add Campaign Page types to posts report
+
+### Bug Fixes
+
+- [PLANET-5306](https://jira.greenpeace.org/browse/PLANET-5306) - Post type doesn't appear on single post pages
+- [PLANET-5305](https://jira.greenpeace.org/browse/PLANET-5305) - Column block: non-linked Header styles broken
+
 ## 2.34.3 - 2020-07-07
 
 ### Features
@@ -449,4 +461,3 @@ description: >-
 * [PLANET-4644](https://jira.greenpeace.org/browse/PLANET-4644) - Country Selector: fix GPSK address
 * [PLANET-4597](https://jira.greenpeace.org/browse/PLANET-4597) - Fix campaign dataLayer script on P4 Posts
 * [PLANET-4510](https://jira.greenpeace.org/browse/PLANET-4510) - Fix PHP Notice: Notice level error produces when building local env. with make command
-
