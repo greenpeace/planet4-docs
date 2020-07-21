@@ -6,6 +6,19 @@ description: >-
 
 # Changelog
 
+## 2.35.1 - 2020-07-21
+
+### Features
+
+- [PLANET-5272](https://jira.greenpeace.org/browse/PLANET-5272) - Add hreflang tags to the homepage of all NROs
+- [PLANET-5225](https://jira.greenpeace.org/browse/PLANET-5225) - Carousel Header: remove Zoom and slide to gray style
+- [PLANET-5222](https://jira.greenpeace.org/browse/PLANET-5222) - Create a "Planet 4" sidebar entry on wp-admin and group the settings
+
+### Bug Fixes
+
+- [PLANET-5319](https://jira.greenpeace.org/browse/PLANET-5319) - Carousel Header block: Failing to edit page because when image source is missing
+- [PLANET-5263](https://jira.greenpeace.org/browse/PLANET-5263) - Decrease H1 size on mobile
+
 ## 2.35.0 - 2020-07-15
 
 ### Features
