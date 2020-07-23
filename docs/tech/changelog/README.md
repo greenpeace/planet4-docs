@@ -6,6 +6,24 @@ description: >-
 
 # Changelog
 
+## 2.36.0 - 2020-07-23
+
+### Features
+
+- [PLANET-5307](https://jira.greenpeace.org/browse/PLANET-5307) - Exclude landing page from search results
+- [PLANET-5274](https://jira.greenpeace.org/browse/PLANET-5274) - Landing Page: Redirect on last visited NRO based on cookie
+- [PLANET-5193](https://jira.greenpeace.org/browse/PLANET-5193) - Create Acceptance test for the Campaign Importer
+- [PLANET-4799](https://jira.greenpeace.org/browse/PLANET-4799) - Convert Counter Block to WYSIWYG
+
+### Bug Fixes
+
+- [PLANET-5269](https://jira.greenpeace.org/browse/PLANET-5269) - Fix footer on mobile
+
+### Infrastructure
+
+- [PLANET-5278](https://jira.greenpeace.org/browse/PLANET-5278) - Update utility versions in base circleci image
+- [PLANET-5277](https://jira.greenpeace.org/browse/PLANET-5277) - Replace rocketchat with slack notifications in #p4-infra-ci
+
 ## 2.35.1 - 2020-07-21
 
 ### Features
