@@ -6,6 +6,21 @@ description: >-
 
 # Changelog
 
+## 2.36.1.2 - 2020-07-29
+
+### Features
+
+- [PLANET-5346](https://jira.greenpeace.org/browse/PLANET-5346) - Decrease cookie expiration value for last visited NRO
+- [PLANET-4801](https://jira.greenpeace.org/browse/PLANET-4801) - Convert Articles block to WYSIWYG
+
+### Bug Fixes
+
+- [PLANET-5294](https://jira.greenpeace.org/browse/PLANET-5294) - Apply typography rules to numbered lists
+- [PLANET-5276](https://jira.greenpeace.org/browse/PLANET-5276) - EN Form: Country Field appears always in English
+- [PLANET-5230](https://jira.greenpeace.org/browse/PLANET-5230) - Plastics theme links have wrong colour and hover state
+- [PLANET-5187](https://jira.greenpeace.org/browse/PLANET-5187) - Plastics theme buttons have the wrong colour text
+- [PLANET-5161](https://jira.greenpeace.org/browse/PLANET-5161) - Plastic theme Column block titles missing bold weight
+
 ## 2.36.0 - 2020-07-23
 
 ### Features
