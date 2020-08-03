@@ -6,6 +6,14 @@ description: >-
 
 # Changelog
 
+## 2.36.2 - 2020-08-03
+
+
+### Bug Fixes
+
+- [PLANET-5371](https://jira.greenpeace.org/browse/PLANET-5371) - Translations not working in Articles header and load more text defaults
+- [PLANET-5296](https://jira.greenpeace.org/browse/PLANET-5296) - Posts: Empty TA Card when TA Page is archived
+
 ## 2.36.1.2 - 2020-07-29
 
 ### Features
