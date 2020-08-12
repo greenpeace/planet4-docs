@@ -6,6 +6,31 @@ description: >-
 
 # Changelog
 
+## 2.37 - 2020-08-12
+
+### Features
+
+- [PLANET-5362](https://jira.greenpeace.org/browse/PLANET-5362) - Change link color for the Plastics theme
+- [PLANET-5351](https://jira.greenpeace.org/browse/PLANET-5351) - Implement data attribute on Post Type Tag (on the post header)
+- [PLANET-5204](https://jira.greenpeace.org/browse/PLANET-5204) - Implement data attributes on Articles Block
+- [PLANET-5189](https://jira.greenpeace.org/browse/PLANET-5189) - Refactor Medialibrary plugin and integrate into master theme
+
+### Bug Fixes
+
+- [PLANET-5392](https://jira.greenpeace.org/browse/PLANET-5392) - Changes to the UI when toggling features not reflected in WP menu after save, requires additional refresh
+- [PLANET-5376](https://jira.greenpeace.org/browse/PLANET-5376) - Broken dates in Articles block in Safari
+- [PLANET-5235](https://jira.greenpeace.org/browse/PLANET-5235) - Header Carousel: Header text cuts off at 32 characters
+
+### Infrastructure
+
+- [PLANET-5379](https://jira.greenpeace.org/browse/PLANET-5379) - Apply missing tags for app alerting in New Relic
+- [PLANET-5375](https://jira.greenpeace.org/browse/PLANET-5375) - Update GCP cost estimates based on new compute
+- [PLANET-5365](https://jira.greenpeace.org/browse/PLANET-5365) - Script to safely restart P4 workloads to allow draining of single node
+- [PLANET-5358](https://jira.greenpeace.org/browse/PLANET-5358) - Fix Traefik SSL certificate renewal in Dev
+- [PLANET-5355](https://jira.greenpeace.org/browse/PLANET-5355) - Reduce node pool count and monitor in Dev
+- [PLANET-5352](https://jira.greenpeace.org/browse/PLANET-5352) - Reduce node pool count and monitor in prod
+- [PLANET-5328](https://jira.greenpeace.org/browse/PLANET-5328) - Fix Traefik SSL certificate renewal in production
+
 ## 2.36.2 - 2020-08-03
 
 
