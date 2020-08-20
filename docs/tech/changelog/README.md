@@ -6,96 +6,95 @@ description: >-
 
 # Changelog
 
-## 2.37 - 2020-08-12
+## 2.37.0 - 2020-08-12
 
 ### Features
 
-- [PLANET-5362](https://jira.greenpeace.org/browse/PLANET-5362) - Change link color for the Plastics theme
-- [PLANET-5351](https://jira.greenpeace.org/browse/PLANET-5351) - Implement data attribute on Post Type Tag (on the post header)
-- [PLANET-5204](https://jira.greenpeace.org/browse/PLANET-5204) - Implement data attributes on Articles Block
-- [PLANET-5189](https://jira.greenpeace.org/browse/PLANET-5189) - Refactor Medialibrary plugin and integrate into master theme
+* [PLANET-5362](https://jira.greenpeace.org/browse/PLANET-5362) - Change link color for the Plastics theme
+* [PLANET-5351](https://jira.greenpeace.org/browse/PLANET-5351) - Implement data attribute on Post Type Tag \(on the post header\)
+* [PLANET-5204](https://jira.greenpeace.org/browse/PLANET-5204) - Implement data attributes on Articles Block
+* [PLANET-5189](https://jira.greenpeace.org/browse/PLANET-5189) - Refactor Medialibrary plugin and integrate into master theme
 
 ### Bug Fixes
 
-- [PLANET-5392](https://jira.greenpeace.org/browse/PLANET-5392) - Changes to the UI when toggling features not reflected in WP menu after save, requires additional refresh
-- [PLANET-5376](https://jira.greenpeace.org/browse/PLANET-5376) - Broken dates in Articles block in Safari
-- [PLANET-5235](https://jira.greenpeace.org/browse/PLANET-5235) - Header Carousel: Header text cuts off at 32 characters
+* [PLANET-5392](https://jira.greenpeace.org/browse/PLANET-5392) - Changes to the UI when toggling features not reflected in WP menu after save, requires additional refresh
+* [PLANET-5376](https://jira.greenpeace.org/browse/PLANET-5376) - Broken dates in Articles block in Safari
+* [PLANET-5235](https://jira.greenpeace.org/browse/PLANET-5235) - Header Carousel: Header text cuts off at 32 characters
 
 ### Infrastructure
 
-- [PLANET-5379](https://jira.greenpeace.org/browse/PLANET-5379) - Apply missing tags for app alerting in New Relic
-- [PLANET-5375](https://jira.greenpeace.org/browse/PLANET-5375) - Update GCP cost estimates based on new compute
-- [PLANET-5365](https://jira.greenpeace.org/browse/PLANET-5365) - Script to safely restart P4 workloads to allow draining of single node
-- [PLANET-5358](https://jira.greenpeace.org/browse/PLANET-5358) - Fix Traefik SSL certificate renewal in Dev
-- [PLANET-5355](https://jira.greenpeace.org/browse/PLANET-5355) - Reduce node pool count and monitor in Dev
-- [PLANET-5352](https://jira.greenpeace.org/browse/PLANET-5352) - Reduce node pool count and monitor in prod
-- [PLANET-5328](https://jira.greenpeace.org/browse/PLANET-5328) - Fix Traefik SSL certificate renewal in production
+* [PLANET-5379](https://jira.greenpeace.org/browse/PLANET-5379) - Apply missing tags for app alerting in New Relic
+* [PLANET-5375](https://jira.greenpeace.org/browse/PLANET-5375) - Update GCP cost estimates based on new compute
+* [PLANET-5365](https://jira.greenpeace.org/browse/PLANET-5365) - Script to safely restart P4 workloads to allow draining of single node
+* [PLANET-5358](https://jira.greenpeace.org/browse/PLANET-5358) - Fix Traefik SSL certificate renewal in Dev
+* [PLANET-5355](https://jira.greenpeace.org/browse/PLANET-5355) - Reduce node pool count and monitor in Dev
+* [PLANET-5352](https://jira.greenpeace.org/browse/PLANET-5352) - Reduce node pool count and monitor in prod
+* [PLANET-5328](https://jira.greenpeace.org/browse/PLANET-5328) - Fix Traefik SSL certificate renewal in production
 
 ## 2.36.2 - 2020-08-03
 
-
 ### Bug Fixes
 
-- [PLANET-5371](https://jira.greenpeace.org/browse/PLANET-5371) - Translations not working in Articles header and load more text defaults
-- [PLANET-5296](https://jira.greenpeace.org/browse/PLANET-5296) - Posts: Empty TA Card when TA Page is archived
+* [PLANET-5371](https://jira.greenpeace.org/browse/PLANET-5371) - Translations not working in Articles header and load more text defaults
+* [PLANET-5296](https://jira.greenpeace.org/browse/PLANET-5296) - Posts: Empty TA Card when TA Page is archived
 
 ## 2.36.1.2 - 2020-07-29
 
 ### Features
 
-- [PLANET-5346](https://jira.greenpeace.org/browse/PLANET-5346) - Decrease cookie expiration value for last visited NRO
-- [PLANET-4801](https://jira.greenpeace.org/browse/PLANET-4801) - Convert Articles block to WYSIWYG
+* [PLANET-5346](https://jira.greenpeace.org/browse/PLANET-5346) - Decrease cookie expiration value for last visited NRO
+* [PLANET-4801](https://jira.greenpeace.org/browse/PLANET-4801) - Convert Articles block to WYSIWYG
 
 ### Bug Fixes
 
-- [PLANET-5294](https://jira.greenpeace.org/browse/PLANET-5294) - Apply typography rules to numbered lists
-- [PLANET-5276](https://jira.greenpeace.org/browse/PLANET-5276) - EN Form: Country Field appears always in English
-- [PLANET-5230](https://jira.greenpeace.org/browse/PLANET-5230) - Plastics theme links have wrong colour and hover state
-- [PLANET-5187](https://jira.greenpeace.org/browse/PLANET-5187) - Plastics theme buttons have the wrong colour text
-- [PLANET-5161](https://jira.greenpeace.org/browse/PLANET-5161) - Plastic theme Column block titles missing bold weight
+* [PLANET-5294](https://jira.greenpeace.org/browse/PLANET-5294) - Apply typography rules to numbered lists
+* [PLANET-5276](https://jira.greenpeace.org/browse/PLANET-5276) - EN Form: Country Field appears always in English
+* [PLANET-5230](https://jira.greenpeace.org/browse/PLANET-5230) - Plastics theme links have wrong colour and hover state
+* [PLANET-5187](https://jira.greenpeace.org/browse/PLANET-5187) - Plastics theme buttons have the wrong colour text
+* [PLANET-5161](https://jira.greenpeace.org/browse/PLANET-5161) - Plastic theme Column block titles missing bold weight
 
 ## 2.36.0 - 2020-07-23
 
 ### Features
 
-- [PLANET-5307](https://jira.greenpeace.org/browse/PLANET-5307) - Exclude landing page from search results
-- [PLANET-5274](https://jira.greenpeace.org/browse/PLANET-5274) - Landing Page: Redirect on last visited NRO based on cookie
-- [PLANET-5193](https://jira.greenpeace.org/browse/PLANET-5193) - Create Acceptance test for the Campaign Importer
-- [PLANET-4799](https://jira.greenpeace.org/browse/PLANET-4799) - Convert Counter Block to WYSIWYG
+* [PLANET-5307](https://jira.greenpeace.org/browse/PLANET-5307) - Exclude landing page from search results
+* [PLANET-5274](https://jira.greenpeace.org/browse/PLANET-5274) - Landing Page: Redirect on last visited NRO based on cookie
+* [PLANET-5193](https://jira.greenpeace.org/browse/PLANET-5193) - Create Acceptance test for the Campaign Importer
+* [PLANET-4799](https://jira.greenpeace.org/browse/PLANET-4799) - Convert Counter Block to WYSIWYG
 
 ### Bug Fixes
 
-- [PLANET-5269](https://jira.greenpeace.org/browse/PLANET-5269) - Fix footer on mobile
+* [PLANET-5269](https://jira.greenpeace.org/browse/PLANET-5269) - Fix footer on mobile
 
 ### Infrastructure
 
-- [PLANET-5278](https://jira.greenpeace.org/browse/PLANET-5278) - Update utility versions in base circleci image
-- [PLANET-5277](https://jira.greenpeace.org/browse/PLANET-5277) - Replace rocketchat with slack notifications in #p4-infra-ci
+* [PLANET-5278](https://jira.greenpeace.org/browse/PLANET-5278) - Update utility versions in base circleci image
+* [PLANET-5277](https://jira.greenpeace.org/browse/PLANET-5277) - Replace rocketchat with slack notifications in \#p4-infra-ci
 
 ## 2.35.1 - 2020-07-21
 
 ### Features
 
-- [PLANET-5272](https://jira.greenpeace.org/browse/PLANET-5272) - Add hreflang tags to the homepage of all NROs
-- [PLANET-5225](https://jira.greenpeace.org/browse/PLANET-5225) - Carousel Header: remove Zoom and slide to gray style
-- [PLANET-5222](https://jira.greenpeace.org/browse/PLANET-5222) - Create a "Planet 4" sidebar entry on wp-admin and group the settings
+* [PLANET-5272](https://jira.greenpeace.org/browse/PLANET-5272) - Add hreflang tags to the homepage of all NROs
+* [PLANET-5225](https://jira.greenpeace.org/browse/PLANET-5225) - Carousel Header: remove Zoom and slide to gray style
+* [PLANET-5222](https://jira.greenpeace.org/browse/PLANET-5222) - Create a "Planet 4" sidebar entry on wp-admin and group the settings
 
 ### Bug Fixes
 
-- [PLANET-5319](https://jira.greenpeace.org/browse/PLANET-5319) - Carousel Header block: Failing to edit page because when image source is missing
-- [PLANET-5263](https://jira.greenpeace.org/browse/PLANET-5263) - Decrease H1 size on mobile
+* [PLANET-5319](https://jira.greenpeace.org/browse/PLANET-5319) - Carousel Header block: Failing to edit page because when image source is missing
+* [PLANET-5263](https://jira.greenpeace.org/browse/PLANET-5263) - Decrease H1 size on mobile
 
 ## 2.35.0 - 2020-07-15
 
 ### Features
 
-- [PLANET-5142](https://jira.greenpeace.org/browse/PLANET-5142) - Implement Cloudflare's Image Optimization on Carousel block
-- [PLANET-4795](https://jira.greenpeace.org/browse/PLANET-4795) - Add Campaign Page types to posts report
+* [PLANET-5142](https://jira.greenpeace.org/browse/PLANET-5142) - Implement Cloudflare's Image Optimization on Carousel block
+* [PLANET-4795](https://jira.greenpeace.org/browse/PLANET-4795) - Add Campaign Page types to posts report
 
 ### Bug Fixes
 
-- [PLANET-5306](https://jira.greenpeace.org/browse/PLANET-5306) - Post type doesn't appear on single post pages
-- [PLANET-5305](https://jira.greenpeace.org/browse/PLANET-5305) - Column block: non-linked Header styles broken
+* [PLANET-5306](https://jira.greenpeace.org/browse/PLANET-5306) - Post type doesn't appear on single post pages
+* [PLANET-5305](https://jira.greenpeace.org/browse/PLANET-5305) - Column block: non-linked Header styles broken
 
 ## 2.34.3 - 2020-07-07
 
@@ -540,3 +539,4 @@ description: >-
 * [PLANET-4644](https://jira.greenpeace.org/browse/PLANET-4644) - Country Selector: fix GPSK address
 * [PLANET-4597](https://jira.greenpeace.org/browse/PLANET-4597) - Fix campaign dataLayer script on P4 Posts
 * [PLANET-4510](https://jira.greenpeace.org/browse/PLANET-4510) - Fix PHP Notice: Notice level error produces when building local env. with make command
+
