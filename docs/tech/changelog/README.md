@@ -6,6 +6,27 @@ description: >-
 
 # Changelog
 
+## 2.38.0 - 2020-08-24
+
+### Features
+
+- [PLANET-5414](https://jira.greenpeace.org/browse/PLANET-5414) - Implement data attributes on Articles Lists (on post type pages)
+- [PLANET-5227](https://jira.greenpeace.org/browse/PLANET-5227) - Counter Block accessibility: improve screen reader markup
+- [PLANET-5206](https://jira.greenpeace.org/browse/PLANET-5206) - Implement data attributes on Country Selector
+- [PLANET-5200](https://jira.greenpeace.org/browse/PLANET-5200) - Implement data attributes on Carousel Header
+- [PLANET-4803](https://jira.greenpeace.org/browse/PLANET-4803) - Convert Cookies Block to WYSIWYG
+
+### Bug Fixes
+
+- [PLANET-5407](https://jira.greenpeace.org/browse/PLANET-5407) - Failed assets builds don't make the pipeline fail
+- [PLANET-5400](https://jira.greenpeace.org/browse/PLANET-5400) - Articles editor CSS rule scope is not specific enough
+- [PLANET-5344](https://jira.greenpeace.org/browse/PLANET-5344) - Video block is displayed on top of other blocks in the editor
+
+### Infrastructure
+
+- [PLANET-5425](https://jira.greenpeace.org/browse/PLANET-5425) - Deploy ElasticSearch JVM settings in Prod
+- [PLANET-5391](https://jira.greenpeace.org/browse/PLANET-5391) - Deploy ElasticSearch via CircleCI
+
 ## 2.37.0 - 2020-08-12
 
 ### Features
@@ -539,4 +560,3 @@ description: >-
 * [PLANET-4644](https://jira.greenpeace.org/browse/PLANET-4644) - Country Selector: fix GPSK address
 * [PLANET-4597](https://jira.greenpeace.org/browse/PLANET-4597) - Fix campaign dataLayer script on P4 Posts
 * [PLANET-4510](https://jira.greenpeace.org/browse/PLANET-4510) - Fix PHP Notice: Notice level error produces when building local env. with make command
-
