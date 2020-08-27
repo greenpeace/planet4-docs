@@ -33,6 +33,10 @@ make run
 If you want to create only a Development environment just type false for release and production.
 {% endhint %}
 
+{% hint style="info" %}
+There are two manual steps in this process. Adding a github ssh key to CircleCI and create a new set of Google OAuth tokens. You should get quick links to both of them on the terminal output.
+{% endhint %}
+
 ## Create the environments
 
 First connect to the development cluster
@@ -48,18 +52,18 @@ kubectl config set-context p4-develop --namespace=develop --cluster=gke_planet-4
 kubectl config use-context p4-develop
 ```
 
-Get inside the planet-nro-generator repository and follow the instructions on [README.md](https://github.com/greenpeace/planet4-helper-scripts/blob/master/README.md). In a nutsell:
+Get inside the `planet-helper-scripts` repository and follow the instructions on [README.md](https://github.com/greenpeace/planet4-helper-scripts/blob/master/README.md). In a nutshell:
+
+1. The configure command will ask you about the helm chart to use.
+2. It will also ask you to provide the OAuth tokens you created in the previous step.
+3. The make command will ask a few times about replacing `defaultcontent` path with your own. Choose `y`.
 
 ```bash
 ./configure.sh
 make
 ```
 
-{% hint style="info" %}
-There are two manual steps in this process. Adding a github ssh key to CircleCI and a Google OAuth token. You should get quick links to both of them on the terminal output.
-{% endhint %}
-
-If you are also creating release and production environments you can repeat these steps, after you switch to production cluster. Here is an example for `cidev` release instance:
+If you are also creating staging and production environments you can repeat these steps, after you switch to the production cluster. Here is an example for `cidev` release instance:
 
 ```bash
 # get connected to the google cloud for the production cluster
@@ -71,4 +75,6 @@ kubectl config set-context planet4-cidev-release --namespace cidev --cluster gke
 # switch to that context (replace the "cidev" bellow with your site):
 kubectl config use-context planet4-cidev-release
 ```
+
+Once this is done, you can just re-run `./configure.sh` and `make`. In order for the staging and production helm charts to be listed in the configure command, one successful deploy should be completed in the CI. Make sure to tag the new deploy repository to trigger that.
 
