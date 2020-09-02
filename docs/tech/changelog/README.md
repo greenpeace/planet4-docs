@@ -6,6 +6,27 @@ description: >-
 
 # Changelog
 
+## 2.38.1 - 2020-09-02
+
+### Features
+
+- [PLANET-5300](https://jira.greenpeace.org/browse/PLANET-5300) - Add JS acceptance tests for Counter block
+- [PLANET-5205](https://jira.greenpeace.org/browse/PLANET-5205) - Implement data attributes on Split Two Columns Block
+- [PLANET-4808](https://jira.greenpeace.org/browse/PLANET-4808) - Convert Split Two Columns to WYSIWYG
+
+### Bug Fixes
+
+- [PLANET-5384](https://jira.greenpeace.org/browse/PLANET-5384) - Jquery causes issues in local development
+- [PLANET-5320](https://jira.greenpeace.org/browse/PLANET-5320) - P4 Cookies should implement the 'Secure' attribute
+
+### Infrastructure
+
+- [PLANET-5456](https://jira.greenpeace.org/browse/PLANET-5456) - Test Prod CloudSQL restore, edit, restart
+- [PLANET-5451](https://jira.greenpeace.org/browse/PLANET-5451) - Setup Grafana ingress for dev and enable persistent storage
+- [PLANET-5390](https://jira.greenpeace.org/browse/PLANET-5390) - Deploy ElasticSearch JVM settings in Dev
+- [PLANET-5336](https://jira.greenpeace.org/browse/PLANET-5336) - Deploy prometheus-operator to development
+- [PLANET-5322](https://jira.greenpeace.org/browse/PLANET-5322) - Conform our shell scripts to Google Styleguide using shfmt
+
 ## 2.38.0 - 2020-08-24
 
 ### Features
@@ -560,4 +581,3 @@ description: >-
 * [PLANET-4644](https://jira.greenpeace.org/browse/PLANET-4644) - Country Selector: fix GPSK address
 * [PLANET-4597](https://jira.greenpeace.org/browse/PLANET-4597) - Fix campaign dataLayer script on P4 Posts
 * [PLANET-4510](https://jira.greenpeace.org/browse/PLANET-4510) - Fix PHP Notice: Notice level error produces when building local env. with make command
-
