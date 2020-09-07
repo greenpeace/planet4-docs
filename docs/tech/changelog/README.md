@@ -6,6 +6,21 @@ description: >-
 
 # Changelog
 
+## 2.39.0 - 2020-09-07
+
+### Features
+
+- [PLANET-5450](https://jira.greenpeace.org/browse/PLANET-5450) - Add a note to the "Cookies Text" section in Planet 4 Settings
+- [PLANET-5347](https://jira.greenpeace.org/browse/PLANET-5347) - Add JS acceptance tests for Cookies block
+- [PLANET-5323](https://jira.greenpeace.org/browse/PLANET-5323) - Add JS acceptance tests for Submenu block
+- [PLANET-2282](https://jira.greenpeace.org/browse/PLANET-2282) - Handbook: rework Sitemap
+
+### Bug Fixes
+
+- [PLANET-5444](https://jira.greenpeace.org/browse/PLANET-5444) - target="_blank" gets added to links that aren't external
+- [PLANET-5424](https://jira.greenpeace.org/browse/PLANET-5424) - Spreadsheet block: URL vanishes after page being published
+- [PLANET-5343](https://jira.greenpeace.org/browse/PLANET-5343) - Plastics theme: items should be center aligned
+
 ## 2.38.1 - 2020-09-02
 
 ### Features
