@@ -25,7 +25,7 @@ You will only need to manually approve that in two cases:
 
 ### Rollback
 
-In the staging pipeline, if tests fail a rollback pipeline is triggered, but stays on hold. This helps rollback staging in case you want to fix and re-run the tests before promoting to production.
+If the visual regression tests fail in the staging, a rollback pipeline is triggered, but stays on hold. This helps rolling staging back to the previous release, in case you want to fix and re-run the tests before promoting to production.
 
 ![Staging Rollback](../../.gitbook/assets/rollback-staging.png)
 
