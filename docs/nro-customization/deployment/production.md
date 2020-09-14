@@ -18,8 +18,14 @@ Once you create a new tag and push it the [CI](https://app.circleci.com/projects
 
 There is a "hold-promote" job there that controls whether the pipeline will continue deploying on production. This job will be approved automatically \(from the "promote" job\) if all tests pass successfully.
 
-You will only need to manuall approve that in two cases:
+You will only need to manually approve that in two cases:
 
 1. You added a `[HOLD]` on your last commit message before you create the new tag.
 2. Visual Regression tests failed. You can check the tests report to confirm that the visual differences are acceptable.
+
+### Rollback
+
+In the staging pipeline, if tests fail a rollback pipeline is triggered, but stays on hold. This helps rollback staging in case you want to fix and re-run the tests before promoting to production.
+
+![Staging Rollback](../../.gitbook/assets/rollback-staging.png)
 

@@ -10,55 +10,55 @@ description: >-
 
 ### Features
 
-- [PLANET-5479](https://jira.greenpeace.org/browse/PLANET-5479) - Add a report showing posts with "Classic block"
-- [PLANET-5443](https://jira.greenpeace.org/browse/PLANET-5443) - Provide a way of rolling back Staging to the previous release
-- [PLANET-5439](https://jira.greenpeace.org/browse/PLANET-5439) - Apply performance optimization to blocks report
-- [PLANET-5385](https://jira.greenpeace.org/browse/PLANET-5385) - Add Spotify icon to our P4 icon list in github
-- [PLANET-5297](https://jira.greenpeace.org/browse/PLANET-5297) - Remove lazy-loading custom js implementation and use html loading tag instead
-- [PLANET-5292](https://jira.greenpeace.org/browse/PLANET-5292) - Create a Planet 4 setting toggle for the EN Block
+* [PLANET-5479](https://jira.greenpeace.org/browse/PLANET-5479) - Add a report showing posts with "Classic block"
+* [PLANET-5443](https://jira.greenpeace.org/browse/PLANET-5443) - Provide a way of rolling back Staging to the previous release
+* [PLANET-5439](https://jira.greenpeace.org/browse/PLANET-5439) - Apply performance optimization to blocks report
+* [PLANET-5385](https://jira.greenpeace.org/browse/PLANET-5385) - Add Spotify icon to our P4 icon list in github
+* [PLANET-5297](https://jira.greenpeace.org/browse/PLANET-5297) - Remove lazy-loading custom js implementation and use html loading tag instead
+* [PLANET-5292](https://jira.greenpeace.org/browse/PLANET-5292) - Create a Planet 4 setting toggle for the EN Block
 
 ### Bug Fixes
 
-- [PLANET-5475](https://jira.greenpeace.org/browse/PLANET-5475) - Search result page sidebar sections are not collapsing
-- [PLANET-5383](https://jira.greenpeace.org/browse/PLANET-5383) - Properly size images in Storytelling child theme
-- [PLANET-5363](https://jira.greenpeace.org/browse/PLANET-5363) - Plastics Campaign theme: Tasks block doesn't collapse/expand
-- [PLANET-5014](https://jira.greenpeace.org/browse/PLANET-5014) - skip-links a11y menu is pushing the page content
+* [PLANET-5475](https://jira.greenpeace.org/browse/PLANET-5475) - Search result page sidebar sections are not collapsing
+* [PLANET-5383](https://jira.greenpeace.org/browse/PLANET-5383) - Properly size images in Storytelling child theme
+* [PLANET-5363](https://jira.greenpeace.org/browse/PLANET-5363) - Plastics Campaign theme: Tasks block doesn't collapse/expand
+* [PLANET-5014](https://jira.greenpeace.org/browse/PLANET-5014) - skip-links a11y menu is pushing the page content
 
 ## 2.39.0 - 2020-09-07
 
 ### Features
 
-- [PLANET-5450](https://jira.greenpeace.org/browse/PLANET-5450) - Add a note to the "Cookies Text" section in Planet 4 Settings
-- [PLANET-5347](https://jira.greenpeace.org/browse/PLANET-5347) - Add JS acceptance tests for Cookies block
-- [PLANET-5323](https://jira.greenpeace.org/browse/PLANET-5323) - Add JS acceptance tests for Submenu block
-- [PLANET-2282](https://jira.greenpeace.org/browse/PLANET-2282) - Handbook: rework Sitemap
+* [PLANET-5450](https://jira.greenpeace.org/browse/PLANET-5450) - Add a note to the "Cookies Text" section in Planet 4 Settings
+* [PLANET-5347](https://jira.greenpeace.org/browse/PLANET-5347) - Add JS acceptance tests for Cookies block
+* [PLANET-5323](https://jira.greenpeace.org/browse/PLANET-5323) - Add JS acceptance tests for Submenu block
+* [PLANET-2282](https://jira.greenpeace.org/browse/PLANET-2282) - Handbook: rework Sitemap
 
 ### Bug Fixes
 
-- [PLANET-5444](https://jira.greenpeace.org/browse/PLANET-5444) - target="_blank" gets added to links that aren't external
-- [PLANET-5424](https://jira.greenpeace.org/browse/PLANET-5424) - Spreadsheet block: URL vanishes after page being published
-- [PLANET-5343](https://jira.greenpeace.org/browse/PLANET-5343) - Plastics theme: items should be center aligned
+* [PLANET-5444](https://jira.greenpeace.org/browse/PLANET-5444) - target="\_blank" gets added to links that aren't external
+* [PLANET-5424](https://jira.greenpeace.org/browse/PLANET-5424) - Spreadsheet block: URL vanishes after page being published
+* [PLANET-5343](https://jira.greenpeace.org/browse/PLANET-5343) - Plastics theme: items should be center aligned
 
 ## 2.38.1 - 2020-09-02
 
 ### Features
 
-- [PLANET-5300](https://jira.greenpeace.org/browse/PLANET-5300) - Add JS acceptance tests for Counter block
-- [PLANET-5205](https://jira.greenpeace.org/browse/PLANET-5205) - Implement data attributes on Split Two Columns Block
-- [PLANET-4808](https://jira.greenpeace.org/browse/PLANET-4808) - Convert Split Two Columns to WYSIWYG
+* [PLANET-5300](https://jira.greenpeace.org/browse/PLANET-5300) - Add JS acceptance tests for Counter block
+* [PLANET-5205](https://jira.greenpeace.org/browse/PLANET-5205) - Implement data attributes on Split Two Columns Block
+* [PLANET-4808](https://jira.greenpeace.org/browse/PLANET-4808) - Convert Split Two Columns to WYSIWYG
 
 ### Bug Fixes
 
-- [PLANET-5384](https://jira.greenpeace.org/browse/PLANET-5384) - Jquery causes issues in local development
-- [PLANET-5320](https://jira.greenpeace.org/browse/PLANET-5320) - P4 Cookies should implement the 'Secure' attribute
+* [PLANET-5384](https://jira.greenpeace.org/browse/PLANET-5384) - Jquery causes issues in local development
+* [PLANET-5320](https://jira.greenpeace.org/browse/PLANET-5320) - P4 Cookies should implement the 'Secure' attribute
 
 ### Infrastructure
 
-- [PLANET-5456](https://jira.greenpeace.org/browse/PLANET-5456) - Test Prod CloudSQL restore, edit, restart
-- [PLANET-5451](https://jira.greenpeace.org/browse/PLANET-5451) - Setup Grafana ingress for dev and enable persistent storage
-- [PLANET-5390](https://jira.greenpeace.org/browse/PLANET-5390) - Deploy ElasticSearch JVM settings in Dev
-- [PLANET-5336](https://jira.greenpeace.org/browse/PLANET-5336) - Deploy prometheus-operator to development
-- [PLANET-5322](https://jira.greenpeace.org/browse/PLANET-5322) - Conform our shell scripts to Google Styleguide using shfmt
+* [PLANET-5456](https://jira.greenpeace.org/browse/PLANET-5456) - Test Prod CloudSQL restore, edit, restart
+* [PLANET-5451](https://jira.greenpeace.org/browse/PLANET-5451) - Setup Grafana ingress for dev and enable persistent storage
+* [PLANET-5390](https://jira.greenpeace.org/browse/PLANET-5390) - Deploy ElasticSearch JVM settings in Dev
+* [PLANET-5336](https://jira.greenpeace.org/browse/PLANET-5336) - Deploy prometheus-operator to development
+* [PLANET-5322](https://jira.greenpeace.org/browse/PLANET-5322) - Conform our shell scripts to Google Styleguide using shfmt
 
 ## 2.38.0 - 2020-08-24
 
@@ -614,3 +614,4 @@ description: >-
 * [PLANET-4644](https://jira.greenpeace.org/browse/PLANET-4644) - Country Selector: fix GPSK address
 * [PLANET-4597](https://jira.greenpeace.org/browse/PLANET-4597) - Fix campaign dataLayer script on P4 Posts
 * [PLANET-4510](https://jira.greenpeace.org/browse/PLANET-4510) - Fix PHP Notice: Notice level error produces when building local env. with make command
+

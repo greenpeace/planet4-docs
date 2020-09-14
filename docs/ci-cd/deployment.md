@@ -10,9 +10,7 @@ Our main orchestration repository for triggering deployment pipelines is [planet
 
 The only change that it's actually needed is to tag the repositories that have new code since the previous release.
 
-So check [master-theme](https://github.com/greenpeace/planet4-master-theme), [plugin-gutenberg-blocks](https://github.com/greenpeace/planet4-plugin-gutenberg-blocks), [plugin-gutenberg-engagingnetworks](https://github.com/greenpeace/planet4-plugin-gutenberg-engagingnetworks) and [plugin-medialibrary](https://github.com/greenpeace/planet4-plugin-medialibrary).
-
-On each one of the above repositories that need to be tagged switch to the `master` branch and create a new tag.
+So check [master-theme](https://github.com/greenpeace/planet4-master-theme) and [plugin-gutenberg-blocks](https://github.com/greenpeace/planet4-plugin-gutenberg-blocks). If they have commits on `master` branch since last tag \(probably both have\) the you need to create a new tag. You can do that directly from Github interface or locally as shown below.
 
 ```bash
 git tag -a vX.XX -m "vX.XX"
