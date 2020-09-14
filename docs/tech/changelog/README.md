@@ -6,6 +6,24 @@ description: >-
 
 # Changelog
 
+## 2.39.1 - 2020-09-14
+
+### Features
+
+- [PLANET-5479](https://jira.greenpeace.org/browse/PLANET-5479) - Add a report showing posts with "Classic block"
+- [PLANET-5443](https://jira.greenpeace.org/browse/PLANET-5443) - Provide a way of rolling back Staging to the previous release
+- [PLANET-5439](https://jira.greenpeace.org/browse/PLANET-5439) - Apply performance optimization to blocks report
+- [PLANET-5385](https://jira.greenpeace.org/browse/PLANET-5385) - Add Spotify icon to our P4 icon list in github
+- [PLANET-5297](https://jira.greenpeace.org/browse/PLANET-5297) - Remove lazy-loading custom js implementation and use html loading tag instead
+- [PLANET-5292](https://jira.greenpeace.org/browse/PLANET-5292) - Create a Planet 4 setting toggle for the EN Block
+
+### Bug Fixes
+
+- [PLANET-5475](https://jira.greenpeace.org/browse/PLANET-5475) - Search result page sidebar sections are not collapsing
+- [PLANET-5383](https://jira.greenpeace.org/browse/PLANET-5383) - Properly size images in Storytelling child theme
+- [PLANET-5363](https://jira.greenpeace.org/browse/PLANET-5363) - Plastics Campaign theme: Tasks block doesn't collapse/expand
+- [PLANET-5014](https://jira.greenpeace.org/browse/PLANET-5014) - skip-links a11y menu is pushing the page content
+
 ## 2.39.0 - 2020-09-07
 
 ### Features
