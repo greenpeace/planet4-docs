@@ -6,6 +6,23 @@ description: >-
 
 # Changelog
 
+## 2.40.0 - 2020-09-17
+
+### Features
+
+- [PLANET-5301](https://jira.greenpeace.org/browse/PLANET-5301) - Add JS acceptance tests for Articles block
+- [PLANET-4807](https://jira.greenpeace.org/browse/PLANET-4807) - Convert Happypoint block to WYSIWYG
+
+### Bug Fixes
+
+- [PLANET-5472](https://jira.greenpeace.org/browse/PLANET-5472) - Articles block: Loaded images are too big
+- [PLANET-5462](https://jira.greenpeace.org/browse/PLANET-5462) - Articles Block: On manual override stories should be order by publication date
+
+### Infrastructure
+
+- [PLANET-5486](https://jira.greenpeace.org/browse/PLANET-5486) - Upgrade dev and prod K8s to 1.15.12-gke.20
+- [PLANET-5421](https://jira.greenpeace.org/browse/PLANET-5421) - Increase Prod SQL Server by 1 CPU & add HA
+
 ## 2.39.1 - 2020-09-14
 
 ### Features
@@ -614,4 +631,3 @@ description: >-
 * [PLANET-4644](https://jira.greenpeace.org/browse/PLANET-4644) - Country Selector: fix GPSK address
 * [PLANET-4597](https://jira.greenpeace.org/browse/PLANET-4597) - Fix campaign dataLayer script on P4 Posts
 * [PLANET-4510](https://jira.greenpeace.org/browse/PLANET-4510) - Fix PHP Notice: Notice level error produces when building local env. with make command
-
