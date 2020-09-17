@@ -62,6 +62,6 @@ You will only need to manuall approve that in two cases:
 
 #### NRO specific cases
 
-* If you spot important visual differences on websites with customized child themes you should inform them and don't approve the deployment to production. They have CI access to approve it when ready. This includes: GPCH, GPNL, GPLX and all GPNORDIC websites.
-* Currently, we don’t do releases on these 3 websites: Korea, Hongkong, Taiwan. These won’t be triggered anyway, so you don’t have to check them.
+* If you spot important significant visual differences on websites with customized child themes you should inform them and don't approve the deployment to production. They have CI access to approve it when ready. This includes: GPCH, GPNL, GPLX and all GPNORDIC websites.
+* Korea, Hongkong, Taiwan are also heavily customized through their child themes and require extra attention because they are still not switched to Gutenberg.
 
