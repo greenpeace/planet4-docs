@@ -6,6 +6,14 @@ description: >-
 
 # Changelog
 
+## 2.40.2 - 2020-09-23
+
+
+### Bug Fixes
+
+- [PLANET-5506](https://jira.greenpeace.org/browse/PLANET-5506) - Articles block date translation breaks block in editor
+- [PLANET-5502](https://jira.greenpeace.org/browse/PLANET-5502) - Happypoint iframe almost always has a scrollbar
+
 ## 2.40.1 - 2020-09-22
 
 ### Features
