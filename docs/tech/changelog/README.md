@@ -8,23 +8,22 @@ description: >-
 
 ## 2.40.2 - 2020-09-23
 
-
 ### Bug Fixes
 
-- [PLANET-5506](https://jira.greenpeace.org/browse/PLANET-5506) - Articles block date translation breaks block in editor
-- [PLANET-5502](https://jira.greenpeace.org/browse/PLANET-5502) - Happypoint iframe almost always has a scrollbar
+* [PLANET-5506](https://jira.greenpeace.org/browse/PLANET-5506) - Articles block date translation breaks block in editor
+* [PLANET-5502](https://jira.greenpeace.org/browse/PLANET-5502) - Happypoint iframe almost always has a scrollbar
 
 ## 2.40.1 - 2020-09-22
 
 ### Features
 
-- [PLANET-5270](https://jira.greenpeace.org/browse/PLANET-5270) - Default style dropdown in blocks
-- [PLANET-5229](https://jira.greenpeace.org/browse/PLANET-5229) - Hashtags Accessibility
-- [PLANET-4904](https://jira.greenpeace.org/browse/PLANET-4904) - Carousel Header: Add validation to prevent slides without image
+* [PLANET-5270](https://jira.greenpeace.org/browse/PLANET-5270) - Default style dropdown in blocks
+* [PLANET-5229](https://jira.greenpeace.org/browse/PLANET-5229) - Hashtags Accessibility
+* [PLANET-4904](https://jira.greenpeace.org/browse/PLANET-4904) - Carousel Header: Add validation to prevent slides without image
 
 ### Bug Fixes
 
-- [PLANET-5398](https://jira.greenpeace.org/browse/PLANET-5398) - Articles: Dates are not translated
+* [PLANET-5398](https://jira.greenpeace.org/browse/PLANET-5398) - Articles: Dates are not translated
 
 ## 2.40.0 - 2020-09-17
 
@@ -651,3 +650,4 @@ description: >-
 * [PLANET-4644](https://jira.greenpeace.org/browse/PLANET-4644) - Country Selector: fix GPSK address
 * [PLANET-4597](https://jira.greenpeace.org/browse/PLANET-4597) - Fix campaign dataLayer script on P4 Posts
 * [PLANET-4510](https://jira.greenpeace.org/browse/PLANET-4510) - Fix PHP Notice: Notice level error produces when building local env. with make command
+

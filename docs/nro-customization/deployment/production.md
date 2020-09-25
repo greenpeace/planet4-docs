@@ -16,7 +16,7 @@ This gives you the option to have a completely different `composer-local.json` f
 
 Once you create a new tag and push it the [CI](https://app.circleci.com/projects/project-dashboard/github/greenpeace) release pipeline will be triggered.
 
-There is a "hold-promote" job there that controls whether the pipeline will continue deploying on production. This job will be approved automatically \(from the "promote" job\) if all tests pass successfully.
+There is a `hold-production` job there that controls whether the pipeline will continue deploying on production. This job will be approved automatically if all tests pass successfully.
 
 You will only need to manually approve that in two cases:
 
@@ -25,7 +25,13 @@ You will only need to manually approve that in two cases:
 
 ### Rollback
 
-If the visual regression tests fail in the staging, a rollback pipeline is triggered, but stays on hold. This helps rolling staging back to the previous release, in case you want to fix and re-run the tests before promoting to production.
+In the release pipeline there a `rollback-staging` job. If approved, it will rollback the staging site back to the previous release. This is useful for cases where the visual regression tests fail and you want to fix something and re-test. In that scenario, you won't approve the production deployment. You can just restart the whole pipeline or create a new tag if you made changes to the deployment repository.
 
-![Staging Rollback](../../.gitbook/assets/rollback-staging.png)
+![Rollback Staging](../../.gitbook/assets/rollback-staging%20%281%29.png)
+
+{% hint style="info" %}
+If all test pass, and the new release is deployed in production, the above job will be unbloked but without triggering a rollback. This happens to prevent accidentally rolling back, but also to keep the pipeline in a "success" state.
+{% endhint %}
+
+
 
