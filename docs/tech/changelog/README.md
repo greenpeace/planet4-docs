@@ -6,6 +6,19 @@ description: >-
 
 # Changelog
 
+## 2.40.3 - 2020-09-28
+
+### Features
+
+- [PLANET-5515](https://jira.greenpeace.org/browse/PLANET-5515) - Search: Send a different http status when no results are found
+- [PLANET-5493](https://jira.greenpeace.org/browse/PLANET-5493) - Update JS acceptance tests for Articles block manual override functionality
+- [PLANET-5409](https://jira.greenpeace.org/browse/PLANET-5409) - Use the same image for staging and production
+- [PLANET-4069](https://jira.greenpeace.org/browse/PLANET-4069) - Handbook: Update IdeaPush plugin
+
+### Bug Fixes
+
+- [PLANET-5500](https://jira.greenpeace.org/browse/PLANET-5500) - Columns block: Button cuts off text
+
 ## 2.40.2 - 2020-09-23
 
 ### Bug Fixes
@@ -650,4 +663,3 @@ description: >-
 * [PLANET-4644](https://jira.greenpeace.org/browse/PLANET-4644) - Country Selector: fix GPSK address
 * [PLANET-4597](https://jira.greenpeace.org/browse/PLANET-4597) - Fix campaign dataLayer script on P4 Posts
 * [PLANET-4510](https://jira.greenpeace.org/browse/PLANET-4510) - Fix PHP Notice: Notice level error produces when building local env. with make command
-
