@@ -16,22 +16,37 @@ This gives you the option to have a completely different `composer-local.json` f
 
 Once you create a new tag and push it the [CI](https://app.circleci.com/projects/project-dashboard/github/greenpeace) release pipeline will be triggered.
 
-There is a `hold-production` job there that controls whether the pipeline will continue deploying on production. This job will be approved automatically if all tests pass successfully.
+There is a `hold-production` job there that controls whether the pipeline will continue deploying on production. This job will be approved automatically if all tests pass successfully. 
 
-You will only need to manually approve that in two cases:
+{% hint style="info" %}
+If you want to block the production deployment, even when all tests pass, add the `[HOLD]` prefix in your last commit message before you tag.
+{% endhint %}
 
-1. You added a `[HOLD]` on your last commit message before you create the new tag.
-2. Visual Regression tests failed. You can check the tests report to confirm that the visual differences are acceptable.
+#### Troubleshooting
 
-### Rollback
+If you see all test jobs completed but the `hold-production` still pending, it means the `visualtests-compare` job has a visual diif report that needs inspection. Click on that job, go to `Artifacts` tab and look for the report \(`app/backstop_data/html_report/index.html`\). If everything looks good just approve `hold-production`.
 
 In the release pipeline there a `rollback-staging` job. If approved, it will rollback the staging site back to the previous release. This is useful for cases where the visual regression tests fail and you want to fix something and re-test. In that scenario, you won't approve the production deployment. You can just restart the whole pipeline or create a new tag if you made changes to the deployment repository.
 
 ![Rollback Staging](../../.gitbook/assets/rollback-staging%20%281%29.png)
 
 {% hint style="info" %}
-If all test pass, and the new release is deployed in production, the above job will be unbloked but without triggering a rollback. This happens to prevent accidentally rolling back, but also to keep the pipeline in a "success" state.
+If all test pass, and the new release is deployed in production, the above job will be unblocked but without triggering a rollback. This happens to prevent accidentally rolling back, but also to keep the pipeline in a "success" state.
 {% endhint %}
 
+### Rollback
 
+In some cases you may want to rollback to a previous release. For instance, if there is a major bug in production and you know that this is a regression from the latest release. To do so, you need to use the [rollback script](https://github.com/greenpeace/planet4-base-fork/blob/master/scripts/rollback.sh) and provide the tag you want to rollback to.
+
+```javascript
+./rollback.sh planet4-<nro> <CIRCLECI_TOKEN> <v0.x.x>
+```
+
+This will trigger a rollback pipeline, which will first deploy to staging and then wait for a manual approval to deploy production. This gives you the opportunity to do a final check on staging.
+
+![](../../.gitbook/assets/rollback%20%281%29.png)
+
+{% hint style="info" %}
+To create a new token, go to your CircleCI [account settings](https://app.circleci.com/settings/user/tokens).
+{% endhint %}
 
