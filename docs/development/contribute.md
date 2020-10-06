@@ -8,17 +8,13 @@ description: A quick guide to code contributing
 
 ## Development
 
-Planet 4 consists of many repositories, for all the themes and plugins we develop:
+Planet 4 mainly consists of two repositories, for the theme and the blocks plugin. Both share code from our styleguide.
 
 * [planet4-master-theme](https://github.com/greenpeace/planet4-master-theme)
 * [planet4-plugin-gutenberg-blocks](https://github.com/greenpeace/planet4-plugin-gutenberg-blocks)
-* [planet4-plugin-medialibrary](https://github.com/greenpeace/planet4-plugin-medialibrary)
-* [planet4-plugin-gutenberg-engagingnetworks](https://github.com/greenpeace/planet4-plugin-gutenberg-engagingnetworks)
 * [planet4-styleguide](https://github.com/greenpeace/planet4-styleguide)
 
-![Our code repositories built the platform we call Planet 4](../.gitbook/assets/p4-code-structure%20%281%29.png)
-
-Now pick the one you want to work on, and if you don't have write access to it, fork it on Github.
+Depending on what issue you are working on, you should fork it on Github.
 
 ## Pull Requests
 
