@@ -6,6 +6,27 @@ description: >-
 
 # Changelog
 
+## 2.41.0 - 2020-10-07
+
+### Features
+
+* [PLANET-5526](https://jira.greenpeace.org/browse/PLANET-5526) - Add noindex meta tag for "No Results" Search page
+* [PLANET-5377](https://jira.greenpeace.org/browse/PLANET-5377) - Implement localization support for js file translatable strings on frontend & backend
+* [PLANET-5275](https://jira.greenpeace.org/browse/PLANET-5275) - Add a pa11y CI job for testing accessibility regressions
+
+### Bug Fixes
+
+* [PLANET-5563](https://jira.greenpeace.org/browse/PLANET-5563) - Prevent Flash Of Invisible Text
+* [PLANET-5562](https://jira.greenpeace.org/browse/PLANET-5562) - Split 2 Columns: Ampersand sign is displayed as html entity on frontend
+* [PLANET-5374](https://jira.greenpeace.org/browse/PLANET-5374) - Titles should not be in the new GP Link Blue. Review CTA links.
+
+### Infrastructure
+
+* [PLANET-5543](https://jira.greenpeace.org/browse/PLANET-5543) - Upgrade cloudsql proxy for new K8 APIs - dev and prod
+* [PLANET-5521](https://jira.greenpeace.org/browse/PLANET-5521) - Update all Autoscaler and Deployments to new API version for wordpress chart
+* [PLANET-5518](https://jira.greenpeace.org/browse/PLANET-5518) - Update k8 cluster to 1.16 - development
+* [PLANET-5447](https://jira.greenpeace.org/browse/PLANET-5447) - Document setting up 'maintenance pages' in the P4 cluster
+
 ## 2.40.3 - 2020-09-28
 
 ### Features
