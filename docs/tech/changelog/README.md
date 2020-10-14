@@ -6,6 +6,21 @@ description: >-
 
 # Changelog
 
+## 2.41.2 - 2020-10-14
+
+### Features
+
+- [PLANET-5527](https://jira.greenpeace.org/browse/PLANET-5527) - Counter Block: Add eventListener for developing realtime counters
+- [PLANET-5497](https://jira.greenpeace.org/browse/PLANET-5497) - Remove 'caption style' picker from the Image block
+- [PLANET-5485](https://jira.greenpeace.org/browse/PLANET-5485) - Rewrite Image Archive to use hooks instead of classes
+- [PLANET-5426](https://jira.greenpeace.org/browse/PLANET-5426) - Image block - Remove the blue caption style
+- [PLANET-4622](https://jira.greenpeace.org/browse/PLANET-4622) - Gallery Slider - Remove the blue caption style
+
+### Bug Fixes
+
+- [PLANET-5468](https://jira.greenpeace.org/browse/PLANET-5468) - Columns block: Huge image on the 4th column
+- [PLANET-5465](https://jira.greenpeace.org/browse/PLANET-5465) - EN Form: Rogue space appearing at top of page
+
 ## 2.41.1 - 2020-10-12
 
 ### Features
