@@ -10,39 +10,39 @@ description: >-
 
 ### Features
 
-- [PLANET-5527](https://jira.greenpeace.org/browse/PLANET-5527) - Counter Block: Add eventListener for developing realtime counters
-- [PLANET-5497](https://jira.greenpeace.org/browse/PLANET-5497) - Remove 'caption style' picker from the Image block
-- [PLANET-5485](https://jira.greenpeace.org/browse/PLANET-5485) - Rewrite Image Archive to use hooks instead of classes
-- [PLANET-5426](https://jira.greenpeace.org/browse/PLANET-5426) - Image block - Remove the blue caption style
-- [PLANET-4622](https://jira.greenpeace.org/browse/PLANET-4622) - Gallery Slider - Remove the blue caption style
+* [PLANET-5527](https://jira.greenpeace.org/browse/PLANET-5527) - Counter Block: Add eventListener for developing realtime counters
+* [PLANET-5497](https://jira.greenpeace.org/browse/PLANET-5497) - Remove 'caption style' picker from the Image block
+* [PLANET-5485](https://jira.greenpeace.org/browse/PLANET-5485) - Rewrite Image Archive to use hooks instead of classes
+* [PLANET-5426](https://jira.greenpeace.org/browse/PLANET-5426) - Image block - Remove the blue caption style
+* [PLANET-4622](https://jira.greenpeace.org/browse/PLANET-4622) - Gallery Slider - Remove the blue caption style
 
 ### Bug Fixes
 
-- [PLANET-5468](https://jira.greenpeace.org/browse/PLANET-5468) - Columns block: Huge image on the 4th column
-- [PLANET-5465](https://jira.greenpeace.org/browse/PLANET-5465) - EN Form: Rogue space appearing at top of page
+* [PLANET-5468](https://jira.greenpeace.org/browse/PLANET-5468) - Columns block: Huge image on the 4th column
+* [PLANET-5465](https://jira.greenpeace.org/browse/PLANET-5465) - EN Form: Rogue space appearing at top of page
 
 ## 2.41.1 - 2020-10-12
 
 ### Features
 
-- [PLANET-5557](https://jira.greenpeace.org/browse/PLANET-5557) - Add authentication for Docker Hub images on app/NRO repositories
-- [PLANET-5538](https://jira.greenpeace.org/browse/PLANET-5538) - Use h1 for the Search Results title
-- [PLANET-5484](https://jira.greenpeace.org/browse/PLANET-5484) - Use github releases to save built assets
-- [PLANET-5482](https://jira.greenpeace.org/browse/PLANET-5482) - Provide a way of rolling back Production to the previous release
-- [PLANET-4800](https://jira.greenpeace.org/browse/PLANET-4800) - Convert Gallery Block to WYSIWYG
+* [PLANET-5557](https://jira.greenpeace.org/browse/PLANET-5557) - Add authentication for Docker Hub images on app/NRO repositories
+* [PLANET-5538](https://jira.greenpeace.org/browse/PLANET-5538) - Use h1 for the Search Results title
+* [PLANET-5484](https://jira.greenpeace.org/browse/PLANET-5484) - Use github releases to save built assets
+* [PLANET-5482](https://jira.greenpeace.org/browse/PLANET-5482) - Provide a way of rolling back Production to the previous release
+* [PLANET-4800](https://jira.greenpeace.org/browse/PLANET-4800) - Convert Gallery Block to WYSIWYG
 
 ### Bug Fixes
 
-- [PLANET-5373](https://jira.greenpeace.org/browse/PLANET-5373) - Remove the "by" string in Articles / Posts
+* [PLANET-5373](https://jira.greenpeace.org/browse/PLANET-5373) - Remove the "by" string in Articles / Posts
 
 ### Infrastructure
 
-- [PLANET-5578](https://jira.greenpeace.org/browse/PLANET-5578) - Add oauth for github to sonarqube
-- [PLANET-5576](https://jira.greenpeace.org/browse/PLANET-5576) - Update NewRelic in prod and add kube state metrics to chart
-- [PLANET-5565](https://jira.greenpeace.org/browse/PLANET-5565) - Update E2 & Commitment pricing for Oct and add summary
-- [PLANET-5531](https://jira.greenpeace.org/browse/PLANET-5531) - Upgrade Prometheus in Dev due to k8 1.16 update
-- [PLANET-5520](https://jira.greenpeace.org/browse/PLANET-5520) - Update to new 1.16 v1 API versions for static chart
-- [PLANET-5338](https://jira.greenpeace.org/browse/PLANET-5338) - Delete manual deployment of kube-state-metrics in dev & prod
+* [PLANET-5578](https://jira.greenpeace.org/browse/PLANET-5578) - Add oauth for github to sonarqube
+* [PLANET-5576](https://jira.greenpeace.org/browse/PLANET-5576) - Update NewRelic in prod and add kube state metrics to chart
+* [PLANET-5565](https://jira.greenpeace.org/browse/PLANET-5565) - Update E2 & Commitment pricing for Oct and add summary
+* [PLANET-5531](https://jira.greenpeace.org/browse/PLANET-5531) - Upgrade Prometheus in Dev due to k8 1.16 update
+* [PLANET-5520](https://jira.greenpeace.org/browse/PLANET-5520) - Update to new 1.16 v1 API versions for static chart
+* [PLANET-5338](https://jira.greenpeace.org/browse/PLANET-5338) - Delete manual deployment of kube-state-metrics in dev & prod
 
 ## 2.41.0 - 2020-10-07
 
@@ -722,3 +722,4 @@ description: >-
 * [PLANET-4644](https://jira.greenpeace.org/browse/PLANET-4644) - Country Selector: fix GPSK address
 * [PLANET-4597](https://jira.greenpeace.org/browse/PLANET-4597) - Fix campaign dataLayer script on P4 Posts
 * [PLANET-4510](https://jira.greenpeace.org/browse/PLANET-4510) - Fix PHP Notice: Notice level error produces when building local env. with make command
+

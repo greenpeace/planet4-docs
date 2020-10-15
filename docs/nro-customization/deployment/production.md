@@ -4,7 +4,7 @@ description: How to deploy to your production environment
 
 # Production
 
-The production environment is controlled by the master branch of your `planet4-<nro>`. But in order to trigger a new deployment you need to create a new tag once you are ready.
+The production environment is controlled by the master branch of your `planet4-<nro>`. But **in order to trigger a new deployment you need to create a new tag** once you are ready.
 
 This gives you the option to have a completely different `composer-local.json` from develop and deploy a different set of packages to production. For instance you can use the latest tag of your child-theme:
 
