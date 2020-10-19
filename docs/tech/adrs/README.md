@@ -10,8 +10,8 @@ These documents start as Drafts in a [Drive folder](https://drive.google.com/dri
 
 Based on discussions in Refinement sessions or ad-hoc meetings, we make a decision and if it’s accepted then:
 
-1. Document that in the “Decision Outcome” section of the document.
-2. Change its status to “accepted”.
+1. Document that in the "Decision Outcome" section of the document.
+2. Change its status to "accepted" \(or "declined" or just "decided"\).
 3. Make a copy of the document here \(see next pages\) for visibility reasons.
 
 All the pending ADRs are in our [ADR Drive folder](https://drive.google.com/drive/folders/1WyI5qWVHPvavO6HaTEr8xKyWPX8ZgC1p).
