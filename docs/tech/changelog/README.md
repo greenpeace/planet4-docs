@@ -6,6 +6,31 @@ description: >-
 
 # Changelog
 
+## 2.42.0 - 2020-10-22
+
+### Features
+
+- [PLANET-5463](https://jira.greenpeace.org/browse/PLANET-5463) - Disable "HTML Edit" from dymanic WYSIWYG blocks
+- [PLANET-5188](https://jira.greenpeace.org/browse/PLANET-5188) - Create Acceptance test for the Campaign Generator
+
+### Bug Fixes
+
+- [PLANET-5607](https://jira.greenpeace.org/browse/PLANET-5607) - Endpoints always fail if page is cached with expired nonce
+- [PLANET-5605](https://jira.greenpeace.org/browse/PLANET-5605) - Google apps login cookie is set unintentionally in REST API responses
+- [PLANET-5592](https://jira.greenpeace.org/browse/PLANET-5592) - Remove id attributes in svg markup of icon
+- [PLANET-5516](https://jira.greenpeace.org/browse/PLANET-5516) - Author bio translation displaying wrong language
+- [PLANET-5388](https://jira.greenpeace.org/browse/PLANET-5388) - Related Articles are not related
+
+### Infrastructure
+
+- [PLANET-5597](https://jira.greenpeace.org/browse/PLANET-5597) - Fix failure of docker build in weekly job
+- [PLANET-5594](https://jira.greenpeace.org/browse/PLANET-5594) - Update NewRelic alert thresholds for network usage post 1.16 upgrade
+- [PLANET-5588](https://jira.greenpeace.org/browse/PLANET-5588) - Deploy nginx ingress updates to Prod
+- [PLANET-5567](https://jira.greenpeace.org/browse/PLANET-5567) - Add resource limits to nginx ingress deployments
+- [PLANET-5555](https://jira.greenpeace.org/browse/PLANET-5555) - Upgrade nginx 1.17.8 - new chart and version deployed
+- [PLANET-5532](https://jira.greenpeace.org/browse/PLANET-5532) - Add all P4 sites to ping check in New Relic
+- [PLANET-5529](https://jira.greenpeace.org/browse/PLANET-5529) - Update k8 master cluster to 1.16 - prod
+
 ## 2.41.2 - 2020-10-14
 
 ### Features
@@ -722,4 +747,3 @@ description: >-
 * [PLANET-4644](https://jira.greenpeace.org/browse/PLANET-4644) - Country Selector: fix GPSK address
 * [PLANET-4597](https://jira.greenpeace.org/browse/PLANET-4597) - Fix campaign dataLayer script on P4 Posts
 * [PLANET-4510](https://jira.greenpeace.org/browse/PLANET-4510) - Fix PHP Notice: Notice level error produces when building local env. with make command
-
