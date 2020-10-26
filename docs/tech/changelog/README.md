@@ -6,6 +6,14 @@ description: >-
 
 # Changelog
 
+## 2.42.1 - 2020-10-26
+
+### Features
+
+- [PLANET-5501](https://jira.greenpeace.org/browse/PLANET-5501) - Consistency across all buttons.
+- [PLANET-5221](https://jira.greenpeace.org/browse/PLANET-5221) - CI: Simplify Acceptance tests repo job to not require secrets
+- [PLANET-4813](https://jira.greenpeace.org/browse/PLANET-4813) - Convert Timeline Block to WYSIWYG
+
 ## 2.42.0 - 2020-10-22
 
 ### Features
@@ -747,4 +755,3 @@ description: >-
 * [PLANET-4644](https://jira.greenpeace.org/browse/PLANET-4644) - Country Selector: fix GPSK address
 * [PLANET-4597](https://jira.greenpeace.org/browse/PLANET-4597) - Fix campaign dataLayer script on P4 Posts
 * [PLANET-4510](https://jira.greenpeace.org/browse/PLANET-4510) - Fix PHP Notice: Notice level error produces when building local env. with make command
-
