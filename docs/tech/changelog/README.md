@@ -6,6 +6,17 @@ description: >-
 
 # Changelog
 
+## 2.42.2 - 2020-10-28
+
+### Features
+
+- [PLANET-5589](https://jira.greenpeace.org/browse/PLANET-5589) - Cache rest api endpoints in Cloudflare
+- [PLANET-5568](https://jira.greenpeace.org/browse/PLANET-5568) - Make HTML responses cachable by Cloudflare
+- [PLANET-5517](https://jira.greenpeace.org/browse/PLANET-5517) - ElasticPress plugin adds css files to all pages which aren't used
+- [PLANET-5481](https://jira.greenpeace.org/browse/PLANET-5481) - Image Archive UI improvements
+- [PLANET-5348](https://jira.greenpeace.org/browse/PLANET-5348) - Harmonize language locales on all NRO websites
+- [PLANET-4811](https://jira.greenpeace.org/browse/PLANET-4811) - Convert Submenu block to WYSIWYG
+
 ## 2.42.1 - 2020-10-26
 
 ### Features
