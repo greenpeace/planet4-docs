@@ -6,6 +6,28 @@ description: >-
 
 # Changelog
 
+## 2.43.0 - 2020-11-05
+
+### Features
+
+- [PLANET-5254](https://jira.greenpeace.org/browse/PLANET-5254) - Author page accessibility
+- [PLANET-5253](https://jira.greenpeace.org/browse/PLANET-5253) - Footer Accessibility
+- [PLANET-5211](https://jira.greenpeace.org/browse/PLANET-5211) - Home page Accessibility: Navigation bar and "Skip to..." links.
+
+### Bug Fixes
+
+- [PLANET-5640](https://jira.greenpeace.org/browse/PLANET-5640) - Timeline Block: frontend rendering doesn't work
+- [PLANET-5606](https://jira.greenpeace.org/browse/PLANET-5606) - Center search button svg icons
+- [PLANET-5441](https://jira.greenpeace.org/browse/PLANET-5441) - Hashtag cuts off text for social media sharing
+- [PLANET-5349](https://jira.greenpeace.org/browse/PLANET-5349) - Follow WP admin UI rules on the Editor sidebar help texts
+
+### Infrastructure
+
+- [PLANET-5627](https://jira.greenpeace.org/browse/PLANET-5627) - Upgrade to helm 2.17 for new stable chart location & other circleci utilities
+- [PLANET-5579](https://jira.greenpeace.org/browse/PLANET-5579) - Add authentication for Docker Hub images
+- [PLANET-5542](https://jira.greenpeace.org/browse/PLANET-5542) - Configure www-stage for cloudflare
+- [PLANET-5541](https://jira.greenpeace.org/browse/PLANET-5541) - Configure www-dev for cloudflare
+
 ## 2.42.2 - 2020-10-28
 
 ### Features
