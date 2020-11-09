@@ -10,7 +10,6 @@ description: >-
 
 ### Features
 
-- [PLANET-5621](https://jira.greenpeace.org/browse/PLANET-5621) - Update traefik certs in Dev & Prod
 - [PLANET-5620](https://jira.greenpeace.org/browse/PLANET-5620) - Upgrade PHP to 7.3
 - [PLANET-4810](https://jira.greenpeace.org/browse/PLANET-4810) - Convert Media Block to WYSIWYG
 
@@ -23,6 +22,7 @@ description: >-
 ### Infrastructure
 
 - [PLANET-5657](https://jira.greenpeace.org/browse/PLANET-5657) - Change dev/stage hostnames and route through Cloudflare
+- [PLANET-5621](https://jira.greenpeace.org/browse/PLANET-5621) - Update traefik certs in Dev & Prod
 
 ## 2.43.0 - 2020-11-05
 
