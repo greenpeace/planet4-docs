@@ -6,66 +6,23 @@ description: >-
 
 # Changelog
 
-## null - 2020-11-09
+## 2.43.1 - 2020-11-09
 
 ### Features
 
-- [PLANET-5665](https://jira.greenpeace.org/browse/PLANET-5665) - Remove wp-url dependency on the front end
-- [PLANET-5664](https://jira.greenpeace.org/browse/PLANET-5664) - Use alternative for wp-date on the front end
-- [PLANET-5663](https://jira.greenpeace.org/browse/PLANET-5663) - Remove jQuery on the front end
-- [PLANET-5662](https://jira.greenpeace.org/browse/PLANET-5662) - Use Preact instead of core WP React on the frontend
-- [PLANET-5661](https://jira.greenpeace.org/browse/PLANET-5661) - Upgrade wp-stateless to 3.1.0
-- [PLANET-5653](https://jira.greenpeace.org/browse/PLANET-5653) - Implement GTM + dataLayer script on the Global 404 page
-- [PLANET-5649](https://jira.greenpeace.org/browse/PLANET-5649) - Handbook: propose new search bar placement (esp. desktop version)
-- [PLANET-5648](https://jira.greenpeace.org/browse/PLANET-5648) - Handbook: review Pablo's recommendation #4 - Adding syntax colouring for code blocks
-- [PLANET-5647](https://jira.greenpeace.org/browse/PLANET-5647) - Handbook: review Pablo's recommendation #3 - Submenu block changes
-- [PLANET-5646](https://jira.greenpeace.org/browse/PLANET-5646) - Handbook: review Pablo's recommendation #1 - Removing the top bar and moving the search to the sidebar
-- [PLANET-5645](https://jira.greenpeace.org/browse/PLANET-5645) - Update field label style
-- [PLANET-5644](https://jira.greenpeace.org/browse/PLANET-5644) - Remove text transformations from all buttons
-- [PLANET-5634](https://jira.greenpeace.org/browse/PLANET-5634) - Facebook is deprecating oEmbeds, investigate implications for Social Media Block
-- [PLANET-5630](https://jira.greenpeace.org/browse/PLANET-5630) - Upgrade sites to Wordpress 5.5
-- [PLANET-5619](https://jira.greenpeace.org/browse/PLANET-5619) - Purge Cloudflare cache on content update
-- [PLANET-5615](https://jira.greenpeace.org/browse/PLANET-5615) - Use button tags for buttons
-- [PLANET-5613](https://jira.greenpeace.org/browse/PLANET-5613) - Add a corner radius of 4px on all form fields
-- [PLANET-5609](https://jira.greenpeace.org/browse/PLANET-5609) - Take Action covers block - create a carousel layout style (frontend)
-- [PLANET-5608](https://jira.greenpeace.org/browse/PLANET-5608) - New Take Action cover UI
+- [PLANET-5621](https://jira.greenpeace.org/browse/PLANET-5621) - Update traefik certs in Dev & Prod
+- [PLANET-5620](https://jira.greenpeace.org/browse/PLANET-5620) - Upgrade PHP to 7.3
+- [PLANET-4810](https://jira.greenpeace.org/browse/PLANET-4810) - Convert Media Block to WYSIWYG
 
 ### Bug Fixes
 
-- [PLANET-5659](https://jira.greenpeace.org/browse/PLANET-5659) - Header carousel won't show images on mobile
-- [PLANET-5658](https://jira.greenpeace.org/browse/PLANET-5658) - Happypoint opacity change on mobile
-- [PLANET-5656](https://jira.greenpeace.org/browse/PLANET-5656) - WP 5.5: register_rest_route was called incorrectly
-- [PLANET-5655](https://jira.greenpeace.org/browse/PLANET-5655) - WP 5.5: Format "core/subscript" is already registered
-- [PLANET-5654](https://jira.greenpeace.org/browse/PLANET-5654) - WP 5.5: WP_Block_Type_Registry::register was called incorrectly
-- [PLANET-5651](https://jira.greenpeace.org/browse/PLANET-5651) - Align Donate page form with P4 form styles
-- [PLANET-5650](https://jira.greenpeace.org/browse/PLANET-5650) - Align Donate page form with P4 forms
-- [PLANET-5643](https://jira.greenpeace.org/browse/PLANET-5643) - #443703: [request]redirect url start with http to https
-- [PLANET-5642](https://jira.greenpeace.org/browse/PLANET-5642) - Inconsistent text color - Content covers block
-- [PLANET-5641](https://jira.greenpeace.org/browse/PLANET-5641) - #443702: Malaysia - Live page not updated
-- [PLANET-5635](https://jira.greenpeace.org/browse/PLANET-5635) - 3 Column: zoom and centre not working
-- [PLANET-5632](https://jira.greenpeace.org/browse/PLANET-5632) - #443188: Glitches on Greek site
-- [PLANET-5629](https://jira.greenpeace.org/browse/PLANET-5629) - Handbook: Gallery block not rendered in posts (GP CH Case study)
-- [PLANET-5623](https://jira.greenpeace.org/browse/PLANET-5623) - Google Login for Greenpeace emails not working - users are blocked from login
-- [PLANET-5622](https://jira.greenpeace.org/browse/PLANET-5622) - Skewed overlay changes position when page length changes
-- [PLANET-5618](https://jira.greenpeace.org/browse/PLANET-5618) - UX review - Media Block
-- [PLANET-5617](https://jira.greenpeace.org/browse/PLANET-5617) - UX review - Gallery Block
-- [PLANET-5616](https://jira.greenpeace.org/browse/PLANET-5616) - Blocks usage report doesn't display edit link for posts without title
-- [PLANET-5614](https://jira.greenpeace.org/browse/PLANET-5614) - Align P4 Codebase with Design System
-- [PLANET-5611](https://jira.greenpeace.org/browse/PLANET-5611) - Covers block: Content style - new UI based on UX review
-- [PLANET-5610](https://jira.greenpeace.org/browse/PLANET-5610) - Covers block: Campaign style - new UI based on UX review
+- [PLANET-5660](https://jira.greenpeace.org/browse/PLANET-5660) - Remove url encoding of twitter card title in meta tags
+- [PLANET-5652](https://jira.greenpeace.org/browse/PLANET-5652) - Articles block: Tags containing an ampersand are displayed escaped
+- [PLANET-5633](https://jira.greenpeace.org/browse/PLANET-5633) - Gallery block: 3 Columns style overly zoom on images
 
 ### Infrastructure
 
-- [PLANET-5639](https://jira.greenpeace.org/browse/PLANET-5639) - Set up commitments for E2
-- [PLANET-5638](https://jira.greenpeace.org/browse/PLANET-5638) - Fix docker auth in NRO repos - test flibble
-- [PLANET-5637](https://jira.greenpeace.org/browse/PLANET-5637) - Add context to lint jobs in circleci for docker auth to work
-- [PLANET-5636](https://jira.greenpeace.org/browse/PLANET-5636) - Troubleshoot docker auth not working
-- [PLANET-5631](https://jira.greenpeace.org/browse/PLANET-5631) - Clean up old helm releases, pvcs etc. in dev
-- [PLANET-5628](https://jira.greenpeace.org/browse/PLANET-5628) - Add docker auth to cool-tech
-- [PLANET-5626](https://jira.greenpeace.org/browse/PLANET-5626) - Cosmos doco refine
-- [PLANET-5625](https://jira.greenpeace.org/browse/PLANET-5625) - Finalise & test p4 infra presentation
-- [PLANET-5624](https://jira.greenpeace.org/browse/PLANET-5624) - Test helm 2to3 in lab
-- [PLANET-5604](https://jira.greenpeace.org/browse/PLANET-5604) - Clean up P4 DNS and remnant ops things - refinement
+- [PLANET-5657](https://jira.greenpeace.org/browse/PLANET-5657) - Change dev/stage hostnames and route through Cloudflare
 
 ## 2.43.0 - 2020-11-05
 
