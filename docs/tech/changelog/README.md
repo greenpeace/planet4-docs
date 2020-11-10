@@ -6,6 +6,13 @@ description: >-
 
 # Changelog
 
+## 2.43.2 - 2020-11-10
+
+### Bug Fixes
+
+- [PLANET-5659](https://jira.greenpeace.org/browse/PLANET-5659) - Header carousel won't show images on mobile
+- [PLANET-5658](https://jira.greenpeace.org/browse/PLANET-5658) - Happypoint opacity change on mobile
+
 ## 2.43.1 - 2020-11-09
 
 ### Features
