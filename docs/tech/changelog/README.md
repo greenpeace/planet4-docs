@@ -6,6 +6,19 @@ description: >-
 
 # Changelog
 
+## 2.44.0 - 2020-11-18
+
+### Features
+
+- [PLANET-5661](https://jira.greenpeace.org/browse/PLANET-5661) - Upgrade wp-stateless to 3.1.x
+- [PLANET-5644](https://jira.greenpeace.org/browse/PLANET-5644) - Remove text transformations from all buttons
+- [PLANET-5613](https://jira.greenpeace.org/browse/PLANET-5613) - Add a corner radius of 4px on all form fields
+- [PLANET-5584](https://jira.greenpeace.org/browse/PLANET-5584) - Serve images and pdf files through Cloudflare and greenpeace domain
+
+### Infrastructure
+
+- [PLANET-5637](https://jira.greenpeace.org/browse/PLANET-5637) - Add context to lint jobs in circleci for docker auth to work
+
 ## 2.43.2 - 2020-11-10
 
 ### Bug Fixes
