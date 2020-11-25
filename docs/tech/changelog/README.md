@@ -6,6 +6,29 @@ description: >-
 
 # Changelog
 
+## 2.44.1 - 2020-11-25
+
+### Features
+
+- [PLANET-5665](https://jira.greenpeace.org/browse/PLANET-5665) - Remove wp-url dependency on the front end
+- [PLANET-5055](https://jira.greenpeace.org/browse/PLANET-5055) - Upgrade ElasticPress to 3.5.x
+
+### Bug Fixes
+
+- [PLANET-5713](https://jira.greenpeace.org/browse/PLANET-5713) - Format dates in the backend to load less frontend libs
+- [PLANET-5712](https://jira.greenpeace.org/browse/PLANET-5712) - Combine google fonts to one http request
+- [PLANET-5711](https://jira.greenpeace.org/browse/PLANET-5711) - Remove redundant Slick and Hammer libraries from master theme
+- [PLANET-5706](https://jira.greenpeace.org/browse/PLANET-5706) - Articles block: Escaped html entities are displayed in the posts excerpt
+- [PLANET-5704](https://jira.greenpeace.org/browse/PLANET-5704) - Rounded corners on social media buttons are missing
+- [PLANET-5702](https://jira.greenpeace.org/browse/PLANET-5702) - Gallery Grid style images have no srcset, and use a big image
+- [PLANET-5580](https://jira.greenpeace.org/browse/PLANET-5580) - Remove Gallery block endpoint
+
+### Infrastructure
+
+- [PLANET-5721](https://jira.greenpeace.org/browse/PLANET-5721) - Add CI pipeline to update all dev sites every weekend
+- [PLANET-5716](https://jira.greenpeace.org/browse/PLANET-5716) - Switch GPSK website domain to greenpeace.org
+- [PLANET-5688](https://jira.greenpeace.org/browse/PLANET-5688) - Move handbook and storytelling behind Cloudflare
+
 ## 2.44.0 - 2020-11-18
 
 ### Features
