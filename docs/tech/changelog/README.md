@@ -6,6 +6,13 @@ description: >-
 
 # Changelog
 
+## 2.45.0 - 2020-11-26
+
+
+### Bug Fixes
+
+- [PLANET-5728](https://jira.greenpeace.org/browse/PLANET-5728) - Carousel Gallery: Slider not working
+
 ## 2.44.1 - 2020-11-25
 
 ### Features
