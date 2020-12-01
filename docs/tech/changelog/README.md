@@ -6,6 +6,19 @@ description: >-
 
 # Changelog
 
+## 2.45.1 - 2020-12-01
+
+### Features
+
+- [PLANET-5619](https://jira.greenpeace.org/browse/PLANET-5619) - Enable Cloudflare Automatic Platform Optimization (APO) and plugin
+- [PLANET-5368](https://jira.greenpeace.org/browse/PLANET-5368) - Fix H3/H4 font sizes on mobile
+- [PLANET-5228](https://jira.greenpeace.org/browse/PLANET-5228) - Covers Block Accessibility
+
+### Bug Fixes
+
+- [PLANET-5585](https://jira.greenpeace.org/browse/PLANET-5585) - Search: Background images for Take Action pages are pixelated
+- [PLANET-5442](https://jira.greenpeace.org/browse/PLANET-5442) - Unordered list font size bigger than paragraph in the editor
+
 ## 2.45.0 - 2020-11-26
 
 
