@@ -6,6 +6,28 @@ description: >-
 
 # Changelog
 
+## 2.45.2 - 2020-12-03
+
+### Features
+
+- [PLANET-5749](https://jira.greenpeace.org/browse/PLANET-5749) - Add TikTok svg icon
+- [PLANET-5739](https://jira.greenpeace.org/browse/PLANET-5739) - Upgrade wp-redis plugin to 1.1.x
+- [PLANET-5738](https://jira.greenpeace.org/browse/PLANET-5738) - Upgrade Google Apps Login plugin to 3.4.3
+- [PLANET-5698](https://jira.greenpeace.org/browse/PLANET-5698) - Integrate SonarCloud into our main app repos
+- [PLANET-5325](https://jira.greenpeace.org/browse/PLANET-5325) - Implement design for Take Action Boxout A/B test
+- [PLANET-5286](https://jira.greenpeace.org/browse/PLANET-5286) - Password protected content
+- [PLANET-4861](https://jira.greenpeace.org/browse/PLANET-4861) - Adjust search sorting options
+
+### Bug Fixes
+
+- [PLANET-5737](https://jira.greenpeace.org/browse/PLANET-5737) - GPBE translations not coming through for P4 blocks
+- [PLANET-5732](https://jira.greenpeace.org/browse/PLANET-5732) - Happy Point background image missing
+
+### Infrastructure
+
+- [PLANET-5639](https://jira.greenpeace.org/browse/PLANET-5639) - Set up commitments for E2 - Dev
+- [PLANET-5534](https://jira.greenpeace.org/browse/PLANET-5534) - Deploy E2 for dev
+
 ## 2.45.1 - 2020-12-01
 
 ### Features
