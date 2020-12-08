@@ -6,6 +6,17 @@ description: >-
 
 # Changelog
 
+## 2.45.3 - 2020-12-08
+
+### Features
+
+- [PLANET-5453](https://jira.greenpeace.org/browse/PLANET-5453) - Remove the "Search the archive" string from LoCo
+- [PLANET-4660](https://jira.greenpeace.org/browse/PLANET-4660) - EN Form block - Adjust Thank you message font
+
+### Bug Fixes
+
+- [PLANET-5775](https://jira.greenpeace.org/browse/PLANET-5775) - Covers block: invalid attribute type
+
 ## 2.45.2 - 2020-12-03
 
 ### Features
