@@ -6,6 +6,14 @@ description: >-
 
 # Changelog
 
+## 2.46.0 - 2020-12-10
+
+### Features
+
+- [PLANET-5781](https://jira.greenpeace.org/browse/PLANET-5781) - Update the P4 message board with the Holiday party!
+- [PLANET-5768](https://jira.greenpeace.org/browse/PLANET-5768) - jQuery: remove jQuery from happy_point.js
+- [PLANET-5753](https://jira.greenpeace.org/browse/PLANET-5753) - jQuery: remove jQuery from author.js
+
 ## 2.45.3 - 2020-12-08
 
 ### Features
