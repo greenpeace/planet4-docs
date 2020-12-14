@@ -6,6 +6,26 @@ description: >-
 
 # Changelog
 
+## 2.46.1 - 2020-12-14
+
+
+### Bug Fixes
+
+- [PLANET-5785](https://jira.greenpeace.org/browse/PLANET-5785) - Content covers block - Update heading and text sizes
+- [PLANET-5774](https://jira.greenpeace.org/browse/PLANET-5774) - EN Form: share on email button on thank you page is broken
+- [PLANET-5730](https://jira.greenpeace.org/browse/PLANET-5730) - Footer: Social icons are misaligned on RTL sites
+- [PLANET-5726](https://jira.greenpeace.org/browse/PLANET-5726) - Password protected post visible in articles block & search page result with post excerpt
+- [PLANET-5708](https://jira.greenpeace.org/browse/PLANET-5708) - PDF icon wrong color in secondary CTA buttons
+- [PLANET-5642](https://jira.greenpeace.org/browse/PLANET-5642) - Inconsistent text color - Content covers block
+- [PLANET-5616](https://jira.greenpeace.org/browse/PLANET-5616) - Blocks usage report doesn't display edit link for posts without title
+- [PLANET-5593](https://jira.greenpeace.org/browse/PLANET-5593) - Hide articles block title if no posts available
+- [PLANET-5522](https://jira.greenpeace.org/browse/PLANET-5522) - Tasks block not following the column block rules.
+- [PLANET-5395](https://jira.greenpeace.org/browse/PLANET-5395) - Some ElasticPress settings can not be saved
+- [PLANET-5387](https://jira.greenpeace.org/browse/PLANET-5387) - Campaigner User Role missing from Author dropdown field
+- [PLANET-5264](https://jira.greenpeace.org/browse/PLANET-5264) - Covers block: Display issue on mobile device
+- [PLANET-5162](https://jira.greenpeace.org/browse/PLANET-5162) - RSS Feed: Author Override field is not working
+- [PLANET-4732](https://jira.greenpeace.org/browse/PLANET-4732) - Articles Block: count field disappears when using Manual Override
+
 ## 2.46.0 - 2020-12-10
 
 ### Features
