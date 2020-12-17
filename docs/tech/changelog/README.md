@@ -6,6 +6,30 @@ description: >-
 
 # Changelog
 
+## 2.46.2 - 2020-12-17
+
+### Features
+
+- [PLANET-5769](https://jira.greenpeace.org/browse/PLANET-5769) - jQuery: remove jQuery from pubslider.js
+- [PLANET-5766](https://jira.greenpeace.org/browse/PLANET-5766) - jQuery: remove jQuery from counter.js
+- [PLANET-5759](https://jira.greenpeace.org/browse/PLANET-5759) - jQuery: remove jQuery from img_align.js
+- [PLANET-5754](https://jira.greenpeace.org/browse/PLANET-5754) - jQuery: remove jQuery from comments_anchor.js
+- [PLANET-5466](https://jira.greenpeace.org/browse/PLANET-5466) - Implement new Accordion block
+
+### Bug Fixes
+
+- [PLANET-5791](https://jira.greenpeace.org/browse/PLANET-5791) - Last fixes for Take Action boxout A/B test
+- [PLANET-5747](https://jira.greenpeace.org/browse/PLANET-5747) - Counter block: Counter is not inserted into EN Form
+- [PLANET-5731](https://jira.greenpeace.org/browse/PLANET-5731) - Cookie notice button on campaigns is too narrow
+- [PLANET-5629](https://jira.greenpeace.org/browse/PLANET-5629) - Handbook: Gallery block not rendered in posts (GP CH Case study)
+- [PLANET-5386](https://jira.greenpeace.org/browse/PLANET-5386) - YouTube embed: URL parameters not working
+
+### Infrastructure
+
+- [PLANET-5784](https://jira.greenpeace.org/browse/PLANET-5784) - Delete obsolete recharge k8 jobs
+- [PLANET-5736](https://jira.greenpeace.org/browse/PLANET-5736) - Set up commitments for E2 P4-Prod
+- [PLANET-5535](https://jira.greenpeace.org/browse/PLANET-5535) - Deploy E2 machine types for prod
+
 ## 2.46.1 - 2020-12-14
 
 
