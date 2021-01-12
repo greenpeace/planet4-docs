@@ -6,6 +6,23 @@ description: >-
 
 # Changelog
 
+## 2.47.0 - 2021-01-12
+
+### Features
+
+- [PLANET-5820](https://jira.greenpeace.org/browse/PLANET-5820) - Restrict anti-flicker snippet to A/B element
+- [PLANET-5790](https://jira.greenpeace.org/browse/PLANET-5790) - Add default TTL value on Redis cache
+
+### Bug Fixes
+
+- [PLANET-5779](https://jira.greenpeace.org/browse/PLANET-5779) - ErrorException: Warning: A non-numeric value encountered
+- [PLANET-5733](https://jira.greenpeace.org/browse/PLANET-5733) - Split Two Columns uses unresized original image
+- [PLANET-5680](https://jira.greenpeace.org/browse/PLANET-5680) - PHP Notice on search page
+
+### Infrastructure
+
+- [PLANET-5836](https://jira.greenpeace.org/browse/PLANET-5836) - Reset traefik-consol path for cert regneration in Dev
+
 ## 2.46.2 - 2020-12-17
 
 ### Features
