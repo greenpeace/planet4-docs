@@ -59,7 +59,7 @@ To approve a job that is on hold, you have to
 * Click on the `hold-promote` job and
 * Approve it by clicking the `Approve` button.
 
-![hold promote](../../.gitbook/assets/hold-promote%20%282%29.png)
+![hold promote](../../.gitbook/assets/hold-promote%20%285%29%20%285%29.png)
 
 ![hold approve](../../.gitbook/assets/hold-approve.png)
 

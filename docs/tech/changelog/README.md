@@ -10,225 +10,223 @@ description: >-
 
 ### Features
 
-- [PLANET-5820](https://jira.greenpeace.org/browse/PLANET-5820) - Restrict anti-flicker snippet to A/B element
-- [PLANET-5790](https://jira.greenpeace.org/browse/PLANET-5790) - Add default TTL value on Redis cache
+* [PLANET-5820](https://jira.greenpeace.org/browse/PLANET-5820) - Restrict anti-flicker snippet to A/B element
+* [PLANET-5790](https://jira.greenpeace.org/browse/PLANET-5790) - Add default TTL value on Redis cache
 
 ### Bug Fixes
 
-- [PLANET-5779](https://jira.greenpeace.org/browse/PLANET-5779) - ErrorException: Warning: A non-numeric value encountered
-- [PLANET-5733](https://jira.greenpeace.org/browse/PLANET-5733) - Split Two Columns uses unresized original image
-- [PLANET-5680](https://jira.greenpeace.org/browse/PLANET-5680) - PHP Notice on search page
+* [PLANET-5779](https://jira.greenpeace.org/browse/PLANET-5779) - ErrorException: Warning: A non-numeric value encountered
+* [PLANET-5733](https://jira.greenpeace.org/browse/PLANET-5733) - Split Two Columns uses unresized original image
+* [PLANET-5680](https://jira.greenpeace.org/browse/PLANET-5680) - PHP Notice on search page
 
 ### Infrastructure
 
-- [PLANET-5836](https://jira.greenpeace.org/browse/PLANET-5836) - Reset traefik-consol path for cert regneration in Dev
+* [PLANET-5836](https://jira.greenpeace.org/browse/PLANET-5836) - Reset traefik-consol path for cert regneration in Dev
 
 ## 2.46.2 - 2020-12-17
 
 ### Features
 
-- [PLANET-5769](https://jira.greenpeace.org/browse/PLANET-5769) - jQuery: remove jQuery from pubslider.js
-- [PLANET-5766](https://jira.greenpeace.org/browse/PLANET-5766) - jQuery: remove jQuery from counter.js
-- [PLANET-5759](https://jira.greenpeace.org/browse/PLANET-5759) - jQuery: remove jQuery from img_align.js
-- [PLANET-5754](https://jira.greenpeace.org/browse/PLANET-5754) - jQuery: remove jQuery from comments_anchor.js
-- [PLANET-5466](https://jira.greenpeace.org/browse/PLANET-5466) - Implement new Accordion block
+* [PLANET-5769](https://jira.greenpeace.org/browse/PLANET-5769) - jQuery: remove jQuery from pubslider.js
+* [PLANET-5766](https://jira.greenpeace.org/browse/PLANET-5766) - jQuery: remove jQuery from counter.js
+* [PLANET-5759](https://jira.greenpeace.org/browse/PLANET-5759) - jQuery: remove jQuery from img\_align.js
+* [PLANET-5754](https://jira.greenpeace.org/browse/PLANET-5754) - jQuery: remove jQuery from comments\_anchor.js
+* [PLANET-5466](https://jira.greenpeace.org/browse/PLANET-5466) - Implement new Accordion block
 
 ### Bug Fixes
 
-- [PLANET-5791](https://jira.greenpeace.org/browse/PLANET-5791) - Last fixes for Take Action boxout A/B test
-- [PLANET-5747](https://jira.greenpeace.org/browse/PLANET-5747) - Counter block: Counter is not inserted into EN Form
-- [PLANET-5731](https://jira.greenpeace.org/browse/PLANET-5731) - Cookie notice button on campaigns is too narrow
-- [PLANET-5629](https://jira.greenpeace.org/browse/PLANET-5629) - Handbook: Gallery block not rendered in posts (GP CH Case study)
-- [PLANET-5386](https://jira.greenpeace.org/browse/PLANET-5386) - YouTube embed: URL parameters not working
+* [PLANET-5791](https://jira.greenpeace.org/browse/PLANET-5791) - Last fixes for Take Action boxout A/B test
+* [PLANET-5747](https://jira.greenpeace.org/browse/PLANET-5747) - Counter block: Counter is not inserted into EN Form
+* [PLANET-5731](https://jira.greenpeace.org/browse/PLANET-5731) - Cookie notice button on campaigns is too narrow
+* [PLANET-5629](https://jira.greenpeace.org/browse/PLANET-5629) - Handbook: Gallery block not rendered in posts \(GP CH Case study\)
+* [PLANET-5386](https://jira.greenpeace.org/browse/PLANET-5386) - YouTube embed: URL parameters not working
 
 ### Infrastructure
 
-- [PLANET-5784](https://jira.greenpeace.org/browse/PLANET-5784) - Delete obsolete recharge k8 jobs
-- [PLANET-5736](https://jira.greenpeace.org/browse/PLANET-5736) - Set up commitments for E2 P4-Prod
-- [PLANET-5535](https://jira.greenpeace.org/browse/PLANET-5535) - Deploy E2 machine types for prod
+* [PLANET-5784](https://jira.greenpeace.org/browse/PLANET-5784) - Delete obsolete recharge k8 jobs
+* [PLANET-5736](https://jira.greenpeace.org/browse/PLANET-5736) - Set up commitments for E2 P4-Prod
+* [PLANET-5535](https://jira.greenpeace.org/browse/PLANET-5535) - Deploy E2 machine types for prod
 
 ## 2.46.1 - 2020-12-14
 
-
 ### Bug Fixes
 
-- [PLANET-5785](https://jira.greenpeace.org/browse/PLANET-5785) - Content covers block - Update heading and text sizes
-- [PLANET-5774](https://jira.greenpeace.org/browse/PLANET-5774) - EN Form: share on email button on thank you page is broken
-- [PLANET-5730](https://jira.greenpeace.org/browse/PLANET-5730) - Footer: Social icons are misaligned on RTL sites
-- [PLANET-5726](https://jira.greenpeace.org/browse/PLANET-5726) - Password protected post visible in articles block & search page result with post excerpt
-- [PLANET-5708](https://jira.greenpeace.org/browse/PLANET-5708) - PDF icon wrong color in secondary CTA buttons
-- [PLANET-5642](https://jira.greenpeace.org/browse/PLANET-5642) - Inconsistent text color - Content covers block
-- [PLANET-5616](https://jira.greenpeace.org/browse/PLANET-5616) - Blocks usage report doesn't display edit link for posts without title
-- [PLANET-5593](https://jira.greenpeace.org/browse/PLANET-5593) - Hide articles block title if no posts available
-- [PLANET-5522](https://jira.greenpeace.org/browse/PLANET-5522) - Tasks block not following the column block rules.
-- [PLANET-5395](https://jira.greenpeace.org/browse/PLANET-5395) - Some ElasticPress settings can not be saved
-- [PLANET-5387](https://jira.greenpeace.org/browse/PLANET-5387) - Campaigner User Role missing from Author dropdown field
-- [PLANET-5264](https://jira.greenpeace.org/browse/PLANET-5264) - Covers block: Display issue on mobile device
-- [PLANET-5162](https://jira.greenpeace.org/browse/PLANET-5162) - RSS Feed: Author Override field is not working
-- [PLANET-4732](https://jira.greenpeace.org/browse/PLANET-4732) - Articles Block: count field disappears when using Manual Override
+* [PLANET-5785](https://jira.greenpeace.org/browse/PLANET-5785) - Content covers block - Update heading and text sizes
+* [PLANET-5774](https://jira.greenpeace.org/browse/PLANET-5774) - EN Form: share on email button on thank you page is broken
+* [PLANET-5730](https://jira.greenpeace.org/browse/PLANET-5730) - Footer: Social icons are misaligned on RTL sites
+* [PLANET-5726](https://jira.greenpeace.org/browse/PLANET-5726) - Password protected post visible in articles block & search page result with post excerpt
+* [PLANET-5708](https://jira.greenpeace.org/browse/PLANET-5708) - PDF icon wrong color in secondary CTA buttons
+* [PLANET-5642](https://jira.greenpeace.org/browse/PLANET-5642) - Inconsistent text color - Content covers block
+* [PLANET-5616](https://jira.greenpeace.org/browse/PLANET-5616) - Blocks usage report doesn't display edit link for posts without title
+* [PLANET-5593](https://jira.greenpeace.org/browse/PLANET-5593) - Hide articles block title if no posts available
+* [PLANET-5522](https://jira.greenpeace.org/browse/PLANET-5522) - Tasks block not following the column block rules.
+* [PLANET-5395](https://jira.greenpeace.org/browse/PLANET-5395) - Some ElasticPress settings can not be saved
+* [PLANET-5387](https://jira.greenpeace.org/browse/PLANET-5387) - Campaigner User Role missing from Author dropdown field
+* [PLANET-5264](https://jira.greenpeace.org/browse/PLANET-5264) - Covers block: Display issue on mobile device
+* [PLANET-5162](https://jira.greenpeace.org/browse/PLANET-5162) - RSS Feed: Author Override field is not working
+* [PLANET-4732](https://jira.greenpeace.org/browse/PLANET-4732) - Articles Block: count field disappears when using Manual Override
 
 ## 2.46.0 - 2020-12-10
 
 ### Features
 
-- [PLANET-5781](https://jira.greenpeace.org/browse/PLANET-5781) - Update the P4 message board with the Holiday party!
-- [PLANET-5768](https://jira.greenpeace.org/browse/PLANET-5768) - jQuery: remove jQuery from happy_point.js
-- [PLANET-5753](https://jira.greenpeace.org/browse/PLANET-5753) - jQuery: remove jQuery from author.js
+* [PLANET-5781](https://jira.greenpeace.org/browse/PLANET-5781) - Update the P4 message board with the Holiday party!
+* [PLANET-5768](https://jira.greenpeace.org/browse/PLANET-5768) - jQuery: remove jQuery from happy\_point.js
+* [PLANET-5753](https://jira.greenpeace.org/browse/PLANET-5753) - jQuery: remove jQuery from author.js
 
 ## 2.45.3 - 2020-12-08
 
 ### Features
 
-- [PLANET-5453](https://jira.greenpeace.org/browse/PLANET-5453) - Remove the "Search the archive" string from LoCo
-- [PLANET-4660](https://jira.greenpeace.org/browse/PLANET-4660) - EN Form block - Adjust Thank you message font
+* [PLANET-5453](https://jira.greenpeace.org/browse/PLANET-5453) - Remove the "Search the archive" string from LoCo
+* [PLANET-4660](https://jira.greenpeace.org/browse/PLANET-4660) - EN Form block - Adjust Thank you message font
 
 ### Bug Fixes
 
-- [PLANET-5775](https://jira.greenpeace.org/browse/PLANET-5775) - Covers block: invalid attribute type
+* [PLANET-5775](https://jira.greenpeace.org/browse/PLANET-5775) - Covers block: invalid attribute type
 
 ## 2.45.2 - 2020-12-03
 
 ### Features
 
-- [PLANET-5749](https://jira.greenpeace.org/browse/PLANET-5749) - Add TikTok svg icon
-- [PLANET-5739](https://jira.greenpeace.org/browse/PLANET-5739) - Upgrade wp-redis plugin to 1.1.x
-- [PLANET-5738](https://jira.greenpeace.org/browse/PLANET-5738) - Upgrade Google Apps Login plugin to 3.4.3
-- [PLANET-5698](https://jira.greenpeace.org/browse/PLANET-5698) - Integrate SonarCloud into our main app repos
-- [PLANET-5325](https://jira.greenpeace.org/browse/PLANET-5325) - Implement design for Take Action Boxout A/B test
-- [PLANET-5286](https://jira.greenpeace.org/browse/PLANET-5286) - Password protected content
-- [PLANET-4861](https://jira.greenpeace.org/browse/PLANET-4861) - Adjust search sorting options
+* [PLANET-5749](https://jira.greenpeace.org/browse/PLANET-5749) - Add TikTok svg icon
+* [PLANET-5739](https://jira.greenpeace.org/browse/PLANET-5739) - Upgrade wp-redis plugin to 1.1.x
+* [PLANET-5738](https://jira.greenpeace.org/browse/PLANET-5738) - Upgrade Google Apps Login plugin to 3.4.3
+* [PLANET-5698](https://jira.greenpeace.org/browse/PLANET-5698) - Integrate SonarCloud into our main app repos
+* [PLANET-5325](https://jira.greenpeace.org/browse/PLANET-5325) - Implement design for Take Action Boxout A/B test
+* [PLANET-5286](https://jira.greenpeace.org/browse/PLANET-5286) - Password protected content
+* [PLANET-4861](https://jira.greenpeace.org/browse/PLANET-4861) - Adjust search sorting options
 
 ### Bug Fixes
 
-- [PLANET-5737](https://jira.greenpeace.org/browse/PLANET-5737) - GPBE translations not coming through for P4 blocks
-- [PLANET-5732](https://jira.greenpeace.org/browse/PLANET-5732) - Happy Point background image missing
+* [PLANET-5737](https://jira.greenpeace.org/browse/PLANET-5737) - GPBE translations not coming through for P4 blocks
+* [PLANET-5732](https://jira.greenpeace.org/browse/PLANET-5732) - Happy Point background image missing
 
 ### Infrastructure
 
-- [PLANET-5639](https://jira.greenpeace.org/browse/PLANET-5639) - Set up commitments for E2 - Dev
-- [PLANET-5534](https://jira.greenpeace.org/browse/PLANET-5534) - Deploy E2 for dev
+* [PLANET-5639](https://jira.greenpeace.org/browse/PLANET-5639) - Set up commitments for E2 - Dev
+* [PLANET-5534](https://jira.greenpeace.org/browse/PLANET-5534) - Deploy E2 for dev
 
 ## 2.45.1 - 2020-12-01
 
 ### Features
 
-- [PLANET-5619](https://jira.greenpeace.org/browse/PLANET-5619) - Enable Cloudflare Automatic Platform Optimization (APO) and plugin
-- [PLANET-5368](https://jira.greenpeace.org/browse/PLANET-5368) - Fix H3/H4 font sizes on mobile
-- [PLANET-5228](https://jira.greenpeace.org/browse/PLANET-5228) - Covers Block Accessibility
+* [PLANET-5619](https://jira.greenpeace.org/browse/PLANET-5619) - Enable Cloudflare Automatic Platform Optimization \(APO\) and plugin
+* [PLANET-5368](https://jira.greenpeace.org/browse/PLANET-5368) - Fix H3/H4 font sizes on mobile
+* [PLANET-5228](https://jira.greenpeace.org/browse/PLANET-5228) - Covers Block Accessibility
 
 ### Bug Fixes
 
-- [PLANET-5585](https://jira.greenpeace.org/browse/PLANET-5585) - Search: Background images for Take Action pages are pixelated
-- [PLANET-5442](https://jira.greenpeace.org/browse/PLANET-5442) - Unordered list font size bigger than paragraph in the editor
+* [PLANET-5585](https://jira.greenpeace.org/browse/PLANET-5585) - Search: Background images for Take Action pages are pixelated
+* [PLANET-5442](https://jira.greenpeace.org/browse/PLANET-5442) - Unordered list font size bigger than paragraph in the editor
 
 ## 2.45.0 - 2020-11-26
 
-
 ### Bug Fixes
 
-- [PLANET-5728](https://jira.greenpeace.org/browse/PLANET-5728) - Carousel Gallery: Slider not working
+* [PLANET-5728](https://jira.greenpeace.org/browse/PLANET-5728) - Carousel Gallery: Slider not working
 
 ## 2.44.1 - 2020-11-25
 
 ### Features
 
-- [PLANET-5665](https://jira.greenpeace.org/browse/PLANET-5665) - Remove wp-url dependency on the front end
-- [PLANET-5055](https://jira.greenpeace.org/browse/PLANET-5055) - Upgrade ElasticPress to 3.5.x
+* [PLANET-5665](https://jira.greenpeace.org/browse/PLANET-5665) - Remove wp-url dependency on the front end
+* [PLANET-5055](https://jira.greenpeace.org/browse/PLANET-5055) - Upgrade ElasticPress to 3.5.x
 
 ### Bug Fixes
 
-- [PLANET-5713](https://jira.greenpeace.org/browse/PLANET-5713) - Format dates in the backend to load less frontend libs
-- [PLANET-5712](https://jira.greenpeace.org/browse/PLANET-5712) - Combine google fonts to one http request
-- [PLANET-5711](https://jira.greenpeace.org/browse/PLANET-5711) - Remove redundant Slick and Hammer libraries from master theme
-- [PLANET-5706](https://jira.greenpeace.org/browse/PLANET-5706) - Articles block: Escaped html entities are displayed in the posts excerpt
-- [PLANET-5704](https://jira.greenpeace.org/browse/PLANET-5704) - Rounded corners on social media buttons are missing
-- [PLANET-5702](https://jira.greenpeace.org/browse/PLANET-5702) - Gallery Grid style images have no srcset, and use a big image
-- [PLANET-5580](https://jira.greenpeace.org/browse/PLANET-5580) - Remove Gallery block endpoint
+* [PLANET-5713](https://jira.greenpeace.org/browse/PLANET-5713) - Format dates in the backend to load less frontend libs
+* [PLANET-5712](https://jira.greenpeace.org/browse/PLANET-5712) - Combine google fonts to one http request
+* [PLANET-5711](https://jira.greenpeace.org/browse/PLANET-5711) - Remove redundant Slick and Hammer libraries from master theme
+* [PLANET-5706](https://jira.greenpeace.org/browse/PLANET-5706) - Articles block: Escaped html entities are displayed in the posts excerpt
+* [PLANET-5704](https://jira.greenpeace.org/browse/PLANET-5704) - Rounded corners on social media buttons are missing
+* [PLANET-5702](https://jira.greenpeace.org/browse/PLANET-5702) - Gallery Grid style images have no srcset, and use a big image
+* [PLANET-5580](https://jira.greenpeace.org/browse/PLANET-5580) - Remove Gallery block endpoint
 
 ### Infrastructure
 
-- [PLANET-5721](https://jira.greenpeace.org/browse/PLANET-5721) - Add CI pipeline to update all dev sites every weekend
-- [PLANET-5716](https://jira.greenpeace.org/browse/PLANET-5716) - Switch GPSK website domain to greenpeace.org
-- [PLANET-5688](https://jira.greenpeace.org/browse/PLANET-5688) - Move handbook and storytelling behind Cloudflare
+* [PLANET-5721](https://jira.greenpeace.org/browse/PLANET-5721) - Add CI pipeline to update all dev sites every weekend
+* [PLANET-5716](https://jira.greenpeace.org/browse/PLANET-5716) - Switch GPSK website domain to greenpeace.org
+* [PLANET-5688](https://jira.greenpeace.org/browse/PLANET-5688) - Move handbook and storytelling behind Cloudflare
 
 ## 2.44.0 - 2020-11-18
 
 ### Features
 
-- [PLANET-5661](https://jira.greenpeace.org/browse/PLANET-5661) - Upgrade wp-stateless to 3.1.x
-- [PLANET-5644](https://jira.greenpeace.org/browse/PLANET-5644) - Remove text transformations from all buttons
-- [PLANET-5613](https://jira.greenpeace.org/browse/PLANET-5613) - Add a corner radius of 4px on all form fields
-- [PLANET-5584](https://jira.greenpeace.org/browse/PLANET-5584) - Serve images and pdf files through Cloudflare and greenpeace domain
+* [PLANET-5661](https://jira.greenpeace.org/browse/PLANET-5661) - Upgrade wp-stateless to 3.1.x
+* [PLANET-5644](https://jira.greenpeace.org/browse/PLANET-5644) - Remove text transformations from all buttons
+* [PLANET-5613](https://jira.greenpeace.org/browse/PLANET-5613) - Add a corner radius of 4px on all form fields
+* [PLANET-5584](https://jira.greenpeace.org/browse/PLANET-5584) - Serve images and pdf files through Cloudflare and greenpeace domain
 
 ### Infrastructure
 
-- [PLANET-5637](https://jira.greenpeace.org/browse/PLANET-5637) - Add context to lint jobs in circleci for docker auth to work
+* [PLANET-5637](https://jira.greenpeace.org/browse/PLANET-5637) - Add context to lint jobs in circleci for docker auth to work
 
 ## 2.43.2 - 2020-11-10
 
 ### Bug Fixes
 
-- [PLANET-5659](https://jira.greenpeace.org/browse/PLANET-5659) - Header carousel won't show images on mobile
-- [PLANET-5658](https://jira.greenpeace.org/browse/PLANET-5658) - Happypoint opacity change on mobile
+* [PLANET-5659](https://jira.greenpeace.org/browse/PLANET-5659) - Header carousel won't show images on mobile
+* [PLANET-5658](https://jira.greenpeace.org/browse/PLANET-5658) - Happypoint opacity change on mobile
 
 ## 2.43.1 - 2020-11-09
 
 ### Features
 
-- [PLANET-5620](https://jira.greenpeace.org/browse/PLANET-5620) - Upgrade PHP to 7.3
-- [PLANET-4810](https://jira.greenpeace.org/browse/PLANET-4810) - Convert Media Block to WYSIWYG
+* [PLANET-5620](https://jira.greenpeace.org/browse/PLANET-5620) - Upgrade PHP to 7.3
+* [PLANET-4810](https://jira.greenpeace.org/browse/PLANET-4810) - Convert Media Block to WYSIWYG
 
 ### Bug Fixes
 
-- [PLANET-5660](https://jira.greenpeace.org/browse/PLANET-5660) - Remove url encoding of twitter card title in meta tags
-- [PLANET-5652](https://jira.greenpeace.org/browse/PLANET-5652) - Articles block: Tags containing an ampersand are displayed escaped
-- [PLANET-5633](https://jira.greenpeace.org/browse/PLANET-5633) - Gallery block: 3 Columns style overly zoom on images
+* [PLANET-5660](https://jira.greenpeace.org/browse/PLANET-5660) - Remove url encoding of twitter card title in meta tags
+* [PLANET-5652](https://jira.greenpeace.org/browse/PLANET-5652) - Articles block: Tags containing an ampersand are displayed escaped
+* [PLANET-5633](https://jira.greenpeace.org/browse/PLANET-5633) - Gallery block: 3 Columns style overly zoom on images
 
 ### Infrastructure
 
-- [PLANET-5657](https://jira.greenpeace.org/browse/PLANET-5657) - Change dev/stage hostnames and route through Cloudflare
-- [PLANET-5621](https://jira.greenpeace.org/browse/PLANET-5621) - Update traefik certs in Dev & Prod
+* [PLANET-5657](https://jira.greenpeace.org/browse/PLANET-5657) - Change dev/stage hostnames and route through Cloudflare
+* [PLANET-5621](https://jira.greenpeace.org/browse/PLANET-5621) - Update traefik certs in Dev & Prod
 
 ## 2.43.0 - 2020-11-05
 
 ### Features
 
-- [PLANET-5254](https://jira.greenpeace.org/browse/PLANET-5254) - Author page accessibility
-- [PLANET-5253](https://jira.greenpeace.org/browse/PLANET-5253) - Footer Accessibility
-- [PLANET-5211](https://jira.greenpeace.org/browse/PLANET-5211) - Home page Accessibility: Navigation bar and "Skip to..." links.
+* [PLANET-5254](https://jira.greenpeace.org/browse/PLANET-5254) - Author page accessibility
+* [PLANET-5253](https://jira.greenpeace.org/browse/PLANET-5253) - Footer Accessibility
+* [PLANET-5211](https://jira.greenpeace.org/browse/PLANET-5211) - Home page Accessibility: Navigation bar and "Skip to..." links.
 
 ### Bug Fixes
 
-- [PLANET-5640](https://jira.greenpeace.org/browse/PLANET-5640) - Timeline Block: frontend rendering doesn't work
-- [PLANET-5606](https://jira.greenpeace.org/browse/PLANET-5606) - Center search button svg icons
-- [PLANET-5441](https://jira.greenpeace.org/browse/PLANET-5441) - Hashtag cuts off text for social media sharing
-- [PLANET-5349](https://jira.greenpeace.org/browse/PLANET-5349) - Follow WP admin UI rules on the Editor sidebar help texts
+* [PLANET-5640](https://jira.greenpeace.org/browse/PLANET-5640) - Timeline Block: frontend rendering doesn't work
+* [PLANET-5606](https://jira.greenpeace.org/browse/PLANET-5606) - Center search button svg icons
+* [PLANET-5441](https://jira.greenpeace.org/browse/PLANET-5441) - Hashtag cuts off text for social media sharing
+* [PLANET-5349](https://jira.greenpeace.org/browse/PLANET-5349) - Follow WP admin UI rules on the Editor sidebar help texts
 
 ### Infrastructure
 
-- [PLANET-5627](https://jira.greenpeace.org/browse/PLANET-5627) - Upgrade to helm 2.17 for new stable chart location & other circleci utilities
-- [PLANET-5579](https://jira.greenpeace.org/browse/PLANET-5579) - Add authentication for Docker Hub images
-- [PLANET-5542](https://jira.greenpeace.org/browse/PLANET-5542) - Configure www-stage for cloudflare
-- [PLANET-5541](https://jira.greenpeace.org/browse/PLANET-5541) - Configure www-dev for cloudflare
+* [PLANET-5627](https://jira.greenpeace.org/browse/PLANET-5627) - Upgrade to helm 2.17 for new stable chart location & other circleci utilities
+* [PLANET-5579](https://jira.greenpeace.org/browse/PLANET-5579) - Add authentication for Docker Hub images
+* [PLANET-5542](https://jira.greenpeace.org/browse/PLANET-5542) - Configure www-stage for cloudflare
+* [PLANET-5541](https://jira.greenpeace.org/browse/PLANET-5541) - Configure www-dev for cloudflare
 
 ## 2.42.2 - 2020-10-28
 
 ### Features
 
-- [PLANET-5589](https://jira.greenpeace.org/browse/PLANET-5589) - Cache rest api endpoints in Cloudflare
-- [PLANET-5568](https://jira.greenpeace.org/browse/PLANET-5568) - Make HTML responses cachable by Cloudflare
-- [PLANET-5517](https://jira.greenpeace.org/browse/PLANET-5517) - ElasticPress plugin adds css files to all pages which aren't used
-- [PLANET-5481](https://jira.greenpeace.org/browse/PLANET-5481) - Image Archive UI improvements
-- [PLANET-5348](https://jira.greenpeace.org/browse/PLANET-5348) - Harmonize language locales on all NRO websites
-- [PLANET-4811](https://jira.greenpeace.org/browse/PLANET-4811) - Convert Submenu block to WYSIWYG
+* [PLANET-5589](https://jira.greenpeace.org/browse/PLANET-5589) - Cache rest api endpoints in Cloudflare
+* [PLANET-5568](https://jira.greenpeace.org/browse/PLANET-5568) - Make HTML responses cachable by Cloudflare
+* [PLANET-5517](https://jira.greenpeace.org/browse/PLANET-5517) - ElasticPress plugin adds css files to all pages which aren't used
+* [PLANET-5481](https://jira.greenpeace.org/browse/PLANET-5481) - Image Archive UI improvements
+* [PLANET-5348](https://jira.greenpeace.org/browse/PLANET-5348) - Harmonize language locales on all NRO websites
+* [PLANET-4811](https://jira.greenpeace.org/browse/PLANET-4811) - Convert Submenu block to WYSIWYG
 
 ## 2.42.1 - 2020-10-26
 
 ### Features
 
-- [PLANET-5501](https://jira.greenpeace.org/browse/PLANET-5501) - Consistency across all buttons.
-- [PLANET-5221](https://jira.greenpeace.org/browse/PLANET-5221) - CI: Simplify Acceptance tests repo job to not require secrets
-- [PLANET-4813](https://jira.greenpeace.org/browse/PLANET-4813) - Convert Timeline Block to WYSIWYG
+* [PLANET-5501](https://jira.greenpeace.org/browse/PLANET-5501) - Consistency across all buttons.
+* [PLANET-5221](https://jira.greenpeace.org/browse/PLANET-5221) - CI: Simplify Acceptance tests repo job to not require secrets
+* [PLANET-4813](https://jira.greenpeace.org/browse/PLANET-4813) - Convert Timeline Block to WYSIWYG
 
 ## 2.42.0 - 2020-10-22
 
@@ -971,3 +969,4 @@ description: >-
 * [PLANET-4644](https://jira.greenpeace.org/browse/PLANET-4644) - Country Selector: fix GPSK address
 * [PLANET-4597](https://jira.greenpeace.org/browse/PLANET-4597) - Fix campaign dataLayer script on P4 Posts
 * [PLANET-4510](https://jira.greenpeace.org/browse/PLANET-4510) - Fix PHP Notice: Notice level error produces when building local env. with make command
+

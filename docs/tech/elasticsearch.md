@@ -29,7 +29,7 @@ To make the query process faster, this technique sorts the index by terms like t
 | tomato | African tomato soup, Good ol’ tomato soup, Grandma’s tomato soup |
 | water | African tomato soup, Good ol’ tomato soup, Grandma’s tomato soup |
 
-![inverted indexing](../.gitbook/assets/inverted-indexing-image%20%281%29.png)
+![inverted indexing](../.gitbook/assets/inverted-indexing-image.png)
 
 ### Forward index: faster indexing, less efficient queries
 
@@ -194,19 +194,19 @@ Below are examples of what ElasticHQ provides us with:
 
 _Metrics_
 
-![elastichq metrics](../.gitbook/assets/elastichq-metrics%20%281%29.png)
+![elastichq metrics](../.gitbook/assets/elastichq-metrics.png)
 
 _Diagnostics_
 
-![elastichq diagnostics](../.gitbook/assets/elastichq-diagnostics%20%281%29.png)
+![elastichq diagnostics](../.gitbook/assets/elastichq-diagnostics.png)
 
 _REST API \(get responses for some of the most common requests with 1 click\)_
 
-![elastichq rest](../.gitbook/assets/elastichq-rest%20%281%29.png)
+![elastichq rest](../.gitbook/assets/elastichq-rest%20%281%29%20%281%29.png)
 
 _Custom Query editor \(perform your own custom queries\)_
 
-![elastichq custom query](../.gitbook/assets/elastichq-custom-query%20%281%29.png)
+![elastichq custom query](../.gitbook/assets/elastichq-custom-query%20%281%29%20%281%29.png)
 
 ### API Requests and Responses
 
@@ -246,7 +246,7 @@ Check cluster health status
 curl -XGET localhost:9200/_cluster/health | jq
 ```
 
-![request](../.gitbook/assets/request3%20%281%29.png)
+![request](../.gitbook/assets/request3%20%281%29%20%281%29.png)
 
 See info about disk allocation and number of shards for all existing indices in all data nodes of the cluster
 
@@ -262,7 +262,7 @@ Check health status for each index
 curl -XGET localhost:9200/\_cluster/health?level=indices | jq
 ```
 
-![request](../.gitbook/assets/request5%20%281%29.png)
+![request](../.gitbook/assets/request5%20%281%29%20%281%29.png)
 
 View all existing documents of an index in our local Docker-cluster
 
@@ -270,7 +270,7 @@ View all existing documents of an index in our local Docker-cluster
 curl -XGET 172.25.0.2:9200/planet4test8000-1/\_search?pretty
 ```
 
-![request](../.gitbook/assets/request6%20%281%29.png)
+![request](../.gitbook/assets/request6%20%281%29%20%281%29.png)
 
 Get information about all shards in all indices \(type, status, …\)
 
