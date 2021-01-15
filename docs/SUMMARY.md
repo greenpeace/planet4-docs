@@ -43,6 +43,8 @@
   * [Routine Checks](infrastructure/administration/infra-routine-checks.md)
   * [Docker Images](infrastructure/administration/infra-docker-images.md)
   * [Helm Charts](infrastructure/administration/infra-helm-charts.md)
+  * [Database Tasks](infrastructure/administration/infra-database-tasks.md)
+  * [Domain Redirects](infrastructure/administration/infra-domain-redirects.md)
 
 ## Tech
 
