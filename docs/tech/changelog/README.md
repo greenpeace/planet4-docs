@@ -6,6 +6,26 @@ description: >-
 
 # Changelog
 
+## 2.48.0 - 2021-01-25
+
+### Features
+
+- [PLANET-5719](https://jira.greenpeace.org/browse/PLANET-5719) - Implement global 404 page
+- [PLANET-5705](https://jira.greenpeace.org/browse/PLANET-5705) - Apply new styles for all form elements
+- [PLANET-5685](https://jira.greenpeace.org/browse/PLANET-5685) - Add a CI job for measuring front end performance
+- [PLANET-5512](https://jira.greenpeace.org/browse/PLANET-5512) - Apply new forms labels UI
+
+### Infrastructure
+
+- [PLANET-5903](https://jira.greenpeace.org/browse/PLANET-5903) - Helm3  upgrade for planet4-helm-esexporter
+- [PLANET-5886](https://jira.greenpeace.org/browse/PLANET-5886) - Helm3 upgrade for planet4-helm-prometheus
+- [PLANET-5881](https://jira.greenpeace.org/browse/PLANET-5881) - deploy helm3 to circleci image
+- [PLANET-5879](https://jira.greenpeace.org/browse/PLANET-5879) - Resolve unused data node in Elasticsearch -  Prod
+- [PLANET-5877](https://jira.greenpeace.org/browse/PLANET-5877) - Resolve RED Elasticsearch cluster status - Dev
+- [PLANET-5863](https://jira.greenpeace.org/browse/PLANET-5863) - Deploy ElasticSearch dashboard for Grafana in Dev
+- [PLANET-5862](https://jira.greenpeace.org/browse/PLANET-5862) - Deploy ElasticSearch exporter for Prometheus in Dev
+- [PLANET-5861](https://jira.greenpeace.org/browse/PLANET-5861) - Deploy Redis dashboard in Grafana dev for jctest
+
 ## 2.47.0 - 2021-01-12
 
 ### Features
@@ -969,4 +989,3 @@ description: >-
 * [PLANET-4644](https://jira.greenpeace.org/browse/PLANET-4644) - Country Selector: fix GPSK address
 * [PLANET-4597](https://jira.greenpeace.org/browse/PLANET-4597) - Fix campaign dataLayer script on P4 Posts
 * [PLANET-4510](https://jira.greenpeace.org/browse/PLANET-4510) - Fix PHP Notice: Notice level error produces when building local env. with make command
-
