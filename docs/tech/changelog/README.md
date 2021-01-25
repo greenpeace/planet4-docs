@@ -6,6 +6,13 @@ description: >-
 
 # Changelog
 
+## 2.48.1 - 2021-01-25
+
+
+### Bug Fixes
+
+- [PLANET-5899](https://jira.greenpeace.org/browse/PLANET-5899) - Campaign pages: Import xml fails
+
 ## 2.48.0 - 2021-01-25
 
 ### Features
