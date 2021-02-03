@@ -6,6 +6,21 @@ description: >-
 
 # Changelog
 
+## 2.48.2 - 2021-02-03
+
+### Features
+
+- [PLANET-5901](https://jira.greenpeace.org/browse/PLANET-5901) - Lazy load images in Gallery block
+- [PLANET-5880](https://jira.greenpeace.org/browse/PLANET-5880) - Deploy Global 404 page
+
+### Bug Fixes
+
+- [PLANET-5816](https://jira.greenpeace.org/browse/PLANET-5816) - Media Asset missing from attachment page
+
+### Infrastructure
+
+- [PLANET-5889](https://jira.greenpeace.org/browse/PLANET-5889) - Helm3 upgrade for planet4-cert-manager
+
 ## 2.48.1 - 2021-01-25
 
 
