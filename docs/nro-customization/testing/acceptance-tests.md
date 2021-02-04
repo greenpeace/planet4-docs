@@ -15,7 +15,7 @@ To create tests for your site you have to do the following:
 
 1. In your planet4-nro repository, create a folder called "tests", like the example in the [planet4-netherlands](https://github.com/greenpeace/planet4-netherlands/tree/master/tests) repository.
 
-![nro tests folder](../../.gitbook/assets/nro-tests-folder%20%281%29.png)
+![nro tests folder](../../.gitbook/assets/nro-tests-folder%20%281%29%20%281%29.png)
 
 1. Inside that directory, write tests, following the [Codeception](https://codeception.com/) syntax, in php files.
 
@@ -31,9 +31,9 @@ Some relevant info:
 
 Example of failed tests on the release workflow. The hold-promote job that would usually allow you to deploy to production is not triggered, as it is blocked by the test-release job failing
 
-![nro test release failure](../../.gitbook/assets/nro-test-release-failure%20%281%29%20%281%29.png)
+![nro test release failure](../../.gitbook/assets/nro-test-release-failure%20%281%29%20%281%29%20%281%29.png)
 
 Example of successful tests on the release workflow. Tests succeeded, so hold-promote is available.
 
-![nro test release succss](../../.gitbook/assets/nro-test-release-success%20%281%29%20%281%29.png)
+![nro test release succss](../../.gitbook/assets/nro-test-release-success%20%281%29%20%281%29%20%281%29.png)
 

@@ -202,11 +202,11 @@ _Diagnostics_
 
 _REST API \(get responses for some of the most common requests with 1 click\)_
 
-![elastichq rest](../.gitbook/assets/elastichq-rest%20%281%29%20%281%29.png)
+![elastichq rest](../.gitbook/assets/elastichq-rest%20%281%29%20%281%29%20%281%29.png)
 
 _Custom Query editor \(perform your own custom queries\)_
 
-![elastichq custom query](../.gitbook/assets/elastichq-custom-query%20%281%29%20%281%29.png)
+![elastichq custom query](../.gitbook/assets/elastichq-custom-query%20%281%29%20%281%29%20%281%29.png)
 
 ### API Requests and Responses
 
@@ -246,7 +246,7 @@ Check cluster health status
 curl -XGET localhost:9200/_cluster/health | jq
 ```
 
-![request](../.gitbook/assets/request3%20%281%29%20%281%29.png)
+![request](../.gitbook/assets/request3%20%281%29%20%281%29%20%281%29.png)
 
 See info about disk allocation and number of shards for all existing indices in all data nodes of the cluster
 
@@ -254,7 +254,7 @@ See info about disk allocation and number of shards for all existing indices in 
 curl -XGET localhost:9200/_cat/allocation?v
 ```
 
-![request](../.gitbook/assets/request4%20%281%29.png)
+![request](../.gitbook/assets/request4%20%281%29%20%281%29.png)
 
 Check health status for each index
 

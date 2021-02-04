@@ -48,8 +48,10 @@
 
 ## Tech
 
-* [Blocks](tech/blocks.md)
 * [Wordpress](tech/wordpress.md)
+* [Blocks](tech/blocks.md)
+* [ElasticSearch](tech/elasticsearch.md)
+* [Plugins](tech/plugins.md)
 * [ADRs](tech/adrs/README.md)
   * [\[ADR-0001\] Use Gitbook for Technical Documentation](tech/adrs/adr-0001-use-gitbook-for-technical-documentation.md)
   * [\[ADR-0002\] P3 Archive elastic search integration](tech/adrs/adr-0002-p3-archive-elastic-search-integration.md)
@@ -58,8 +60,6 @@
   * [\[ADR-0008\] PSR-4 Autoloading Standard](tech/adrs/adr-0008-psr-4-autoloading-standard.md)
   * [\[ADR-0009\] Include Media Library in master theme](tech/adrs/adr-0009-include-media-library-in-master-theme.md)
   * [\[ADR-0014\] Choose a ticketing system](tech/adrs/adr-0014-choose-a-ticketing-system.md)
-* [ElasticSearch](tech/elasticsearch.md)
-* [Plugins](tech/plugins.md)
 * [Changelog](tech/changelog/README.md)
   * [2019](tech/changelog/changelog-2019.md)
   * [2018](tech/changelog/changelog-2018.md)
