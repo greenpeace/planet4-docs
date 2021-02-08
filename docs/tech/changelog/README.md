@@ -6,6 +6,27 @@ description: >-
 
 # Changelog
 
+## 2.49.0 - 2021-02-08
+
+### Features
+
+- [PLANET-5509](https://jira.greenpeace.org/browse/PLANET-5509) - Disable xmlrpc
+- [PLANET-5324](https://jira.greenpeace.org/browse/PLANET-5324) - Implement lightbox solution for images
+
+### Bug Fixes
+
+- [PLANET-5849](https://jira.greenpeace.org/browse/PLANET-5849) - Columns block buttons too wide in campaign pages
+- [PLANET-5817](https://jira.greenpeace.org/browse/PLANET-5817) - Weird mega comment bubble in Ideas content type (Handbook)
+
+### Infrastructure
+
+- [PLANET-5932](https://jira.greenpeace.org/browse/PLANET-5932) - Deploy Elastic APM to dev
+- [PLANET-5931](https://jira.greenpeace.org/browse/PLANET-5931) - Deploy Kibana to dev
+- [PLANET-5930](https://jira.greenpeace.org/browse/PLANET-5930) - Deploy elasticsearch 7.10.2 in Dev
+- [PLANET-5891](https://jira.greenpeace.org/browse/PLANET-5891) - Helm3 planet4-nginx-ingress
+- [PLANET-5890](https://jira.greenpeace.org/browse/PLANET-5890) - Helm3 global-redirects-nginx-ingress
+- [PLANET-5888](https://jira.greenpeace.org/browse/PLANET-5888) - Helm3 planet4-helm-elasticsearch
+
 ## 2.48.2 - 2021-02-03
 
 ### Features
@@ -1010,4 +1031,3 @@ description: >-
 * [PLANET-4644](https://jira.greenpeace.org/browse/PLANET-4644) - Country Selector: fix GPSK address
 * [PLANET-4597](https://jira.greenpeace.org/browse/PLANET-4597) - Fix campaign dataLayer script on P4 Posts
 * [PLANET-4510](https://jira.greenpeace.org/browse/PLANET-4510) - Fix PHP Notice: Notice level error produces when building local env. with make command
-
