@@ -6,6 +6,23 @@ description: >-
 
 # Changelog
 
+## 2.49.2 - 2021-02-15
+
+### Features
+
+- [PLANET-5870](https://jira.greenpeace.org/browse/PLANET-5870) - Purge specific pages from Cloudflare cache on demand
+- [PLANET-5850](https://jira.greenpeace.org/browse/PLANET-5850) - Investigate alternative to loading CSS variables ponyfill on all browsers
+- [PLANET-5842](https://jira.greenpeace.org/browse/PLANET-5842) - Delete unused colors from the codebase
+- [PLANET-5840](https://jira.greenpeace.org/browse/PLANET-5840) - Implement fb graph API to serve the FB & IG oembed functionality in social media block
+- [PLANET-5752](https://jira.greenpeace.org/browse/PLANET-5752) - jQuery: remove jQuery from enhancedDonateButton.js
+
+### Bug Fixes
+
+- [PLANET-5950](https://jira.greenpeace.org/browse/PLANET-5950) - Remove the yellow color from the 3 columns gallery block
+- [PLANET-5945](https://jira.greenpeace.org/browse/PLANET-5945) - Image credits are missing in gallery block
+- [PLANET-5939](https://jira.greenpeace.org/browse/PLANET-5939) - In campaign pages the text is set too high and is hidden by the top bar
+- [PLANET-5812](https://jira.greenpeace.org/browse/PLANET-5812) - Colors not working for Spreadsheet block
+
 ## 2.49.0 - 2021-02-08
 
 ### Features
