@@ -6,6 +6,17 @@ description: >-
 
 # Changelog
 
+## 2.49.3 - 2021-02-16
+
+### Features
+
+- [PLANET-5928](https://jira.greenpeace.org/browse/PLANET-5928) - Name and URL change for GPNZ > GPAo
+
+### Bug Fixes
+
+- [PLANET-5939](https://jira.greenpeace.org/browse/PLANET-5939) - In campaign pages the text is set too high and is hidden by the top bar
+- [PLANET-5865](https://jira.greenpeace.org/browse/PLANET-5865) - Submenu block removes other blocks
+
 ## 2.49.2 - 2021-02-15
 
 ### Features
