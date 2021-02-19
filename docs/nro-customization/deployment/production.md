@@ -4,19 +4,12 @@ description: How to deploy to your production environment
 
 # Production
 
-The production environment is controlled by the master branch of your `planet4-<nro>`. But **in order to trigger a new deployment you need to create a new tag** once you are ready.
+Production CI pipeline is a bit more complicated than development, since it provides more control steps.
 
-This gives you the option to have a completely different `composer-local.json` from develop and deploy a different set of packages to production. For instance you can use the latest tag of your child-theme:
+In order to trigger a new production deployment you need to create a new tag in your `planet4-<nro>` repository.
+Once this is done you can monitor the [CI](https://app.circleci.com/projects/project-dashboard/github/greenpeace) production pipeline.
 
-```javascript
-"require": {
-    "greenpeace/planet4-child-theme-<nro>" : "0.*"
-}
-```
-
-Once you create a new tag and push it the [CI](https://app.circleci.com/projects/project-dashboard/github/greenpeace) release pipeline will be triggered.
-
-There is a `hold-production` job there that controls whether the pipeline will continue deploying on production. This job will be approved automatically if all tests pass successfully. 
+There is a `hold-production` job there that controls whether the pipeline will continue deploying on production. This job will be approved automatically if all tests pass successfully.
 
 {% hint style="info" %}
 If you want to block the production deployment, even when all tests pass, add the `[HOLD]` prefix in your last commit message before you tag.
@@ -49,4 +42,3 @@ This will trigger a rollback pipeline, which will first deploy to staging and th
 {% hint style="info" %}
 To create a new token, go to your CircleCI [account settings](https://app.circleci.com/settings/user/tokens).
 {% endhint %}
-
