@@ -12,22 +12,22 @@ In our current approach of hosting, each NRO gets automatically three sites:
 
 Deployments on these site is controlled by your `planet4-<nro>` repository:
 
-- For every commmit on the `main` branch, the CI develop pipeline is triggered.
-- For every new tag, the CI production pipeline is triggered.
+* For every commmit on the `main` branch, the CI develop pipeline is triggered.
+* For every new tag, the CI production pipeline is triggered.
 
 Besides all the themes and plugins selected by the Planet 4 team, this repository has its own `composer-local.json` file, where you can add additional requirements. This looks like this:
 
 ```javascript
 {
-	"name": "greenpeace/planet4-nro",
-	"description": "Greenpeace P4 NRO",
-	"license": "MIT",
-	"require": {
-		"greenpeace/planet4-child-theme-nro" : "dev-main"
-	},
-	"scripts": {
-		"site:custom" : []
-	}
+    "name": "greenpeace/planet4-nro",
+    "description": "Greenpeace P4 NRO",
+    "license": "MIT",
+    "require": {
+        "greenpeace/planet4-child-theme-nro" : "dev-main"
+    },
+    "scripts": {
+        "site:custom" : []
+    }
 }
 ```
 
@@ -35,8 +35,8 @@ In addition to that, you can optionally create an environment-specific file in c
 
 Our current setup, will check for two optional environment json files, expecting to find a `require` key in them.
 
-- `development.json`: development environment (`www-dev`).
-- `production.json`: production environment (`www-stage` and `www`).
+* `development.json`: development environment \(`www-dev`\).
+* `production.json`: production environment \(`www-stage` and `www`\).
 
 An example of a `production.json` file could look like this:
 
@@ -90,3 +90,4 @@ If you want to test another custom branch of your child-theme, here are the step
 4. Push your changes.
 5. Go to [CircleCI](https://app.circleci.com/projects/project-dashboard/github/greenpeace), find the pipelines for your nro and wait to see that the develop pipeline has finished running \(it will take around 10 minutes\).
 6. Check that your changes appear in your develop website.
+

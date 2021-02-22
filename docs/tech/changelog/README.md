@@ -10,62 +10,62 @@ description: >-
 
 ### Features
 
-- [PLANET-5946](https://jira.greenpeace.org/browse/PLANET-5946) - Drop master/develop branches on deploy repos
-- [PLANET-5755](https://jira.greenpeace.org/browse/PLANET-5755) - jQuery: remove jQuery from cookies scripts
-- [PLANET-5483](https://jira.greenpeace.org/browse/PLANET-5483) - make npm/node persistent to our docker-compose dev images
+* [PLANET-5946](https://jira.greenpeace.org/browse/PLANET-5946) - Drop master/develop branches on deploy repos
+* [PLANET-5755](https://jira.greenpeace.org/browse/PLANET-5755) - jQuery: remove jQuery from cookies scripts
+* [PLANET-5483](https://jira.greenpeace.org/browse/PLANET-5483) - make npm/node persistent to our docker-compose dev images
 
 ### Bug Fixes
 
-- [PLANET-5960](https://jira.greenpeace.org/browse/PLANET-5960) - Timeline block breaks the editing of media blocks
+* [PLANET-5960](https://jira.greenpeace.org/browse/PLANET-5960) - Timeline block breaks the editing of media blocks
 
 ## 2.49.3 - 2021-02-16
 
 ### Features
 
-- [PLANET-5928](https://jira.greenpeace.org/browse/PLANET-5928) - Name and URL change for GPNZ > GPAo
+* [PLANET-5928](https://jira.greenpeace.org/browse/PLANET-5928) - Name and URL change for GPNZ &gt; GPAo
 
 ### Bug Fixes
 
-- [PLANET-5939](https://jira.greenpeace.org/browse/PLANET-5939) - In campaign pages the text is set too high and is hidden by the top bar
-- [PLANET-5865](https://jira.greenpeace.org/browse/PLANET-5865) - Submenu block removes other blocks
+* [PLANET-5939](https://jira.greenpeace.org/browse/PLANET-5939) - In campaign pages the text is set too high and is hidden by the top bar
+* [PLANET-5865](https://jira.greenpeace.org/browse/PLANET-5865) - Submenu block removes other blocks
 
 ## 2.49.2 - 2021-02-15
 
 ### Features
 
-- [PLANET-5870](https://jira.greenpeace.org/browse/PLANET-5870) - Purge specific pages from Cloudflare cache on demand
-- [PLANET-5850](https://jira.greenpeace.org/browse/PLANET-5850) - Investigate alternative to loading CSS variables ponyfill on all browsers
-- [PLANET-5842](https://jira.greenpeace.org/browse/PLANET-5842) - Delete unused colors from the codebase
-- [PLANET-5840](https://jira.greenpeace.org/browse/PLANET-5840) - Implement fb graph API to serve the FB & IG oembed functionality in social media block
-- [PLANET-5752](https://jira.greenpeace.org/browse/PLANET-5752) - jQuery: remove jQuery from enhancedDonateButton.js
+* [PLANET-5870](https://jira.greenpeace.org/browse/PLANET-5870) - Purge specific pages from Cloudflare cache on demand
+* [PLANET-5850](https://jira.greenpeace.org/browse/PLANET-5850) - Investigate alternative to loading CSS variables ponyfill on all browsers
+* [PLANET-5842](https://jira.greenpeace.org/browse/PLANET-5842) - Delete unused colors from the codebase
+* [PLANET-5840](https://jira.greenpeace.org/browse/PLANET-5840) - Implement fb graph API to serve the FB & IG oembed functionality in social media block
+* [PLANET-5752](https://jira.greenpeace.org/browse/PLANET-5752) - jQuery: remove jQuery from enhancedDonateButton.js
 
 ### Bug Fixes
 
-- [PLANET-5950](https://jira.greenpeace.org/browse/PLANET-5950) - Remove the yellow color from the 3 columns gallery block
-- [PLANET-5945](https://jira.greenpeace.org/browse/PLANET-5945) - Image credits are missing in gallery block
-- [PLANET-5939](https://jira.greenpeace.org/browse/PLANET-5939) - In campaign pages the text is set too high and is hidden by the top bar
-- [PLANET-5812](https://jira.greenpeace.org/browse/PLANET-5812) - Colors not working for Spreadsheet block
+* [PLANET-5950](https://jira.greenpeace.org/browse/PLANET-5950) - Remove the yellow color from the 3 columns gallery block
+* [PLANET-5945](https://jira.greenpeace.org/browse/PLANET-5945) - Image credits are missing in gallery block
+* [PLANET-5939](https://jira.greenpeace.org/browse/PLANET-5939) - In campaign pages the text is set too high and is hidden by the top bar
+* [PLANET-5812](https://jira.greenpeace.org/browse/PLANET-5812) - Colors not working for Spreadsheet block
 
 ## 2.49.0 - 2021-02-08
 
 ### Features
 
-- [PLANET-5509](https://jira.greenpeace.org/browse/PLANET-5509) - Disable xmlrpc
-- [PLANET-5324](https://jira.greenpeace.org/browse/PLANET-5324) - Implement lightbox solution for images
+* [PLANET-5509](https://jira.greenpeace.org/browse/PLANET-5509) - Disable xmlrpc
+* [PLANET-5324](https://jira.greenpeace.org/browse/PLANET-5324) - Implement lightbox solution for images
 
 ### Bug Fixes
 
-- [PLANET-5849](https://jira.greenpeace.org/browse/PLANET-5849) - Columns block buttons too wide in campaign pages
-- [PLANET-5817](https://jira.greenpeace.org/browse/PLANET-5817) - Weird mega comment bubble in Ideas content type (Handbook)
+* [PLANET-5849](https://jira.greenpeace.org/browse/PLANET-5849) - Columns block buttons too wide in campaign pages
+* [PLANET-5817](https://jira.greenpeace.org/browse/PLANET-5817) - Weird mega comment bubble in Ideas content type \(Handbook\)
 
 ### Infrastructure
 
-- [PLANET-5932](https://jira.greenpeace.org/browse/PLANET-5932) - Deploy Elastic APM to dev
-- [PLANET-5931](https://jira.greenpeace.org/browse/PLANET-5931) - Deploy Kibana to dev
-- [PLANET-5930](https://jira.greenpeace.org/browse/PLANET-5930) - Deploy elasticsearch 7.10.2 in Dev
-- [PLANET-5891](https://jira.greenpeace.org/browse/PLANET-5891) - Helm3 planet4-nginx-ingress
-- [PLANET-5890](https://jira.greenpeace.org/browse/PLANET-5890) - Helm3 global-redirects-nginx-ingress
-- [PLANET-5888](https://jira.greenpeace.org/browse/PLANET-5888) - Helm3 planet4-helm-elasticsearch
+* [PLANET-5932](https://jira.greenpeace.org/browse/PLANET-5932) - Deploy Elastic APM to dev
+* [PLANET-5931](https://jira.greenpeace.org/browse/PLANET-5931) - Deploy Kibana to dev
+* [PLANET-5930](https://jira.greenpeace.org/browse/PLANET-5930) - Deploy elasticsearch 7.10.2 in Dev
+* [PLANET-5891](https://jira.greenpeace.org/browse/PLANET-5891) - Helm3 planet4-nginx-ingress
+* [PLANET-5890](https://jira.greenpeace.org/browse/PLANET-5890) - Helm3 global-redirects-nginx-ingress
+* [PLANET-5888](https://jira.greenpeace.org/browse/PLANET-5888) - Helm3 planet4-helm-elasticsearch
 
 ## 2.48.2 - 2021-02-03
 
@@ -1071,3 +1071,4 @@ description: >-
 * [PLANET-4644](https://jira.greenpeace.org/browse/PLANET-4644) - Country Selector: fix GPSK address
 * [PLANET-4597](https://jira.greenpeace.org/browse/PLANET-4597) - Fix campaign dataLayer script on P4 Posts
 * [PLANET-4510](https://jira.greenpeace.org/browse/PLANET-4510) - Fix PHP Notice: Notice level error produces when building local env. with make command
+

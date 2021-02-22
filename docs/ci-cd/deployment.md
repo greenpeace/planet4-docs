@@ -54,7 +54,7 @@ You will only need to manual approve that in two cases:
 2. Visual Regression tests failed on a specific website. You can use [this spreadsheet](https://docs.google.com/spreadsheets/d/1uAmZLIWYsxrBByqbhoF_vVtSM7WGebYWIc0xftPRPwE/edit#gid=390993139) and run: Planet 4 &gt; Update CircleCI. This will update the CircleCI sheet using CircleCI’s API. You can then open just the ones that are on hold. Alternatively you can keep an eye on the `#p4-activity-ci` channel.
 3. You can then check the tests report to confirm that the visual differences are acceptable.
 
-![](../.gitbook/assets/hold-promote%20%285%29%20%288%29%20%288%29.png)
+![](../.gitbook/assets/hold-promote%20%285%29%20%288%29%20%2812%29.png)
 
 {% hint style="info" %}
 🐞 If you discover a bug during the Regression Tests report, you can open a ticket.
