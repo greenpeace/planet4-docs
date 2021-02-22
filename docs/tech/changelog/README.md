@@ -6,6 +6,18 @@ description: >-
 
 # Changelog
 
+## 2.50.0 - 2021-02-22
+
+### Features
+
+- [PLANET-5946](https://jira.greenpeace.org/browse/PLANET-5946) - Drop master/develop branches on deploy repos
+- [PLANET-5755](https://jira.greenpeace.org/browse/PLANET-5755) - jQuery: remove jQuery from cookies scripts
+- [PLANET-5483](https://jira.greenpeace.org/browse/PLANET-5483) - make npm/node persistent to our docker-compose dev images
+
+### Bug Fixes
+
+- [PLANET-5960](https://jira.greenpeace.org/browse/PLANET-5960) - Timeline block breaks the editing of media blocks
+
 ## 2.49.3 - 2021-02-16
 
 ### Features
