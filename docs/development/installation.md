@@ -13,16 +13,18 @@ We are using `docker` and `docker-compose` to provide as consistent a local deve
 ## System Requirements
 
 {% hint style="info" %}
-💻 This repository has been tested and is working well on Linux and OSX. It should work on Windows WSL \(Windows Subsystem for Linux\), but not thoroughly tested.
+💻 This repository has been tested and is working well on Linux and OSX. It should work on Windows WSL (Windows Subsystem for Linux), but not thoroughly tested.
 {% endhint %}
 
-Firstly, check you have all the requirements on your system. For Linux users, these are either preinstalled or available through your distribution's package manager.
+Firstly, check you have all the requirements on your system.\
+For Linux users, these are either preinstalled or available through your distribution's package manager.
 
-* [git](https://www.git-scm.com/downloads)
-* [make](https://www.gnu.org/software/make/) - Instructions for installing make vary, for OSX users `xcode-select --install` might work
-* [docker](https://docs.docker.com/engine/installation/)
-* [docker-compose](https://github.com/docker/compose/releases) - This should be installed along with docker on OSX and Windows
-* [envsubst](https://stackoverflow.com/questions/23620827/envsubst-command-not-found-on-mac-os-x-10-8/23622446#23622446) - This should be pre-installed on most Linux distributions
+- [git](https://www.git-scm.com/downloads)
+- [make](https://www.gnu.org/software/make/) - Instructions for installing make vary, for OSX users `xcode-select --install` might work
+- [docker](https://docs.docker.com/engine/installation/)
+- [docker-compose](https://github.com/docker/compose/releases) - This should be installed along with docker on OSX and Windows
+- [envsubst](https://stackoverflow.com/questions/23620827/envsubst-command-not-found-on-mac-os-x-10-8/23622446#23622446) - This should be pre-installed on most Linux distributions
+- [unzip](https://linuxhint.com/unzip_command_-linux/)
 
 ## First run
 
@@ -45,12 +47,15 @@ If you want the application repositories to be cloned using ssh protocol, instea
 GIT_PROTO="ssh" make dev
 ```
 
+or for a more permanent solution, add to a file `Makefile.include`:
+```bash
+GIT_PROTO := 'ssh'
+```
+
+
 If you want to run docker-compose commands directly:
 
 ```bash
-# Set your shell environment variables correctly
-eval $(make env)
-
 # View status of containers
 docker-compose ps
 
@@ -68,14 +73,18 @@ It's not necessary to re-run `make dev` each time you wish to start the local de
 make run
 ```
 
-### Lightweight configuration
+### Full environment
 
-If the current setup is too heavy for your machine, there is a lighter version that skips creating some of the containers. Keep in mind though that this leaves out PhpMyAdmin, ElasticHQ and Selenium containers, so it would be harder to debug things.
-
-To use it, you need to set the relevant environmental variable. For instance:
+In order to keep the environment light, the default setup skips some containers that are useful for debugging and testing.
+Namely: PhpMyAdmin, ElasticHQ and Selenium. If you need them, you can use the full environment config by setting an environment variable:
 
 ```bash
-DOCKER_COMPOSE_FILE="docker-compose.light.yml" make run
+COMPOSE_FILE="docker-compose.full.yml" make run
+```
+
+For a more permanent solution, edit a file `.env` and change the variable there:
+```bash
+COMPOSE_FILE="docker-compose.full.yml"
 ```
 
 ## Troubleshooting
@@ -83,7 +92,6 @@ DOCKER_COMPOSE_FILE="docker-compose.light.yml" make run
 To view the output of running containers:
 
 ```bash
-eval $(make env)
 docker-compose logs
 ```
 
@@ -103,6 +111,11 @@ To update all containers, run:
 
 ```bash
 make run
+```
+
+Other commands are listed under:
+```bash
+make help
 ```
 
 ## Editing source code
@@ -130,4 +143,3 @@ Login username is `admin` and the password is `admin`.
 ### Elasticsearch access via ElasticHQ
 
 [elastichq](https://hub.docker.com/r/elastichq/elasticsearch-hq/) Access at [localhost:5000/](http://localhost:5000/)
-
