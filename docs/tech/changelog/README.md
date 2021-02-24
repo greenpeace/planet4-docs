@@ -6,6 +6,18 @@ description: >-
 
 # Changelog
 
+## 2.50.1 - 2021-02-24
+
+### Features
+
+- [PLANET-5964](https://jira.greenpeace.org/browse/PLANET-5964) - Render blocks before loading jQuery
+- [PLANET-5959](https://jira.greenpeace.org/browse/PLANET-5959) - Youtube (nocookie) adds a lot of data to page load
+
+### Bug Fixes
+
+- [PLANET-5969](https://jira.greenpeace.org/browse/PLANET-5969) - Cookies setup function crashes when there is no cookie banner
+- [PLANET-5815](https://jira.greenpeace.org/browse/PLANET-5815) - Split two columns text too large between screen width 991 and 1200
+
 ## 2.50.0 - 2021-02-22
 
 ### Features
@@ -1071,4 +1083,3 @@ description: >-
 * [PLANET-4644](https://jira.greenpeace.org/browse/PLANET-4644) - Country Selector: fix GPSK address
 * [PLANET-4597](https://jira.greenpeace.org/browse/PLANET-4597) - Fix campaign dataLayer script on P4 Posts
 * [PLANET-4510](https://jira.greenpeace.org/browse/PLANET-4510) - Fix PHP Notice: Notice level error produces when building local env. with make command
-
