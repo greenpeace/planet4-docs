@@ -6,6 +6,14 @@ description: >-
 
 # Changelog
 
+## 2.50.2 - 2021-02-25
+
+
+### Bug Fixes
+
+- [PLANET-5971](https://jira.greenpeace.org/browse/PLANET-5971) - Blocks plugin script loads in head when logged in
+- [PLANET-5970](https://jira.greenpeace.org/browse/PLANET-5970) - YouTube video don't render in full width
+
 ## 2.50.1 - 2021-02-24
 
 ### Features
@@ -1083,4 +1091,3 @@ description: >-
 * [PLANET-4644](https://jira.greenpeace.org/browse/PLANET-4644) - Country Selector: fix GPSK address
 * [PLANET-4597](https://jira.greenpeace.org/browse/PLANET-4597) - Fix campaign dataLayer script on P4 Posts
 * [PLANET-4510](https://jira.greenpeace.org/browse/PLANET-4510) - Fix PHP Notice: Notice level error produces when building local env. with make command
-
