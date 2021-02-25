@@ -149,7 +149,7 @@ This setting should be set to a value based on the number of master-eligible nod
 
 For P4 we have an ES cluster in [Google Kubernetes Engine](https://console.cloud.google.com/kubernetes/workload?authuser=0&project=planet-4-151612&workload_list_tablesize=50) \(GKE\). Our cluster’s name is "elasticsearch" and consists of a total of 7 nodes which are 3 master-eligible nodes, 2 data nodes and 2 client nodes. At any given time only one of the master-eligible nodes is elected as actual Master node. Each data node of our cluster has multiple Indices \(one for each P4 website\). Each Index has 5 primary shards and 5 replica shards. The primary and the replica shards are stored in separate data nodes, so that if one of them drops then the other one can be used to continue operating without problems.
 
-![GKE ES](../.gitbook/assets/google-kubernetes-engine-es-cluster%20%282%29.png)
+![GKE ES](../.gitbook/assets/google-kubernetes-engine-es-cluster%20%283%29%20%282%29.png)
 
 In order to talk to the ES cluster and send requests to it, we need to forward our local port 9200 to the Kubernetes pod with these two commands:
 
@@ -186,7 +186,7 @@ We have configured docker-compose [here](https://github.com/greenpeace/planet4-d
 
 We also have added [here](https://github.com/greenpeace/planet4-docker-compose/blob/master/docker-compose.yml#L137) an ElasticHQ container which allows us to access the ElasticHQ tool in [http://localhost:5000/](http://localhost:5000/). Visit this URL and give http:/elasticsearch:9200/ and click Connect so that ElasticHQ will connect with the docker-cluster. You should see something like this
 
-![docker ESHQ](../.gitbook/assets/p4-docker-elastichq%20%282%29.png)
+![docker ESHQ](../.gitbook/assets/p4-docker-elastichq%20%283%29%20%282%29.png)
 
 In this example there is 1 node & 2 indices \(.elastichq is there by default and planet4test-1 or planet4test8000-1 if you use another port like me\). You can get valuable information about your nodes/indices from this tool. If you see only .elastichq index then you have not run an indexing process for your local environment. You can do this via the EP plugin page or with `make elastic` command.
 
@@ -202,11 +202,11 @@ _Diagnostics_
 
 _REST API \(get responses for some of the most common requests with 1 click\)_
 
-![elastichq rest](../.gitbook/assets/elastichq-rest%20%281%29%20%281%29%20%281%29%20%281%29.png)
+![elastichq rest](../.gitbook/assets/elastichq-rest%20%281%29%20%281%29%20%281%29%20%281%29%20%281%29.png)
 
 _Custom Query editor \(perform your own custom queries\)_
 
-![elastichq custom query](../.gitbook/assets/elastichq-custom-query%20%281%29%20%281%29%20%281%29%20%281%29.png)
+![elastichq custom query](../.gitbook/assets/elastichq-custom-query%20%281%29%20%281%29%20%281%29%20%281%29%20%281%29.png)
 
 ### API Requests and Responses
 
@@ -230,7 +230,7 @@ Retrieve general information about the cluster \(e.g. current ES version is 6.3.
 curl -XGET localhost:9200/
 ```
 
-![request](../.gitbook/assets/request1%20%281%29.png)
+![request](../.gitbook/assets/request1%20%283%29%20%281%29.png)
 
 Retrieve a list of all the existing nodes
 
@@ -238,7 +238,7 @@ Retrieve a list of all the existing nodes
 curl -XGET localhost:9200/_cat/nodes?v
 ```
 
-![request](../.gitbook/assets/request2%20%282%29.png)
+![request](../.gitbook/assets/request2%20%283%29%20%282%29.png)
 
 Check cluster health status
 
@@ -246,7 +246,7 @@ Check cluster health status
 curl -XGET localhost:9200/_cluster/health | jq
 ```
 
-![request](../.gitbook/assets/request3%20%281%29%20%281%29%20%281%29%20%281%29.png)
+![request](../.gitbook/assets/request3%20%281%29%20%281%29%20%281%29%20%281%29%20%281%29.png)
 
 See info about disk allocation and number of shards for all existing indices in all data nodes of the cluster
 
@@ -262,7 +262,7 @@ Check health status for each index
 curl -XGET localhost:9200/\_cluster/health?level=indices | jq
 ```
 
-![request](../.gitbook/assets/request5%20%281%29%20%283%29.png)
+![request](../.gitbook/assets/request5%20%281%29%20%283%29%20%283%29.png)
 
 View all existing documents of an index in our local Docker-cluster
 
@@ -278,7 +278,7 @@ Get information about all shards in all indices \(type, status, …\)
 curl -XGET localhost:9200/\_cat/shards?h=index,shard,prirep,state,unassigned.reason
 ```
 
-![request](../.gitbook/assets/request7%20%283%29.png)
+![request](../.gitbook/assets/request7%20%282%29%20%283%29.png)
 
 Check value of a setting \(can use wildcards\)
 
@@ -286,7 +286,7 @@ Check value of a setting \(can use wildcards\)
 curl -XGET localhost:9200/\_nodes?filter\_path=\*\*.mlockall | jq
 ```
 
-![request](../.gitbook/assets/request8%20%282%29.png)
+![request](../.gitbook/assets/request8%20%283%29%20%282%29.png)
 
 List all existing indices along with info about their health, documents count, size, etc...
 
@@ -294,7 +294,7 @@ List all existing indices along with info about their health, documents count, s
 curl -XGET localhost:9200/_cat/indices?v
 ```
 
-![request](../.gitbook/assets/request9%20%283%29.png)
+![request](../.gitbook/assets/request9%20%283%29%20%283%29.png)
 
 ## Links & resources
 

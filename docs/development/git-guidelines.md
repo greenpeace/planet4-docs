@@ -77,13 +77,13 @@ Sometimes we run into conflicts, because other people code is merged in the mean
 
 **To solve the conflict we need to update locally the target branch and rebase, not merge.**
 
-Assuming we have a PR with conflicts against the develop branch. We update develop branch first and then we rebase our own branch:
+Assuming we have a PR with conflicts against the main branch. We update main branch first and then we rebase our own branch:
 
 ```bash
-git checkout develop
+git checkout main
 git pull
 git checkout planet-1234
-git rebase develop
+git rebase main
 ```
 
 Git will stop when it finds the conflicts and will ask us to resolve them. Once we do that in our editor we stage the changes and continue the rebase:
@@ -103,5 +103,5 @@ You can read more about rebase on the [relevant chapter](https://git-scm.com/boo
 
 The important thing of this process is that your branch should never have merge commits or commits about resolve conflicts. It should only contain commits that are relevant to your work.
 
-Remember that the `-f` option means force, and it essentially rewrites history. So, it’s ok to use it for your own branches, but you should never use it for the project branches \(master, develop\).
+Remember that the `-f` option means force, and it essentially rewrites history. So, it’s ok to use it for your own branches, but you should never use it for the project branches \(eg. main\).
 
