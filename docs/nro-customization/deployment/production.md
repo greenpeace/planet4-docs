@@ -28,7 +28,7 @@ If all test pass, and the new release is deployed in production, the above job w
 
 ## Rollback
 
-In some cases you may want to rollback to a previous release. For instance, if there is a major bug in production and you know that this is a regression from the latest release. To do so, you need to use the [rollback script](https://github.com/greenpeace/planet4-base-fork/blob/master/scripts/rollback.sh) and provide the tag you want to rollback to.
+In some cases you may want to rollback to a previous release. For instance, if there is a major bug in production and you know that this is a regression from the latest release. To do so, you need to use the [rollback script](https://github.com/greenpeace/planet4-base/blob/master/scripts/rollback.sh) and provide the tag you want to rollback to.
 
 ```javascript
 ./rollback.sh planet4-<nro> <CIRCLECI_TOKEN> <v0.x.x>

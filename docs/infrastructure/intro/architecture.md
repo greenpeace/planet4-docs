@@ -94,7 +94,7 @@ Infrastructure monitoring happens via [NewRelic Infrastructure](https://newrelic
 * **Composer Base**
   * `gcr.io/planet-4-151612/planet4-base-app`
   * `gcr.io/planet-4-151612/planet4-base-openresty`
-  * Generated on each push to [planet4-base-fork](https://github.com/greenpeace/planet4-base-fork)
+  * Generated on each push to [planet4-base](https://github.com/greenpeace/planet4-base)
   * In use by the docker-compose development environment - [https://github.com/greenpeace/planet4-docker-compose](https://github.com/greenpeace/planet4-docker-compose) which is as near [1:1 dev-prod parity](https://12factor.net/dev-prod-parity) as possible before deploying development Minikube clusters locally.
 
 ### NRO Containers

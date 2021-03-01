@@ -286,5 +286,5 @@ Tag your test repositories \(in this case flibble & jctest\) to the develop bran
 To trigger a full deployment to all repos using this chart run the following 2 jobs:
 
 1. Release the hold job on the [https://circleci.com/gh/greenpeace/workflows/planet4-builder/tree/develop](https://circleci.com/gh/greenpeace/workflows/planet4-builder/tree/develop)
-2. Release or rerun the hold-trigger-sites job in CircleCI [https://circleci.com/gh/greenpeace/planet4-base-fork](https://circleci.com/gh/greenpeace/planet4-base-fork)
+2. Release or rerun the hold-trigger-sites job in CircleCI [https://circleci.com/gh/greenpeace/planet4-base](https://circleci.com/gh/greenpeace/planet4-base)
 
