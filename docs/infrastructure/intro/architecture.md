@@ -148,11 +148,11 @@ The P4 Git Repo Dependency. Arrows indicate build hierarchy
 
 Builds on upstream repositories trigger Circle CI workflows on each branch, with the following general format:
 
-* **Build**  
+* **Build**
 
   Container repositories perform builds
 
-* **Test**  
+* **Test**
 
   Unit and integration tests are performed
 
@@ -160,7 +160,7 @@ Builds on upstream repositories trigger Circle CI workflows on each branch, with
 
   Containers are rolled out to the relevant Kubernetes environment via Helm\*\*
 
-* **Hold**  
+* **Hold**
 
   Notifications are sent to RocketChat that a build is being held for manual approval
 
@@ -168,7 +168,7 @@ Builds on upstream repositories trigger Circle CI workflows on each branch, with
 
   After manual approval, tagged container releases are deployed via Helm
 
-* **Promote**  
+* **Promote**
 
   After manual approval, new releases are initiated from develop branches via git flow release start, version pin / bump, git flow release, push
 

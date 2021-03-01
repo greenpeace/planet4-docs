@@ -35,7 +35,7 @@ p4/wordpress 0.8.5    Greenpeace Planet 4 Wordpress stack
 
 * Determine build tag number by appending alpha to the latest chart version ie. 0.8.5-alpha
 
-  Modify the local copy of the P4 WP repo to include the changes you want and save them, then in your wordpress directory.  In this case I am following on from the modifications I made to my docker images \(ie. adding new variables\) to ensure they are captured and used in my helm chart.
+  Modify the local copy of the P4 WP repo to include the changes you want and save them, then in your wordpress directory. In this case I am following on from the modifications I made to my docker images \(ie. adding new variables\) to ensure they are captured and used in my helm chart.
 
 * Made the following edits to the wordpress HELM chart:
 

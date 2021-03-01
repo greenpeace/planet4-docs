@@ -12,32 +12,77 @@ We are using `docker` and `docker-compose` to provide as consistent a local deve
 
 ## System Requirements
 
-{% hint style="info" %}
-💻 This repository has been tested and is working well on Linux and OSX. It should work on Windows WSL (Windows Subsystem for Linux), but not thoroughly tested.
-{% endhint %}
+Firstly, check you have all the requirements on your system. For Linux users, these are either preinstalled or available through your distribution's package manager.
 
-Firstly, check you have all the requirements on your system.\
-For Linux users, these are either preinstalled or available through your distribution's package manager.
+* [git](https://www.git-scm.com/downloads)
+* [make](https://www.gnu.org/software/make/) - Instructions for installing make vary, for MacOS users `xcode-select --install` might work
+* [docker](https://docs.docker.com/engine/installation/)
+* [docker-compose](https://github.com/docker/compose/releases) - This should be installed along with docker on OSX and Windows
+* [envsubst](https://stackoverflow.com/questions/23620827/envsubst-command-not-found-on-mac-os-x-10-8/23622446#23622446) - This should be pre-installed on most Linux distributions
 
-- [git](https://www.git-scm.com/downloads)
-- [make](https://www.gnu.org/software/make/) - Instructions for installing make vary, for MacOS users `xcode-select --install` might work
-- [docker](https://docs.docker.com/engine/installation/)
-- [docker-compose](https://github.com/docker/compose/releases) - This should be installed along with docker on OSX and Windows
-- [envsubst](https://stackoverflow.com/questions/23620827/envsubst-command-not-found-on-mac-os-x-10-8/23622446#23622446) - This should be pre-installed on most Linux distributions
-  - On MacOS, `envsubst` is installed as part of `gettex`. Install like this:
+  * On MacOS, `envsubst` is installed as part of `gettex`. Install like this:
 
   ```bash
   brew install gettext
   brew link --force gettext
   ```
 
-- [unzip](https://linuxhint.com/unzip_command_-linux/)
+* [unzip](https://linuxhint.com/unzip_command_-linux/)
 
-The following dependencies are required in order to commit a change:
+#### Platform specific steps
 
-- [shellcheck](https://github.com/koalaman/shellcheck)
-- [yamllint](https://github.com/adrienverge/yamllint)
-- [circleci](https://circleci.com/docs/2.0/local-cli/#installation)
+{% tabs %}
+{% tab title="Linux" %}
+Install basic system dependencies:
+
+```bash
+sudo apt install -y git make unzip apt-transport-https ca-certificates curl gnupg-agent software-properties-common
+```
+
+Install Docker and docker-compose. We prefer to install it from upstream, to have the latest version:
+
+```bash
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+sudo add-apt-repository -y "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+sudo apt update
+sudo apt install -y docker-ce docker-ce-cli containerd.io
+```
+
+Add your user to the `docker` group to be able to run docker commands without sudo:
+
+```bash
+sudo usermod -aG docker <username>
+```
+
+For the above step to take effect you need to logout and login again. If you don't want to do that right away you can run the following command that would give you docker access only on the current terminal:
+
+```bash
+newgrp docker
+```
+
+To verify that everything works you can just run the hello-world docker container:
+
+```bash
+docker run hello-world
+```
+{% endtab %}
+
+{% tab title="Windows" %}
+
+{% endtab %}
+
+{% tab title="MacOS" %}
+
+{% endtab %}
+{% endtabs %}
+
+#### Contribution Requirements
+
+The following dependencies are required only if you want to contribute to the docker-composer repository:
+
+* [shellcheck](https://github.com/koalaman/shellcheck)
+* [yamllint](https://github.com/adrienverge/yamllint)
+* [circleci](https://circleci.com/docs/2.0/local-cli/#installation)
 
 ## First run
 
@@ -54,7 +99,7 @@ cd planet4-docker-compose
 make dev
 ```
 
-See [Fixing `make dev` errors](#fixing-make-dev-errors) if you have any issues with this command.
+See [Fixing `make dev` errors](installation.md#fixing-make-dev-errors) if you have any issues with this command.
 
 If you want the application repositories to be cloned using ssh protocol, instead of https, you can use a variable:
 
@@ -90,8 +135,7 @@ make run
 
 ### Full environment
 
-In order to keep the environment light, the default setup skips some containers that are useful for debugging and testing.
-Namely: PhpMyAdmin, ElasticHQ and Selenium. If you need them, you can use the full environment config by setting an environment variable:
+In order to keep the environment light, the default setup skips some containers that are useful for debugging and testing. Namely: PhpMyAdmin, ElasticHQ and Selenium. If you need them, you can use the full environment config by setting an environment variable:
 
 ```bash
 COMPOSE_FILE="docker-compose.full.yml" make run
@@ -136,7 +180,7 @@ If result will be something like this:
 com.docke  5086 <USERNAME>   84u  IPv6 0xdc100c215fbb6b93      0t0  TCP *:8080 (LISTEN)
 ```
 
-That's a docker container. (If it is a different process owning the port, you could run `kill -9 <PID>`).
+That's a docker container. \(If it is a different process owning the port, you could run `kill -9 <PID>`\).
 
 To check which container is using this port you can run:
 
@@ -200,3 +244,4 @@ Login username is `admin` and the password is `admin`.
 ### Elasticsearch access via ElasticHQ
 
 [elastichq](https://hub.docker.com/r/elastichq/elasticsearch-hq/) Access at [localhost:5000/](http://localhost:5000/)
+
