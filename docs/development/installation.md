@@ -68,13 +68,184 @@ docker run hello-world
 {% endtab %}
 
 {% tab title="Windows" %}
+In order to run the Planet4 development environment in Windows you'll need to enable **Windows Subsystem for Linux \(WSL\)**. WSL allows you to run a Linux environment within Windows. You'll need to enable WSL and install Ubuntu. The current version \(WSL 2\) comes with a lot of enhancements and better disk performance.  
+  
+You can follow the installation instructions [here](https://ubuntu.com/wsl).
 
+[Here is a post](https://nickjanetakis.com/blog/a-linux-dev-environment-on-windows-with-wsl-2-docker-desktop-and-more) with some more detail about setting up WSL 2 \(and many other tips for Windows devs!\)
+
+Note: this guide was created using the Ubuntu 18.04 image.
+
+**Verify WSL 2 and the Ubuntu image are installed**
+
+From a Powershell window, run this command to see the installed distros:
+
+```bash
+wsl -l -v
+```
+
+You should see the distro you installed in the list, with the WSL version: `Ubuntu 18.04 - 2`
+
+#### Make sure WSL is enabled
+
+Look here for more details. and set version for a specific distribution:
+
+```bash
+wsl --set-version Ubuntu-18.04 2
+```
+
+#### Install Docker
+
+\(Optional\) In case there is a previous docker install you want to remove, you can probably do: 
+
+```bash
+sudo apt remove docker docker-engine docker.io containerd runc
+```
+
+Download the Docker GPG key for APT and add it to its keychain:
+
+```bash
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+```
+
+Add the Docker repository to the APT sources:
+
+```bash
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable"
+```
+
+Update the APT registry:
+
+```text
+sudo apt update
+```
+
+Ensure you'll download Docker from their official repo instead of the default by running:
+
+```bash
+apt-cache policy docker-ce
+```
+
+You should get something like:
+
+```yaml
+docker-ce:
+  Installed: (none)
+  Candidate: 18.03.1~ce~3-0~ubuntu
+  Version table:
+     18.03.1~ce~3-0~ubuntu 500
+        500 https://download.docker.com/linux/ubuntu bionic/stable amd64 Packages
+```
+
+Install docker-ce:
+
+```bash
+sudo apt install docker-ce
+```
+
+Ensure it has been installed with: 
+
+```text
+sudo service docker status
+```
+
+Add your user to the `docker` group to avoid using `sudo` on every command:
+
+```bash
+sudo usermod -aG docker ${USER}
+```
+
+Refresh your group membership by running:
+
+```bash
+su - ${USER}
+```
+
+You can verify this by running:
+
+```text
+id -nG
+```
+
+The output should be something like:
+
+```bash
+youruser sudo docker
+```
+
+#### Install Docker-Compose
+
+Look for the latest docker-compose version and run:
+
+```bash
+sudo curl -L "https://github.com/docker/compose/releases/download/[THE DOCKER VERSION]/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+```
+
+For example:
+
+```bash
+sudo curl -L "https://github.com/docker/compose/releases/download/1.27.5/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+```
+
+This will automatically download the specified version for your architecture.
+
+Add execution permissions for `docker-compose`:
+
+```bash
+sudo chmod +x /usr/local/bin/docker-compose
+```
+
+Install make and zip:
+
+```text
+sudo apt install -y make unzip
+```
+
+#### Troubleshooting
+
+In case the WSL version for your distro is 1, you can update it using:
+
+```bash
+wsl --set-version Ubuntu-18.04 2
+```
+
+WSL 2 Networking Issues:  
+[https://github.com/microsoft/WSL/issues/5336](https://github.com/microsoft/WSL/issues/5336)
+
+Docker Issues:  
+[https://nickjanetakis.com/blog/setting-up-docker-for-windows-and-wsl-to-work-flawlessly](https://nickjanetakis.com/blog/setting-up-docker-for-windows-and-wsl-to-work-flawlessly)[https://stackoverflow.com/questions/63497928/ubuntu-wsl-with-docker-could-not-be-found](https://stackoverflow.com/questions/63497928/ubuntu-wsl-with-docker-could-not-be-found)[https://github.com/docker/compose/issues/2738](https://github.com/docker/compose/issues/2738)
+
+sudo pip3 install -IUq docker-compose
+
+```bash
+The command 'docker-compose' could not be found in this WSL 2 distro.
+We recommend to activate the WSL integration in Docker Desktop settings.
+```
+
+See [https://docs.docker.com/docker-for-windows/wsl/](https://docs.docker.com/docker-for-windows/wsl/) for details.
+
+Makefile: 212: recipe for target 'start' failed
+
+Segmentation fault
+
+[https://github.com/microsoft/WSL/issues/4694\#issuecomment-556095344](https://github.com/microsoft/WSL/issues/4694#issuecomment-556095344)
+
+```bash
+@therealkenc, @squeaky-pl Could you try this?
+
+%userprofile%\.wslconfig
+
+[wsl2]
+kernelCommandLine = vsyscall=emulate
+```
 {% endtab %}
 
 {% tab title="MacOS" %}
 
 {% endtab %}
 {% endtabs %}
+
+
 
 #### Contribution Requirements
 
