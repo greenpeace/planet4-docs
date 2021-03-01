@@ -48,16 +48,16 @@ sudo apt update
 sudo apt install -y docker-ce docker-ce-cli containerd.io
 ```
 
-Add your user to the `docker` group to be able to run docker commands without sudo:
+Add your user to the `docker` group to avoid using `sudo` on every command:
 
 ```bash
-sudo usermod -aG docker <username>
+sudo usermod -aG docker ${USER}
 ```
 
-For the above step to take effect you need to logout and login again. If you don't want to do that right away you can run the following command that would give you docker access only on the current terminal:
+Refresh your group membership by running:
 
 ```bash
-newgrp docker
+su - ${USER}
 ```
 
 To verify that everything works you can just run the hello-world docker container:
