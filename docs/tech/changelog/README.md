@@ -6,6 +6,23 @@ description: >-
 
 # Changelog
 
+## 2.50.3 - 2021-03-02
+
+### Features
+
+- [PLANET-5978](https://jira.greenpeace.org/browse/PLANET-5978) - Add CSS variables editor to develop instances
+- [PLANET-5843](https://jira.greenpeace.org/browse/PLANET-5843) - Replace some colors to align with the design system
+
+### Bug Fixes
+
+- [PLANET-5979](https://jira.greenpeace.org/browse/PLANET-5979) - Twitter handle name is missing on evergreen pages social share button
+
+### Infrastructure
+
+- [PLANET-5910](https://jira.greenpeace.org/browse/PLANET-5910) - Deploy Elastic stack to dev to test APM module
+- [PLANET-5832](https://jira.greenpeace.org/browse/PLANET-5832) - Add CPU usage dashboards to Grafana in Dev
+- [PLANET-5446](https://jira.greenpeace.org/browse/PLANET-5446) - Expose dev Prometheus to GPI Ops Grafana instance
+
 ## 2.50.2 - 2021-02-25
 
 ### Bug Fixes
@@ -1090,4 +1107,3 @@ description: >-
 * [PLANET-4644](https://jira.greenpeace.org/browse/PLANET-4644) - Country Selector: fix GPSK address
 * [PLANET-4597](https://jira.greenpeace.org/browse/PLANET-4597) - Fix campaign dataLayer script on P4 Posts
 * [PLANET-4510](https://jira.greenpeace.org/browse/PLANET-4510) - Fix PHP Notice: Notice level error produces when building local env. with make command
-
