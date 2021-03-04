@@ -17,36 +17,47 @@ git tag -a vX.XX -m "vX.XX"
 git push --tags
 ```
 
-{% hint style="info" %}
-Note the `-a` flag above. We always use [annotated tags](https://git-scm.com/book/en/v2/Git-Basics-Tagging#_annotated_tags).
-{% endhint %}
+Once a new tag/release is created to the repo, there is a pipeline triggered that is creating a zip file to be added to this release. It takes no more than a couple of minutes, but **make sure to wait for it to finish before moving to the next steps**.
 
 ## Base repository
 
-[planet4-base](https://github.com/greenpeace/planet4-base) repository has two main branches:
+[planet4-base](https://github.com/greenpeace/planet4-base) repository controls deployments through its `main` branch.
 
-* `develop`: Controls the develop pipeline and what is being deployed on develop sites.
-* `master`: Controls the release pipeline and what is being deployed first on stagning and then on production sites.
+#### Package Requirements
 
-So every time there is a new Planet 4 version to be released there it's not required to also update the develop sites. But keep in mind that any code changes \(eg, tests\) are first merged to `develop` branch, so you may have to merge it to `master`.
+All package dependencies that are described at its `composer.json` file. In addition to that, you can optionally create an environment-specific file in case you want to install some extra packages in just one environment or if you just want to override package versions.
 
-All you have to do is edit `composer.json`, update the versions of the plugins/themes as needed and the version of composer itself \([example](https://github.com/greenpeace/planet4-base/commit/0a4712ff0e3d3d1d69dfd8a1fbbac7320054a8ba#diff-b5d0ee8c97c7abd7e3fa29b9a27d1780)\).
+Our current setup, will check for two optional environment json files, expecting to find a `require` key in them.
 
-{% hint style="info" %}
-🧙 If you include in the subject line of your git commit message the string`[HOLD]` then, even if all the tests are successful, it will require a manual approval for deploying from staging to production.
-{% endhint %}
+* `development.json`: development environment \(`www-dev`\).
+* `production.json`: production environment \(`www-stage` and `www`\).
+
+So if you updated application repos on the previous step, you should update the versions on `production.json`. An example could look like this:
+
+```javascript
+{
+  "require": {
+    "greenpeace/planet4-master-theme" : "v1.145",
+    "greenpeace/planet4-plugin-gutenberg-blocks" : "v0.84"
+  }
+}
+```
 
 ### Trigger Release
 
-If you updated the `develop` branch, its pipeline will be "on hold". You do not need to trigger that now, because it would delay the production release. You can approve it later.
+#### Development
 
-Check [CI](https://circleci.com/gh/greenpeace/workflows/planet4-base) for the `release` pipeline. When all tests pass it will stay "On Hold" waiting for a manual approval.
+If you commit to the `main` branch, the development pipeline will start. After building and running the test there will be an "on hold" job to trigger deployment to all development sites. There is also a similar cron pipeline that does that every weekend so the development sites are regularly updated.
+
+#### Production
+
+To trigger a **production** deployment you need to create a new tag. You can do that from the Github interface by creating a new release.
+
+Check [CI](https://circleci.com/gh/greenpeace/workflows/planet4-base) for the `production` pipeline. It will be "On Hold" waiting for a manual approval. Approve that and it will trigger the production pipeline on all websites.
 
 ![](../.gitbook/assets/hold-trigger-sites%20%283%29%20%281%29.png)
 
-Approve that and it will trigger the release pipeline on all websites. This is an overview of a release pipeline for a website:
-
-There is a "hold-promote" job there that controls whether the pipeline will continue deploying on production. This job will be approved automatically \(from the "promote" job\) if all tests pass successfully.
+On the NRO production pipelines there is a "hold-promote" job there that controls whether the pipeline will continue deploying from stage to production. This job will be approved automatically \(from the "promote" job\) if all tests pass successfully.
 
 You will only need to manual approve that in two cases:
 
