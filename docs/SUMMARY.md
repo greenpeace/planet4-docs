@@ -60,6 +60,7 @@
   * [\[ADR-0009\] Include Media Library in master theme](tech/adrs/adr-0009-include-media-library-in-master-theme.md)
   * [\[ADR-0014\] Choose a ticketing system](tech/adrs/adr-0014-choose-a-ticketing-system.md)
 * [Changelog](tech/changelog/README.md)
+  * [2020](tech/changelog/changelog-2020.md)
   * [2019](tech/changelog/changelog-2019.md)
   * [2018](tech/changelog/changelog-2018.md)
 
