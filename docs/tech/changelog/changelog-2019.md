@@ -2,7 +2,7 @@
 description: 'Changelog: 2019 Releases'
 ---
 
-# 2019 Changelog
+# 2019
 
 ## 2.13.1 - 2019-12-23
 

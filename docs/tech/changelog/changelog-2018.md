@@ -2,7 +2,7 @@
 description: 'Changelog: 2018 Releases'
 ---
 
-# 2018 Changelog
+# 2018
 
 ## 1.37.0 - 2018-12-19
 

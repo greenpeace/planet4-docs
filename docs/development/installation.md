@@ -442,7 +442,7 @@ make nro-enable
 make nro-test-codeception
 ```
 
-The tests work a bit differently to the main ones, see the [Testing section](../nro-customization/testing/) for more info.
+The tests work a bit differently to the main ones, see the [Testing section]() for more info.
 
 ## Advanced features
 

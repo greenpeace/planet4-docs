@@ -10,9 +10,9 @@ description: >-
 
 ### Features
 
-* [PLANET-5519](https://jira.greenpeace.org/browse/PLANET-5748 - Update Timber to 1.18.x
-* [PLANET-5748](https://jira.greenpeace.org/browse/PLANET-5748 - Show password validation message on password protected page
-* [PLANET-5990](https://jira.greenpeace.org/browse/PLANET-5990 - Enable Social Media block on Posts
+* [PLANET-5519](https://jira.greenpeace.org/browse/PLANET-5748) - Update Timber to 1.18.x
+* [PLANET-5748](https://jira.greenpeace.org/browse/PLANET-5748) - Show password validation message on password protected page
+* [PLANET-5990](https://jira.greenpeace.org/browse/PLANET-5990) - Enable Social Media block on Posts
 
 ### Bug Fixes
 
@@ -173,3 +173,4 @@ description: >-
 ### Infrastructure
 
 * [PLANET-5836](https://jira.greenpeace.org/browse/PLANET-5836) - Reset traefik-consol path for cert regneration in Dev
+
