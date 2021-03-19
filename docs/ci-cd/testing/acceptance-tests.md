@@ -32,18 +32,18 @@ Both of the environments start by loading the [default content](https://www-dev.
 
 ## Running tests locally
 
-Assuming your local docker-compose development environment is already up and running, you first need to install test dependencies.
+Assuming your local docker-compose development environment **is already up and running**, you first need to install test dependencies.
 
 This only needs to happen once:
 
 ```bash
-make test
+make test-install
 ```
 
 To run the tests next time just run:
 
 ```bash
-make test-codeception
+make test
 ```
 
 If you want to run individual tests it's easiest to get a php shell inside a docker container:
