@@ -6,6 +6,33 @@ description: >-
 
 # Changelog
 
+## 2.52.0 - 2021-03-24
+
+### Features
+
+- [PLANET-5986](https://jira.greenpeace.org/browse/PLANET-5986) - Disable Take Action Boxout on Pages
+- [PLANET-5981](https://jira.greenpeace.org/browse/PLANET-5981) - Bootstrap 5 css/template fixes
+- [PLANET-5906](https://jira.greenpeace.org/browse/PLANET-5906) - P4 Grid System: Migrate to Bootstrap 5
+- [PLANET-5875](https://jira.greenpeace.org/browse/PLANET-5875) - Fix Table block creation placeholder styles
+- [PLANET-5874](https://jira.greenpeace.org/browse/PLANET-5874) - Fix HappyPoint and Articles blocks in the frontend
+- [PLANET-5873](https://jira.greenpeace.org/browse/PLANET-5873) - Update Image block styles and captions
+- [PLANET-5871](https://jira.greenpeace.org/browse/PLANET-5871) - Top controls missing for native blocks that we override
+- [PLANET-5848](https://jira.greenpeace.org/browse/PLANET-5848) - Remove blue caption from images in classic WP editor
+- [PLANET-5756](https://jira.greenpeace.org/browse/PLANET-5756) - jQuery: remove jQuery from external_links.js / pdf_icon.js
+- [PLANET-5630](https://jira.greenpeace.org/browse/PLANET-5630) - Upgrade sites to Wordpress 5.6
+- [PLANET-5615](https://jira.greenpeace.org/browse/PLANET-5615) - Use button tags for buttons
+- [PLANET-5499](https://jira.greenpeace.org/browse/PLANET-5499) - Enable Group block
+- [PLANET-5460](https://jira.greenpeace.org/browse/PLANET-5460) - Disable Wordpress blocks registry
+
+### Bug Fixes
+
+- [PLANET-6015](https://jira.greenpeace.org/browse/PLANET-6015) - Campaigns pre-publish validation doesn't work reliably
+- [PLANET-5980](https://jira.greenpeace.org/browse/PLANET-5980) - Inconsistencies between editor and frontend
+- [PLANET-5792](https://jira.greenpeace.org/browse/PLANET-5792) - WP 5.6: add_theme_support( 'post-formats' ) was called incorrectly
+- [PLANET-5656](https://jira.greenpeace.org/browse/PLANET-5656) - WP 5.5: register_rest_route was called incorrectly
+- [PLANET-5655](https://jira.greenpeace.org/browse/PLANET-5655) - WP 5.5: Format "core/subscript" is already registered
+- [PLANET-5654](https://jira.greenpeace.org/browse/PLANET-5654) - WP 5.5: WP_Block_Type_Registry::register was called incorrectly
+
 ## 2.51.0 - 2021-03-09
 
 ### Features
@@ -173,4 +200,3 @@ description: >-
 ### Infrastructure
 
 * [PLANET-5836](https://jira.greenpeace.org/browse/PLANET-5836) - Reset traefik-consol path for cert regneration in Dev
-
