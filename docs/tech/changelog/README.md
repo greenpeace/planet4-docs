@@ -6,6 +6,19 @@ description: >-
 
 # Changelog
 
+## 2.52.1 - 2021-03-29
+
+### Features
+
+- [PLANET-6021](https://jira.greenpeace.org/browse/PLANET-6021) - Hide core upgrade notice
+- [PLANET-5976](https://jira.greenpeace.org/browse/PLANET-5976) - Add test for local dev env build
+
+### Bug Fixes
+
+- [PLANET-6030](https://jira.greenpeace.org/browse/PLANET-6030) - Editor sidebar gets pushed off the screen if Carousel Header block is present
+- [PLANET-6027](https://jira.greenpeace.org/browse/PLANET-6027) - External links icon doesn't show up for Campaigns pages
+- [PLANET-6017](https://jira.greenpeace.org/browse/PLANET-6017) - Composer permission error after container re-creation
+
 ## 2.52.0 - 2021-03-24
 
 ### Features
