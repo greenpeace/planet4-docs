@@ -6,6 +6,20 @@ description: >-
 
 # Changelog
 
+## 2.52.2 - 2021-03-31
+
+### Features
+
+- [PLANET-6034](https://jira.greenpeace.org/browse/PLANET-6034) - Remove Bootstrap 5 new XXL breakpoint
+
+### Bug Fixes
+
+- [PLANET-6035](https://jira.greenpeace.org/browse/PLANET-6035) - Youtube video does not show in the editor
+- [PLANET-6033](https://jira.greenpeace.org/browse/PLANET-6033) - Login: Some users unable to login using Google sign-in
+- [PLANET-6004](https://jira.greenpeace.org/browse/PLANET-6004) - Primary call to action buttons - icons have the wrong color
+- [PLANET-5984](https://jira.greenpeace.org/browse/PLANET-5984) - The petition form on the page is not working properly
+- [PLANET-5622](https://jira.greenpeace.org/browse/PLANET-5622) - Skewed overlay changes position when page length changes
+
 ## 2.52.1 - 2021-03-29
 
 ### Features
