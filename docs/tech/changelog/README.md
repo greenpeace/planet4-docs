@@ -6,6 +6,17 @@ description: >-
 
 # Changelog
 
+## 2.53.0 - 2021-04-07
+
+### Features
+
+- [PLANET-5951](https://jira.greenpeace.org/browse/PLANET-5951) - Search results page - align checkboxes font sizes with the Design system
+
+### Bug Fixes
+
+- [PLANET-6053](https://jira.greenpeace.org/browse/PLANET-6053) - Weird line breaks with external and pdf links
+- [PLANET-6043](https://jira.greenpeace.org/browse/PLANET-6043) - Search result pages show weird image aspect ratios
+
 ## 2.52.2 - 2021-03-31
 
 ### Features
