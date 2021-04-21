@@ -497,6 +497,14 @@ The Wordpress plugin [nginx-helper](https://wordpress.org/plugins/nginx-helper/)
 * Enter `redis` in the Hostname field
 * Tick all checkboxes under 'Purging Conditions'
 
+**Timber / Twig caches**
+
+Templates cache should be disabled in development mode.   
+It can be cleared by running a `wp` command:   
+`docker-compose exec php-fpm sh -c 'wp timber clear_caches'`
+
+This command will return a warning if timber or twig cache were already empty.
+
 ### WP-Stateless GCS bucket
 
 If you want to use the Google Cloud Storage you'll have to configure [WP-Stateless](https://github.com/wpCloud/wp-stateless/). The plugin is installed and activated, however images will be stored locally until remote GCS storage is enabled in the administrator backend. [Log in](http://www.planet4.test/wp-login.php) with details gathered [from here](https://github.com/greenpeace/planet4-docker-compose/blob/master/docs/advanced.md#login) and navigate to [Media &gt; Stateless Setup](http://www.planet4.test/wp-admin/upload.php?page=stateless-setup).
@@ -545,6 +553,89 @@ _@todo: Document some of the useful builtin configuration options available in u
 * Smarthost email delivery and interception
 * exec function limits
 * Memory and performance tweaks
+
+#### **XDebug and IDE configuration**
+
+Install XDebug on the PHP container by running:
+
+```text
+make dev-install-xdebug
+```
+
+Switch XDebug mode with `xdebug-mode` command and an environment variable:
+
+```text
+XDEBUG_MODE=debug,profile make xdebug-mode
+```
+
+**IDE specific configuration**
+
+{% tabs %}
+{% tab title="VS Code" %}
+**Installation**
+
+* Install extension _PHP Debug_  [https://marketplace.visualstudio.com/items?itemName=felixfbecker.php-debug](https://marketplace.visualstudio.com/items?itemName=felixfbecker.php-debug) Source: [https://github.com/xdebug/vscode-php-debug](https://github.com/xdebug/vscode-php-debug)
+* Go to the debugger tab \(_ctrl+shift+D_\)
+* Click on "C_reate a launch.json file_", select _PHP_
+* File should be configured by default on port 9000
+* Add a `pathMappings` option in the first configuration, according to the path of the project you opened. For example:
+
+```text
+# Root of your project is planet4-docker-compose/persistence/app :
+      "pathMappings": {
+        "/app/source/public": "${workspaceFolder}/public"
+      }
+# Root of your project is planet4-docker-compose:
+      "pathMappings": {
+        "/app/source/public": "${workspaceFolder}/persistence/app/public"
+      }
+```
+
+A complete `launch.json` file looks like this:
+
+```javascript
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Listen for XDebug",
+            "type": "php",
+            "request": "launch",
+            "port": 9000,
+            "pathMappings": {
+              "/app/source/public": "${workspaceFolder}/public"
+            },
+            "log": true
+        },
+        {
+            "name": "Launch currently open script",
+            "type": "php",
+            "request": "launch",
+            "program": "${file}",
+            "cwd": "${fileDirname}",
+            "port": 9000
+        }
+    ]
+}
+```
+
+The `"log": true` option allows you to see the communication between XDebug and your IDE.
+
+**Using XDebug**
+
+* Start a debugging session in the _Run and Debug_ tab by selecting `Listen to XDebug` and hitting `F5`
+* Add some breakpoints in your source code by blicking on the left side of line numbers in the editor. You can also check all Notices/Warnings/Errors in the Breakpoints section of the sidebar, to trigger a pause on each of those events
+* Run your code, by navigating to planet4.test, using wp commands or any other action that will execute PHP scripts
+* Stop your session by clicking on the Stop icon or using `Shift+F5`
+{% endtab %}
+
+{% tab title="PHPStorm" %}
+
+{% endtab %}
+{% endtabs %}
 
 ### Port conflicts
 
