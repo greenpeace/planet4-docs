@@ -6,6 +6,25 @@ description: >-
 
 # Changelog
 
+## 2.54.0 - 2021-04-22
+
+### Features
+
+- [PLANET-6087](https://jira.greenpeace.org/browse/PLANET-6087) - Move SpreadSheet, SubPages and Accordion from beta to stable category
+- [PLANET-6085](https://jira.greenpeace.org/browse/PLANET-6085) - Upgrade to Wordpres 5.6.3
+- [PLANET-6076](https://jira.greenpeace.org/browse/PLANET-6076) - Add robots.txt at the root of dev and stage domains
+- [PLANET-6051](https://jira.greenpeace.org/browse/PLANET-6051) - Replace Microscanner with Trivy
+- [PLANET-6045](https://jira.greenpeace.org/browse/PLANET-6045) - Move Acceptance tests on applications repos
+- [PLANET-5963](https://jira.greenpeace.org/browse/PLANET-5963) - Integrate with Elastic APM
+- [PLANET-5897](https://jira.greenpeace.org/browse/PLANET-5897) - Allow embedding Planet4 content into third party websites
+- [PLANET-5760](https://jira.greenpeace.org/browse/PLANET-5760) - Remove jQuery from load_more functionality
+
+### Bug Fixes
+
+- [PLANET-6073](https://jira.greenpeace.org/browse/PLANET-6073) - Cookie bar - “Got it!” String translation not working
+- [PLANET-6072](https://jira.greenpeace.org/browse/PLANET-6072) - Spreadsheet  block - Fix ErrorException
+- [PLANET-6062](https://jira.greenpeace.org/browse/PLANET-6062) - Menu text is showing when the main menu is opened on M size
+
 ## 2.53.0 - 2021-04-07
 
 ### Features
@@ -238,4 +257,3 @@ description: >-
 ### Infrastructure
 
 * [PLANET-5836](https://jira.greenpeace.org/browse/PLANET-5836) - Reset traefik-consol path for cert regneration in Dev
-
