@@ -12,7 +12,6 @@ Planet 4 mainly consists of two repositories, for the theme and the blocks plugi
 
 * [planet4-master-theme](https://github.com/greenpeace/planet4-master-theme)
 * [planet4-plugin-gutenberg-blocks](https://github.com/greenpeace/planet4-plugin-gutenberg-blocks)
-* [planet4-styleguide](https://github.com/greenpeace/planet4-styleguide)
 
 Depending on what issue you are working on, you should fork it on Github.
 
