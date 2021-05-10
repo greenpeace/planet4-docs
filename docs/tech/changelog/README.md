@@ -6,6 +6,29 @@ description: >-
 
 # Changelog
 
+## 2.55.0 - 2021-05-10
+
+### Features
+
+- [PLANET-6125](https://jira.greenpeace.org/browse/PLANET-6125) - Integrate 50 Years Guestbook Storymap
+
+### Bug Fixes
+
+- [PLANET-6037](https://jira.greenpeace.org/browse/PLANET-6037) - Icons in buttons don't have the 150ms transition the rest of the button uses
+- [PLANET-6019](https://jira.greenpeace.org/browse/PLANET-6019) - Fix issues when ElasticSearch container does not run
+
+### Infrastructure
+
+- [PLANET-6103](https://jira.greenpeace.org/browse/PLANET-6103) - Reduce node pool to 5 nodes in dev
+- [PLANET-6096](https://jira.greenpeace.org/browse/PLANET-6096) - Decommission 6.8 ElasticSearch in dev
+- [PLANET-6068](https://jira.greenpeace.org/browse/PLANET-6068) - Deploy ElasticSearch dashboard in Grafana
+- [PLANET-6067](https://jira.greenpeace.org/browse/PLANET-6067) - Deploy http (probe) response dashboard in Grafana
+- [PLANET-6066](https://jira.greenpeace.org/browse/PLANET-6066) - Add alert rules for Persistent Volumes
+- [PLANET-6065](https://jira.greenpeace.org/browse/PLANET-6065) - Deploy Prometheus to prod
+- [PLANET-6056](https://jira.greenpeace.org/browse/PLANET-6056) - Deploy Prometheus Blackbox exporter to prod
+- [PLANET-6055](https://jira.greenpeace.org/browse/PLANET-6055) - Deploy Kibana to prod
+- [PLANET-5909](https://jira.greenpeace.org/browse/PLANET-5909) - Deploy ElasticSearch metric exporter to prod
+
 ## 2.54.0 - 2021-04-22
 
 ### Features
@@ -258,4 +281,3 @@ description: >-
 ### Infrastructure
 
 * [PLANET-5836](https://jira.greenpeace.org/browse/PLANET-5836) - Reset traefik-consol path for cert regneration in Dev
-
