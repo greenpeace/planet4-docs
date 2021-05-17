@@ -6,6 +6,19 @@ description: >-
 
 # Changelog
 
+## 2.56.0 - 2021-05-17
+
+### Features
+
+- [PLANET-6145](https://jira.greenpeace.org/browse/PLANET-6145) - Upgrade to Wordpres 5.6.4
+- [PLANET-5977](https://jira.greenpeace.org/browse/PLANET-5977) - Create pre-built dev env release
+
+### Bug Fixes
+
+- [PLANET-6105](https://jira.greenpeace.org/browse/PLANET-6105) - Buggy indicators in Gallery Carousel style
+- [PLANET-6002](https://jira.greenpeace.org/browse/PLANET-6002) - Remove back-to-top button
+- [PLANET-5489](https://jira.greenpeace.org/browse/PLANET-5489) - Happypoint mailing list iframe toggle doesn't work
+
 ## 2.55.0 - 2021-05-10
 
 ### Features
@@ -282,4 +295,3 @@ description: >-
 ### Infrastructure
 
 * [PLANET-5836](https://jira.greenpeace.org/browse/PLANET-5836) - Reset traefik-consol path for cert regneration in Dev
-
