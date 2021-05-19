@@ -6,6 +6,16 @@ description: >-
 
 # Changelog
 
+## 2.56.1 - 2021-05-19
+
+### Features
+
+- [PLANET-4535](https://jira.greenpeace.org/browse/PLANET-4535) - Split Timeline block JS code
+
+### Bug Fixes
+
+- [PLANET-6153](https://jira.greenpeace.org/browse/PLANET-6153) - Archived posts on the search result page are missing the link to the archived post
+
 ## 2.56.0 - 2021-05-17
 
 ### Features
