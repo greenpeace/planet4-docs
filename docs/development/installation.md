@@ -243,11 +243,11 @@ kernelCommandLine = vsyscall=emulate
 
 #### Contribution Requirements
 
-The following dependencies are required only if you want to contribute to the docker-composer repository:
+The following dependencies are required only if you want to contribute to the docker-composer repository. These tools are used for linting code changes:
 
 * [shellcheck](https://github.com/koalaman/shellcheck)
 * [yamllint](https://github.com/adrienverge/yamllint)
-* [circleci](https://circleci.com/docs/2.0/local-cli/#installation)
+* [node/npm](https://nodejs.org/)
 
 ## First run
 
