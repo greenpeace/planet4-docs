@@ -167,9 +167,9 @@ In order for EP to talk to elasticsearch we need to provide the Host in the plug
 
 `http://p4-es-elasticsearch-client.default.svc.cluster.local:9200/` -&gt; For production ES cluster
 
-We use the ElasticPress plugin which translates the WP\_Queries into an HTML request that elasticsearch understands and also passes data to the request in Json format. The simplest way to make EP act as a middle man \(via code\) is by adding this to our WP\_Query arguments: `$args['ep_integrate'] = true;` We do this [here](https://github.com/greenpeace/planet4-master-theme/blob/master/classes/class-p4-elasticsearch.php#L102).
+We use the ElasticPress plugin which translates the WP\_Queries into an HTML request that elasticsearch understands and also passes data to the request in Json format. The simplest way to make EP act as a middle man \(via code\) is by adding this to our WP\_Query arguments: `$args['ep_integrate'] = true;` We do this [here](https://github.com/greenpeace/planet4-master-theme/blob/master/src/ElasticSearch.php#L93).
 
-We have 2 classes related to P4 Search functionality. [P4\_Search](https://github.com/greenpeace/planet4-master-theme/blob/master/classes/class-p4-search.php) and [P4\_ElasticSearch](https://github.com/greenpeace/planet4-master-theme/blob/master/classes/class-p4-elasticsearch.php) which extends the first one. P4\_Search should work with other plugins as well \(like the SearchWP that we had prior to moving to elasticsearch\). P4\_ElasticSearch adds all the functionality required to customize EP functionality to the needs of P4.
+We have 2 classes related to P4 Search functionality. [Search](https://github.com/greenpeace/planet4-master-theme/blob/master/src/Search.php) and [ElasticSearch](https://github.com/greenpeace/planet4-master-theme/blob/master/src/ElasticSearch.php) which extends the first one. Search should work with other plugins as well \(like the SearchWP that we had prior to moving to elasticsearch\). ElasticSearch adds all the functionality required to customize EP functionality to the needs of P4.
 
 ### Docker
 
