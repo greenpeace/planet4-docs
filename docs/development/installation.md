@@ -11,18 +11,10 @@ We are using `docker` and `docker-compose` to provide as consistent a local deve
 Firstly, check you have all the requirements on your system. For Linux users, these are either preinstalled or available through your distribution's package manager.
 
 * [git](https://www.git-scm.com/downloads)
-* [make](https://www.gnu.org/software/make/) - Instructions for installing make vary, for MacOS users `xcode-select --install` might work
+* [make](https://www.gnu.org/software/make/) - see MacOS instructions in [platform specific steps](installation.md#platform-specific-steps)
 * [docker](https://docs.docker.com/engine/installation/)
 * [docker-compose](https://github.com/docker/compose/releases) - This should be installed along with docker on OSX and Windows
-* [envsubst](https://stackoverflow.com/questions/23620827/envsubst-command-not-found-on-mac-os-x-10-8/23622446#23622446) - This should be pre-installed on most Linux distributions
-
-  * On MacOS, `envsubst` is installed as part of `gettex`. Install like this:
-
-  ```bash
-  brew install gettext
-  brew link --force gettext
-  ```
-
+* [envsubst](https://stackoverflow.com/questions/23620827/envsubst-command-not-found-on-mac-os-x-10-8/23622446#23622446) - This should be pre-installed on most Linux distributions - see MacOS instructions in platform specific steps
 * [unzip](https://linuxhint.com/unzip_command_-linux/)
 
 #### Platform specific steps
@@ -237,7 +229,35 @@ kernelCommandLine = vsyscall=emulate
 {% endtab %}
 
 {% tab title="MacOS" %}
+Install updated `bash` , `make` and `grep` commands
 
+```text
+brew install bash make grep
+```
+
+Replace default commands by the updated ones:
+
+* Allow and use `bash`:
+  * Edit `/etc/shells` and add `/usr/local/bin/bash`
+  * Run `chsh -s /usr/local/bin/bash`
+* Add `make` and `grep` to your `$PATH`and reload config:
+
+  * Edit `~/.bashrc` \(or your custom shell equivalent\) and add
+
+     `PATH="$(brew --prefix)/opt/make/libexec/gnubin:$PATH"`
+
+     `PATH="$(brew --prefix)/opt/grep/libexec/gnubin:$PATH"`
+
+  * Reload with `source ~/.bashrc`
+
+Install `envsubst`
+
+`envsubst` is installed as part of `gettex`. Install like this:
+
+```
+brew install gettext
+brew link --force gettext
+```
 {% endtab %}
 {% endtabs %}
 
