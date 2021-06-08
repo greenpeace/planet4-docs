@@ -6,6 +6,23 @@ description: >-
 
 # Changelog
 
+## 2.57.1 - 2021-06-08
+
+### Features
+
+- [PLANET-6155](https://jira.greenpeace.org/browse/PLANET-6155) - Align HS consent mechanism to P4 native cookies bar
+- [PLANET-6023](https://jira.greenpeace.org/browse/PLANET-6023) - Enhance nro-enable to have an exact snapshot of live website
+- [PLANET-5868](https://jira.greenpeace.org/browse/PLANET-5868) - Update Table block caption styles
+
+### Infrastructure
+
+- [PLANET-6167](https://jira.greenpeace.org/browse/PLANET-6167) - Automate restarting of all non-P4 deployments for node upgrades
+- [PLANET-6166](https://jira.greenpeace.org/browse/PLANET-6166) - Fix Cert Manager namespace issuer to support global-redirects with cluster issuers
+- [PLANET-6117](https://jira.greenpeace.org/browse/PLANET-6117) - Deploy Information Lifecycle Management policies for Application Performance Metric indexes
+- [PLANET-6092](https://jira.greenpeace.org/browse/PLANET-6092) - Complete sizing review of new Elastic stack
+- [PLANET-5834](https://jira.greenpeace.org/browse/PLANET-5834) - Upgrade Prod Nodes to 1.17
+- [PLANET-5833](https://jira.greenpeace.org/browse/PLANET-5833) - Upgrade Develop Kubernetes Nodes to 1.17
+
 ## 2.57.0 - 2021-06-01
 
 ### Features
@@ -315,4 +332,3 @@ description: >-
 ### Infrastructure
 
 * [PLANET-5836](https://jira.greenpeace.org/browse/PLANET-5836) - Reset traefik-consol path for cert regneration in Dev
-
