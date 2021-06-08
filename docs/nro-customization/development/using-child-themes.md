@@ -90,7 +90,7 @@ Many NROs have decided to change their primary navigation toolbar, below a full 
 
 * GP East Asia \([Taiwan](https://www.greenpeace.org/taiwan/), [HK](https://www.greenpeace.org/hongkong/) and [Korea](https://www.greenpeace.org/korea/)\) opted for a full green navigation bar.
 
-![](../../.gitbook/assets/ea%20%281%29%20%281%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29.png)
+![](../../.gitbook/assets/ea%20%281%29%20%281%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29.png)
 
 ### Create a navigation sidebar
 
@@ -257,7 +257,7 @@ If you don’t use postcss prefix you can use this code:
 
 You will find on GP Luxembourg a custom [contact form](https://www.greenpeace.org/luxembourg/fr/contact/). On this form, changing the input _Objet de votre message_ will open many different use cases for the user \(like changing his bank account\). An e-mail is sent to the admin on submit.
 
-![](../../.gitbook/assets/contact-form-gp-lux%20%281%29%20%281%29%20%282%29%20%282%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%281%29.jpg)
+![](../../.gitbook/assets/contact-form-gp-lux%20%281%29%20%281%29%20%282%29%20%282%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%284%29%20%283%29%20%281%29.jpg)
 
 If you want to reproduce this form you can simply grab the code here:
 

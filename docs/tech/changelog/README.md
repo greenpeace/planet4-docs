@@ -10,11 +10,11 @@ description: >-
 
 ### Features
 
-- [PLANET-6165](https://jira.greenpeace.org/browse/PLANET-6165) - Move Social Media Card block to Beta
-- [PLANET-6156](https://jira.greenpeace.org/browse/PLANET-6156) - Split Spreadsheet block JS/CSS code
-- [PLANET-6114](https://jira.greenpeace.org/browse/PLANET-6114) - Add a CI job to lint commit messages
-- [PLANET-6061](https://jira.greenpeace.org/browse/PLANET-6061) - Prompt the user on install when content already exists
-- [PLANET-6020](https://jira.greenpeace.org/browse/PLANET-6020) - Upgrade Composer to 2.0.x
+* [PLANET-6165](https://jira.greenpeace.org/browse/PLANET-6165) - Move Social Media Card block to Beta
+* [PLANET-6156](https://jira.greenpeace.org/browse/PLANET-6156) - Split Spreadsheet block JS/CSS code
+* [PLANET-6114](https://jira.greenpeace.org/browse/PLANET-6114) - Add a CI job to lint commit messages
+* [PLANET-6061](https://jira.greenpeace.org/browse/PLANET-6061) - Prompt the user on install when content already exists
+* [PLANET-6020](https://jira.greenpeace.org/browse/PLANET-6020) - Upgrade Composer to 2.0.x
 
 ## 2.56.1 - 2021-05-19
 
@@ -315,3 +315,4 @@ description: >-
 ### Infrastructure
 
 * [PLANET-5836](https://jira.greenpeace.org/browse/PLANET-5836) - Reset traefik-consol path for cert regneration in Dev
+

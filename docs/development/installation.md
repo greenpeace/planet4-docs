@@ -437,8 +437,16 @@ You can also use this setup to work on an NRO site.
 **First, create/edit `Makefile.include`** to contain:
 
 ```bash
-NRO_REPO := https://github.com/greenpeace/planet4-netherlands.git
-NRO_THEME := planet4-child-theme-netherlands
+# by default, other values will be deduced from this name
+NRO_NAME := netherlands
+
+# a database can be imported during installation, 
+# if you have gcloud installed and specify a version
+NRO_DB_VERSION ?= latest
+
+# optionally, overwrite theme, repo
+#NRO_REPO := https://github.com/greenpeace/planet4-netherlands.git
+#NRO_THEME := planet4-child-theme-netherlands
 
 # optionally specify a branch, will default to "main" otherwise
 #NRO_BRANCH := my-other-branch
@@ -524,6 +532,22 @@ It can be cleared by running a `wp` command:
 `docker-compose exec php-fpm sh -c 'wp timber clear_caches'`
 
 This command will return a warning if timber or twig cache were already empty.
+
+### Image proxy
+
+An image proxy is automatically configured when you enable your NRO environment.  
+Image proxy is a fallback that converts images calls failing locally to `http://www.greenpeace.org/static/${NRO_IMG_BUCKET}/` . This allows you to see images from production without downloading them.
+
+```bash
+#Image proxy is enabled by default, to disable it:
+make nro-disable-img-proxy
+#to re-enable it:
+make nro-enable-img-proxy
+
+#it is based on auto-generated variable NRO_IMG_BUCKET
+#marking it empty will disable the installation of the proxy
+NRO_IMG_BUCKET:=''
+```
 
 ### WP-Stateless GCS bucket
 
