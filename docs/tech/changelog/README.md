@@ -6,6 +6,17 @@ description: >-
 
 # Changelog
 
+## 2.58.0 - 2021-06-14
+
+### Features
+
+- [PLANET-6172](https://jira.greenpeace.org/browse/PLANET-6172) - Allow basic rich text formatting on blocks description fields
+- [PLANET-6150](https://jira.greenpeace.org/browse/PLANET-6150) - Upgrade WPML to 4.4.10
+
+### Bug Fixes
+
+- [PLANET-6060](https://jira.greenpeace.org/browse/PLANET-6060) - Header description field is not editable from visual tab of tiny mce editor
+
 ## 2.57.1 - 2021-06-08
 
 ### Features
