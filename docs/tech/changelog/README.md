@@ -6,6 +6,21 @@ description: >-
 
 # Changelog
 
+## 2.58.1 - 2021-06-15
+
+### Features
+
+- [PLANET-5757](https://jira.greenpeace.org/browse/PLANET-5757) - Remove jQuery from global.js
+- [PLANET-5257](https://jira.greenpeace.org/browse/PLANET-5257) - Improve Accessibility on Posts Teasers (Search, Articles block)
+
+### Bug Fixes
+
+- [PLANET-6192](https://jira.greenpeace.org/browse/PLANET-6192) - The language switcher shows single character on menu bar
+
+### Infrastructure
+
+- [PLANET-6187](https://jira.greenpeace.org/browse/PLANET-6187) - Disable GCP vulnerability container scanning for dev and prod
+
 ## 2.58.0 - 2021-06-14
 
 ### Features
