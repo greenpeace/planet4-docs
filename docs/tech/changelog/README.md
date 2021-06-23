@@ -6,6 +6,25 @@ description: >-
 
 # Changelog
 
+## 2.58.2 - 2021-06-23
+
+### Features
+
+- [PLANET-6146](https://jira.greenpeace.org/browse/PLANET-6146) - Add Hubspot event callback script to track form signups
+
+### Bug Fixes
+
+- [PLANET-6197](https://jira.greenpeace.org/browse/PLANET-6197) - Twitter embed doesn't fit in the page on mobile width
+- [PLANET-6196](https://jira.greenpeace.org/browse/PLANET-6196) - Image credits are missing in gallery block
+- [PLANET-6194](https://jira.greenpeace.org/browse/PLANET-6194) - 404 search input not adapted to RTL
+- [PLANET-6009](https://jira.greenpeace.org/browse/PLANET-6009) - A Media Block with empty url field generates a notice and a false block
+
+### Infrastructure
+
+- [PLANET-6195](https://jira.greenpeace.org/browse/PLANET-6195) - Draft plan to migrate Traefik to Nginx loadbalancer
+- [PLANET-6181](https://jira.greenpeace.org/browse/PLANET-6181) - Validate all indexes moved to new ElasticSearch instance
+- [PLANET-6097](https://jira.greenpeace.org/browse/PLANET-6097) - Decommission old ElasticSearch in production
+
 ## 2.58.1 - 2021-06-15
 
 ### Features
