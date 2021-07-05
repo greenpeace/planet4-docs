@@ -6,6 +6,29 @@ description: >-
 
 # Changelog
 
+## 2.59.0 - 2021-07-05
+
+### Features
+
+- [PLANET-6152](https://jira.greenpeace.org/browse/PLANET-6152) - Add punctuation before "via @greenpeace" in tweet share button text
+- [PLANET-4460](https://jira.greenpeace.org/browse/PLANET-4460) - Social media block: set min and max width to Facebook embeds
+
+### Bug Fixes
+
+- [PLANET-6212](https://jira.greenpeace.org/browse/PLANET-6212) - EN form can't be submitted if it has mandatory checkbox
+- [PLANET-6147](https://jira.greenpeace.org/browse/PLANET-6147) - Adding additional classes to blocks sometimes breaks styles
+- [PLANET-6130](https://jira.greenpeace.org/browse/PLANET-6130) - Mobile logo link spans the whole fixed header
+- [PLANET-6040](https://jira.greenpeace.org/browse/PLANET-6040) - Articles block through error on page edit
+- [PLANET-5968](https://jira.greenpeace.org/browse/PLANET-5968) - Missing images in Media Library
+- [PLANET-5003](https://jira.greenpeace.org/browse/PLANET-5003) - Pages: Spacing of lists is inconsistent compared to Posts
+
+### Infrastructure
+
+- [PLANET-6206](https://jira.greenpeace.org/browse/PLANET-6206) - Increase the memory on nginx controllers (global & p4)(dev & prod)
+- [PLANET-6201](https://jira.greenpeace.org/browse/PLANET-6201) - Create an nginx ingress for jctest
+- [PLANET-6200](https://jira.greenpeace.org/browse/PLANET-6200) - Upgrade Nginx Load balancers to latest version in dev and prod
+- [PLANET-6199](https://jira.greenpeace.org/browse/PLANET-6199) - Upgrade Cert Manager to latest version in dev and prod
+
 ## 2.58.2 - 2021-06-23
 
 ### Features
