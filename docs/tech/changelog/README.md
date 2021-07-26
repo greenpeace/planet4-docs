@@ -6,6 +6,25 @@ description: >-
 
 # Changelog
 
+## 2.60.0 - 2021-07-26
+
+### Features
+
+- [PLANET-6237](https://jira.greenpeace.org/browse/PLANET-6237) - Set up Slack notifications pilot on GPI
+- [PLANET-5326](https://jira.greenpeace.org/browse/PLANET-5326) - Handbook: increase sidebar font size and fix wrapping
+- [PLANET-5247](https://jira.greenpeace.org/browse/PLANET-5247) - Spreadsheet Accessibility
+
+### Bug Fixes
+
+- [PLANET-6238](https://jira.greenpeace.org/browse/PLANET-6238) - Private Campaign Pages are not visible to Editors
+- [PLANET-6124](https://jira.greenpeace.org/browse/PLANET-6124) - Columns: external links always open in new tab ignoring option in settings
+
+### Infrastructure
+
+- [PLANET-6224](https://jira.greenpeace.org/browse/PLANET-6224) - Fix dev yellow ElasticSearch index status
+- [PLANET-6218](https://jira.greenpeace.org/browse/PLANET-6218) - Deploy nginx ingress to static chart for local testing
+- [PLANET-6207](https://jira.greenpeace.org/browse/PLANET-6207) - Delete fluent-gcp-scaler (Prod)
+
 ## 2.59.0 - 2021-07-05
 
 ### Features
