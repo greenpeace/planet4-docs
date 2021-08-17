@@ -6,6 +6,30 @@ description: >-
 
 # Changelog
 
+## 2.61.0 - 2021-08-17
+
+### Features
+
+- [PLANET-6127](https://jira.greenpeace.org/browse/PLANET-6127) - Add P4 trainings to message board
+- [PLANET-6083](https://jira.greenpeace.org/browse/PLANET-6083) - Add UTM tracking for Social Share messages
+
+### Bug Fixes
+
+- [PLANET-6318](https://jira.greenpeace.org/browse/PLANET-6318) - #GITS00030114 EN Form: Twitter share breaks 1
+
+### Infrastructure
+
+- [PLANET-6265](https://jira.greenpeace.org/browse/PLANET-6265) - Create Origin CA Integration for Cloudflare certificate generation
+- [PLANET-6264](https://jira.greenpeace.org/browse/PLANET-6264) - Update Traefik migration plan to include the use of Cloudflare Origin Certificates
+- [PLANET-6259](https://jira.greenpeace.org/browse/PLANET-6259) - Create cert manager DNS issuer to support nginx load balancer
+- [PLANET-6250](https://jira.greenpeace.org/browse/PLANET-6250) - Increase CPU limits for elastic (ElasticStack) (dev & prod)
+- [PLANET-6249](https://jira.greenpeace.org/browse/PLANET-6249) - Draft P4 escalation procedure document
+- [PLANET-6244](https://jira.greenpeace.org/browse/PLANET-6244) - Increase CPU limits for kube-metrics (NewRelic) (prod)
+- [PLANET-6243](https://jira.greenpeace.org/browse/PLANET-6243) - Update backend check notification destination in Cloudflare
+- [PLANET-6241](https://jira.greenpeace.org/browse/PLANET-6241) - Update Traefik helm chart to commit new memory and replica values following outage
+- [PLANET-6217](https://jira.greenpeace.org/browse/PLANET-6217) - Tune end point alerts to allow for flapping
+- [PLANET-5587](https://jira.greenpeace.org/browse/PLANET-5587) - Upgrade cert-manager once all NROs have migrated successfully
+
 ## 2.60.0 - 2021-07-26
 
 ### Features
