@@ -6,6 +6,15 @@ description: >-
 
 # Changelog
 
+## 2.62.00 - 2021-09-01
+
+### Features
+
+- [PLANET-6198](https://jira.greenpeace.org/browse/PLANET-6198) - Convert Social Media Block to WYSIWYG
+- [PLANET-6122](https://jira.greenpeace.org/browse/PLANET-6122) - Implement hydration for CarouselHeader WYSIWYG
+- [PLANET-6120](https://jira.greenpeace.org/browse/PLANET-6120) - Release Carousel Header WYSIWYG block
+- [PLANET-5608](https://jira.greenpeace.org/browse/PLANET-5608) - New Take Action cover UI
+
 ## 2.61.0 - 2021-08-17
 
 ### Features
