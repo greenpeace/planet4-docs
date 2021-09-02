@@ -10,138 +10,138 @@ description: >-
 
 ### Features
 
-- [PLANET-6198](https://jira.greenpeace.org/browse/PLANET-6198) - Convert Social Media Block to WYSIWYG
-- [PLANET-6122](https://jira.greenpeace.org/browse/PLANET-6122) - Implement hydration for CarouselHeader WYSIWYG
-- [PLANET-6120](https://jira.greenpeace.org/browse/PLANET-6120) - Release Carousel Header WYSIWYG block
-- [PLANET-5608](https://jira.greenpeace.org/browse/PLANET-5608) - New Take Action cover UI
+* [PLANET-6198](https://jira.greenpeace.org/browse/PLANET-6198) - Convert Social Media Block to WYSIWYG
+* [PLANET-6122](https://jira.greenpeace.org/browse/PLANET-6122) - Implement hydration for CarouselHeader WYSIWYG
+* [PLANET-6120](https://jira.greenpeace.org/browse/PLANET-6120) - Release Carousel Header WYSIWYG block
+* [PLANET-5608](https://jira.greenpeace.org/browse/PLANET-5608) - Implement "Take action" style design on BETA WYSIWYG version of Covers
 
 ## 2.61.0 - 2021-08-17
 
 ### Features
 
-- [PLANET-6127](https://jira.greenpeace.org/browse/PLANET-6127) - Add P4 trainings to message board
-- [PLANET-6083](https://jira.greenpeace.org/browse/PLANET-6083) - Add UTM tracking for Social Share messages
+* [PLANET-6127](https://jira.greenpeace.org/browse/PLANET-6127) - Add P4 trainings to message board
+* [PLANET-6083](https://jira.greenpeace.org/browse/PLANET-6083) - Add UTM tracking for Social Share messages
 
 ### Bug Fixes
 
-- [PLANET-6318](https://jira.greenpeace.org/browse/PLANET-6318) - #GITS00030114 EN Form: Twitter share breaks 1
+* [PLANET-6318](https://jira.greenpeace.org/browse/PLANET-6318) - \#GITS00030114 EN Form: Twitter share breaks 1
 
 ### Infrastructure
 
-- [PLANET-6265](https://jira.greenpeace.org/browse/PLANET-6265) - Create Origin CA Integration for Cloudflare certificate generation
-- [PLANET-6264](https://jira.greenpeace.org/browse/PLANET-6264) - Update Traefik migration plan to include the use of Cloudflare Origin Certificates
-- [PLANET-6259](https://jira.greenpeace.org/browse/PLANET-6259) - Create cert manager DNS issuer to support nginx load balancer
-- [PLANET-6250](https://jira.greenpeace.org/browse/PLANET-6250) - Increase CPU limits for elastic (ElasticStack) (dev & prod)
-- [PLANET-6249](https://jira.greenpeace.org/browse/PLANET-6249) - Draft P4 escalation procedure document
-- [PLANET-6244](https://jira.greenpeace.org/browse/PLANET-6244) - Increase CPU limits for kube-metrics (NewRelic) (prod)
-- [PLANET-6243](https://jira.greenpeace.org/browse/PLANET-6243) - Update backend check notification destination in Cloudflare
-- [PLANET-6241](https://jira.greenpeace.org/browse/PLANET-6241) - Update Traefik helm chart to commit new memory and replica values following outage
-- [PLANET-6217](https://jira.greenpeace.org/browse/PLANET-6217) - Tune end point alerts to allow for flapping
-- [PLANET-5587](https://jira.greenpeace.org/browse/PLANET-5587) - Upgrade cert-manager once all NROs have migrated successfully
+* [PLANET-6265](https://jira.greenpeace.org/browse/PLANET-6265) - Create Origin CA Integration for Cloudflare certificate generation
+* [PLANET-6264](https://jira.greenpeace.org/browse/PLANET-6264) - Update Traefik migration plan to include the use of Cloudflare Origin Certificates
+* [PLANET-6259](https://jira.greenpeace.org/browse/PLANET-6259) - Create cert manager DNS issuer to support nginx load balancer
+* [PLANET-6250](https://jira.greenpeace.org/browse/PLANET-6250) - Increase CPU limits for elastic \(ElasticStack\) \(dev & prod\)
+* [PLANET-6249](https://jira.greenpeace.org/browse/PLANET-6249) - Draft P4 escalation procedure document
+* [PLANET-6244](https://jira.greenpeace.org/browse/PLANET-6244) - Increase CPU limits for kube-metrics \(NewRelic\) \(prod\)
+* [PLANET-6243](https://jira.greenpeace.org/browse/PLANET-6243) - Update backend check notification destination in Cloudflare
+* [PLANET-6241](https://jira.greenpeace.org/browse/PLANET-6241) - Update Traefik helm chart to commit new memory and replica values following outage
+* [PLANET-6217](https://jira.greenpeace.org/browse/PLANET-6217) - Tune end point alerts to allow for flapping
+* [PLANET-5587](https://jira.greenpeace.org/browse/PLANET-5587) - Upgrade cert-manager once all NROs have migrated successfully
 
 ## 2.60.0 - 2021-07-26
 
 ### Features
 
-- [PLANET-6237](https://jira.greenpeace.org/browse/PLANET-6237) - Set up Slack notifications pilot on GPI
-- [PLANET-5326](https://jira.greenpeace.org/browse/PLANET-5326) - Handbook: increase sidebar font size and fix wrapping
-- [PLANET-5247](https://jira.greenpeace.org/browse/PLANET-5247) - Spreadsheet Accessibility
+* [PLANET-6237](https://jira.greenpeace.org/browse/PLANET-6237) - Set up Slack notifications pilot on GPI
+* [PLANET-5326](https://jira.greenpeace.org/browse/PLANET-5326) - Handbook: increase sidebar font size and fix wrapping
+* [PLANET-5247](https://jira.greenpeace.org/browse/PLANET-5247) - Spreadsheet Accessibility
 
 ### Bug Fixes
 
-- [PLANET-6238](https://jira.greenpeace.org/browse/PLANET-6238) - Private Campaign Pages are not visible to Editors
-- [PLANET-6124](https://jira.greenpeace.org/browse/PLANET-6124) - Columns: external links always open in new tab ignoring option in settings
+* [PLANET-6238](https://jira.greenpeace.org/browse/PLANET-6238) - Private Campaign Pages are not visible to Editors
+* [PLANET-6124](https://jira.greenpeace.org/browse/PLANET-6124) - Columns: external links always open in new tab ignoring option in settings
 
 ### Infrastructure
 
-- [PLANET-6224](https://jira.greenpeace.org/browse/PLANET-6224) - Fix dev yellow ElasticSearch index status
-- [PLANET-6218](https://jira.greenpeace.org/browse/PLANET-6218) - Deploy nginx ingress to static chart for local testing
-- [PLANET-6207](https://jira.greenpeace.org/browse/PLANET-6207) - Delete fluent-gcp-scaler (Prod)
+* [PLANET-6224](https://jira.greenpeace.org/browse/PLANET-6224) - Fix dev yellow ElasticSearch index status
+* [PLANET-6218](https://jira.greenpeace.org/browse/PLANET-6218) - Deploy nginx ingress to static chart for local testing
+* [PLANET-6207](https://jira.greenpeace.org/browse/PLANET-6207) - Delete fluent-gcp-scaler \(Prod\)
 
 ## 2.59.0 - 2021-07-05
 
 ### Features
 
-- [PLANET-6152](https://jira.greenpeace.org/browse/PLANET-6152) - Add punctuation before "via @greenpeace" in tweet share button text
-- [PLANET-4460](https://jira.greenpeace.org/browse/PLANET-4460) - Social media block: set min and max width to Facebook embeds
+* [PLANET-6152](https://jira.greenpeace.org/browse/PLANET-6152) - Add punctuation before "via @greenpeace" in tweet share button text
+* [PLANET-4460](https://jira.greenpeace.org/browse/PLANET-4460) - Social media block: set min and max width to Facebook embeds
 
 ### Bug Fixes
 
-- [PLANET-6212](https://jira.greenpeace.org/browse/PLANET-6212) - EN form can't be submitted if it has mandatory checkbox
-- [PLANET-6147](https://jira.greenpeace.org/browse/PLANET-6147) - Adding additional classes to blocks sometimes breaks styles
-- [PLANET-6130](https://jira.greenpeace.org/browse/PLANET-6130) - Mobile logo link spans the whole fixed header
-- [PLANET-6040](https://jira.greenpeace.org/browse/PLANET-6040) - Articles block through error on page edit
-- [PLANET-5968](https://jira.greenpeace.org/browse/PLANET-5968) - Missing images in Media Library
-- [PLANET-5003](https://jira.greenpeace.org/browse/PLANET-5003) - Pages: Spacing of lists is inconsistent compared to Posts
+* [PLANET-6212](https://jira.greenpeace.org/browse/PLANET-6212) - EN form can't be submitted if it has mandatory checkbox
+* [PLANET-6147](https://jira.greenpeace.org/browse/PLANET-6147) - Adding additional classes to blocks sometimes breaks styles
+* [PLANET-6130](https://jira.greenpeace.org/browse/PLANET-6130) - Mobile logo link spans the whole fixed header
+* [PLANET-6040](https://jira.greenpeace.org/browse/PLANET-6040) - Articles block through error on page edit
+* [PLANET-5968](https://jira.greenpeace.org/browse/PLANET-5968) - Missing images in Media Library
+* [PLANET-5003](https://jira.greenpeace.org/browse/PLANET-5003) - Pages: Spacing of lists is inconsistent compared to Posts
 
 ### Infrastructure
 
-- [PLANET-6206](https://jira.greenpeace.org/browse/PLANET-6206) - Increase the memory on nginx controllers (global & p4)(dev & prod)
-- [PLANET-6201](https://jira.greenpeace.org/browse/PLANET-6201) - Create an nginx ingress for jctest
-- [PLANET-6200](https://jira.greenpeace.org/browse/PLANET-6200) - Upgrade Nginx Load balancers to latest version in dev and prod
-- [PLANET-6199](https://jira.greenpeace.org/browse/PLANET-6199) - Upgrade Cert Manager to latest version in dev and prod
+* [PLANET-6206](https://jira.greenpeace.org/browse/PLANET-6206) - Increase the memory on nginx controllers \(global & p4\)\(dev & prod\)
+* [PLANET-6201](https://jira.greenpeace.org/browse/PLANET-6201) - Create an nginx ingress for jctest
+* [PLANET-6200](https://jira.greenpeace.org/browse/PLANET-6200) - Upgrade Nginx Load balancers to latest version in dev and prod
+* [PLANET-6199](https://jira.greenpeace.org/browse/PLANET-6199) - Upgrade Cert Manager to latest version in dev and prod
 
 ## 2.58.2 - 2021-06-23
 
 ### Features
 
-- [PLANET-6146](https://jira.greenpeace.org/browse/PLANET-6146) - Add Hubspot event callback script to track form signups
+* [PLANET-6146](https://jira.greenpeace.org/browse/PLANET-6146) - Add Hubspot event callback script to track form signups
 
 ### Bug Fixes
 
-- [PLANET-6197](https://jira.greenpeace.org/browse/PLANET-6197) - Twitter embed doesn't fit in the page on mobile width
-- [PLANET-6196](https://jira.greenpeace.org/browse/PLANET-6196) - Image credits are missing in gallery block
-- [PLANET-6194](https://jira.greenpeace.org/browse/PLANET-6194) - 404 search input not adapted to RTL
-- [PLANET-6009](https://jira.greenpeace.org/browse/PLANET-6009) - A Media Block with empty url field generates a notice and a false block
+* [PLANET-6197](https://jira.greenpeace.org/browse/PLANET-6197) - Twitter embed doesn't fit in the page on mobile width
+* [PLANET-6196](https://jira.greenpeace.org/browse/PLANET-6196) - Image credits are missing in gallery block
+* [PLANET-6194](https://jira.greenpeace.org/browse/PLANET-6194) - 404 search input not adapted to RTL
+* [PLANET-6009](https://jira.greenpeace.org/browse/PLANET-6009) - A Media Block with empty url field generates a notice and a false block
 
 ### Infrastructure
 
-- [PLANET-6195](https://jira.greenpeace.org/browse/PLANET-6195) - Draft plan to migrate Traefik to Nginx loadbalancer
-- [PLANET-6181](https://jira.greenpeace.org/browse/PLANET-6181) - Validate all indexes moved to new ElasticSearch instance
-- [PLANET-6097](https://jira.greenpeace.org/browse/PLANET-6097) - Decommission old ElasticSearch in production
+* [PLANET-6195](https://jira.greenpeace.org/browse/PLANET-6195) - Draft plan to migrate Traefik to Nginx loadbalancer
+* [PLANET-6181](https://jira.greenpeace.org/browse/PLANET-6181) - Validate all indexes moved to new ElasticSearch instance
+* [PLANET-6097](https://jira.greenpeace.org/browse/PLANET-6097) - Decommission old ElasticSearch in production
 
 ## 2.58.1 - 2021-06-15
 
 ### Features
 
-- [PLANET-5757](https://jira.greenpeace.org/browse/PLANET-5757) - Remove jQuery from global.js
-- [PLANET-5257](https://jira.greenpeace.org/browse/PLANET-5257) - Improve Accessibility on Posts Teasers (Search, Articles block)
+* [PLANET-5757](https://jira.greenpeace.org/browse/PLANET-5757) - Remove jQuery from global.js
+* [PLANET-5257](https://jira.greenpeace.org/browse/PLANET-5257) - Improve Accessibility on Posts Teasers \(Search, Articles block\)
 
 ### Bug Fixes
 
-- [PLANET-6192](https://jira.greenpeace.org/browse/PLANET-6192) - The language switcher shows single character on menu bar
+* [PLANET-6192](https://jira.greenpeace.org/browse/PLANET-6192) - The language switcher shows single character on menu bar
 
 ### Infrastructure
 
-- [PLANET-6187](https://jira.greenpeace.org/browse/PLANET-6187) - Disable GCP vulnerability container scanning for dev and prod
+* [PLANET-6187](https://jira.greenpeace.org/browse/PLANET-6187) - Disable GCP vulnerability container scanning for dev and prod
 
 ## 2.58.0 - 2021-06-14
 
 ### Features
 
-- [PLANET-6172](https://jira.greenpeace.org/browse/PLANET-6172) - Allow basic rich text formatting on blocks description fields
-- [PLANET-6150](https://jira.greenpeace.org/browse/PLANET-6150) - Upgrade WPML to 4.4.10
+* [PLANET-6172](https://jira.greenpeace.org/browse/PLANET-6172) - Allow basic rich text formatting on blocks description fields
+* [PLANET-6150](https://jira.greenpeace.org/browse/PLANET-6150) - Upgrade WPML to 4.4.10
 
 ### Bug Fixes
 
-- [PLANET-6060](https://jira.greenpeace.org/browse/PLANET-6060) - Header description field is not editable from visual tab of tiny mce editor
+* [PLANET-6060](https://jira.greenpeace.org/browse/PLANET-6060) - Header description field is not editable from visual tab of tiny mce editor
 
 ## 2.57.1 - 2021-06-08
 
 ### Features
 
-- [PLANET-6155](https://jira.greenpeace.org/browse/PLANET-6155) - Align HS consent mechanism to P4 native cookies bar
-- [PLANET-6023](https://jira.greenpeace.org/browse/PLANET-6023) - Enhance nro-enable to have an exact snapshot of live website
-- [PLANET-5868](https://jira.greenpeace.org/browse/PLANET-5868) - Update Table block caption styles
+* [PLANET-6155](https://jira.greenpeace.org/browse/PLANET-6155) - Align HS consent mechanism to P4 native cookies bar
+* [PLANET-6023](https://jira.greenpeace.org/browse/PLANET-6023) - Enhance nro-enable to have an exact snapshot of live website
+* [PLANET-5868](https://jira.greenpeace.org/browse/PLANET-5868) - Update Table block caption styles
 
 ### Infrastructure
 
-- [PLANET-6167](https://jira.greenpeace.org/browse/PLANET-6167) - Automate restarting of all non-P4 deployments for node upgrades
-- [PLANET-6166](https://jira.greenpeace.org/browse/PLANET-6166) - Fix Cert Manager namespace issuer to support global-redirects with cluster issuers
-- [PLANET-6117](https://jira.greenpeace.org/browse/PLANET-6117) - Deploy Information Lifecycle Management policies for Application Performance Metric indexes
-- [PLANET-6092](https://jira.greenpeace.org/browse/PLANET-6092) - Complete sizing review of new Elastic stack
-- [PLANET-5834](https://jira.greenpeace.org/browse/PLANET-5834) - Upgrade Prod Nodes to 1.17
-- [PLANET-5833](https://jira.greenpeace.org/browse/PLANET-5833) - Upgrade Develop Kubernetes Nodes to 1.17
+* [PLANET-6167](https://jira.greenpeace.org/browse/PLANET-6167) - Automate restarting of all non-P4 deployments for node upgrades
+* [PLANET-6166](https://jira.greenpeace.org/browse/PLANET-6166) - Fix Cert Manager namespace issuer to support global-redirects with cluster issuers
+* [PLANET-6117](https://jira.greenpeace.org/browse/PLANET-6117) - Deploy Information Lifecycle Management policies for Application Performance Metric indexes
+* [PLANET-6092](https://jira.greenpeace.org/browse/PLANET-6092) - Complete sizing review of new Elastic stack
+* [PLANET-5834](https://jira.greenpeace.org/browse/PLANET-5834) - Upgrade Prod Nodes to 1.17
+* [PLANET-5833](https://jira.greenpeace.org/browse/PLANET-5833) - Upgrade Develop Kubernetes Nodes to 1.17
 
 ## 2.57.0 - 2021-06-01
 
@@ -452,3 +452,4 @@ description: >-
 ### Infrastructure
 
 * [PLANET-5836](https://jira.greenpeace.org/browse/PLANET-5836) - Reset traefik-consol path for cert regneration in Dev
+
