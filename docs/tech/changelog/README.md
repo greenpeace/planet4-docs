@@ -6,7 +6,7 @@ description: >-
 
 # Changelog
 
-## 2.62.00 - 2021-09-01
+## 2.62.0 - 2021-09-01
 
 ### Features
 
