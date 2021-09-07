@@ -332,6 +332,16 @@ For a more permanent solution, edit a file `.env` and change the variable there:
 COMPOSE_FILE="docker-compose.full.yml"
 ```
 
+### Fast install
+
+The installation process involves a lot of file operations and can be a bit long and error prone. You can use a faster installation process, replacing `make dev` with:
+
+```text
+make dev-from-release
+```
+
+This will download a pre-compiled installation instead of compiling everything from your machine.
+
 ## Troubleshooting
 
 To view the output of running containers:
@@ -472,6 +482,64 @@ make nro-test-codeception
 
 The tests work a bit differently to the main ones, see the [Testing section]() for more info.
 
+### Fast install
+
+Instead of a classic install and NRO activation `make dev && make nro-enable`, you can use a faster installation process, with:
+
+```text
+make nro-from-release
+```
+
+This will download a pre-compiled installation of WordPress and Planet4 theme/plugins, and enable your NRO themes/plugins on top of it.
+
+### Install variables
+
+You can visualize how variables will be generated with `make nro-list-variables` \(it takes your `Makefile.include` into account\).
+
+```text
+> NRO_NAME=finland make nro-list-variables
+NRO variables:
+* NRO_APP_HOSTNAME = www.planet4.test
+* NRO_APP_HOSTPATH =
+* NRO_BRANCH = main
+* NRO_DATABASE = planet4_finland
+* NRO_DB_DUMP =
+* NRO_DB_IMPORT = true
+* NRO_DB_BUCKET = planet4-finland-master-db-backup
+* NRO_DB_PROJECT = planet-4-151612
+* NRO_DB_VERSION = latest
+* NRO_DIRNAME = planet4-finland
+* NRO_IMG_BUCKET = planet4-finland-stateless
+* NRO_NAME = finland
+* NRO_REPO = https://github.com/greenpeace/planet4-finland.git
+* NRO_THEME = planet4-child-theme-finland
+```
+
+### Database download and import
+
+A database backup can be automatically downloaded and imported, if variable `NRO_DB_VERSION` is provided. It can take a version number `NRO_DB_VERSION ?= 1.6`, or a keyword **latest** `NRO_DB_VERSION ?= latest` that will try to get the latest file.  
+ It uses `gsutil`, so you need to install gcloud locally, see [https://cloud.google.com/storage/docs/gsutil\_install](https://cloud.google.com/storage/docs/gsutil_install) , and authenticate with `gcloud auth login`.  
+ Alternatively, you can download a dump manually and specify it with `NRO_DB_DUMP ?= my-db.sql.gz`. If the file does not exist, the command will try to download it from gcloud.  
+ NRO databases are imported in a different database than the default one, the name of the database is `planet4_$(NRO_NAME)`. This means you can have multiple databases living in the db container. If a database with this name already exists and has wordpress tables, the script will prompt for your approval before overwriting it.
+
+It is possible to specify a different gcloud project `NRO_DB_PROJECT` and bucket `NRO_DB_BUCKET` if the default configuration doesn't fit your need.
+
+### Image proxy
+
+An image proxy is automatically configured when you enable your NRO environment.  
+Image proxy is a fallback that converts images calls failing locally to `http://www.greenpeace.org/static/${NRO_IMG_BUCKET}/` . This allows you to see images from production without downloading them.
+
+```bash
+#Image proxy is enabled by default, to disable it:
+make nro-disable-img-proxy
+#to re-enable it:
+make nro-enable-img-proxy
+
+#it is based on auto-generated variable NRO_IMG_BUCKET
+#marking it empty will disable the installation of the proxy
+NRO_IMG_BUCKET:=''
+```
+
 ## Advanced features
 
 ### Production Containers
@@ -532,22 +600,6 @@ It can be cleared by running a `wp` command:
 `docker-compose exec php-fpm sh -c 'wp timber clear_caches'`
 
 This command will return a warning if timber or twig cache were already empty.
-
-### Image proxy
-
-An image proxy is automatically configured when you enable your NRO environment.  
-Image proxy is a fallback that converts images calls failing locally to `http://www.greenpeace.org/static/${NRO_IMG_BUCKET}/` . This allows you to see images from production without downloading them.
-
-```bash
-#Image proxy is enabled by default, to disable it:
-make nro-disable-img-proxy
-#to re-enable it:
-make nro-enable-img-proxy
-
-#it is based on auto-generated variable NRO_IMG_BUCKET
-#marking it empty will disable the installation of the proxy
-NRO_IMG_BUCKET:=''
-```
 
 ### WP-Stateless GCS bucket
 

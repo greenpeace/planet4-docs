@@ -10,11 +10,11 @@ description: >-
 
 ### Features
 
-- [PLANET-6361](https://jira.greenpeace.org/browse/PLANET-6361) - Allow choosing the new version of themes in the design sidebar
-- [PLANET-6345](https://jira.greenpeace.org/browse/PLANET-6345) - Add styles for page header background image to new version of Oceans theme
-- [PLANET-6336](https://jira.greenpeace.org/browse/PLANET-6336) - Develop code for the Cookies Bar A/B Test (1st iteration)
-- [PLANET-6253](https://jira.greenpeace.org/browse/PLANET-6253) - Change the cookies settings in the cookies block
-- [PLANET-6137](https://jira.greenpeace.org/browse/PLANET-6137) - Add ability to reorder carousel header slides
+* [PLANET-6361](https://jira.greenpeace.org/browse/PLANET-6361) - Allow choosing the new version of themes in the design sidebar
+* [PLANET-6345](https://jira.greenpeace.org/browse/PLANET-6345) - Add styles for page header background image to new version of Oceans theme
+* [PLANET-6336](https://jira.greenpeace.org/browse/PLANET-6336) - Develop code for the Cookies Bar A/B Test \(1st iteration\)
+* [PLANET-6253](https://jira.greenpeace.org/browse/PLANET-6253) - Change the cookies settings in the cookies block
+* [PLANET-6137](https://jira.greenpeace.org/browse/PLANET-6137) - Add ability to reorder carousel header slides
 
 ## 2.62.0 - 2021-09-01
 
@@ -462,3 +462,4 @@ description: >-
 ### Infrastructure
 
 * [PLANET-5836](https://jira.greenpeace.org/browse/PLANET-5836) - Reset traefik-consol path for cert regneration in Dev
+

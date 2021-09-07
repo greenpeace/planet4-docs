@@ -4,7 +4,7 @@ description: Add a new plugin in only one NRO site
 
 # Plugins
 
-If you are considering installing a 3rdparty plugin on your NRO website, first read our relevant guide around Plugins, espcially the part about the Security review. The Planet 4 team can help with perfoming a security review.
+If you are considering installing a 3rdparty plugin on your NRO website, first read our relevant guide around Plugins, especially the part about the Security review. The Planet 4 team can help with perfoming a security review.
 
 {% page-ref page="../../tech/plugins.md" %}
 
