@@ -10,10 +10,6 @@ If you are into custom development for one of NRO websites, before diving into t
 
 The main channel of the Greenpeace Planet 4 Development community. Feel free to ask questions about development and setting up your local environment.
 
-### \#p4-infra
-
-Discussions about issues/decisions regarding the infrastructure where Planet 4 is running on. Feel free if you need any help regarding the infrastructure side of the project.
-
 ### \#p4-general
 
 This is the main channel for the overall Greenpeace Planet 4 community.

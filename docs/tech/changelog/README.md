@@ -10,8 +10,8 @@ description: >-
 
 ### Features
 
-- [PLANET-6363](https://jira.greenpeace.org/browse/PLANET-6363) - Remove legacy themes
-- [PLANET-6362](https://jira.greenpeace.org/browse/PLANET-6362) - Switch all production campaign pages using a theme to the new version
+* [PLANET-6363](https://jira.greenpeace.org/browse/PLANET-6363) - Remove legacy themes
+* [PLANET-6362](https://jira.greenpeace.org/browse/PLANET-6362) - Switch all production campaign pages using a theme to the new version
 
 ## 2.62.1 - 2021-09-06
 
@@ -469,3 +469,4 @@ description: >-
 ### Infrastructure
 
 * [PLANET-5836](https://jira.greenpeace.org/browse/PLANET-5836) - Reset traefik-consol path for cert regneration in Dev
+
