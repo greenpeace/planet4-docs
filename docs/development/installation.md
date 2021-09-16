@@ -424,6 +424,20 @@ All planet4 code will be under the Wordpress' content folder:
 
 `./persistence/app/public/wp-content/`
 
+## Dependencies and assets
+
+Planet 4 uses Composer and NPM to handle planet4-master-theme and planet4-plugin-gutenberg-blocks dependencies. Those tools are installed in their containers \(respectively `php-fpm` and `node`\). To install / re-install all dependencies, run:
+
+```text
+make deps
+```
+
+To generate / regenerate all assets, run:
+
+```text
+make assets
+```
+
 ## Logging in
 
 ### Administrator login
