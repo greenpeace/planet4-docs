@@ -6,6 +6,24 @@ description: >-
 
 # Changelog
 
+## 2.63.2 - 2021-09-20
+
+### Features
+
+- [PLANET-6369](https://jira.greenpeace.org/browse/PLANET-6369) - Phase out NewRelic
+- [PLANET-5948](https://jira.greenpeace.org/browse/PLANET-5948) - Improve Security headers on greenpeace.org
+
+### Bug Fixes
+
+- [PLANET-6267](https://jira.greenpeace.org/browse/PLANET-6267) - Fix 404 error for external link and PDF link icons
+- [PLANET-6239](https://jira.greenpeace.org/browse/PLANET-6239) - Blocks with alignment overlap in the backend
+
+### Infrastructure
+
+- [PLANET-6339](https://jira.greenpeace.org/browse/PLANET-6339) - Update dev & stage DNS names for storytelling
+- [PLANET-6329](https://jira.greenpeace.org/browse/PLANET-6329) - Update dev and stage DNS hostnames for gcef.ca
+- [PLANET-6312](https://jira.greenpeace.org/browse/PLANET-6312) - Update dev & stage DNS hostnames for handbook
+
 ## 2.63.1 - 2021-09-09
 
 ### Features
@@ -469,4 +487,3 @@ description: >-
 ### Infrastructure
 
 * [PLANET-5836](https://jira.greenpeace.org/browse/PLANET-5836) - Reset traefik-consol path for cert regneration in Dev
-
