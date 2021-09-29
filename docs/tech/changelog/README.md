@@ -6,6 +6,17 @@ description: >-
 
 # Changelog
 
+## 2.64.0 - 2021-09-29
+
+### Features
+
+- [PLANET-6306](https://jira.greenpeace.org/browse/PLANET-6306) - Upgrade PHP to 7.4
+- [PLANET-6223](https://jira.greenpeace.org/browse/PLANET-6223) - Implement Google's Consent Mode
+
+### Bug Fixes
+
+- [PLANET-6141](https://jira.greenpeace.org/browse/PLANET-6141) - Posts: Image / captions alignment
+
 ## 2.63.2 - 2021-09-20
 
 ### Features
