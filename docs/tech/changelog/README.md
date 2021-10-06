@@ -6,6 +6,17 @@ description: >-
 
 # Changelog
 
+## 2.64.1 - 2021-10-06
+
+### Features
+
+- [PLANET-6307](https://jira.greenpeace.org/browse/PLANET-6307) - Upgrade to Wordpress 5.8
+- [PLANET-4812](https://jira.greenpeace.org/browse/PLANET-4812) - Convert Take Action Boxout to WYSIWYG
+
+### Bug Fixes
+
+- [PLANET-6425](https://jira.greenpeace.org/browse/PLANET-6425) - Timeline block is not working on localized pages
+
 ## 2.64.0 - 2021-09-29
 
 ### Features
