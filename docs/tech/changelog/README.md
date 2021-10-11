@@ -6,6 +6,14 @@ description: >-
 
 # Changelog
 
+## 2.65.0 - 2021-10-11
+
+
+### Bug Fixes
+
+- [PLANET-6437](https://jira.greenpeace.org/browse/PLANET-6437) - When using a tag on Take Action Boxout, all data relating to the tag is saved in the post
+- [PLANET-6436](https://jira.greenpeace.org/browse/PLANET-6436) - Take Action Boxout in post causes warnings when closing or reloading a tab even if the post has no changes
+
 ## 2.64.1 - 2021-10-06
 
 ### Features
