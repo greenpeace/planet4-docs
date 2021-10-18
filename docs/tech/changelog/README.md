@@ -6,6 +6,20 @@ description: >-
 
 # Changelog
 
+## 2.65.1 - 2021-10-18
+
+### Features
+
+- [PLANET-6411](https://jira.greenpeace.org/browse/PLANET-6411) - Hide show cookies bar on the basis of new cookies "active consent choice"
+- [PLANET-6214](https://jira.greenpeace.org/browse/PLANET-6214) - Handbook: Replace the "Greenpeace" logo with "Planet 4"
+- [PLANET-6189](https://jira.greenpeace.org/browse/PLANET-6189) - Implement the new footer design
+- [PLANET-6005](https://jira.greenpeace.org/browse/PLANET-6005) - Replace all FontAwesome icons by SVG icons
+
+### Bug Fixes
+
+- [PLANET-6406](https://jira.greenpeace.org/browse/PLANET-6406) - Spreadsheet block: sorting function not working as expected for numbers
+- [PLANET-5026](https://jira.greenpeace.org/browse/PLANET-5026) - Campaigns: Font size is not responsive for mobile
+
 ## 2.65.0 - 2021-10-11
 
 
