@@ -6,6 +6,20 @@ description: >-
 
 # Changelog
 
+## 2.65.2 - 2021-10-20
+
+### Features
+
+- [PLANET-6443](https://jira.greenpeace.org/browse/PLANET-6443) - Update Footer data attributes
+- [PLANET-6442](https://jira.greenpeace.org/browse/PLANET-6442) - Upgrade Elastic APM Agent to 1.3.1
+- [PLANET-5802](https://jira.greenpeace.org/browse/PLANET-5802) - Align links design with Design System - In-page links
+- [PLANET-5801](https://jira.greenpeace.org/browse/PLANET-5801) - Align links design with Design System - in-list links
+
+### Bug Fixes
+
+- [PLANET-6445](https://jira.greenpeace.org/browse/PLANET-6445) - Password protected posts redirect to root domain after entering correct password
+- [PLANET-6424](https://jira.greenpeace.org/browse/PLANET-6424) - Weird redirection when doing quick operations on pages
+
 ## 2.65.1 - 2021-10-18
 
 ### Features
