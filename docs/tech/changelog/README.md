@@ -6,6 +6,19 @@ description: >-
 
 # Changelog
 
+## 2.66.0 - 2021-10-26
+
+### Features
+
+- [PLANET-6301](https://jira.greenpeace.org/browse/PLANET-6301) - Upgrade Cloudflare plugin to 4.6.x
+- [PLANET-6272](https://jira.greenpeace.org/browse/PLANET-6272) - Upgrade to stable Bootstrap 5.0.x
+- [PLANET-5799](https://jira.greenpeace.org/browse/PLANET-5799) - Align links design with Design System - title links
+- [PLANET-5798](https://jira.greenpeace.org/browse/PLANET-5798) - Align links design with Design System - contextual navigation links
+
+### Bug Fixes
+
+- [PLANET-6453](https://jira.greenpeace.org/browse/PLANET-6453) - Editor content not centered
+
 ## 2.65.2 - 2021-10-20
 
 ### Features
