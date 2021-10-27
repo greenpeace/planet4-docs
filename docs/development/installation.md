@@ -4,7 +4,7 @@ description: Get a full Planet 4 development environment to your local machine
 
 # Installation
 
-We are using `docker` and `docker-compose` to provide as consistent a local development environment as possible, in accordance with [12factor](https://12factor.net/) development principles.
+We are using `docker` and `docker-compose` to provide as consistent a local development environment as possible, in accordance with [12factor](https://12factor.net) development principles.
 
 ## System Requirements
 
@@ -15,7 +15,7 @@ Firstly, check you have all the requirements on your system. For Linux users, th
 * [docker](https://docs.docker.com/engine/installation/)
 * [docker-compose](https://github.com/docker/compose/releases) - This should be installed along with docker on OSX and Windows
 * [envsubst](https://stackoverflow.com/questions/23620827/envsubst-command-not-found-on-mac-os-x-10-8/23622446#23622446) - This should be pre-installed on most Linux distributions - see MacOS instructions in platform specific steps
-* [unzip](https://linuxhint.com/unzip_command_-linux/)
+* [unzip](https://linuxhint.com/unzip\_command\_-linux/)
 
 #### Platform specific steps
 
@@ -56,11 +56,11 @@ docker run hello-world
 {% endtab %}
 
 {% tab title="Windows" %}
-In order to run the Planet4 development environment in Windows you'll need to enable **Windows Subsystem for Linux \(WSL\)**. WSL allows you to run a Linux environment within Windows. You'll need to enable WSL and install Ubuntu. The current version \(WSL 2\) comes with a lot of enhancements and better disk performance.  
-  
+In order to run the Planet4 development environment in Windows you'll need to enable **Windows Subsystem for Linux (WSL)**. WSL allows you to run a Linux environment within Windows. You'll need to enable WSL and install Ubuntu. The current version (WSL 2) comes with a lot of enhancements and better disk performance.\
+\
 You can follow the installation instructions [here](https://ubuntu.com/wsl).
 
-[Here is a post](https://nickjanetakis.com/blog/a-linux-dev-environment-on-windows-with-wsl-2-docker-desktop-and-more) with some more detail about setting up WSL 2 \(and many other tips for Windows devs!\)
+[Here is a post](https://nickjanetakis.com/blog/a-linux-dev-environment-on-windows-with-wsl-2-docker-desktop-and-more) with some more detail about setting up WSL 2 (and many other tips for Windows devs!)
 
 Note: this guide was created using the Ubuntu 18.04 image.
 
@@ -84,7 +84,7 @@ wsl --set-version Ubuntu-18.04 2
 
 #### Install Docker
 
-\(Optional\) In case there is a previous docker install you want to remove, you can probably do: 
+(Optional) In case there is a previous docker install you want to remove, you can probably do:&#x20;
 
 ```bash
 sudo apt remove docker docker-engine docker.io containerd runc
@@ -104,7 +104,7 @@ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubun
 
 Update the APT registry:
 
-```text
+```
 sudo apt update
 ```
 
@@ -131,9 +131,9 @@ Install docker-ce:
 sudo apt install docker-ce
 ```
 
-Ensure it has been installed with: 
+Ensure it has been installed with:&#x20;
 
-```text
+```
 sudo service docker status
 ```
 
@@ -151,7 +151,7 @@ su - ${USER}
 
 You can verify this by running:
 
-```text
+```
 id -nG
 ```
 
@@ -185,7 +185,7 @@ sudo chmod +x /usr/local/bin/docker-compose
 
 Install make and zip:
 
-```text
+```
 sudo apt install -y make unzip
 ```
 
@@ -197,10 +197,10 @@ In case the WSL version for your distro is 1, you can update it using:
 wsl --set-version Ubuntu-18.04 2
 ```
 
-WSL 2 Networking Issues:  
+WSL 2 Networking Issues:\
 [https://github.com/microsoft/WSL/issues/5336](https://github.com/microsoft/WSL/issues/5336)
 
-Docker Issues:  
+Docker Issues:\
 [https://nickjanetakis.com/blog/setting-up-docker-for-windows-and-wsl-to-work-flawlessly](https://nickjanetakis.com/blog/setting-up-docker-for-windows-and-wsl-to-work-flawlessly)[https://stackoverflow.com/questions/63497928/ubuntu-wsl-with-docker-could-not-be-found](https://stackoverflow.com/questions/63497928/ubuntu-wsl-with-docker-could-not-be-found)[https://github.com/docker/compose/issues/2738](https://github.com/docker/compose/issues/2738)
 
 sudo pip3 install -IUq docker-compose
@@ -216,7 +216,7 @@ Makefile: 212: recipe for target 'start' failed
 
 Segmentation fault
 
-[https://github.com/microsoft/WSL/issues/4694\#issuecomment-556095344](https://github.com/microsoft/WSL/issues/4694#issuecomment-556095344)
+[https://github.com/microsoft/WSL/issues/4694#issuecomment-556095344](https://github.com/microsoft/WSL/issues/4694#issuecomment-556095344)
 
 ```bash
 @therealkenc, @squeaky-pl Could you try this?
@@ -231,7 +231,7 @@ kernelCommandLine = vsyscall=emulate
 {% tab title="MacOS" %}
 Install updated `bash` , `make` and `grep` commands
 
-```text
+```
 brew install bash make grep
 ```
 
@@ -240,15 +240,15 @@ Replace default commands by the updated ones:
 * Allow and use `bash`:
   * Edit `/etc/shells` and add `/usr/local/bin/bash`
   * Run `chsh -s /usr/local/bin/bash`
-* Add `make` and `grep` to your `$PATH`and reload config:
+*   Add `make` and `grep` to your `$PATH`and reload config:
 
-  * Edit `~/.bashrc` \(or your custom shell equivalent\) and add
+    * Edit `~/.bashrc` (or your custom shell equivalent) and add
 
-     `PATH="$(brew --prefix)/opt/make/libexec/gnubin:$PATH"`
+    `   PATH="$(brew --prefix)/opt/make/libexec/gnubin:$PATH"`
 
-     `PATH="$(brew --prefix)/opt/grep/libexec/gnubin:$PATH"`
+    `   PATH="$(brew --prefix)/opt/grep/libexec/gnubin:$PATH"`
 
-  * Reload with `source ~/.bashrc`
+    * Reload with `source ~/.bashrc`
 
 Install `envsubst`
 
@@ -267,7 +267,7 @@ The following dependencies are required only if you want to contribute to the do
 
 * [shellcheck](https://github.com/koalaman/shellcheck)
 * [yamllint](https://github.com/adrienverge/yamllint)
-* [node/npm](https://nodejs.org/)
+* [node/npm](https://nodejs.org)
 
 ## First run
 
@@ -336,7 +336,7 @@ COMPOSE_FILE="docker-compose.full.yml"
 
 The installation process involves a lot of file operations and can be a bit long and error prone. You can use a faster installation process, replacing `make dev` with:
 
-```text
+```
 make dev-from-release
 ```
 
@@ -375,7 +375,7 @@ If result will be something like this:
 com.docke  5086 <USERNAME>   84u  IPv6 0xdc100c215fbb6b93      0t0  TCP *:8080 (LISTEN)
 ```
 
-That's a docker container. \(If it is a different process owning the port, you could run `kill -9 <PID>`\).
+That's a docker container. (If it is a different process owning the port, you could run `kill -9 <PID>`).
 
 To check which container is using this port you can run:
 
@@ -426,15 +426,15 @@ All planet4 code will be under the Wordpress' content folder:
 
 ## Dependencies and assets
 
-Planet 4 uses Composer and NPM to handle planet4-master-theme and planet4-plugin-gutenberg-blocks dependencies. Those tools are installed in their containers \(respectively `php-fpm` and `node`\). To install / re-install all dependencies, run:
+Planet 4 uses Composer and NPM to handle planet4-master-theme and planet4-plugin-gutenberg-blocks dependencies. Those tools are installed in their containers (respectively `php-fpm` and `node`). To install / re-install all dependencies, run:
 
-```text
+```
 make deps
 ```
 
 To generate / regenerate all assets, run:
 
-```text
+```
 make assets
 ```
 
@@ -452,7 +452,7 @@ Login username is `admin` and the password is `admin`.
 
 ### Elasticsearch access via ElasticHQ
 
-[elastichq](https://hub.docker.com/r/elastichq/elasticsearch-hq/) Access at [localhost:5000/](http://localhost:5000/)
+[elastichq](https://hub.docker.com/r/elastichq/elasticsearch-hq/) Access at [localhost:5000/](http://localhost:5000)
 
 ## NRO sites
 
@@ -484,23 +484,23 @@ NRO_DB_VERSION ?= latest
 
 **Then enable the NRO:**
 
-```text
+```
 make nro-enable
 ```
 
 **And, run the tests:**
 
-```text
+```
 make nro-test-codeception
 ```
 
-The tests work a bit differently to the main ones, see the [Testing section]() for more info.
+The tests work a bit differently to the main ones, see the [Testing section](broken-reference) for more info.
 
 ### Fast install
 
 Instead of a classic install and NRO activation `make dev && make nro-enable`, you can use a faster installation process, with:
 
-```text
+```
 make nro-from-release
 ```
 
@@ -508,9 +508,9 @@ This will download a pre-compiled installation of WordPress and Planet4 theme/pl
 
 ### Install variables
 
-You can visualize how variables will be generated with `make nro-list-variables` \(it takes your `Makefile.include` into account\).
+You can visualize how variables will be generated with `make nro-list-variables` (it takes your `Makefile.include` into account).
 
-```text
+```
 > NRO_NAME=finland make nro-list-variables
 NRO variables:
 * NRO_APP_HOSTNAME = www.planet4.test
@@ -531,16 +531,16 @@ NRO variables:
 
 ### Database download and import
 
-A database backup can be automatically downloaded and imported, if variable `NRO_DB_VERSION` is provided. It can take a version number `NRO_DB_VERSION ?= 1.6`, or a keyword **latest** `NRO_DB_VERSION ?= latest` that will try to get the latest file.  
- It uses `gsutil`, so you need to install gcloud locally, see [https://cloud.google.com/storage/docs/gsutil\_install](https://cloud.google.com/storage/docs/gsutil_install) , and authenticate with `gcloud auth login`.  
- Alternatively, you can download a dump manually and specify it with `NRO_DB_DUMP ?= my-db.sql.gz`. If the file does not exist, the command will try to download it from gcloud.  
- NRO databases are imported in a different database than the default one, the name of the database is `planet4_$(NRO_NAME)`. This means you can have multiple databases living in the db container. If a database with this name already exists and has wordpress tables, the script will prompt for your approval before overwriting it.
+A database backup can be automatically downloaded and imported, if variable `NRO_DB_VERSION` is provided. It can take a version number `NRO_DB_VERSION ?= 1.6`, or a keyword **latest** `NRO_DB_VERSION ?= latest` that will try to get the latest file.\
+&#x20;It uses `gsutil`, so you need to install gcloud locally, see [https://cloud.google.com/storage/docs/gsutil\_install](https://cloud.google.com/storage/docs/gsutil\_install) , and authenticate with `gcloud auth login`.\
+&#x20;Alternatively, you can download a dump manually and specify it with `NRO_DB_DUMP ?= my-db.sql.gz`. If the file does not exist, the command will try to download it from gcloud.\
+&#x20;NRO databases are imported in a different database than the default one, the name of the database is `planet4_$(NRO_NAME)`. This means you can have multiple databases living in the db container. If a database with this name already exists and has wordpress tables, the script will prompt for your approval before overwriting it.
 
 It is possible to specify a different gcloud project `NRO_DB_PROJECT` and bucket `NRO_DB_BUCKET` if the default configuration doesn't fit your need.
 
 ### Image proxy
 
-An image proxy is automatically configured when you enable your NRO environment.  
+An image proxy is automatically configured when you enable your NRO environment.\
 Image proxy is a fallback that converts images calls failing locally to `http://www.greenpeace.org/static/${NRO_IMG_BUCKET}/` . This allows you to see images from production without downloading them.
 
 ```bash
@@ -572,7 +572,7 @@ make appdata
 make run
 ```
 
-From here, you can download a database export from GCS \(for [example](https://console.cloud.google.com/storage/browser/planet4-flibble-db-backup?project=planet-4-151612)\) and visit [phpMyAdmin](http://pma.www.planet4.test/) to perform the import.
+From here, you can download a database export from GCS (for [example](https://console.cloud.google.com/storage/browser/planet4-flibble-db-backup?project=planet-4-151612)) and visit [phpMyAdmin](http://pma.www.planet4.test) to perform the import.
 
 ### Default Content
 
@@ -600,7 +600,7 @@ Alternatively, to only clear the object cache: Login to Wordpress admin and clic
 
 #### FastCGI cache purges
 
-The Wordpress plugin [nginx-helper](https://wordpress.org/plugins/nginx-helper/) is installed to enable FastCGI cache purges. Log in to the backend as above, navigate to [Settings &gt; Nginx Helper](http://www.planet4.test/wp-admin/options-general.php?page=nginx) and click:
+The Wordpress plugin [nginx-helper](https://wordpress.org/plugins/nginx-helper/) is installed to enable FastCGI cache purges. Log in to the backend as above, navigate to [Settings > Nginx Helper](http://www.planet4.test/wp-admin/options-general.php?page=nginx) and click:
 
 * Enable Purge
 * Redis Cache
@@ -609,15 +609,15 @@ The Wordpress plugin [nginx-helper](https://wordpress.org/plugins/nginx-helper/)
 
 **Timber / Twig caches**
 
-Templates cache should be disabled in development mode.   
-It can be cleared by running a `wp` command:   
+Templates cache should be disabled in development mode. \
+It can be cleared by running a `wp` command: \
 `docker-compose exec php-fpm sh -c 'wp timber clear_caches'`
 
 This command will return a warning if timber or twig cache were already empty.
 
 ### WP-Stateless GCS bucket
 
-If you want to use the Google Cloud Storage you'll have to configure [WP-Stateless](https://github.com/wpCloud/wp-stateless/). The plugin is installed and activated, however images will be stored locally until remote GCS storage is enabled in the administrator backend. [Log in](http://www.planet4.test/wp-login.php) with details gathered [from here](https://github.com/greenpeace/planet4-docker-compose/blob/master/docs/advanced.md#login) and navigate to [Media &gt; Stateless Setup](http://www.planet4.test/wp-admin/upload.php?page=stateless-setup).
+If you want to use the Google Cloud Storage you'll have to configure [WP-Stateless](https://github.com/wpCloud/wp-stateless/). The plugin is installed and activated, however images will be stored locally until remote GCS storage is enabled in the administrator backend. [Log in](http://www.planet4.test/wp-login.php) with details gathered [from here](https://github.com/greenpeace/planet4-docker-compose/blob/master/docs/advanced.md#login) and navigate to [Media > Stateless Setup](http://www.planet4.test/wp-admin/upload.php?page=stateless-setup).
 
 You will need a Google account with access to GCS buckets to continue.
 
@@ -625,17 +625,17 @@ Once logged in:
 
 * Click 'Get Started Now'
 * Authenticate
-* Choose 'Planet-4' project \(or a custom project from your private account\)
+* Choose 'Planet-4' project (or a custom project from your private account)
 * Choose or create a Google Cloud Bucket - it's recommended to use a bucket name unique to your own circumstances, eg 'mynamehere-test-planet4-wordpress'
 * Choose a region close to your work environment
-* Skip creating a billing account \(if using Greenpeace Planet 4 project\)
+* Skip creating a billing account (if using Greenpeace Planet 4 project)
 * Click continue, and wait a little while for all necessary permissions and object to be created.
 
 Congratulations, you're now serving media files directly from GCS buckets!
 
 ### ElasticSearch indexing
 
-The Elasticsearch host is configured during initial build. But if you want to confirm that the setting is right, navigate to [Settings &gt; ElasticPress &gt; Settings](http://www.planet4.test/wp-admin/admin.php?page=elasticpress-settings). The Host should be: `http://elasticsearch:9200`.
+The Elasticsearch host is configured during initial build. But if you want to confirm that the setting is right, navigate to [Settings > ElasticPress > Settings](http://www.planet4.test/wp-admin/admin.php?page=elasticpress-settings). The Host should be: `http://elasticsearch:9200`.
 
 Anytime you want to re-index Elasticsearch you can just run: `make elastic`.
 
@@ -653,7 +653,7 @@ See [openresty-php-exim](https://github.com/greenpeace/planet4-docker/tree/devel
 
 * `NEWRELIC_LICENSE` set to the license key in your NewRelic dashboard to automatically receive server and application metrics
 * `PHP_MEMORY_LIMIT` maximum memory each PHP process can consume before being terminated and restarted by the scheduler
-* `PHP_XDEBUG_REMOTE_HOST` in development mode enables remote [XDebug](https://xdebug.org/) debugging, tracing and profiling
+* `PHP_XDEBUG_REMOTE_HOST` in development mode enables remote [XDebug](https://xdebug.org) debugging, tracing and profiling
 
 ### Development mode
 
@@ -668,13 +668,13 @@ _@todo: Document some of the useful builtin configuration options available in u
 
 Install XDebug on the PHP container by running:
 
-```text
+```
 make dev-install-xdebug
 ```
 
 Switch XDebug mode with `xdebug-mode` command and an environment variable:
 
-```text
+```
 XDEBUG_MODE=debug,profile make xdebug-mode
 ```
 
@@ -684,13 +684,14 @@ XDEBUG_MODE=debug,profile make xdebug-mode
 {% tab title="VS Code" %}
 **Installation**
 
-* Install extension _PHP Debug_  [https://marketplace.visualstudio.com/items?itemName=felixfbecker.php-debug](https://marketplace.visualstudio.com/items?itemName=felixfbecker.php-debug) Source: [https://github.com/xdebug/vscode-php-debug](https://github.com/xdebug/vscode-php-debug)
-* Go to the debugger tab \(_ctrl+shift+D_\)
+* Install extension _PHP Debug_  [https://marketplace.visualstudio.com/items?itemName=felixfbecker.php-debug](https://marketplace.visualstudio.com/items?itemName=felixfbecker.php-debug)\
+  Source: [https://github.com/xdebug/vscode-php-debug](https://github.com/xdebug/vscode-php-debug)
+* Go to the debugger tab (_ctrl+shift+D_)
 * Click on "C_reate a launch.json file_", select _PHP_
 * File should be configured by default on port 9000
 * Add a `pathMappings` option in the first configuration, according to the path of the project you opened. For example:
 
-```text
+```
 # Root of your project is planet4-docker-compose/persistence/app :
       "pathMappings": {
         "/app/source/public": "${workspaceFolder}/public"
@@ -751,17 +752,16 @@ The `"log": true` option allows you to see the communication between XDebug and 
 
 If you are running any other services on your local device which respond on port 80, you may experience errors attempting to start the environment. Traefik is configured to respond on port 80 in this application, but you can change it by editing the docker-compose.yml file as below:
 
-```text
+```
   traefik:
     ports:
       - "8000:80"
 ```
 
-The first number is the port number on your host, the second number is mapped to port 80 on the openresty service container. Now you can access the site at [www.planet4.test:8000](http://www.planet4.test:8000/) instead.
+The first number is the port number on your host, the second number is mapped to port 80 on the openresty service container. Now you can access the site at [www.planet4.test:8000](http://www.planet4.test:8000) instead.
 
 A more robust solution for hosting multiple services on port 80 is to use a reverse proxy such as Traefik or [jwilder/openresty-proxy](https://github.com/jwilder/openresty-proxy) in a separate project, and use [Docker named networking](https://docs.docker.com/compose/networking/) features to isolate virtual networks.
 
 ### Traefik administration
 
-Traefik comes with a simple admin interface accessible at [www.planet4.test:8080](http://www.planet4.test:8080/).
-
+Traefik comes with a simple admin interface accessible at [www.planet4.test:8080](http://www.planet4.test:8080).
