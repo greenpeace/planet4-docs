@@ -6,6 +6,18 @@ description: >-
 
 # Changelog
 
+## 2.66.1 - 2021-11-03
+
+### Features
+
+- [PLANET-5797](https://jira.greenpeace.org/browse/PLANET-5797) - Align links design with Design System - standalone links
+- [PLANET-5796](https://jira.greenpeace.org/browse/PLANET-5796) - Align links design with Design System - body-copy links
+
+### Bug Fixes
+
+- [PLANET-6456](https://jira.greenpeace.org/browse/PLANET-6456) - The arrow icon on the accordion is missing
+- [PLANET-6455](https://jira.greenpeace.org/browse/PLANET-6455) - TA Boxout: multiple bugs when using as a reusable block
+
 ## 2.66.0 - 2021-10-26
 
 ### Features
