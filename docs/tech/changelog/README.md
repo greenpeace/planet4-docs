@@ -6,6 +6,17 @@ description: >-
 
 # Changelog
 
+## 2.67.0 - 2021-11-09
+
+### Features
+
+- [PLANET-6008](https://jira.greenpeace.org/browse/PLANET-6008) - CTA buttons: align with the design system
+- [PLANET-6006](https://jira.greenpeace.org/browse/PLANET-6006) - Gallery block - Make the carousel style consistent
+
+### Bug Fixes
+
+- [PLANET-6460](https://jira.greenpeace.org/browse/PLANET-6460) - Covers block buttons not accessible with keyboard
+
 ## 2.66.1 - 2021-11-03
 
 ### Features
