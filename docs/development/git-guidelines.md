@@ -18,7 +18,7 @@ Better example of commit message:
 
 > Force images aspect ratio ✅
 
-Typically a commit message is consisted from a subject and a body. The examples above are just subject lines, but we can use the commit body elaborate on the changes included. Here is a [good example](https://github.com/WordPress/gutenberg/commit/0298cacb14928900b8fe6783673ad7ad0454b3f9).
+Typically a commit message is consisted from a subject and a body. The examples above are just subject lines, but we can use the commit body elaborate on the changes included. Here is a [good example](https://github.com/greenpeace/planet4-master-theme/commit/9997398dd6c3ece0706d598269dccb6536761b6f).
 
 Mental note for commit messages:
 
