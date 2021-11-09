@@ -18,11 +18,16 @@ Better example of commit message:
 
 > Force images aspect ratio ✅
 
-Typically a commit message is consisted from a subject and a body. The examples above are subject lines and usually is all we need. But in some cases we may want to add more information to a commit, by leaving an empty line after the subject and keep writing some more text. Here is a [good example](https://github.com/WordPress/gutenberg/commit/0298cacb14928900b8fe6783673ad7ad0454b3f9) of how Gihub renders such a commit.
+Typically a commit message is consisted from a subject and a body. The examples above are just subject lines, but we can use the commit body elaborate on the changes included. Here is a [good example](https://github.com/WordPress/gutenberg/commit/0298cacb14928900b8fe6783673ad7ad0454b3f9).
+
+Mental note for commit messages:
+
+* _Subject_ describes “What”&#x20;
+* _Body_ describes “Why and How”
 
 ### Context
 
-If the commit is connected to a specific ticket, it’s a good practice to add the ticket number to the commit. If the ticket is on Github it should have a similar prefix you can use.
+If the commit is connected to a specific ticket, it’s a good practice to **add the ticket number to the commit subject**. If the ticket is on Github it should have a similar prefix you can use.
 
 > PLANET-1234 Force images aspect ratio
 
@@ -33,7 +38,7 @@ Some syntax and styling rules to make git log history more consistent.
 1. Separate subject from body with a blank line
 2. Capitalize the subject line
 3. Do not end the subject line with a period
-4. Use the imperative mood in the subject line \(see [https://chris.beams.io/posts/git-commit/](https://chris.beams.io/posts/git-commit/)\)
+4. Use the imperative mood in the subject line (see [https://chris.beams.io/posts/git-commit/](https://chris.beams.io/posts/git-commit/))
 
 ## Branch names
 
@@ -41,8 +46,8 @@ You can use the ticket number in branch names. Additionally you could add a pref
 
 These are all good branch names:
 
-> planet-1234  
-> feature/planet-1234  
+> planet-1234\
+> feature/planet-1234\
 > bug/planet-1234
 
 ## Pull Request Names
@@ -67,7 +72,7 @@ git push -f origin planet-1234
 
 What the above does, is that it stages the changes on footer template and amend our last commit by just adding our staged changes. If we wish to make changes to the commit message we can omit the `--no-edit` option.
 
-The `-f` option on the push command overrides the branch already on the remote \(Github\) with what we now have locally.
+The `-f` option on the push command overrides the branch already on the remote (Github) with what we now have locally.
 
 To read more about rewriting git history, you can check the [relevant chapter](https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History) of the git Book.
 
@@ -103,5 +108,4 @@ You can read more about rebase on the [relevant chapter](https://git-scm.com/boo
 
 The important thing of this process is that your branch should never have merge commits or commits about resolve conflicts. It should only contain commits that are relevant to your work.
 
-Remember that the `-f` option means force, and it essentially rewrites history. So, it’s ok to use it for your own branches, but you should never use it for the project branches \(eg. main\).
-
+Remember that the `-f` option means force, and it essentially rewrites history. So, it’s ok to use it for your own branches, but you should never use it for the project branches (eg. main).

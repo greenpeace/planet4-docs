@@ -33,17 +33,17 @@
 ## Infrastructure
 
 * [Intro](infrastructure/intro/README.md)
-  * [Reading List](infrastructure/intro/infra-reading-list.md)
+  * [Reading List](infrastructure/intro/reading-list.md)
   * [Architecture](infrastructure/intro/architecture.md)
 * [Administration](infrastructure/administration/README.md)
   * [NRO Generation](infrastructure/administration/nro-generation.md)
   * [Secret management](infrastructure/administration/secret-management.md)
-  * [Working with K8S](infrastructure/administration/infra-working-with-k8s.md)
-  * [Routine Checks](infrastructure/administration/infra-routine-checks.md)
-  * [Docker Images](infrastructure/administration/infra-docker-images.md)
-  * [Helm Charts](infrastructure/administration/infra-helm-charts.md)
-  * [Database Tasks](infrastructure/administration/infra-database-tasks.md)
-  * [Domain Redirects](infrastructure/administration/infra-domain-redirects.md)
+  * [Working with K8S](infrastructure/administration/working-with-k8s.md)
+  * [Routine Checks](infrastructure/administration/routine-checks.md)
+  * [Docker Images](infrastructure/administration/docker-images.md)
+  * [Helm Charts](infrastructure/administration/helm-charts.md)
+  * [Database Tasks](infrastructure/administration/database-tasks.md)
+  * [Domain Redirects](infrastructure/administration/domain-redirects.md)
 
 ## Tech
 
@@ -63,4 +63,3 @@
   * [2020](tech/changelog/changelog-2020.md)
   * [2019](tech/changelog/changelog-2019.md)
   * [2018](tech/changelog/changelog-2018.md)
-
