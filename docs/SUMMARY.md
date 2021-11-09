@@ -30,27 +30,13 @@
   * [Production](nro-customization/deployment/production.md)
   * [DB/Media Sync](nro-customization/deployment/db-media-sync.md)
 
-## Infrastructure
-
-* [Intro](infrastructure/intro/README.md)
-  * [Reading List](infrastructure/intro/reading-list.md)
-  * [Architecture](infrastructure/intro/architecture.md)
-* [Administration](infrastructure/administration/README.md)
-  * [NRO Generation](infrastructure/administration/nro-generation.md)
-  * [Secret management](infrastructure/administration/secret-management.md)
-  * [Working with K8S](infrastructure/administration/working-with-k8s.md)
-  * [Routine Checks](infrastructure/administration/routine-checks.md)
-  * [Docker Images](infrastructure/administration/docker-images.md)
-  * [Helm Charts](infrastructure/administration/helm-charts.md)
-  * [Database Tasks](infrastructure/administration/database-tasks.md)
-  * [Domain Redirects](infrastructure/administration/domain-redirects.md)
-
 ## Tech
 
 * [Wordpress](tech/wordpress.md)
 * [Blocks](tech/blocks.md)
 * [ElasticSearch](tech/elasticsearch.md)
 * [Plugins](tech/plugins.md)
+* [NRO Generation](tech/nro-generation.md)
 * [ADRs](tech/adrs/README.md)
   * [\[ADR-0001\] Use Gitbook for Technical Documentation](tech/adrs/adr-0001-use-gitbook-for-technical-documentation.md)
   * [\[ADR-0002\] P3 Archive elastic search integration](tech/adrs/adr-0002-p3-archive-elastic-search-integration.md)
