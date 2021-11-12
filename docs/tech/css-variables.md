@@ -66,3 +66,7 @@ In this case we can further simplify the source code. Except for "special charac
   border-width: 1px;
 }
 ```
+
+### Media queries and pseudo classes
+
+You can use media queries and pseudo classes inside of the shorthand variable selector. In that case the generated variable names will include the pseudo class / media query parameters (or an alias). See [the plugin's README](https://github.com/greenpeace/planet4-dashdash) for more detailed information.
