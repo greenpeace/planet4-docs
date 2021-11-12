@@ -15,7 +15,7 @@ To create tests for your site you have to do the following:
 
 1. In your planet4-nro repository, create a folder called "tests", like the example in the [planet4-netherlands](https://github.com/greenpeace/planet4-netherlands/tree/master/tests) repository.
 
-![nro tests folder](<../../.gitbook/assets/nro-tests-folder (1) (1) (1) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (2) (1) (1).png>)
+![nro tests folder](<../../.gitbook/assets/nro-tests-folder (1) (1) (1) (3) (3) (3) (3) (3) (1).png>)
 
 1. Inside that directory, write tests, following the [Codeception](https://codeception.com) syntax, in php files.
 

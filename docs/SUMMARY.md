@@ -37,6 +37,7 @@
 * [ElasticSearch](tech/elasticsearch.md)
 * [Plugins](tech/plugins.md)
 * [NRO Generation](tech/nro-generation.md)
+* [CSS variables](tech/css-variables.md)
 * [ADRs](tech/adrs/README.md)
   * [\[ADR-0001\] Use Gitbook for Technical Documentation](tech/adrs/adr-0001-use-gitbook-for-technical-documentation.md)
   * [\[ADR-0002\] P3 Archive elastic search integration](tech/adrs/adr-0002-p3-archive-elastic-search-integration.md)

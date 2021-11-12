@@ -86,11 +86,11 @@ Many NROs have decided to change their primary navigation toolbar, below a full 
 
 ![](<../../.gitbook/assets/nordic (1) (1) (2) (2) (4) (2) (1) (2).png>)
 
-![](<../../.gitbook/assets/nl (1) (2) (2) (4) (4) (4) (4) (4) (4) (4) (2).png>)
+![](<../../.gitbook/assets/nl (1) (2) (2) (4) (4) (4) (4) (4) (2).png>)
 
 * GP East Asia ([Taiwan](https://www.greenpeace.org/taiwan/), [HK](https://www.greenpeace.org/hongkong/) and [Korea](https://www.greenpeace.org/korea/)) opted for a full green navigation bar.
 
-![](<../../.gitbook/assets/ea (1) (1) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2).png>)
+![](<../../.gitbook/assets/ea (1) (1) (2) (2) (2) (2) (2) (2) (2) (2).png>)
 
 ### Create a navigation sidebar
 
@@ -102,7 +102,7 @@ Full code for this example can be found at the [planet4-child-theme-handbook](ht
 
 If you need more space in the top bar navigation (for instance you have a multilingual site and need a language switcher at the top), you might need to move the GPI NRO selector from the top bar to the bottom of the page like on [GPLux website](https://www.greenpeace.org/luxembourg/fr/).
 
-![](<../../.gitbook/assets/gplux-country\_selector (1) (1) (2) (2) (2) (2) (2) (2) (2) (2) (2).png>)
+![](<../../.gitbook/assets/gplux-country\_selector (1) (1) (2) (2) (2) (2) (2) (2) (2) (2).png>)
 
 To move the selector you need to:
 
@@ -257,7 +257,7 @@ If you don’t use postcss prefix you can use this code:
 
 You will find on GP Luxembourg a custom [contact form](https://www.greenpeace.org/luxembourg/fr/contact/). On this form, changing the input _Objet de votre message_ will open many different use cases for the user (like changing his bank account). An e-mail is sent to the admin on submit.
 
-![](<../../.gitbook/assets/contact-form-gp-lux (1) (1) (2) (2) (4) (4) (4) (4) (4) (4) (4) (4) (3) (1) (2).jpg>)
+![](<../../.gitbook/assets/contact-form-gp-lux (1) (1) (2) (2) (4) (4) (4) (4) (4) (2).jpg>)
 
 If you want to reproduce this form you can simply grab the code here:
 
