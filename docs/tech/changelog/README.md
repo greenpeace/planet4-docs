@@ -6,6 +6,18 @@ description: >-
 
 # Changelog
 
+## 2.67.1 - 2021-11-15
+
+### Features
+
+- [PLANET-6188](https://jira.greenpeace.org/browse/PLANET-6188) - Add an author image to Posts
+- [PLANET-6121](https://jira.greenpeace.org/browse/PLANET-6121) - Covers: Release WYSIWYG version
+- [PLANET-6071](https://jira.greenpeace.org/browse/PLANET-6071) - Implement the new design of the Comments block
+- [PLANET-6070](https://jira.greenpeace.org/browse/PLANET-6070) - Implement the new Post page centered layout
+- [PLANET-6069](https://jira.greenpeace.org/browse/PLANET-6069) - Implement the new Take action boxout design
+- [PLANET-5765](https://jira.greenpeace.org/browse/PLANET-5765) - Remove jQuery from post_action.js
+- [PLANET-5608](https://jira.greenpeace.org/browse/PLANET-5608) - Covers: Implement "Take action" style new design
+
 ## 2.67.0 - 2021-11-09
 
 ### Features
