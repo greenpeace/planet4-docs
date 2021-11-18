@@ -42,13 +42,17 @@ Some syntax and styling rules to make git log history more consistent.
 
 ## Branch names
 
-You can use the ticket number in branch names. Additionally you could add a prefix, depending on the kind of the PR. If the ticket is on Github it should have a similar prefix you can use.
+We pick a short name that makes sense and carries some context, depending on the change that a PR is introducing. Optionally you could add a prefix, depending on the kind of the PR.
 
 These are all good branch names:
 
-> planet-1234\
-> feature/planet-1234\
-> bug/planet-1234
+> fix-breadcrumbs-spacing
+>
+> add-author-avatars
+>
+> feature/change-covers-width
+>
+> bug/safari-button-editing
 
 ## Pull Request Names
 
