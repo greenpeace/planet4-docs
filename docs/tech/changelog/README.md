@@ -6,6 +6,20 @@ description: >-
 
 # Changelog
 
+## 2.68.1 - 2021-12-01
+
+### Features
+
+- [PLANET-6471](https://jira.greenpeace.org/browse/PLANET-6471) - Take Action Boxout: Align the way we upload/edit images with other blocks
+- [PLANET-6450](https://jira.greenpeace.org/browse/PLANET-6450) - Migrate posts to use the Take Action Boxout block instead of the setting
+- [PLANET-6091](https://jira.greenpeace.org/browse/PLANET-6091) - New breakpoint XXL
+
+### Bug Fixes
+
+- [PLANET-6490](https://jira.greenpeace.org/browse/PLANET-6490) - Blocks that use code splitting not rendered in preview mode unless the post had the block before edits
+- [PLANET-6486](https://jira.greenpeace.org/browse/PLANET-6486) - Footer: Hover on social media icons is not working properly
+- [PLANET-6430](https://jira.greenpeace.org/browse/PLANET-6430) - Carousel Header: CTA button is not editable in Safari
+
 ## 2.67.1 - 2021-11-15
 
 ### Features
