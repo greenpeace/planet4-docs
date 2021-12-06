@@ -6,6 +6,19 @@ description: >-
 
 # Changelog
 
+## 2.69.0 - 2021-12-06
+
+### Features
+
+- [PLANET-6376](https://jira.greenpeace.org/browse/PLANET-6376) - Fine tune Carousel Header slide re-ordering design and UX
+- [PLANET-6257](https://jira.greenpeace.org/browse/PLANET-6257) - Implement the new country selector design
+- [PLANET-6252](https://jira.greenpeace.org/browse/PLANET-6252) - Implement the new design of the Cookies bar (1st iteration)
+
+### Bug Fixes
+
+- [PLANET-6495](https://jira.greenpeace.org/browse/PLANET-6495) - Exception: Call to a member function value() on bool
+- [PLANET-5321](https://jira.greenpeace.org/browse/PLANET-5321) - Same class (page-template) is used on both body and post content wrapper
+
 ## 2.68.1 - 2021-12-01
 
 ### Features
