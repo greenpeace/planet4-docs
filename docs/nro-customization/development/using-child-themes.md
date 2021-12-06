@@ -36,7 +36,7 @@ So for instance, If we want to adjust the default page template we have to copy 
 {% extends "base.twig" %}
 
 {% block content %}
-  <div class="page-template">
+  <div class="page-content">
     {{ post.content|raw }}
   </div>
 {% endblock %}
@@ -48,7 +48,7 @@ Assuming we want to display more metadata to the pages content, we would have to
 {% extends "base.twig" %}
 
 {% block content %}
-  <div class="page-template">
+  <div class="page-content">
     <div>{{ post.author.name }}</div>
 
     {{ post.content|raw }}
