@@ -11,7 +11,6 @@ description: >-
 ### Features
 
 - [PLANET-6376](https://jira.greenpeace.org/browse/PLANET-6376) - Fine tune Carousel Header slide re-ordering design and UX
-- [PLANET-6257](https://jira.greenpeace.org/browse/PLANET-6257) - Implement the new country selector design
 - [PLANET-6252](https://jira.greenpeace.org/browse/PLANET-6252) - Implement the new design of the Cookies bar (1st iteration)
 
 ### Bug Fixes
