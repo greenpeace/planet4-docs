@@ -10,150 +10,152 @@ description: >-
 
 ### Features
 
-* [PLANET-6376](https://jira.greenpeace.org/browse/PLANET-6376) - Fine tune Carousel Header slide re-ordering design and UX
-* [PLANET-6257](https://jira.greenpeace.org/browse/PLANET-6257) - Implement the new country selector design
+- [PLANET-6376](https://jira.greenpeace.org/browse/PLANET-6376) - Fine tune Carousel Header slide re-ordering design and UX
+- [PLANET-6257](https://jira.greenpeace.org/browse/PLANET-6257) - Implement the new country selector design
+- [PLANET-6252](https://jira.greenpeace.org/browse/PLANET-6252) - Implement the new design of the Cookies bar (1st iteration)
 
 ### Bug Fixes
 
-* [PLANET-6495](https://jira.greenpeace.org/browse/PLANET-6495) - Exception: Call to a member function value() on bool
-* [PLANET-5321](https://jira.greenpeace.org/browse/PLANET-5321) - Same class (page-template) is used on both body and post content wrapper
+- [PLANET-6495](https://jira.greenpeace.org/browse/PLANET-6495) - Exception: Call to a member function value() on bool
+- [PLANET-5321](https://jira.greenpeace.org/browse/PLANET-5321) - Same class (page-template) is used on both body and post content wrapper
 
 ## 2.68.1 - 2021-12-01
 
 ### Features
 
-* [PLANET-6471](https://jira.greenpeace.org/browse/PLANET-6471) - Take Action Boxout: Align the way we upload/edit images with other blocks
-* [PLANET-6450](https://jira.greenpeace.org/browse/PLANET-6450) - Migrate posts to use the Take Action Boxout block instead of the setting
-* [PLANET-6091](https://jira.greenpeace.org/browse/PLANET-6091) - New breakpoint XXL
+- [PLANET-6471](https://jira.greenpeace.org/browse/PLANET-6471) - Take Action Boxout: Align the way we upload/edit images with other blocks
+- [PLANET-6450](https://jira.greenpeace.org/browse/PLANET-6450) - Migrate posts to use the Take Action Boxout block instead of the setting
+- [PLANET-6091](https://jira.greenpeace.org/browse/PLANET-6091) - New breakpoint XXL
 
 ### Bug Fixes
 
-* [PLANET-6490](https://jira.greenpeace.org/browse/PLANET-6490) - Blocks that use code splitting not rendered in preview mode unless the post had the block before edits
-* [PLANET-6486](https://jira.greenpeace.org/browse/PLANET-6486) - Footer: Hover on social media icons is not working properly
-* [PLANET-6430](https://jira.greenpeace.org/browse/PLANET-6430) - Carousel Header: CTA button is not editable in Safari
+- [PLANET-6490](https://jira.greenpeace.org/browse/PLANET-6490) - Blocks that use code splitting not rendered in preview mode unless the post had the block before edits
+- [PLANET-6486](https://jira.greenpeace.org/browse/PLANET-6486) - Footer: Hover on social media icons is not working properly
+- [PLANET-6430](https://jira.greenpeace.org/browse/PLANET-6430) - Carousel Header: CTA button is not editable in Safari
 
 ## 2.67.1 - 2021-11-15
 
 ### Features
 
-* [PLANET-6188](https://jira.greenpeace.org/browse/PLANET-6188) - Add an author image to Posts
-* [PLANET-6121](https://jira.greenpeace.org/browse/PLANET-6121) - Covers: Release WYSIWYG version
-* [PLANET-6071](https://jira.greenpeace.org/browse/PLANET-6071) - Implement the new design of the Comments block
-* [PLANET-6070](https://jira.greenpeace.org/browse/PLANET-6070) - Implement the new Post page centered layout
-* [PLANET-6069](https://jira.greenpeace.org/browse/PLANET-6069) - Implement the new Take action boxout design
-* [PLANET-5765](https://jira.greenpeace.org/browse/PLANET-5765) - Remove jQuery from post\_action.js
-* [PLANET-5608](https://jira.greenpeace.org/browse/PLANET-5608) - Covers: Implement "Take action" style new design
+- [PLANET-6188](https://jira.greenpeace.org/browse/PLANET-6188) - Add an author image to Posts
+- [PLANET-6121](https://jira.greenpeace.org/browse/PLANET-6121) - Covers: Release WYSIWYG version
+- [PLANET-6071](https://jira.greenpeace.org/browse/PLANET-6071) - Implement the new design of the Comments block
+- [PLANET-6070](https://jira.greenpeace.org/browse/PLANET-6070) - Implement the new Post page centered layout
+- [PLANET-6069](https://jira.greenpeace.org/browse/PLANET-6069) - Implement the new Take action boxout design
+- [PLANET-5765](https://jira.greenpeace.org/browse/PLANET-5765) - Remove jQuery from post_action.js
+- [PLANET-5608](https://jira.greenpeace.org/browse/PLANET-5608) - Covers: Implement "Take action" style new design
 
 ## 2.67.0 - 2021-11-09
 
 ### Features
 
-* [PLANET-6008](https://jira.greenpeace.org/browse/PLANET-6008) - CTA buttons: align with the design system
-* [PLANET-6006](https://jira.greenpeace.org/browse/PLANET-6006) - Gallery block - Make the carousel style consistent
+- [PLANET-6008](https://jira.greenpeace.org/browse/PLANET-6008) - CTA buttons: align with the design system
+- [PLANET-6006](https://jira.greenpeace.org/browse/PLANET-6006) - Gallery block - Make the carousel style consistent
 
 ### Bug Fixes
 
-* [PLANET-6460](https://jira.greenpeace.org/browse/PLANET-6460) - Covers block buttons not accessible with keyboard
+- [PLANET-6460](https://jira.greenpeace.org/browse/PLANET-6460) - Covers block buttons not accessible with keyboard
 
 ## 2.66.1 - 2021-11-03
 
 ### Features
 
-* [PLANET-5797](https://jira.greenpeace.org/browse/PLANET-5797) - Align links design with Design System - standalone links
-* [PLANET-5796](https://jira.greenpeace.org/browse/PLANET-5796) - Align links design with Design System - body-copy links
+- [PLANET-5797](https://jira.greenpeace.org/browse/PLANET-5797) - Align links design with Design System - standalone links
+- [PLANET-5796](https://jira.greenpeace.org/browse/PLANET-5796) - Align links design with Design System - body-copy links
 
 ### Bug Fixes
 
-* [PLANET-6456](https://jira.greenpeace.org/browse/PLANET-6456) - The arrow icon on the accordion is missing
-* [PLANET-6455](https://jira.greenpeace.org/browse/PLANET-6455) - TA Boxout: multiple bugs when using as a reusable block
+- [PLANET-6456](https://jira.greenpeace.org/browse/PLANET-6456) - The arrow icon on the accordion is missing
+- [PLANET-6455](https://jira.greenpeace.org/browse/PLANET-6455) - TA Boxout: multiple bugs when using as a reusable block
 
 ## 2.66.0 - 2021-10-26
 
 ### Features
 
-* [PLANET-6301](https://jira.greenpeace.org/browse/PLANET-6301) - Upgrade Cloudflare plugin to 4.6.x
-* [PLANET-6272](https://jira.greenpeace.org/browse/PLANET-6272) - Upgrade to stable Bootstrap 5.0.x
-* [PLANET-5799](https://jira.greenpeace.org/browse/PLANET-5799) - Align links design with Design System - title links
-* [PLANET-5798](https://jira.greenpeace.org/browse/PLANET-5798) - Align links design with Design System - contextual navigation links
+- [PLANET-6301](https://jira.greenpeace.org/browse/PLANET-6301) - Upgrade Cloudflare plugin to 4.6.x
+- [PLANET-6272](https://jira.greenpeace.org/browse/PLANET-6272) - Upgrade to stable Bootstrap 5.0.x
+- [PLANET-5799](https://jira.greenpeace.org/browse/PLANET-5799) - Align links design with Design System - title links
+- [PLANET-5798](https://jira.greenpeace.org/browse/PLANET-5798) - Align links design with Design System - contextual navigation links
 
 ### Bug Fixes
 
-* [PLANET-6453](https://jira.greenpeace.org/browse/PLANET-6453) - Editor content not centered
+- [PLANET-6453](https://jira.greenpeace.org/browse/PLANET-6453) - Editor content not centered
 
 ## 2.65.2 - 2021-10-20
 
 ### Features
 
-* [PLANET-6443](https://jira.greenpeace.org/browse/PLANET-6443) - Update Footer data attributes
-* [PLANET-6442](https://jira.greenpeace.org/browse/PLANET-6442) - Upgrade Elastic APM Agent to 1.3.1
-* [PLANET-5802](https://jira.greenpeace.org/browse/PLANET-5802) - Align links design with Design System - In-page links
-* [PLANET-5801](https://jira.greenpeace.org/browse/PLANET-5801) - Align links design with Design System - in-list links
+- [PLANET-6443](https://jira.greenpeace.org/browse/PLANET-6443) - Update Footer data attributes
+- [PLANET-6442](https://jira.greenpeace.org/browse/PLANET-6442) - Upgrade Elastic APM Agent to 1.3.1
+- [PLANET-5802](https://jira.greenpeace.org/browse/PLANET-5802) - Align links design with Design System - In-page links
+- [PLANET-5801](https://jira.greenpeace.org/browse/PLANET-5801) - Align links design with Design System - in-list links
 
 ### Bug Fixes
 
-* [PLANET-6445](https://jira.greenpeace.org/browse/PLANET-6445) - Password protected posts redirect to root domain after entering correct password
-* [PLANET-6424](https://jira.greenpeace.org/browse/PLANET-6424) - Weird redirection when doing quick operations on pages
+- [PLANET-6445](https://jira.greenpeace.org/browse/PLANET-6445) - Password protected posts redirect to root domain after entering correct password
+- [PLANET-6424](https://jira.greenpeace.org/browse/PLANET-6424) - Weird redirection when doing quick operations on pages
 
 ## 2.65.1 - 2021-10-18
 
 ### Features
 
-* [PLANET-6411](https://jira.greenpeace.org/browse/PLANET-6411) - Hide show cookies bar on the basis of new cookies "active consent choice"
-* [PLANET-6214](https://jira.greenpeace.org/browse/PLANET-6214) - Handbook: Replace the "Greenpeace" logo with "Planet 4"
-* [PLANET-6189](https://jira.greenpeace.org/browse/PLANET-6189) - Implement the new footer design
-* [PLANET-6005](https://jira.greenpeace.org/browse/PLANET-6005) - Replace all FontAwesome icons by SVG icons
+- [PLANET-6411](https://jira.greenpeace.org/browse/PLANET-6411) - Hide show cookies bar on the basis of new cookies "active consent choice"
+- [PLANET-6214](https://jira.greenpeace.org/browse/PLANET-6214) - Handbook: Replace the "Greenpeace" logo with "Planet 4"
+- [PLANET-6189](https://jira.greenpeace.org/browse/PLANET-6189) - Implement the new footer design
+- [PLANET-6005](https://jira.greenpeace.org/browse/PLANET-6005) - Replace all FontAwesome icons by SVG icons
 
 ### Bug Fixes
 
-* [PLANET-6406](https://jira.greenpeace.org/browse/PLANET-6406) - Spreadsheet block: sorting function not working as expected for numbers
-* [PLANET-5026](https://jira.greenpeace.org/browse/PLANET-5026) - Campaigns: Font size is not responsive for mobile
+- [PLANET-6406](https://jira.greenpeace.org/browse/PLANET-6406) - Spreadsheet block: sorting function not working as expected for numbers
+- [PLANET-5026](https://jira.greenpeace.org/browse/PLANET-5026) - Campaigns: Font size is not responsive for mobile
 
 ## 2.65.0 - 2021-10-11
 
+
 ### Bug Fixes
 
-* [PLANET-6437](https://jira.greenpeace.org/browse/PLANET-6437) - When using a tag on Take Action Boxout, all data relating to the tag is saved in the post
-* [PLANET-6436](https://jira.greenpeace.org/browse/PLANET-6436) - Take Action Boxout in post causes warnings when closing or reloading a tab even if the post has no changes
+- [PLANET-6437](https://jira.greenpeace.org/browse/PLANET-6437) - When using a tag on Take Action Boxout, all data relating to the tag is saved in the post
+- [PLANET-6436](https://jira.greenpeace.org/browse/PLANET-6436) - Take Action Boxout in post causes warnings when closing or reloading a tab even if the post has no changes
 
 ## 2.64.1 - 2021-10-06
 
 ### Features
 
-* [PLANET-6307](https://jira.greenpeace.org/browse/PLANET-6307) - Upgrade to Wordpress 5.8
-* [PLANET-4812](https://jira.greenpeace.org/browse/PLANET-4812) - Convert Take Action Boxout to WYSIWYG
+- [PLANET-6307](https://jira.greenpeace.org/browse/PLANET-6307) - Upgrade to Wordpress 5.8
+- [PLANET-4812](https://jira.greenpeace.org/browse/PLANET-4812) - Convert Take Action Boxout to WYSIWYG
 
 ### Bug Fixes
 
-* [PLANET-6425](https://jira.greenpeace.org/browse/PLANET-6425) - Timeline block is not working on localized pages
+- [PLANET-6425](https://jira.greenpeace.org/browse/PLANET-6425) - Timeline block is not working on localized pages
 
 ## 2.64.0 - 2021-09-29
 
 ### Features
 
-* [PLANET-6306](https://jira.greenpeace.org/browse/PLANET-6306) - Upgrade PHP to 7.4
-* [PLANET-6223](https://jira.greenpeace.org/browse/PLANET-6223) - Implement Google's Consent Mode
+- [PLANET-6306](https://jira.greenpeace.org/browse/PLANET-6306) - Upgrade PHP to 7.4
+- [PLANET-6223](https://jira.greenpeace.org/browse/PLANET-6223) - Implement Google's Consent Mode
 
 ### Bug Fixes
 
-* [PLANET-6141](https://jira.greenpeace.org/browse/PLANET-6141) - Posts: Image / captions alignment
+- [PLANET-6141](https://jira.greenpeace.org/browse/PLANET-6141) - Posts: Image / captions alignment
 
 ## 2.63.2 - 2021-09-20
 
 ### Features
 
-* [PLANET-6369](https://jira.greenpeace.org/browse/PLANET-6369) - Phase out NewRelic
-* [PLANET-5948](https://jira.greenpeace.org/browse/PLANET-5948) - Improve Security headers on greenpeace.org
+- [PLANET-6369](https://jira.greenpeace.org/browse/PLANET-6369) - Phase out NewRelic
+- [PLANET-5948](https://jira.greenpeace.org/browse/PLANET-5948) - Improve Security headers on greenpeace.org
 
 ### Bug Fixes
 
-* [PLANET-6267](https://jira.greenpeace.org/browse/PLANET-6267) - Fix 404 error for external link and PDF link icons
-* [PLANET-6239](https://jira.greenpeace.org/browse/PLANET-6239) - Blocks with alignment overlap in the backend
+- [PLANET-6267](https://jira.greenpeace.org/browse/PLANET-6267) - Fix 404 error for external link and PDF link icons
+- [PLANET-6239](https://jira.greenpeace.org/browse/PLANET-6239) - Blocks with alignment overlap in the backend
 
 ### Infrastructure
 
-* [PLANET-6339](https://jira.greenpeace.org/browse/PLANET-6339) - Update dev & stage DNS names for storytelling
-* [PLANET-6329](https://jira.greenpeace.org/browse/PLANET-6329) - Update dev and stage DNS hostnames for gcef.ca
-* [PLANET-6312](https://jira.greenpeace.org/browse/PLANET-6312) - Update dev & stage DNS hostnames for handbook
+- [PLANET-6339](https://jira.greenpeace.org/browse/PLANET-6339) - Update dev & stage DNS names for storytelling
+- [PLANET-6329](https://jira.greenpeace.org/browse/PLANET-6329) - Update dev and stage DNS hostnames for gcef.ca
+- [PLANET-6312](https://jira.greenpeace.org/browse/PLANET-6312) - Update dev & stage DNS hostnames for handbook
 
 ## 2.63.1 - 2021-09-09
 
@@ -168,7 +170,7 @@ description: >-
 
 * [PLANET-6361](https://jira.greenpeace.org/browse/PLANET-6361) - Allow choosing the new version of themes in the design sidebar
 * [PLANET-6345](https://jira.greenpeace.org/browse/PLANET-6345) - Add styles for page header background image to new version of Oceans theme
-* [PLANET-6336](https://jira.greenpeace.org/browse/PLANET-6336) - Develop code for the Cookies Bar A/B Test (1st iteration)
+* [PLANET-6336](https://jira.greenpeace.org/browse/PLANET-6336) - Develop code for the Cookies Bar A/B Test \(1st iteration\)
 * [PLANET-6253](https://jira.greenpeace.org/browse/PLANET-6253) - Change the cookies settings in the cookies block
 * [PLANET-6137](https://jira.greenpeace.org/browse/PLANET-6137) - Add ability to reorder carousel header slides
 
@@ -190,16 +192,16 @@ description: >-
 
 ### Bug Fixes
 
-* [PLANET-6318](https://jira.greenpeace.org/browse/PLANET-6318) - #GITS00030114 EN Form: Twitter share breaks 1
+* [PLANET-6318](https://jira.greenpeace.org/browse/PLANET-6318) - \#GITS00030114 EN Form: Twitter share breaks 1
 
 ### Infrastructure
 
 * [PLANET-6265](https://jira.greenpeace.org/browse/PLANET-6265) - Create Origin CA Integration for Cloudflare certificate generation
 * [PLANET-6264](https://jira.greenpeace.org/browse/PLANET-6264) - Update Traefik migration plan to include the use of Cloudflare Origin Certificates
 * [PLANET-6259](https://jira.greenpeace.org/browse/PLANET-6259) - Create cert manager DNS issuer to support nginx load balancer
-* [PLANET-6250](https://jira.greenpeace.org/browse/PLANET-6250) - Increase CPU limits for elastic (ElasticStack) (dev & prod)
+* [PLANET-6250](https://jira.greenpeace.org/browse/PLANET-6250) - Increase CPU limits for elastic \(ElasticStack\) \(dev & prod\)
 * [PLANET-6249](https://jira.greenpeace.org/browse/PLANET-6249) - Draft P4 escalation procedure document
-* [PLANET-6244](https://jira.greenpeace.org/browse/PLANET-6244) - Increase CPU limits for kube-metrics (NewRelic) (prod)
+* [PLANET-6244](https://jira.greenpeace.org/browse/PLANET-6244) - Increase CPU limits for kube-metrics \(NewRelic\) \(prod\)
 * [PLANET-6243](https://jira.greenpeace.org/browse/PLANET-6243) - Update backend check notification destination in Cloudflare
 * [PLANET-6241](https://jira.greenpeace.org/browse/PLANET-6241) - Update Traefik helm chart to commit new memory and replica values following outage
 * [PLANET-6217](https://jira.greenpeace.org/browse/PLANET-6217) - Tune end point alerts to allow for flapping
@@ -222,7 +224,7 @@ description: >-
 
 * [PLANET-6224](https://jira.greenpeace.org/browse/PLANET-6224) - Fix dev yellow ElasticSearch index status
 * [PLANET-6218](https://jira.greenpeace.org/browse/PLANET-6218) - Deploy nginx ingress to static chart for local testing
-* [PLANET-6207](https://jira.greenpeace.org/browse/PLANET-6207) - Delete fluent-gcp-scaler (Prod)
+* [PLANET-6207](https://jira.greenpeace.org/browse/PLANET-6207) - Delete fluent-gcp-scaler \(Prod\)
 
 ## 2.59.0 - 2021-07-05
 
@@ -242,7 +244,7 @@ description: >-
 
 ### Infrastructure
 
-* [PLANET-6206](https://jira.greenpeace.org/browse/PLANET-6206) - Increase the memory on nginx controllers (global & p4)(dev & prod)
+* [PLANET-6206](https://jira.greenpeace.org/browse/PLANET-6206) - Increase the memory on nginx controllers \(global & p4\)\(dev & prod\)
 * [PLANET-6201](https://jira.greenpeace.org/browse/PLANET-6201) - Create an nginx ingress for jctest
 * [PLANET-6200](https://jira.greenpeace.org/browse/PLANET-6200) - Upgrade Nginx Load balancers to latest version in dev and prod
 * [PLANET-6199](https://jira.greenpeace.org/browse/PLANET-6199) - Upgrade Cert Manager to latest version in dev and prod
@@ -271,7 +273,7 @@ description: >-
 ### Features
 
 * [PLANET-5757](https://jira.greenpeace.org/browse/PLANET-5757) - Remove jQuery from global.js
-* [PLANET-5257](https://jira.greenpeace.org/browse/PLANET-5257) - Improve Accessibility on Posts Teasers (Search, Articles block)
+* [PLANET-5257](https://jira.greenpeace.org/browse/PLANET-5257) - Improve Accessibility on Posts Teasers \(Search, Articles block\)
 
 ### Bug Fixes
 
@@ -359,7 +361,7 @@ description: >-
 * [PLANET-6103](https://jira.greenpeace.org/browse/PLANET-6103) - Reduce node pool to 5 nodes in dev
 * [PLANET-6096](https://jira.greenpeace.org/browse/PLANET-6096) - Decommission 6.8 ElasticSearch in dev
 * [PLANET-6068](https://jira.greenpeace.org/browse/PLANET-6068) - Deploy ElasticSearch dashboard in Grafana
-* [PLANET-6067](https://jira.greenpeace.org/browse/PLANET-6067) - Deploy http (probe) response dashboard in Grafana
+* [PLANET-6067](https://jira.greenpeace.org/browse/PLANET-6067) - Deploy http \(probe\) response dashboard in Grafana
 * [PLANET-6066](https://jira.greenpeace.org/browse/PLANET-6066) - Add alert rules for Persistent Volumes
 * [PLANET-6065](https://jira.greenpeace.org/browse/PLANET-6065) - Deploy Prometheus to prod
 * [PLANET-6056](https://jira.greenpeace.org/browse/PLANET-6056) - Deploy Prometheus Blackbox exporter to prod
@@ -382,7 +384,7 @@ description: >-
 ### Bug Fixes
 
 * [PLANET-6073](https://jira.greenpeace.org/browse/PLANET-6073) - Cookie bar - “Got it!” String translation not working
-* [PLANET-6072](https://jira.greenpeace.org/browse/PLANET-6072) - Spreadsheet block - Fix ErrorException
+* [PLANET-6072](https://jira.greenpeace.org/browse/PLANET-6072) - Spreadsheet  block - Fix ErrorException
 * [PLANET-6062](https://jira.greenpeace.org/browse/PLANET-6062) - Menu text is showing when the main menu is opened on M size
 * [PLANET-6080](https://jira.greenpeace.org/browse/PLANET-6080) - Campaign stylesheets call fonts.googleapis.com from a stylesheet and don't use swap
 
@@ -446,7 +448,7 @@ description: >-
 
 * [PLANET-6015](https://jira.greenpeace.org/browse/PLANET-6015) - Campaigns pre-publish validation doesn't work reliably
 * [PLANET-5980](https://jira.greenpeace.org/browse/PLANET-5980) - Inconsistencies between editor and frontend
-* [PLANET-5792](https://jira.greenpeace.org/browse/PLANET-5792) - WP 5.6: add\_theme\_support( 'post-formats' ) was called incorrectly
+* [PLANET-5792](https://jira.greenpeace.org/browse/PLANET-5792) - WP 5.6: add\_theme\_support\( 'post-formats' \) was called incorrectly
 * [PLANET-5656](https://jira.greenpeace.org/browse/PLANET-5656) - WP 5.5: register\_rest\_route was called incorrectly
 * [PLANET-5655](https://jira.greenpeace.org/browse/PLANET-5655) - WP 5.5: Format "core/subscript" is already registered
 * [PLANET-5654](https://jira.greenpeace.org/browse/PLANET-5654) - WP 5.5: WP\_Block\_Type\_Registry::register was called incorrectly
@@ -493,7 +495,7 @@ description: >-
 ### Features
 
 * [PLANET-5964](https://jira.greenpeace.org/browse/PLANET-5964) - Render blocks before loading jQuery
-* [PLANET-5959](https://jira.greenpeace.org/browse/PLANET-5959) - Youtube (nocookie) adds a lot of data to page load
+* [PLANET-5959](https://jira.greenpeace.org/browse/PLANET-5959) - Youtube \(nocookie\) adds a lot of data to page load
 
 ### Bug Fixes
 
@@ -516,7 +518,7 @@ description: >-
 
 ### Features
 
-* [PLANET-5928](https://jira.greenpeace.org/browse/PLANET-5928) - Name and URL change for GPNZ > GPAo
+* [PLANET-5928](https://jira.greenpeace.org/browse/PLANET-5928) - Name and URL change for GPNZ &gt; GPAo
 
 ### Bug Fixes
 
@@ -550,7 +552,7 @@ description: >-
 ### Bug Fixes
 
 * [PLANET-5849](https://jira.greenpeace.org/browse/PLANET-5849) - Columns block buttons too wide in campaign pages
-* [PLANET-5817](https://jira.greenpeace.org/browse/PLANET-5817) - Weird mega comment bubble in Ideas content type (Handbook)
+* [PLANET-5817](https://jira.greenpeace.org/browse/PLANET-5817) - Weird mega comment bubble in Ideas content type \(Handbook\)
 
 ### Infrastructure
 
@@ -593,10 +595,10 @@ description: >-
 
 ### Infrastructure
 
-* [PLANET-5903](https://jira.greenpeace.org/browse/PLANET-5903) - Helm3 upgrade for planet4-helm-esexporter
+* [PLANET-5903](https://jira.greenpeace.org/browse/PLANET-5903) - Helm3  upgrade for planet4-helm-esexporter
 * [PLANET-5886](https://jira.greenpeace.org/browse/PLANET-5886) - Helm3 upgrade for planet4-helm-prometheus
 * [PLANET-5881](https://jira.greenpeace.org/browse/PLANET-5881) - deploy helm3 to circleci image
-* [PLANET-5879](https://jira.greenpeace.org/browse/PLANET-5879) - Resolve unused data node in Elasticsearch - Prod
+* [PLANET-5879](https://jira.greenpeace.org/browse/PLANET-5879) - Resolve unused data node in Elasticsearch -  Prod
 * [PLANET-5877](https://jira.greenpeace.org/browse/PLANET-5877) - Resolve RED Elasticsearch cluster status - Dev
 * [PLANET-5863](https://jira.greenpeace.org/browse/PLANET-5863) - Deploy ElasticSearch dashboard for Grafana in Dev
 * [PLANET-5862](https://jira.greenpeace.org/browse/PLANET-5862) - Deploy ElasticSearch exporter for Prometheus in Dev
