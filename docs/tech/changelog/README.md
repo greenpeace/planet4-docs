@@ -6,6 +6,17 @@ description: >-
 
 # Changelog
 
+## 2.69.1 - 2021-12-13
+
+### Features
+
+- [PLANET-6501](https://jira.greenpeace.org/browse/PLANET-6501) - Allow multiple Take Action Boxout blocks
+
+### Bug Fixes
+
+- [PLANET-6503](https://jira.greenpeace.org/browse/PLANET-6503) - Prevent Carousel Header from using locally saved images
+- [PLANET-6500](https://jira.greenpeace.org/browse/PLANET-6500) - Gallery: Images are not split or expanded properly in all screen sizes
+
 ## 2.69.0 - 2021-12-06
 
 ### Features
