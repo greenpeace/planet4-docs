@@ -6,6 +6,16 @@ description: >-
 
 # Changelog
 
+## 2.69.2 - 2021-12-16
+
+### Features
+
+- [PLANET-6475](https://jira.greenpeace.org/browse/PLANET-6475) - Add sticky option on Take Action Boxout block
+
+### Bug Fixes
+
+- [PLANET-6482](https://jira.greenpeace.org/browse/PLANET-6482) - Accordion: button text displayed vertical in the backend
+
 ## 2.69.1 - 2021-12-13
 
 ### Features
