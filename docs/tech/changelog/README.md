@@ -6,6 +6,14 @@ description: >-
 
 # Changelog
 
+## 2.70.0 - 2021-12-22
+
+### Features
+
+- [PLANET-6452](https://jira.greenpeace.org/browse/PLANET-6452) - Pull "Local Projects" values from Google Sheets
+- [PLANET-6451](https://jira.greenpeace.org/browse/PLANET-6451) - Pull "Global Projects" values from Google Sheets
+- [PLANET-5609](https://jira.greenpeace.org/browse/PLANET-5609) - Covers block: Create a Carousel layout style
+
 ## 2.69.2 - 2021-12-16
 
 ### Features
