@@ -26,7 +26,7 @@ To accomplish this, we created two components: **frontendRendered** and **Fronte
 
 It returns a function with the same parameters as the `save()` function, so it takes two arguments: **attributes** and **className**.
 
-So the function returns a [FrontendBlockNode](https://github.com/greenpeace/planet4-plugin-gutenberg-blocks/blob/master/assets/src/components/FrontendBlockNode/FrontendBlockNode.js#L10) which renders an** empty div** with some **data attributes**, which will be the placeholder for the block in the frontend site. This content is static and can be persisted safely to the database.
+So the function returns a [FrontendBlockNode](https://github.com/greenpeace/planet4-plugin-gutenberg-blocks/blob/master/assets/src/components/FrontendBlockNode/FrontendBlockNode.js#L10) which renders an **empty div** with some **data attributes**, which will be the placeholder for the block in the frontend site. This content is static and can be persisted safely to the database.
 
 So Wordpress will only render that **div** with its attributes in the frontend site, then it's our job to make React render something inside of it.
 
