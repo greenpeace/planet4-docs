@@ -4,9 +4,50 @@ description: All the steps need to deploy a new version of Planet 4
 
 # Deployment
 
-Our main orchestration repository for triggering deployment pipelines is [planet4-base](https://github.com/greenpeace/planet4-base). But before we make any change there we need first to prepare the application repositories.
+Our main orchestration repository is [planet4-base](https://github.com/greenpeace/planet4-base). But triggering a new release deployment is automated and can be initiated directly from Jira. Further below there is a section for doing that manually in case there is a release which is not reflected in Jira.
 
-## Application Repositories
+## Automated process
+
+The process is automated, but still has some manual approval checkpoints. In a nutshell, a new release deployment requires just these steps:
+
+1. Press the "Release" button on Jira.
+2. Approve the Pull Request on base repository a couple of minutes later.
+3. Approve the Changelog CI job, once you have at least a half of sites being released in production.
+
+Below you can see a more detailed documentation of these steps, but **these steps above is actually all you have to do**.
+
+### Jira
+
+The first action to trigger a new release is to just press the "Release" button on Jira.
+
+![Press the "Release" button on the top-right.](../.gitbook/assets/jira-release.jpg)
+
+This will trigger a [webhook listener](https://github.com/greenpeace/planet4-release) that will trigger a new CI pipeline which [does 4 things](https://github.com/greenpeace/planet4-base/blob/main/bin/promote.py):
+
+1. Create a new tag in our two applications repositories.
+2. Wait till assets are built and uploaded in these release for both repositories.
+3. Update the base repository to [use](https://github.com/greenpeace/planet4-base/blob/main/production.json) these two new tags.
+4. Create a Pull Request with this change.
+
+### Github
+
+![New release Pull Request](../.gitbook/assets/rc-pr.jpg)
+
+The Pull Request will build and test the release and this CI check is required for this to be merged.
+
+![Release branch pipeline](../.gitbook/assets/release-rc.jpg)
+
+### CircleCI
+
+Once merged a new tag will be created in the base repository and its CI pipeline will trigger all NRO websites. The only thing that wait for approval there is the Changelog job.
+
+![New release pipeline](../.gitbook/assets/release-ci.jpg)
+
+## Manual process
+
+Our main orchestration repository for triggering deployment pipelines is [planet4-base](https://github.com/greenpeace/planet4-base).  But before we make any change there we need first to prepare the application repositories.
+
+### Application Repositories
 
 The only change that it's actually needed is to tag the repositories that have new code since the previous release.
 
@@ -19,7 +60,7 @@ git push --tags
 
 Once a new tag/release is created to the repo, there is a pipeline triggered that is creating a zip file to be added to this release. It takes no more than a couple of minutes, but **make sure to wait for it to finish before moving to the next steps**.
 
-## Base repository
+### Base repository
 
 [planet4-base](https://github.com/greenpeace/planet4-base) repository controls deployments through its `main` branch.
 
@@ -43,7 +84,7 @@ So if you updated application repos on the previous step, you should update the 
 }
 ```
 
-### Trigger Release
+#### Trigger Release
 
 #### Development
 
@@ -76,7 +117,7 @@ You will only need to manual approve that in two cases:
 * If you spot important significant visual differences on websites with customized child themes you should inform them and don't approve the deployment to production. They have CI access to approve it when ready. This includes: GPCH, GPNL, GPLX and all GPNORDIC websites.
 * Korea, Hongkong, Taiwan are also heavily customized through their child themes and require extra attention because they are still not switched to Gutenberg.
 
-### Rollback
+## Rollback
 
 In some (hopefully rare) cases you may want to rollback to a previous release. For instance, if there is a major bug in production and you know that this is a regression from the latest release. To do so, you need to create a new tag with a rollback prefix (eg. `rollback-v2.40` ). The version suffix doesn't play any role, is just a good practice to indicate witch version you are rolling back to.
 
