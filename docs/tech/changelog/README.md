@@ -6,6 +6,14 @@ description: >-
 
 # Changelog
 
+## 2.71.1 - 2022-01-11
+
+
+### Bug Fixes
+
+- [PLANET-6574](https://jira.greenpeace.org/browse/PLANET-6574) - Media Library: Images are missing from the Grid layout list and the Post picker
+- [PLANET-6572](https://jira.greenpeace.org/browse/PLANET-6572) - Submenu: floats over main menu
+
 ## 2.71.0 - 2022-01-10
 
 ### Features
