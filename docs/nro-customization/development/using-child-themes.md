@@ -268,4 +268,99 @@ If you want to reproduce this form you can simply grab the code here:
 
 ### Adding scripts
 
-Form validation, masking, animation, 3rd party popups. See [New Zealand child theme](https://github.com/greenpeace/planet4-child-theme-newzealand/) for examples / source code.
+Form validation, masking, animation, 3rd party popups. See [Aotearoa child theme](https://github.com/greenpeace/planet4-child-theme-aotearoa) for examples / source code.
+
+### Enhanced Donate button on mobile
+
+This will show Donate button fixed on top of screen on mobile devices
+
+![Always visible Donate button on mobile](../../.gitbook/assets/148935520-35b701ed-b943-4580-8a36-a12eab63696e.png)
+
+```css
+.btn-donate-top {
+  position: fixed;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  line-height: 46px;
+  top: 46px;
+  transition: top .2s;
+}
+.btn-donate-top-hide {
+  top: -46px;
+}
+
+.admin-bar .btn-donate-top {
+  top: 114px;
+}
+.admin-bar .btn-donate-top-hide {
+  top: -114px;
+}
+
+body.with-donate-on-top {
+  padding-top: 46px;
+}
+```
+
+```javascript
+const setupEnhancedDonateButton = () => {
+  const maxWidth = '576px';
+  const enhancedButtonClass = 'btn-donate-top';
+  const isMobile = () => window.matchMedia(`(max-width: ${maxWidth})`).matches;
+
+  const setupEnhancedButton = () => {
+    let originalDonateBtn = document.querySelector('.nav-donate > .btn-donate');
+    let enhancedDonateBtn = document.querySelector(`.${enhancedButtonClass}`);
+    if (!originalDonateBtn) {
+      return;
+    }
+
+    isMobile()
+      ? addDonateButtonOnTop(originalDonateBtn, enhancedDonateBtn)
+      : removeDonateButtonOnTop(enhancedDonateBtn);
+  };
+
+  const addDonateButtonOnTop = (originalDonateBtn, enhancedDonateBtn) => {
+    if (enhancedDonateBtn) {
+      return;
+    }
+    let enhanced = originalDonateBtn.cloneNode(true);
+    enhanced.classList.add(enhancedButtonClass);
+    document.querySelector('body').appendChild(enhanced);
+    document.querySelector('body').classList.add('with-donate-on-top');
+  }
+
+  const removeDonateButtonOnTop = (enhancedDonateBtn) => {
+    if (enhancedDonateBtn) {
+      enhancedDonateBtn.parentNode.removeChild(enhancedDonateBtn);
+    }
+    document.querySelector('body').classList.remove('with-donate-on-top');
+  }
+
+  const ready = (fn) => {
+    if ( document.readyState !== 'loading' ) {
+      return fn();
+    }
+    document.addEventListener('DOMContentLoaded', fn);
+  };
+
+  ready(() => {
+    setupEnhancedButton();
+    window.addEventListener('resize', () => setupEnhancedButton());
+
+    const windowHeight = window.innerHeight;
+    window.addEventListener('scroll', () => {
+      const enhancedDonateBtn = document.querySelector(`.${enhancedButtonClass}`);
+      if (!enhancedDonateBtn) {
+        return;
+      }
+
+      enhancedDonateBtn.classList.toggle(
+        'btn-donate-top-hide',
+        isMobile() ? window.scrollY > windowHeight : false
+      );
+    });
+  });
+};
+setupEnhancedDonateButton();
+```
