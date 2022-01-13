@@ -6,6 +6,17 @@ description: >-
 
 # Changelog
 
+## 2.71.2 - 2022-01-13
+
+### Features
+
+- [PLANET-5761](https://jira.greenpeace.org/browse/PLANET-5761) - Remove jQuery from search.js
+
+### Bug Fixes
+
+- [PLANET-6542](https://jira.greenpeace.org/browse/PLANET-6542) - New search bar: icon should not be clickable (empty state)
+- [PLANET-6000](https://jira.greenpeace.org/browse/PLANET-6000) - Images with links open the link in a new tab and the lightbox in the old tab simultaneously.
+
 ## 2.71.1 - 2022-01-11
 
 
