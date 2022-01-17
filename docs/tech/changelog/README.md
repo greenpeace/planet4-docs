@@ -6,6 +6,15 @@ description: >-
 
 # Changelog
 
+## 2.71.3 - 2022-01-17
+
+### Features
+
+- [PLANET-6536](https://jira.greenpeace.org/browse/PLANET-6536) - Ensure WPML doesn't localize feature settings
+- [PLANET-6522](https://jira.greenpeace.org/browse/PLANET-6522) - Remove option for enhanced Donate button
+- [PLANET-6505](https://jira.greenpeace.org/browse/PLANET-6505) - Post Author avatars: hide on "author override"
+- [PLANET-6432](https://jira.greenpeace.org/browse/PLANET-6432) - Add reading time length to post details
+
 ## 2.71.2 - 2022-01-13
 
 ### Features
