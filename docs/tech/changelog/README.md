@@ -6,6 +6,26 @@ description: >-
 
 # Changelog
 
+## 2.72.0 - 2022-01-31
+
+### Features
+
+- [PLANET-6593](https://jira.greenpeace.org/browse/PLANET-6593) - Add reading time to listing pages
+- [PLANET-6577](https://jira.greenpeace.org/browse/PLANET-6577) - Create a custom "search" event to add to the Hotjar tracking code
+- [PLANET-6512](https://jira.greenpeace.org/browse/PLANET-6512) - Implement the new category links design
+- [PLANET-6496](https://jira.greenpeace.org/browse/PLANET-6496) - HappyPoint: add option for Hubspot form embed
+- [PLANET-6387](https://jira.greenpeace.org/browse/PLANET-6387) - Make import/export functionality work for all post types
+
+### Bug Fixes
+
+- [PLANET-6606](https://jira.greenpeace.org/browse/PLANET-6606) - Mobile navigation issues on Safari < 13 reported to iPhone 5s / 7s / iPad
+- [PLANET-6599](https://jira.greenpeace.org/browse/PLANET-6599) - Covers Block: Carousel Layout scroll arrow is missing
+
+### Infrastructure
+
+- [PLANET-5065](https://jira.greenpeace.org/browse/PLANET-5065) - Migrate P4 ingresses to Nginx
+- [PLANET-3910](https://jira.greenpeace.org/browse/PLANET-3910) - Reduce GCS bucket IAM permissions to reduce attack vector
+
 ## 2.71.3 - 2022-01-17
 
 ### Features
