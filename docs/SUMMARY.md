@@ -30,23 +30,22 @@
   * [Production](nro-customization/deployment/production.md)
   * [DB/Media Sync](nro-customization/deployment/db-media-sync.md)
 
-***
+## Platform
 
-* [Platform](platform/README.md)
-  * [Practices](platform/practices.md)
-  * [ADRs](platform/adrs/README.md)
-    * [\[ADR-0001\] Use Gitbook for Technical Documentation](platform/adrs/adr-0001-use-gitbook-for-technical-documentation.md)
-    * [\[ADR-0002\] P3 Archive elastic search integration](platform/adrs/adr-0002-p3-archive-elastic-search-integration.md)
-    * [\[ADR-0004\] Switch to Monorepo](platform/adrs/adr-0004-switch-to-monorepo.md)
-    * [\[ADR-0006\] Define scope for deployment environments](platform/adrs/adr-0006-define-scope-for-deployment-environments.md)
-    * [\[ADR-0008\] PSR-4 Autoloading Standard](platform/adrs/adr-0008-psr-4-autoloading-standard.md)
-    * [\[ADR-0009\] Include Media Library in master theme](platform/adrs/adr-0009-include-media-library-in-master-theme.md)
-    * [\[ADR-0014\] Choose a ticketing system](platform/adrs/adr-0014-choose-a-ticketing-system.md)
-  * [Changelog](platform/changelog/README.md)
-    * [2021](platform/changelog/changelog-2021.md)
-    * [2020](platform/changelog/changelog-2020.md)
-    * [2019](platform/changelog/changelog-2019.md)
-    * [2018](platform/changelog/changelog-2018.md)
+* [Practices](platform/practices.md)
+* [ADRs](platform/adrs/README.md)
+  * [\[ADR-0001\] Use Gitbook for Technical Documentation](platform/adrs/adr-0001-use-gitbook-for-technical-documentation.md)
+  * [\[ADR-0002\] P3 Archive elastic search integration](platform/adrs/adr-0002-p3-archive-elastic-search-integration.md)
+  * [\[ADR-0004\] Switch to Monorepo](platform/adrs/adr-0004-switch-to-monorepo.md)
+  * [\[ADR-0006\] Define scope for deployment environments](platform/adrs/adr-0006-define-scope-for-deployment-environments.md)
+  * [\[ADR-0008\] PSR-4 Autoloading Standard](platform/adrs/adr-0008-psr-4-autoloading-standard.md)
+  * [\[ADR-0009\] Include Media Library in master theme](platform/adrs/adr-0009-include-media-library-in-master-theme.md)
+  * [\[ADR-0014\] Choose a ticketing system](platform/adrs/adr-0014-choose-a-ticketing-system.md)
+* [Changelog](platform/changelog/README.md)
+  * [2021](platform/changelog/changelog-2021.md)
+  * [2020](platform/changelog/changelog-2020.md)
+  * [2019](platform/changelog/changelog-2019.md)
+  * [2018](platform/changelog/changelog-2018.md)
 
 ## Tech
 
