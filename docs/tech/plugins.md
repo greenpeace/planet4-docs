@@ -16,6 +16,22 @@ Open source plugins are being pulled from [wpackagist.org](https://wpackagist.or
 
 ![](<../.gitbook/assets/wpackagist-loco (1).png>)
 
+## The P4 Plugin review process
+
+The philosophy of adding plugins to a Planet 4 website can be summarized in the following:
+
+* WordPress is not inherently unsafe. The vast majority of security or incompatibility issues on WordPress sites come from badly written or not maintained plugins.
+* Don’t choose plugins, implement features.
+
+We have described a process that should be followed every time a plugin is considered.
+
+1. Decide on the features you want
+2. Investigate if these can be done by WordPress core
+3. If not, investigate what 3rd party plugins exist, and a do a functional fit analysis
+4. Do a security analysis of the selected plugins, including reputation, maintenance history, and code analysis (see [template](https://docs.google.com/document/d/1p\_WB-Cr-1fnURgkXNZKQk8NUGaBjA5bJSg7wNO5xn2s/edit)). Document this process [for each plugin](https://drive.google.com/drive/u/0/folders/0B54KsE4AZ2G2bXplOHpWak5ROTg?resourcekey=0-AKWHWlZRRvoY6aZ7YpPWBQ).
+5. Install them locally or on a test/dev site and do a thorough testing (using both automatic testing and manual testing) to see if they create problems in other areas of Planet 4.
+6. Get them installed on the relevant site, by having them being added to the [relevant composer file](https://planet4.greenpeace.org/plugins/#are-you-a-dev-please-read-me).
+
 ## Plugins used in all P4 sites
 
 ### Akismet Anti-Spam
@@ -85,20 +101,3 @@ P4 has no SEO plugin installed or recommended. SEO plugins do a lot of things, s
 We have identified several features that are also being offered by some SEO plugins, such as open graph data (documented at [PLANET-1888](https://jira.greenpeace.org/browse/PLANET-1888) and released in [v1.8](https://jira.greenpeace.org/projects/PLANET/versions/14803)) or write beautiful URLs (using core WP functionality with small taxonomy modifications documented at [PLANET-1879](https://jira.greenpeace.org/browse/PLANET-1879) and released in [v1.9](https://planet4.greenpeace.org/manage/1242/update-v1-9/)).
 
 Our choice of operation is **not** "There is a plugin, let’s install it and see what it does", but “We need feature A, let’s find the best way to deliver its functionality”.
-
-## The P4 Plugin review process
-
-The philosophy of adding plugins to a P4 site can be summarized in the following:
-
-* WordPress is not inherently unsafe. The vast majority of security or incompatibility issues on WordPress sites come from badly written or not maintained plugins.
-* Don’t choose plugins, implement features.
-* Be extremely careful
-
-We have described a [process that should be followed](https://drive.google.com/drive/u/0/folders/0B54KsE4AZ2G2bXplOHpWak5ROTg) every time a plugin is considered.
-
-1. Decide on the features you want
-2. Investigate if these can be done by WordPress core
-3. If not, investigate what 3rd party plugins exist, and a do a functional fit analysis
-4. Do a security analysis of the selected plugins, including reputation, maintenance history, and code analysis
-5. Install them on the test server and do a thorough testing (using both automatic testing and manual testing) to see if they create problems in other areas of P4.
-6. Get them installed on the relevant site, by having them being added to the [relevant composer file](https://planet4.greenpeace.org/plugins/#are-you-a-dev-please-read-me)
