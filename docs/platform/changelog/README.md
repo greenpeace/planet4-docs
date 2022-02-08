@@ -6,6 +6,25 @@ description: >-
 
 # Changelog
 
+## 2.73.0 - 2022-02-08
+
+### Features
+
+- [PLANET-6622](https://jira.greenpeace.org/browse/PLANET-6622) - Rename "Website Navigation Title" to "NRO Selector Title"
+- [PLANET-6611](https://jira.greenpeace.org/browse/PLANET-6611) - Install Post Type Switcher plugin
+- [PLANET-6594](https://jira.greenpeace.org/browse/PLANET-6594) - Enable WP Media & Text block
+- [PLANET-6587](https://jira.greenpeace.org/browse/PLANET-6587) - Transfer Custom CSS code from Admin panel to child themes
+- [PLANET-6502](https://jira.greenpeace.org/browse/PLANET-6502) - Enable the core Columns block
+- [PLANET-6308](https://jira.greenpeace.org/browse/PLANET-6308) - Release EN Form WYSIWYG block
+
+### Bug Fixes
+
+- [PLANET-6614](https://jira.greenpeace.org/browse/PLANET-6614) - Page tags keep ordering in an alphabetical order on save
+- [PLANET-6598](https://jira.greenpeace.org/browse/PLANET-6598) - Covers Block: Carousel Layout excessive width on two cards
+- [PLANET-6590](https://jira.greenpeace.org/browse/PLANET-6590) - Handbook search: "0" results always pulled out whereas results are showing up
+- [PLANET-6589](https://jira.greenpeace.org/browse/PLANET-6589) - Handbook search: content wrongly pulled out and not paginated
+- [PLANET-6588](https://jira.greenpeace.org/browse/PLANET-6588) - Handbook search: filters not working and not applicable
+
 ## 2.72.0 - 2022-01-31
 
 ### Features
