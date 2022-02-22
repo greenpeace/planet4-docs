@@ -6,6 +6,22 @@ description: >-
 
 # Changelog
 
+## 2.74.0 - 2022-02-22
+
+### Features
+
+- [PLANET-6653](https://jira.greenpeace.org/browse/PLANET-6653) - [CVE-2021-21708] Upgrade to PHP 7.4.28
+- [PLANET-6644](https://jira.greenpeace.org/browse/PLANET-6644) - Cookies: Set default copy from Cookies Block data
+- [PLANET-6515](https://jira.greenpeace.org/browse/PLANET-6515) - Create the Action page type and Action Type taxonomy
+- [PLANET-6508](https://jira.greenpeace.org/browse/PLANET-6508) - Navigation Bar: add validation warnings on menu configuration
+- [PLANET-6480](https://jira.greenpeace.org/browse/PLANET-6480) - Remove theme customizer from the Admin Panel
+- [PLANET-6075](https://jira.greenpeace.org/browse/PLANET-6075) - Implement the new design of the Cookies bar including the settings
+
+### Bug Fixes
+
+- [PLANET-6648](https://jira.greenpeace.org/browse/PLANET-6648) - File Block: PDF Preview doesn't show on Posts
+- [PLANET-6635](https://jira.greenpeace.org/browse/PLANET-6635) - EN Form: Custom Donate URL field is missing
+
 ## 2.73.1 - 2022-02-15
 
 ### Features
