@@ -6,6 +6,20 @@ description: >-
 
 # Changelog
 
+## 2.74.1 - 2022-03-02
+
+### Features
+
+- [PLANET-6616](https://jira.greenpeace.org/browse/PLANET-6616) - Create "Side image, Text & CTA" block pattern
+
+### Bug Fixes
+
+- [PLANET-6657](https://jira.greenpeace.org/browse/PLANET-6657) - CarouselHeader slide transitions are broken in RTL sites
+- [PLANET-6656](https://jira.greenpeace.org/browse/PLANET-6656) - "Follow us" still shows in footer with no social media links
+- [PLANET-6651](https://jira.greenpeace.org/browse/PLANET-6651) - Missing padding top on posts with new mobile tabs
+- [PLANET-6650](https://jira.greenpeace.org/browse/PLANET-6650) - Hubspot Happy Point: Not always loading in time
+- [PLANET-6545](https://jira.greenpeace.org/browse/PLANET-6545) - Carousel Header: all the titles of the slides are H1
+
 ## 2.74.0 - 2022-02-22
 
 ### Features
