@@ -6,6 +6,19 @@ description: >-
 
 # Changelog
 
+## 2.75.0 - 2022-03-09
+
+### Features
+
+- [PLANET-6636](https://jira.greenpeace.org/browse/PLANET-6636) - Install and make Gravity Forms available for pilot offices
+- [PLANET-6624](https://jira.greenpeace.org/browse/PLANET-6624) - Covers: expand page limitation to Actions
+- [PLANET-6623](https://jira.greenpeace.org/browse/PLANET-6623) - Take Action Boxout: expand page limitation to Actions
+- [PLANET-6592](https://jira.greenpeace.org/browse/PLANET-6592) - Add minimal navigation option on Actions
+
+### Bug Fixes
+
+- [PLANET-6647](https://jira.greenpeace.org/browse/PLANET-6647) - Youtube Embed: block not showing in the editor
+
 ## 2.74.1 - 2022-03-02
 
 ### Features
