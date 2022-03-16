@@ -6,6 +6,19 @@ description: >-
 
 # Changelog
 
+## 2.75.1 - 2022-03-16
+
+### Features
+
+- [PLANET-6513](https://jira.greenpeace.org/browse/PLANET-6513) - Implement the new tag links design
+- [PLANET-6465](https://jira.greenpeace.org/browse/PLANET-6465) - Comments: add opt-in checkbox for submitting the form
+
+### Bug Fixes
+
+- [PLANET-6663](https://jira.greenpeace.org/browse/PLANET-6663) - Password input goes off-screen in small screens
+- [PLANET-6659](https://jira.greenpeace.org/browse/PLANET-6659) - Download file button not styled as expected
+- [PLANET-6658](https://jira.greenpeace.org/browse/PLANET-6658) - Sometimes RTL direction is not applied in the editor
+
 ## 2.75.0 - 2022-03-09
 
 ### Features
