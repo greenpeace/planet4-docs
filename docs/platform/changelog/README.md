@@ -6,6 +6,19 @@ description: >-
 
 # Changelog
 
+## 2.76.0 - 2022-03-23
+
+### Features
+
+- [PLANET-6649](https://jira.greenpeace.org/browse/PLANET-6649) - Re-enable Global 404 page
+- [PLANET-6583](https://jira.greenpeace.org/browse/PLANET-6583) - Upgrade to Wordpress 5.9.x
+- [PLANET-6555](https://jira.greenpeace.org/browse/PLANET-6555) - Form Builder: fields follow design system and are mobile-friendly
+- [PLANET-5972](https://jira.greenpeace.org/browse/PLANET-5972) - Prevent using PNG images for photographs
+
+### Bug Fixes
+
+- [PLANET-6654](https://jira.greenpeace.org/browse/PLANET-6654) - P4 block style examples broken on WP 5.9
+
 ## 2.75.1 - 2022-03-16
 
 ### Features
