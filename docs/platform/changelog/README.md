@@ -6,6 +6,23 @@ description: >-
 
 # Changelog
 
+## 2.77.0 - 2022-04-04
+
+### Features
+
+- [PLANET-6668](https://jira.greenpeace.org/browse/PLANET-6668) - Create "Highlighted CTA" block pattern
+- [PLANET-6667](https://jira.greenpeace.org/browse/PLANET-6667) - Create "Reality Check" block pattern
+
+### Bug Fixes
+
+- [PLANET-6696](https://jira.greenpeace.org/browse/PLANET-6696) - Remove the purple visited states on buttons
+- [PLANET-6682](https://jira.greenpeace.org/browse/PLANET-6682) - EN Form block: Network error on submission
+- [PLANET-6664](https://jira.greenpeace.org/browse/PLANET-6664) - Secondary buttons use ellipsis overflow
+
+### Infrastructure
+
+- [PLANET-5511](https://jira.greenpeace.org/browse/PLANET-5511) - Force all p4 traffic to go through Cloudflare
+
 ## 2.76.0 - 2022-03-23
 
 ### Features
