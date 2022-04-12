@@ -6,6 +6,26 @@ description: >-
 
 # Changelog
 
+## 2.77.1-sitemap - 2022-04-12
+
+### Features
+
+- [PLANET-6721](https://jira.greenpeace.org/browse/PLANET-6721) - Remove Greenland from the countries list
+- [PLANET-6717](https://jira.greenpeace.org/browse/PLANET-6717) - Remove google-sitemap-generator plugin
+- [PLANET-6690](https://jira.greenpeace.org/browse/PLANET-6690) - Remove Table and Button core block code overrides
+- [PLANET-6670](https://jira.greenpeace.org/browse/PLANET-6670) - Support full alignment on blocks
+- [PLANET-6514](https://jira.greenpeace.org/browse/PLANET-6514) - Listing pages: Implement page header designs
+- [PLANET-6154](https://jira.greenpeace.org/browse/PLANET-6154) - Disable sync of archived posts to ElasticSearch if archived posts are never included in search
+
+### Bug Fixes
+
+- [PLANET-6702](https://jira.greenpeace.org/browse/PLANET-6702) - Change default state color on Mobile Navigation
+- [PLANET-6625](https://jira.greenpeace.org/browse/PLANET-6625) - Consent Mode Pilot: doesn't persist when navigation on pages
+
+### Infrastructure
+
+- [PLANET-6713](https://jira.greenpeace.org/browse/PLANET-6713) - Decommission of the Greenlandic P4 instance
+
 ## 2.77.0 - 2022-04-04
 
 ### Features
