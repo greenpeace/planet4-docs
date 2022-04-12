@@ -202,7 +202,7 @@ _Diagnostics_
 
 _REST API (get responses for some of the most common requests with 1 click)_
 
-![elastichq rest](<../.gitbook/assets/elastichq-rest (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
+![elastichq rest](<../.gitbook/assets/elastichq-rest (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
 
 _Custom Query editor (perform your own custom queries)_
 

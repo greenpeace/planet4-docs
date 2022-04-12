@@ -33,6 +33,7 @@ Inside that folder, we create a twig template with the same name it has on the m
 So for instance, If we want to adjust the default page template we have to copy the one from the master-theme that exists at `templates/page.twig` and at the moment contains this code:
 
 ```markup
+{% raw %}
 {% extends "base.twig" %}
 
 {% block content %}
@@ -40,11 +41,13 @@ So for instance, If we want to adjust the default page template we have to copy 
     {{ post.content|raw }}
   </div>
 {% endblock %}
+{% endraw %}
 ```
 
 Assuming we want to display more metadata to the pages content, we would have to use the same code and do any additions (or deletions) we want.
 
 ```markup
+{% raw %}
 {% extends "base.twig" %}
 
 {% block content %}
@@ -54,6 +57,7 @@ Assuming we want to display more metadata to the pages content, we would have to
     {{ post.content|raw }}
   </div>
 {% endblock %}
+{% endraw %}
 ```
 
 ## Live Examples
@@ -84,13 +88,13 @@ Many NROs have decided to change their primary navigation toolbar, below a full 
 * GP Nordics ([Denmark](https://www.greenpeace.org/denmark/), [Greenland](https://www.greenpeace.org/greenland/da/), [Finland](https://www.greenpeace.org/finland/), [Norway](https://www.greenpeace.org/norway/), [Sweden](https://www.greenpeace.org/sweden/)) and [GPCH](https://www.greenpeace.ch/fr/) opted for a transparent white nav bar.
 * [GP Netherlands](https://www.greenpeace.org/nl/) opted for a full white nav bar.
 
-![](<../../.gitbook/assets/nordic (1) (1) (2) (2) (4) (2) (1) (2).png>)
+![](<../../.gitbook/assets/nordic (1) (1) (2) (2) (4) (2) (1) (2) (1).png>)
 
-![](<../../.gitbook/assets/nl (1) (2) (2) (4) (4) (4) (4) (4) (2).png>)
+![](<../../.gitbook/assets/nl (1) (2) (2) (4) (4) (4) (4) (4) (2) (1).png>)
 
 * GP East Asia ([Taiwan](https://www.greenpeace.org/taiwan/), [HK](https://www.greenpeace.org/hongkong/) and [Korea](https://www.greenpeace.org/korea/)) opted for a full green navigation bar.
 
-![](<../../.gitbook/assets/ea (1) (1) (2) (2) (2) (2) (2) (2) (2) (2).png>)
+![](<../../.gitbook/assets/ea (1) (1) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (1) (1).png>)
 
 ### Create a navigation sidebar
 
@@ -102,7 +106,7 @@ Full code for this example can be found at the [planet4-child-theme-handbook](ht
 
 If you need more space in the top bar navigation (for instance you have a multilingual site and need a language switcher at the top), you might need to move the GPI NRO selector from the top bar to the bottom of the page like on [GPLux website](https://www.greenpeace.org/luxembourg/fr/).
 
-![](<../../.gitbook/assets/gplux-country\_selector (1) (1) (2) (2) (2) (2) (2) (2) (2) (2).png>)
+![](<../../.gitbook/assets/gplux-country\_selector (1) (1) (2) (2) (2) (2) (2) (2) (2) (2) (1) (1).png>)
 
 To move the selector you need to:
 
@@ -121,7 +125,9 @@ To move the selector you need to:
     <span class="screen-reader-text">{{ __( 'Selected', 'planet4-master-theme' ) }}:</span> {{ website_navbar_title }}
     <span class="screen-reader-text">{{ __( 'Change Country', 'planet4-master-theme' ) }}</span>
 </button>
+{% raw %}
 {% include 'countries.twig' %}
+{% endraw %}
 ```
 
 * copy the footer template from the [main theme](https://github.com/greenpeace/planet4-master-theme/blob/master/templates/footer.twig).
@@ -139,7 +145,9 @@ To move the selector you need to:
         <span class="screen-reader-text">{{ __( 'Selected', 'planet4-master-theme' ) }}:</span> {{ website_navbar_title }}
         <span class="screen-reader-text">{{ __( 'Change Country', 'planet4-master-theme' ) }}</span>
     </button>
-    {% include 'countries.twig' %}
+    {% raw %}
+{% include 'countries.twig' %}
+{% endraw %}
 </ul>
 ```
 
@@ -221,7 +229,7 @@ As an example, you can see the [handbook child theme](https://github.com/greenpe
 
 ### Using underline titles effect
 
-![](<../../.gitbook/assets/gplux-title-underline (1) (2) (2) (4) (4) (4) (3) (2).png>)
+![](<../../.gitbook/assets/gplux-title-underline (1) (2) (2) (4) (4) (4) (3) (2) (1).png>)
 
 [Luxembourg](https://www.greenpeace.org/luxembourg/fr/) child theme implements a short css section to underline titles with a green gradient line. We had an unexpected good feedback on this effect thus we share the code here:
 
@@ -257,7 +265,7 @@ If you don’t use postcss prefix you can use this code:
 
 You will find on GP Luxembourg a custom [contact form](https://www.greenpeace.org/luxembourg/fr/contact/). On this form, changing the input _Objet de votre message_ will open many different use cases for the user (like changing his bank account). An e-mail is sent to the admin on submit.
 
-![](<../../.gitbook/assets/contact-form-gp-lux (1) (1) (2) (2) (4) (4) (4) (4) (4) (2).jpg>)
+![](<../../.gitbook/assets/contact-form-gp-lux (1) (1) (2) (2) (4) (4) (4) (4) (4) (2) (1).jpg>)
 
 If you want to reproduce this form you can simply grab the code here:
 
