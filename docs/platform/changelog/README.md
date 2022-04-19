@@ -6,6 +6,20 @@ description: >-
 
 # Changelog
 
+## 2.78.0 - 2022-04-19
+
+### Features
+
+- [PLANET-6730](https://jira.greenpeace.org/browse/PLANET-6730) - Load post page CSS only on post pages
+- [PLANET-6728](https://jira.greenpeace.org/browse/PLANET-6728) - Feature Flags: make it visually clear which ones are available only on dev sites
+- [PLANET-6705](https://jira.greenpeace.org/browse/PLANET-6705) - Treat "Last visited website" cookie (gp_nro) as 1st party
+- [PLANET-6694](https://jira.greenpeace.org/browse/PLANET-6694) - Articles Block: Various UI improvements
+- [PLANET-6673](https://jira.greenpeace.org/browse/PLANET-6673) - Navigation Bar: drop down menus
+
+### Bug Fixes
+
+- [PLANET-6551](https://jira.greenpeace.org/browse/PLANET-6551) - New nav bar is broken on Ipad Pro
+
 ## 2.77.1 - 2022-04-12
 
 ### Features
