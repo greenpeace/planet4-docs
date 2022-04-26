@@ -6,6 +6,21 @@ description: >-
 
 # Changelog
 
+## 2.78.1 - 2022-04-26
+
+### Features
+
+- [PLANET-6734](https://jira.greenpeace.org/browse/PLANET-6734) - Heading links should not follow standalone links styles
+- [PLANET-6731](https://jira.greenpeace.org/browse/PLANET-6731) - EN block: create hook to allow altering submitted data
+- [PLANET-6637](https://jira.greenpeace.org/browse/PLANET-6637) - Create a Reviewer user role
+- [PLANET-6613](https://jira.greenpeace.org/browse/PLANET-6613) - Covers carousel layout: New card's width of XXL viewports
+
+### Bug Fixes
+
+- [PLANET-6740](https://jira.greenpeace.org/browse/PLANET-6740) - Lightbox cursor applied to whole Image block div even with small images
+- [PLANET-6708](https://jira.greenpeace.org/browse/PLANET-6708) - Mobile tabs menu covers part of Carousel Header and Page Header image
+- [PLANET-6695](https://jira.greenpeace.org/browse/PLANET-6695) - Cookies settings box: a scroll bar is missing on mobile
+
 ## 2.78.0 - 2022-04-19
 
 ### Features
