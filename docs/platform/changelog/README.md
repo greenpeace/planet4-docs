@@ -6,34 +6,38 @@ description: >-
 
 # Changelog
 
+{% hint style="info" %}
+Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
+{% endhint %}
+
 ## 2.78.1 - 2022-04-26
 
 ### Features
 
-- [PLANET-6734](https://jira.greenpeace.org/browse/PLANET-6734) - Heading links should not follow standalone links styles
-- [PLANET-6731](https://jira.greenpeace.org/browse/PLANET-6731) - EN block: create hook to allow altering submitted data
-- [PLANET-6637](https://jira.greenpeace.org/browse/PLANET-6637) - Create a Reviewer user role
-- [PLANET-6613](https://jira.greenpeace.org/browse/PLANET-6613) - Covers carousel layout: New card's width of XXL viewports
+* [PLANET-6734](https://jira.greenpeace.org/browse/PLANET-6734) - Heading links should not follow standalone links styles
+* [PLANET-6731](https://jira.greenpeace.org/browse/PLANET-6731) - EN block: create hook to allow altering submitted data
+* [PLANET-6637](https://jira.greenpeace.org/browse/PLANET-6637) - Create a Reviewer user role
+* [PLANET-6613](https://jira.greenpeace.org/browse/PLANET-6613) - Covers carousel layout: New card's width of XXL viewports
 
 ### Bug Fixes
 
-- [PLANET-6740](https://jira.greenpeace.org/browse/PLANET-6740) - Lightbox cursor applied to whole Image block div even with small images
-- [PLANET-6708](https://jira.greenpeace.org/browse/PLANET-6708) - Mobile tabs menu covers part of Carousel Header and Page Header image
-- [PLANET-6695](https://jira.greenpeace.org/browse/PLANET-6695) - Cookies settings box: a scroll bar is missing on mobile
+* [PLANET-6740](https://jira.greenpeace.org/browse/PLANET-6740) - Lightbox cursor applied to whole Image block div even with small images
+* [PLANET-6708](https://jira.greenpeace.org/browse/PLANET-6708) - Mobile tabs menu covers part of Carousel Header and Page Header image
+* [PLANET-6695](https://jira.greenpeace.org/browse/PLANET-6695) - Cookies settings box: a scroll bar is missing on mobile
 
 ## 2.78.0 - 2022-04-19
 
 ### Features
 
-- [PLANET-6730](https://jira.greenpeace.org/browse/PLANET-6730) - Load post page CSS only on post pages
-- [PLANET-6728](https://jira.greenpeace.org/browse/PLANET-6728) - Feature Flags: make it visually clear which ones are available only on dev sites
-- [PLANET-6705](https://jira.greenpeace.org/browse/PLANET-6705) - Treat "Last visited website" cookie (gp_nro) as 1st party
-- [PLANET-6694](https://jira.greenpeace.org/browse/PLANET-6694) - Articles Block: Various UI improvements
-- [PLANET-6673](https://jira.greenpeace.org/browse/PLANET-6673) - Navigation Bar: drop down menus
+* [PLANET-6730](https://jira.greenpeace.org/browse/PLANET-6730) - Load post page CSS only on post pages
+* [PLANET-6728](https://jira.greenpeace.org/browse/PLANET-6728) - Feature Flags: make it visually clear which ones are available only on dev sites
+* [PLANET-6705](https://jira.greenpeace.org/browse/PLANET-6705) - Treat "Last visited website" cookie (gp\_nro) as 1st party
+* [PLANET-6694](https://jira.greenpeace.org/browse/PLANET-6694) - Articles Block: Various UI improvements
+* [PLANET-6673](https://jira.greenpeace.org/browse/PLANET-6673) - Navigation Bar: drop down menus 🔑
 
 ### Bug Fixes
 
-- [PLANET-6551](https://jira.greenpeace.org/browse/PLANET-6551) - New nav bar is broken on Ipad Pro
+* [PLANET-6551](https://jira.greenpeace.org/browse/PLANET-6551) - New nav bar is broken on Ipad Pro
 
 ## 2.77.1 - 2022-04-12
 
@@ -103,8 +107,8 @@ description: >-
 ### Features
 
 * [PLANET-6636](https://jira.greenpeace.org/browse/PLANET-6636) - Install and make Gravity Forms available for pilot offices
-* [PLANET-6624](https://jira.greenpeace.org/browse/PLANET-6624) - Covers: expand page limitation to Actions
-* [PLANET-6623](https://jira.greenpeace.org/browse/PLANET-6623) - Take Action Boxout: expand page limitation to Actions
+* [PLANET-6624](https://jira.greenpeace.org/browse/PLANET-6624) - Covers: expand page limitation to Actions 🔑
+* [PLANET-6623](https://jira.greenpeace.org/browse/PLANET-6623) - Take Action Boxout: expand page limitation to Actions 🔑
 * [PLANET-6592](https://jira.greenpeace.org/browse/PLANET-6592) - Add minimal navigation option on Actions
 
 ### Bug Fixes
@@ -131,7 +135,7 @@ description: >-
 
 * [PLANET-6653](https://jira.greenpeace.org/browse/PLANET-6653) - \[CVE-2021-21708] Upgrade to PHP 7.4.28
 * [PLANET-6644](https://jira.greenpeace.org/browse/PLANET-6644) - Cookies: Set default copy from Cookies Block data
-* [PLANET-6515](https://jira.greenpeace.org/browse/PLANET-6515) - Create the Action page type and Action Type taxonomy
+* [PLANET-6515](https://jira.greenpeace.org/browse/PLANET-6515) - Create the Action page type and Action Type taxonomy 🔑
 * [PLANET-6508](https://jira.greenpeace.org/browse/PLANET-6508) - Navigation Bar: add validation warnings on menu configuration
 * [PLANET-6480](https://jira.greenpeace.org/browse/PLANET-6480) - Remove theme customizer from the Admin Panel
 * [PLANET-6075](https://jira.greenpeace.org/browse/PLANET-6075) - Implement the new design of the Cookies bar including the settings
@@ -147,7 +151,7 @@ description: >-
 
 * [PLANET-6634](https://jira.greenpeace.org/browse/PLANET-6634) - Enhanced Block Usage Report experiment (Beta)
 * [PLANET-6544](https://jira.greenpeace.org/browse/PLANET-6544) - Remove the auto-generated Tag Page functionality
-* [PLANET-6510](https://jira.greenpeace.org/browse/PLANET-6510) - Navigation Bar: implement a tabs menu on mobile
+* [PLANET-6510](https://jira.greenpeace.org/browse/PLANET-6510) - Navigation Bar: implement a tabs menu on mobile 🔑
 
 ### Bug Fixes
 
