@@ -10,6 +10,18 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 2.79.0 - 2022-05-03
+
+### Features
+
+- [PLANET-6747](https://jira.greenpeace.org/browse/PLANET-6747) - Posts: show category on breadcrumbs  🔑
+- [PLANET-6652](https://jira.greenpeace.org/browse/PLANET-6652) - Rewrite Search filters to follow native taxonomies
+- [PLANET-6553](https://jira.greenpeace.org/browse/PLANET-6553) - Install and make Gravity Forms available for all offices
+
+### Bug Fixes
+
+- [PLANET-6742](https://jira.greenpeace.org/browse/PLANET-6742) - Multiple core blocks not using proper image "sizes" attribute
+
 ## 2.78.1 - 2022-04-26
 
 ### Features
