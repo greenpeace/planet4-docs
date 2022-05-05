@@ -10,6 +10,14 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 2.79.1 - 2022-05-05
+
+### Bug Fixes
+
+- [PLANET-6765](https://jira.greenpeace.org/browse/PLANET-6765) - Mobile navbar menu: sticks to the left instead of the right in RTL sites
+- [PLANET-6760](https://jira.greenpeace.org/browse/PLANET-6760) - Language menu displayed in the wrong place
+- [PLANET-6697](https://jira.greenpeace.org/browse/PLANET-6697) - Consent Mode: Fire default consent before gtm starts
+
 ## 2.79.0 - 2022-05-03
 
 ### Features
