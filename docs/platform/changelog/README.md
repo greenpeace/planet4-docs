@@ -10,6 +10,13 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 2.79.2 - 2022-05-10
+
+### Features
+
+- [PLANET-6727](https://jira.greenpeace.org/browse/PLANET-6727) - Search results: UI enhancements on posts results
+- [PLANET-6638](https://jira.greenpeace.org/browse/PLANET-6638) - Create "Issues" block pattern
+
 ## 2.79.1 - 2022-05-05
 
 ### Bug Fixes
