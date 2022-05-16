@@ -10,6 +10,25 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 2.80.0 - 2022-05-16
+
+### Features
+
+- [PLANET-6772](https://jira.greenpeace.org/browse/PLANET-6772) - Add Feature Flag on dev sites to opt out from montly data sync
+- [PLANET-6725](https://jira.greenpeace.org/browse/PLANET-6725) - Listing pages: remove the background image 🔑
+- [PLANET-6712](https://jira.greenpeace.org/browse/PLANET-6712) - Add the transparent button as a new style for P4 buttons
+- [PLANET-6672](https://jira.greenpeace.org/browse/PLANET-6672) - Languages menu: Implement dropdown menu behavior
+
+### Bug Fixes
+
+- [PLANET-6756](https://jira.greenpeace.org/browse/PLANET-6756) - "OBJ" character appearing in post titles
+- [PLANET-6755](https://jira.greenpeace.org/browse/PLANET-6755) - Form Builder: in-line fields expand beyond the form container
+- [PLANET-6719](https://jira.greenpeace.org/browse/PLANET-6719) - Take Action Covers block: broken arrows
+- [PLANET-6700](https://jira.greenpeace.org/browse/PLANET-6700) - Gallery slider block: broken arrows
+- [PLANET-6699](https://jira.greenpeace.org/browse/PLANET-6699) - Remove purple visited state from Split Two Columns links
+- [PLANET-6686](https://jira.greenpeace.org/browse/PLANET-6686) - Split Two Columns: crashes on editor after selecting issues/tags
+- [PLANET-4993](https://jira.greenpeace.org/browse/PLANET-4993) - EN Form block: Content on side style has wrong fonts
+
 ## 2.79.2 - 2022-05-10
 
 ### Features
