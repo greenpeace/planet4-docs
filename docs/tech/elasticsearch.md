@@ -4,9 +4,9 @@ description: An intro to the ElasticSearch technology and how Planet 4 uses it.
 
 # ElasticSearch
 
-[**ElasticSearch**](https://www.elastic.co)**, is an Open Source (APLv2), distributed, highly available, RESTful, Search Engine built on top of Apache Lucene.** It provides a scalable, near real time, multitenant-capable full-text search and analytics engine with an HTTP web interface and schema-free JSON documents. It is designed for horizontal scalability, maximum reliability, and easy management.
+[**ElasticSearch**](https://www.elastic.co/)**, is an Open Source (APLv2), distributed, highly available, RESTful, Search Engine built on top of Apache Lucene.** It provides a scalable, near real time, multitenant-capable full-text search and analytics engine with an HTTP web interface and schema-free JSON documents. It is designed for horizontal scalability, maximum reliability, and easy management.
 
-It is built on top of [Apache Lucene](https://lucene.apache.org) which provides Java-based indexing and search technology, as well as spell-checking, hit highlighting and advanced analysis/tokenization capabilities. Lucene uses **Inverted indexing** to index the stored data.
+It is built on top of [Apache Lucene](https://lucene.apache.org/) which provides Java-based indexing and search technology, as well as spell-checking, hit highlighting and advanced analysis/tokenization capabilities. Lucene uses **Inverted indexing** to index the stored data.
 
 ## Inverted indexing
 
@@ -184,7 +184,7 @@ Then, we can initiate the indexing process which will synchronize the data betwe
 
 We have configured docker-compose [here](https://github.com/greenpeace/planet4-docker-compose/blob/master/docker-compose.yml#L128) to add an elasticsearch container which has a single node cluster.
 
-We also have added [here](https://github.com/greenpeace/planet4-docker-compose/blob/master/docker-compose.yml#L137) an ElasticHQ container which allows us to access the ElasticHQ tool in [http://localhost:5000/](http://localhost:5000). Visit this URL and give http:/elasticsearch:9200/ and click Connect so that ElasticHQ will connect with the docker-cluster. You should see something like this
+We also have added [here](https://github.com/greenpeace/planet4-docker-compose/blob/master/docker-compose.yml#L137) an ElasticHQ container which allows us to access the ElasticHQ tool in [http://localhost:5000/](http://localhost:5000/). Visit this URL and give http:/elasticsearch:9200/ and click Connect so that ElasticHQ will connect with the docker-cluster. You should see something like this
 
 ![docker ESHQ](<../.gitbook/assets/p4-docker-elastichq (3) (3) (3) (3) (3) (1).png>)
 
@@ -298,4 +298,4 @@ curl -XGET localhost:9200/_cat/indices?v
 
 ## Links & resources
 
-* [Elastic Search](https://www.elastic.co) website
+* [Elastic Search](https://www.elastic.co/) website

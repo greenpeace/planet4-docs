@@ -8,7 +8,7 @@ description: How to create a new P4 NRO instance
 
 ### Local dependencies
 
-* [Docker](https://www.docker.com)
+* [Docker](https://www.docker.com/)
 * [gcloud](https://cloud.google.com/sdk/docs/)
 * [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
 * [helm](https://github.com/helm/helm/releases)

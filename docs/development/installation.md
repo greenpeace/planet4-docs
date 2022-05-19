@@ -4,7 +4,7 @@ description: Get a full Planet 4 development environment to your local machine
 
 # Installation
 
-We are using `docker` and `docker-compose` to provide as consistent a local development environment as possible, in accordance with [12factor](https://12factor.net) development principles.
+We are using `docker` and `docker-compose` to provide as consistent a local development environment as possible, in accordance with [12factor](https://12factor.net/) development principles.
 
 ## System Requirements
 
@@ -244,9 +244,9 @@ Replace default commands by the updated ones:
 
     * Edit `~/.bashrc` (or your custom shell equivalent) and add
 
-    `   PATH="$(brew --prefix)/opt/make/libexec/gnubin:$PATH"`
+    &#x20;  `PATH="$(brew --prefix)/opt/make/libexec/gnubin:$PATH"`
 
-    `   PATH="$(brew --prefix)/opt/grep/libexec/gnubin:$PATH"`
+    &#x20;  `PATH="$(brew --prefix)/opt/grep/libexec/gnubin:$PATH"`
 
     * Reload with `source ~/.bashrc`
 
@@ -267,7 +267,7 @@ The following dependencies are required only if you want to contribute to the do
 
 * [shellcheck](https://github.com/koalaman/shellcheck)
 * [yamllint](https://github.com/adrienverge/yamllint)
-* [node/npm](https://nodejs.org)
+* [node/npm](https://nodejs.org/)
 
 ## First run
 
@@ -452,7 +452,7 @@ Login username is `admin` and the password is `admin`.
 
 ### Elasticsearch access via ElasticHQ
 
-[elastichq](https://hub.docker.com/r/elastichq/elasticsearch-hq/) Access at [localhost:5000/](http://localhost:5000)
+[elastichq](https://hub.docker.com/r/elastichq/elasticsearch-hq/) Access at [localhost:5000/](http://localhost:5000/)
 
 ## NRO sites
 
@@ -572,7 +572,7 @@ make appdata
 make run
 ```
 
-From here, you can download a database export from GCS (for [example](https://console.cloud.google.com/storage/browser/planet4-flibble-db-backup?project=planet-4-151612)) and visit [phpMyAdmin](http://pma.www.planet4.test) to perform the import.
+From here, you can download a database export from GCS (for [example](https://console.cloud.google.com/storage/browser/planet4-flibble-db-backup?project=planet-4-151612)) and visit [phpMyAdmin](http://pma.www.planet4.test/) to perform the import.
 
 ### Default Content
 
@@ -653,7 +653,7 @@ See [openresty-php-exim](https://github.com/greenpeace/planet4-docker/tree/devel
 
 * `NEWRELIC_LICENSE` set to the license key in your NewRelic dashboard to automatically receive server and application metrics
 * `PHP_MEMORY_LIMIT` maximum memory each PHP process can consume before being terminated and restarted by the scheduler
-* `PHP_XDEBUG_REMOTE_HOST` in development mode enables remote [XDebug](https://xdebug.org) debugging, tracing and profiling
+* `PHP_XDEBUG_REMOTE_HOST` in development mode enables remote [XDebug](https://xdebug.org/) debugging, tracing and profiling
 
 ### Development mode
 
@@ -758,10 +758,10 @@ If you are running any other services on your local device which respond on port
       - "8000:80"
 ```
 
-The first number is the port number on your host, the second number is mapped to port 80 on the openresty service container. Now you can access the site at [www.planet4.test:8000](http://www.planet4.test:8000) instead.
+The first number is the port number on your host, the second number is mapped to port 80 on the openresty service container. Now you can access the site at [www.planet4.test:8000](http://www.planet4.test:8000/) instead.
 
 A more robust solution for hosting multiple services on port 80 is to use a reverse proxy such as Traefik or [jwilder/openresty-proxy](https://github.com/jwilder/openresty-proxy) in a separate project, and use [Docker named networking](https://docs.docker.com/compose/networking/) features to isolate virtual networks.
 
 ### Traefik administration
 
-Traefik comes with a simple admin interface accessible at [www.planet4.test:8080](http://www.planet4.test:8080).
+Traefik comes with a simple admin interface accessible at [www.planet4.test:8080](http://www.planet4.test:8080/).

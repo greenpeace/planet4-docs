@@ -12,7 +12,7 @@ description: Customize P4 using a child theme
 
 All css changes should happen inside `style.css` that lies on the root of the child theme and initially is empty. This css code is loaded after the master-theme’s css, so anything put in there will override the corresponding class or element.
 
-Keep in mind though, that in the master-theme many elements and classes are nested (using [Sass](https://sass-lang.com)). For that reason we have to be careful with precedence and take that fact into account when we write our css code for our custom child theme. The more specific and explicit a css declaration is, the bigger precedence it has.
+Keep in mind though, that in the master-theme many elements and classes are nested (using [Sass](https://sass-lang.com/)). For that reason we have to be careful with precedence and take that fact into account when we write our css code for our custom child theme. The more specific and explicit a css declaration is, the bigger precedence it has.
 
 So for instance, if we want to adjust the color of the post tags, we should add a css rule like this one:
 
@@ -86,17 +86,17 @@ Many NROs have decided to change their primary navigation toolbar, below a full 
 * GP Nordics ([Denmark](https://www.greenpeace.org/denmark/), [Greenland](https://www.greenpeace.org/greenland/da/), [Finland](https://www.greenpeace.org/finland/), [Norway](https://www.greenpeace.org/norway/), [Sweden](https://www.greenpeace.org/sweden/)) and [GPCH](https://www.greenpeace.ch/fr/) opted for a transparent white nav bar.
 * [GP Netherlands](https://www.greenpeace.org/nl/) opted for a full white nav bar.
 
-![](<../../.gitbook/assets/nordic (1) (1) (2) (2) (4) (2) (1) (2) (1) (1).png>)
+![](<../../.gitbook/assets/nordic (1) (1) (2) (2) (4) (2) (1) (2) (1) (1) (1).png>)
 
-![](<../../.gitbook/assets/nl (1) (2) (2) (4) (4) (4) (4) (4) (2) (1) (1).png>)
+![](<../../.gitbook/assets/nl (1) (2) (2) (4) (4) (4) (4) (4) (2) (1) (1) (1).png>)
 
 * GP East Asia ([Taiwan](https://www.greenpeace.org/taiwan/), [HK](https://www.greenpeace.org/hongkong/) and [Korea](https://www.greenpeace.org/korea/)) opted for a full green navigation bar.
 
-![](<../../.gitbook/assets/ea (1) (1) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (1) (1) (1).png>)
+![](<../../.gitbook/assets/ea (1) (1) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (1) (1) (1) (1).png>)
 
 ### Create a navigation sidebar
 
-For the needs of this awesome [Handbook website](https://planet4.greenpeace.org) we needed to add a sidebar and move the navigation links to that. In order to achieve that we created two new templates in the child theme. One for the top navigation bar and one for the sidebar. Following master theme naming scheme, the first one is `navigation-bar.twig`, where we removed the code that generates the navigation links and left only the logo and the search form. The second one is the `sidebar.twig` where we added the code for generating the navigation menu and through custom css code we style it to be vertical.
+For the needs of this awesome [Handbook website](https://planet4.greenpeace.org/) we needed to add a sidebar and move the navigation links to that. In order to achieve that we created two new templates in the child theme. One for the top navigation bar and one for the sidebar. Following master theme naming scheme, the first one is `navigation-bar.twig`, where we removed the code that generates the navigation links and left only the logo and the search form. The second one is the `sidebar.twig` where we added the code for generating the navigation menu and through custom css code we style it to be vertical.
 
 Full code for this example can be found at the [planet4-child-theme-handbook](https://github.com/greenpeace/planet4-child-theme-handbook) repository.
 
@@ -104,7 +104,7 @@ Full code for this example can be found at the [planet4-child-theme-handbook](ht
 
 If you need more space in the top bar navigation (for instance you have a multilingual site and need a language switcher at the top), you might need to move the GPI NRO selector from the top bar to the bottom of the page like on [GPLux website](https://www.greenpeace.org/luxembourg/fr/).
 
-![](<../../.gitbook/assets/gplux-country\_selector (1) (1) (2) (2) (2) (2) (2) (2) (2) (2) (1) (1) (1).png>)
+![](<../../.gitbook/assets/gplux-country\_selector (1) (1) (2) (2) (2) (2) (2) (2) (2) (2) (1) (1) (1) (1).png>)
 
 To move the selector you need to:
 
@@ -227,7 +227,7 @@ As an example, you can see the [handbook child theme](https://github.com/greenpe
 
 ### Using underline titles effect
 
-![](<../../.gitbook/assets/gplux-title-underline (1) (2) (2) (4) (4) (4) (3) (2) (1) (1).png>)
+![](<../../.gitbook/assets/gplux-title-underline (1) (2) (2) (4) (4) (4) (3) (2) (1) (1) (1).png>)
 
 [Luxembourg](https://www.greenpeace.org/luxembourg/fr/) child theme implements a short css section to underline titles with a green gradient line. We had an unexpected good feedback on this effect thus we share the code here:
 
@@ -263,7 +263,7 @@ If you don’t use postcss prefix you can use this code:
 
 You will find on GP Luxembourg a custom [contact form](https://www.greenpeace.org/luxembourg/fr/contact/). On this form, changing the input _Objet de votre message_ will open many different use cases for the user (like changing his bank account). An e-mail is sent to the admin on submit.
 
-![](<../../.gitbook/assets/contact-form-gp-lux (1) (1) (2) (2) (4) (4) (4) (4) (4) (2) (1) (1).jpg>)
+![](<../../.gitbook/assets/contact-form-gp-lux (1) (1) (2) (2) (4) (4) (4) (4) (4) (2) (1) (1) (1).jpg>)
 
 If you want to reproduce this form you can simply grab the code here:
 

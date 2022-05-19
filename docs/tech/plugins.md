@@ -12,7 +12,7 @@ DO NOT Enable automatic updates of any plugin. Updates are done via Composer for
 
 Installation and updates of plugins is happening via the composer scripts. All the plugins that are present in all installations are defined in the common [composer file](https://github.com/greenpeace/planet4-base/blob/develop/composer.json#L25). Additionally, plugins that are installed only on a specific P4 site is defined in the composer file for that site. For example, Loco Translate is only installed on the handbook site, and is defined in the handbook [composer](https://github.com/greenpeace/planet4-handbook/blob/develop/composer-local.json#L8) file.
 
-Open source plugins are being pulled from [wpackagist.org](https://wpackagist.org). To add a plugin, you have to find the correct wpackagist record, copy the line and insert it in the composer file as the loco translate example above.
+Open source plugins are being pulled from [wpackagist.org](https://wpackagist.org/). To add a plugin, you have to find the correct wpackagist record, copy the line and insert it in the composer file as the loco translate example above.
 
 ![](<../.gitbook/assets/wpackagist-loco (1).png>)
 
@@ -82,7 +82,7 @@ Upload and serve your WordPress media files from Google Cloud Storage. More info
 
 ### WPML
 
-Used in our sites that require more than one language. More info on [Set up a Multi-Language P4 Site](http://planet4.greenpeace.org/handbook/multi-language/) or at [wpml.org](https://wpml.org).
+Used in our sites that require more than one language. More info on [Set up a Multi-Language P4 Site](http://planet4.greenpeace.org/handbook/multi-language/) or at [wpml.org](https://wpml.org/).
 
 ### Loco Translate
 
