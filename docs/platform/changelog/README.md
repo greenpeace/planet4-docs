@@ -21,6 +21,23 @@ Items with a 🔑 icon are not enabled by default, but instead they are released
 - [PLANET-6776](https://jira.greenpeace.org/browse/PLANET-6776) - Languages menu: show the dropdown menu only if the NRO has more than 1 lang already set
 - [PLANET-6775](https://jira.greenpeace.org/browse/PLANET-6775) - Languages menu: Add chevron icon to the languages nav
 - [PLANET-6767](https://jira.greenpeace.org/browse/PLANET-6767) - Object Cache icons on dashboard are so big
+- [PLANET-6748](https://jira.greenpeace.org/browse/PLANET-6748) - Covers block: Load more button doesn't pick up translation string
+
+### Infrastructure
+
+- [PLANET-6665](https://jira.greenpeace.org/browse/PLANET-6665) - www subdomain doesn't work on some alternative domains
+
+## 2.80.1 - 2022-05-19
+
+### Features
+
+- [PLANET-6704](https://jira.greenpeace.org/browse/PLANET-6704) - Insert place holder images for the new block patterns
+
+### Bug Fixes
+
+- [PLANET-6776](https://jira.greenpeace.org/browse/PLANET-6776) - Languages menu: show the dropdown menu only if the NRO has more than 1 lang already set
+- [PLANET-6775](https://jira.greenpeace.org/browse/PLANET-6775) - Languages menu: Add chevron icon to the languages nav
+- [PLANET-6767](https://jira.greenpeace.org/browse/PLANET-6767) - Object Cache icons on dashboard are so big
 - [PLANET-6748](https://jira.greenpeace.org/browse/PLANET-6748) - Covers block: "Load more" doesn't pick up translation string
 
 ### Infrastructure
