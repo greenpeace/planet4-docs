@@ -14,81 +14,64 @@ Items with a 🔑 icon are not enabled by default, but instead they are released
 
 ### Features
 
-- [PLANET-6704](https://jira.greenpeace.org/browse/PLANET-6704) - Insert place holder images for the new block patterns
+* [PLANET-6704](https://jira.greenpeace.org/browse/PLANET-6704) - Insert place holder images for the new block patterns
 
 ### Bug Fixes
 
-- [PLANET-6776](https://jira.greenpeace.org/browse/PLANET-6776) - Languages menu: show the dropdown menu only if the NRO has more than 1 lang already set
-- [PLANET-6775](https://jira.greenpeace.org/browse/PLANET-6775) - Languages menu: Add chevron icon to the languages nav
-- [PLANET-6767](https://jira.greenpeace.org/browse/PLANET-6767) - Object Cache icons on dashboard are so big
-- [PLANET-6748](https://jira.greenpeace.org/browse/PLANET-6748) - Covers block: Load more button doesn't pick up translation string
+* [PLANET-6776](https://jira.greenpeace.org/browse/PLANET-6776) - Languages menu: show the dropdown menu only if the NRO has more than 1 lang already set
+* [PLANET-6775](https://jira.greenpeace.org/browse/PLANET-6775) - Languages menu: Add chevron icon to the languages nav
+* [PLANET-6767](https://jira.greenpeace.org/browse/PLANET-6767) - Object Cache icons on dashboard are so big
+* [PLANET-6748](https://jira.greenpeace.org/browse/PLANET-6748) - Covers block: Load more button doesn't pick up translation string
 
 ### Infrastructure
 
-- [PLANET-6665](https://jira.greenpeace.org/browse/PLANET-6665) - www subdomain doesn't work on some alternative domains
-
-## 2.80.1 - 2022-05-19
-
-### Features
-
-- [PLANET-6704](https://jira.greenpeace.org/browse/PLANET-6704) - Insert place holder images for the new block patterns
-
-### Bug Fixes
-
-- [PLANET-6776](https://jira.greenpeace.org/browse/PLANET-6776) - Languages menu: show the dropdown menu only if the NRO has more than 1 lang already set
-- [PLANET-6775](https://jira.greenpeace.org/browse/PLANET-6775) - Languages menu: Add chevron icon to the languages nav
-- [PLANET-6767](https://jira.greenpeace.org/browse/PLANET-6767) - Object Cache icons on dashboard are so big
-- [PLANET-6748](https://jira.greenpeace.org/browse/PLANET-6748) - Covers block: "Load more" doesn't pick up translation string
-
-### Infrastructure
-
-- [PLANET-6665](https://jira.greenpeace.org/browse/PLANET-6665) - www subdomain doesn't work on some alternative domains
+* [PLANET-6665](https://jira.greenpeace.org/browse/PLANET-6665) - www subdomain doesn't work on some alternative domains
 
 ## 2.80.0 - 2022-05-16
 
 ### Features
 
-- [PLANET-6772](https://jira.greenpeace.org/browse/PLANET-6772) - Add Feature Flag on dev sites to opt out from montly data sync
-- [PLANET-6725](https://jira.greenpeace.org/browse/PLANET-6725) - Listing pages: remove the background image 🔑
-- [PLANET-6712](https://jira.greenpeace.org/browse/PLANET-6712) - Add the transparent button as a new style for P4 buttons
-- [PLANET-6672](https://jira.greenpeace.org/browse/PLANET-6672) - Languages menu: Implement dropdown menu behavior
+* [PLANET-6772](https://jira.greenpeace.org/browse/PLANET-6772) - Add Feature Flag on dev sites to opt out from montly data sync
+* [PLANET-6725](https://jira.greenpeace.org/browse/PLANET-6725) - Listing pages: remove the background image 🔑
+* [PLANET-6712](https://jira.greenpeace.org/browse/PLANET-6712) - Add the transparent button as a new style for P4 buttons
+* [PLANET-6672](https://jira.greenpeace.org/browse/PLANET-6672) - Languages menu: Implement dropdown menu behavior
 
 ### Bug Fixes
 
-- [PLANET-6756](https://jira.greenpeace.org/browse/PLANET-6756) - "OBJ" character appearing in post titles
-- [PLANET-6755](https://jira.greenpeace.org/browse/PLANET-6755) - Form Builder: in-line fields expand beyond the form container
-- [PLANET-6719](https://jira.greenpeace.org/browse/PLANET-6719) - Take Action Covers block: broken arrows
-- [PLANET-6700](https://jira.greenpeace.org/browse/PLANET-6700) - Gallery slider block: broken arrows
-- [PLANET-6699](https://jira.greenpeace.org/browse/PLANET-6699) - Remove purple visited state from Split Two Columns links
-- [PLANET-6686](https://jira.greenpeace.org/browse/PLANET-6686) - Split Two Columns: crashes on editor after selecting issues/tags
-- [PLANET-4993](https://jira.greenpeace.org/browse/PLANET-4993) - EN Form block: Content on side style has wrong fonts
+* [PLANET-6756](https://jira.greenpeace.org/browse/PLANET-6756) - "OBJ" character appearing in post titles
+* [PLANET-6755](https://jira.greenpeace.org/browse/PLANET-6755) - Form Builder: in-line fields expand beyond the form container
+* [PLANET-6719](https://jira.greenpeace.org/browse/PLANET-6719) - Take Action Covers block: broken arrows
+* [PLANET-6700](https://jira.greenpeace.org/browse/PLANET-6700) - Gallery slider block: broken arrows
+* [PLANET-6699](https://jira.greenpeace.org/browse/PLANET-6699) - Remove purple visited state from Split Two Columns links
+* [PLANET-6686](https://jira.greenpeace.org/browse/PLANET-6686) - Split Two Columns: crashes on editor after selecting issues/tags
+* [PLANET-4993](https://jira.greenpeace.org/browse/PLANET-4993) - EN Form block: Content on side style has wrong fonts
 
 ## 2.79.2 - 2022-05-10
 
 ### Features
 
-- [PLANET-6727](https://jira.greenpeace.org/browse/PLANET-6727) - Search results: UI enhancements on posts results
-- [PLANET-6638](https://jira.greenpeace.org/browse/PLANET-6638) - Create "Issues" block pattern
+* [PLANET-6727](https://jira.greenpeace.org/browse/PLANET-6727) - Search results: UI enhancements on posts results
+* [PLANET-6638](https://jira.greenpeace.org/browse/PLANET-6638) - Create "Issues" block pattern
 
 ## 2.79.1 - 2022-05-05
 
 ### Bug Fixes
 
-- [PLANET-6765](https://jira.greenpeace.org/browse/PLANET-6765) - Mobile navbar menu: sticks to the left instead of the right in RTL sites
-- [PLANET-6760](https://jira.greenpeace.org/browse/PLANET-6760) - Language menu displayed in the wrong place
-- [PLANET-6697](https://jira.greenpeace.org/browse/PLANET-6697) - Consent Mode: Fire default consent before gtm starts
+* [PLANET-6765](https://jira.greenpeace.org/browse/PLANET-6765) - Mobile navbar menu: sticks to the left instead of the right in RTL sites
+* [PLANET-6760](https://jira.greenpeace.org/browse/PLANET-6760) - Language menu displayed in the wrong place
+* [PLANET-6697](https://jira.greenpeace.org/browse/PLANET-6697) - Consent Mode: Fire default consent before gtm starts
 
 ## 2.79.0 - 2022-05-03
 
 ### Features
 
-- [PLANET-6747](https://jira.greenpeace.org/browse/PLANET-6747) - Posts: show category on breadcrumbs  🔑
-- [PLANET-6652](https://jira.greenpeace.org/browse/PLANET-6652) - Rewrite Search filters to follow native taxonomies
-- [PLANET-6553](https://jira.greenpeace.org/browse/PLANET-6553) - Install and make Gravity Forms available for all offices
+* [PLANET-6747](https://jira.greenpeace.org/browse/PLANET-6747) - Posts: show category on breadcrumbs 🔑
+* [PLANET-6652](https://jira.greenpeace.org/browse/PLANET-6652) - Rewrite Search filters to follow native taxonomies
+* [PLANET-6553](https://jira.greenpeace.org/browse/PLANET-6553) - Install and make Gravity Forms available for all offices
 
 ### Bug Fixes
 
-- [PLANET-6742](https://jira.greenpeace.org/browse/PLANET-6742) - Multiple core blocks not using proper image "sizes" attribute
+* [PLANET-6742](https://jira.greenpeace.org/browse/PLANET-6742) - Multiple core blocks not using proper image "sizes" attribute
 
 ## 2.78.1 - 2022-04-26
 
