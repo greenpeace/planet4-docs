@@ -10,6 +10,20 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 2.80.2 - 2022-05-24
+
+### Features
+
+- [PLANET-6788](https://jira.greenpeace.org/browse/PLANET-6788) - Harmonise our color palette and move it to theme.json
+- [PLANET-6787](https://jira.greenpeace.org/browse/PLANET-6787) - Add white to our theme color palette
+- [PLANET-6784](https://jira.greenpeace.org/browse/PLANET-6784) - Remove the WP core colors palette from core blocks
+
+### Bug Fixes
+
+- [PLANET-6771](https://jira.greenpeace.org/browse/PLANET-6771) - EN Form styles loaded twice
+- [PLANET-6749](https://jira.greenpeace.org/browse/PLANET-6749) - Analytics & Tracking: Global Project menu is empty
+- [PLANET-6720](https://jira.greenpeace.org/browse/PLANET-6720) - Articles block: Manual override returns no posts
+
 ## 2.80.1 - 2022-05-19
 
 ### Features
