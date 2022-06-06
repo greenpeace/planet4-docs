@@ -10,6 +10,24 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 2.81.0 - 2022-06-06
+
+### Features
+
+- [PLANET-6801](https://jira.greenpeace.org/browse/PLANET-6801) - Tag pages: Add max-width of title and intro text on XXL screens
+
+### Bug Fixes
+
+- [PLANET-6800](https://jira.greenpeace.org/browse/PLANET-6800) - Tag pages: Fix width of title and intro text
+- [PLANET-6619](https://jira.greenpeace.org/browse/PLANET-6619) - Tag pages using redirect page are available at 2 different URLs with the same content
+
+### Infrastructure
+
+- [PLANET-6790](https://jira.greenpeace.org/browse/PLANET-6790) - Migrate all charts to helm3
+- [PLANET-4611](https://jira.greenpeace.org/browse/PLANET-4611) - Fix NRO name in domain name to be case insensitive
+- [PLANET-4574](https://jira.greenpeace.org/browse/PLANET-4574) - Implement network security policies
+- [PLANET-3944](https://jira.greenpeace.org/browse/PLANET-3944) - Create GCP IAM roles for developers, sysadmins, NRO service accounts
+
 ## 2.80.2 - 2022-05-24
 
 ### Features
