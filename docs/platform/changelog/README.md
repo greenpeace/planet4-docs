@@ -10,6 +10,22 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 2.82.0 - 2022-06-15
+
+### Features
+
+- [PLANET-6797](https://jira.greenpeace.org/browse/PLANET-6797) - Search: show Actions in search results
+- [PLANET-6778](https://jira.greenpeace.org/browse/PLANET-6778) - Add our custom margins to core Group block
+- [PLANET-6773](https://jira.greenpeace.org/browse/PLANET-6773) - Ensure WP importer fetches media along with posts
+- [PLANET-6534](https://jira.greenpeace.org/browse/PLANET-6534) - Create the deep dive topics block pattern
+
+### Bug Fixes
+
+- [PLANET-6789](https://jira.greenpeace.org/browse/PLANET-6789) - EN form block: text input fields blocked by label element
+- [PLANET-6687](https://jira.greenpeace.org/browse/PLANET-6687) - Secondary buttons don't show placeholder in the editor
+- [PLANET-6578](https://jira.greenpeace.org/browse/PLANET-6578) - Search page: Post Type filters not properly saved
+- [PLANET-6340](https://jira.greenpeace.org/browse/PLANET-6340) - Covers block loads all images during page load
+
 ## 2.81.0 - 2022-06-06
 
 ### Features
