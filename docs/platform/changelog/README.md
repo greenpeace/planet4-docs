@@ -15,6 +15,20 @@ Items with a 🔑 icon are not enabled by default, but instead they are released
 ### Features
 
 - [PLANET-6811](https://jira.greenpeace.org/browse/PLANET-6811) - Upgrade to Wordpress 6.0
+- [PLANET-6744](https://jira.greenpeace.org/browse/PLANET-6744) - Post type listing pages make author name bold
+- [PLANET-6520](https://jira.greenpeace.org/browse/PLANET-6520) - Create the Quick links block pattern
+
+### Bug Fixes
+
+- [PLANET-6822](https://jira.greenpeace.org/browse/PLANET-6822) - Author block looks weird with short bio info
+- [PLANET-6819](https://jira.greenpeace.org/browse/PLANET-6819) - Navigation Bar: Clear button gets out of place on search input
+- [PLANET-6325](https://jira.greenpeace.org/browse/PLANET-6325) - Fix overlapped content by the main header when there is no page title set
+
+## 2.82.1 - 2022-06-21
+
+### Features
+
+- [PLANET-6811](https://jira.greenpeace.org/browse/PLANET-6811) - Upgrade to Wordpress 6.0
 - [PLANET-6744](https://jira.greenpeace.org/browse/PLANET-6744) - Post type listing pages: make author name bold
 - [PLANET-6520](https://jira.greenpeace.org/browse/PLANET-6520) - Create the "Quick links" block pattern
 
