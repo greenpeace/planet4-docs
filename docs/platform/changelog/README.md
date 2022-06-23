@@ -14,77 +14,63 @@ Items with a 🔑 icon are not enabled by default, but instead they are released
 
 ### Features
 
-- [PLANET-6811](https://jira.greenpeace.org/browse/PLANET-6811) - Upgrade to Wordpress 6.0
-- [PLANET-6744](https://jira.greenpeace.org/browse/PLANET-6744) - Post type listing pages make author name bold
-- [PLANET-6520](https://jira.greenpeace.org/browse/PLANET-6520) - Create the Quick links block pattern
+* [PLANET-6811](https://jira.greenpeace.org/browse/PLANET-6811) - Upgrade to Wordpress 6.0
+* [PLANET-6744](https://jira.greenpeace.org/browse/PLANET-6744) - Post type listing pages: make author name bold
+* [PLANET-6520](https://jira.greenpeace.org/browse/PLANET-6520) - Create the "Quick links" block pattern
 
 ### Bug Fixes
 
-- [PLANET-6822](https://jira.greenpeace.org/browse/PLANET-6822) - Author block looks weird with short bio info
-- [PLANET-6819](https://jira.greenpeace.org/browse/PLANET-6819) - Navigation Bar: Clear button gets out of place on search input
-- [PLANET-6325](https://jira.greenpeace.org/browse/PLANET-6325) - Fix overlapped content by the main header when there is no page title set
-
-## 2.82.1 - 2022-06-21
-
-### Features
-
-- [PLANET-6811](https://jira.greenpeace.org/browse/PLANET-6811) - Upgrade to Wordpress 6.0
-- [PLANET-6744](https://jira.greenpeace.org/browse/PLANET-6744) - Post type listing pages: make author name bold
-- [PLANET-6520](https://jira.greenpeace.org/browse/PLANET-6520) - Create the "Quick links" block pattern
-
-### Bug Fixes
-
-- [PLANET-6822](https://jira.greenpeace.org/browse/PLANET-6822) - Author block looks weird with short bio info
-- [PLANET-6819](https://jira.greenpeace.org/browse/PLANET-6819) - Navigation Bar: Clear button gets out of place on search input
-- [PLANET-6325](https://jira.greenpeace.org/browse/PLANET-6325) - Fix overlapped content by the main header when there is no page title set
+* [PLANET-6822](https://jira.greenpeace.org/browse/PLANET-6822) - Author block looks weird with short bio info
+* [PLANET-6819](https://jira.greenpeace.org/browse/PLANET-6819) - Navigation Bar: Clear button gets out of place on search input
+* [PLANET-6325](https://jira.greenpeace.org/browse/PLANET-6325) - Fix overlapped content by the main header when there is no page title set
 
 ## 2.82.0 - 2022-06-15
 
 ### Features
 
-- [PLANET-6797](https://jira.greenpeace.org/browse/PLANET-6797) - Search: show Actions in search results
-- [PLANET-6778](https://jira.greenpeace.org/browse/PLANET-6778) - Add our custom margins to core Group block
-- [PLANET-6773](https://jira.greenpeace.org/browse/PLANET-6773) - Ensure WP importer fetches media along with posts
-- [PLANET-6534](https://jira.greenpeace.org/browse/PLANET-6534) - Create the deep dive topics block pattern
+* [PLANET-6797](https://jira.greenpeace.org/browse/PLANET-6797) - Search: show Actions in search results
+* [PLANET-6778](https://jira.greenpeace.org/browse/PLANET-6778) - Add our custom margins to core Group block
+* [PLANET-6773](https://jira.greenpeace.org/browse/PLANET-6773) - Ensure WP importer fetches media along with posts
+* [PLANET-6534](https://jira.greenpeace.org/browse/PLANET-6534) - Create the deep dive topics block pattern
 
 ### Bug Fixes
 
-- [PLANET-6789](https://jira.greenpeace.org/browse/PLANET-6789) - EN form block: text input fields blocked by label element
-- [PLANET-6687](https://jira.greenpeace.org/browse/PLANET-6687) - Secondary buttons don't show placeholder in the editor
-- [PLANET-6578](https://jira.greenpeace.org/browse/PLANET-6578) - Search page: Post Type filters not properly saved
-- [PLANET-6340](https://jira.greenpeace.org/browse/PLANET-6340) - Covers block loads all images during page load
+* [PLANET-6789](https://jira.greenpeace.org/browse/PLANET-6789) - EN form block: text input fields blocked by label element
+* [PLANET-6687](https://jira.greenpeace.org/browse/PLANET-6687) - Secondary buttons don't show placeholder in the editor
+* [PLANET-6578](https://jira.greenpeace.org/browse/PLANET-6578) - Search page: Post Type filters not properly saved
+* [PLANET-6340](https://jira.greenpeace.org/browse/PLANET-6340) - Covers block loads all images during page load
 
 ## 2.81.0 - 2022-06-06
 
 ### Features
 
-- [PLANET-6801](https://jira.greenpeace.org/browse/PLANET-6801) - Tag pages: Add max-width of title and intro text on XXL screens
+* [PLANET-6801](https://jira.greenpeace.org/browse/PLANET-6801) - Tag pages: Add max-width of title and intro text on XXL screens
 
 ### Bug Fixes
 
-- [PLANET-6800](https://jira.greenpeace.org/browse/PLANET-6800) - Tag pages: Fix width of title and intro text
-- [PLANET-6619](https://jira.greenpeace.org/browse/PLANET-6619) - Tag pages using redirect page are available at 2 different URLs with the same content
+* [PLANET-6800](https://jira.greenpeace.org/browse/PLANET-6800) - Tag pages: Fix width of title and intro text
+* [PLANET-6619](https://jira.greenpeace.org/browse/PLANET-6619) - Tag pages using redirect page are available at 2 different URLs with the same content
 
 ### Infrastructure
 
-- [PLANET-6790](https://jira.greenpeace.org/browse/PLANET-6790) - Migrate all charts to helm3
-- [PLANET-4611](https://jira.greenpeace.org/browse/PLANET-4611) - Fix NRO name in domain name to be case insensitive
-- [PLANET-4574](https://jira.greenpeace.org/browse/PLANET-4574) - Implement network security policies
-- [PLANET-3944](https://jira.greenpeace.org/browse/PLANET-3944) - Create GCP IAM roles for developers, sysadmins, NRO service accounts
+* [PLANET-6790](https://jira.greenpeace.org/browse/PLANET-6790) - Migrate all charts to helm3
+* [PLANET-4611](https://jira.greenpeace.org/browse/PLANET-4611) - Fix NRO name in domain name to be case insensitive
+* [PLANET-4574](https://jira.greenpeace.org/browse/PLANET-4574) - Implement network security policies
+* [PLANET-3944](https://jira.greenpeace.org/browse/PLANET-3944) - Create GCP IAM roles for developers, sysadmins, NRO service accounts
 
 ## 2.80.2 - 2022-05-24
 
 ### Features
 
-- [PLANET-6788](https://jira.greenpeace.org/browse/PLANET-6788) - Harmonise our color palette and move it to theme.json
-- [PLANET-6787](https://jira.greenpeace.org/browse/PLANET-6787) - Add white to our theme color palette
-- [PLANET-6784](https://jira.greenpeace.org/browse/PLANET-6784) - Remove the WP core colors palette from core blocks
+* [PLANET-6788](https://jira.greenpeace.org/browse/PLANET-6788) - Harmonise our color palette and move it to theme.json
+* [PLANET-6787](https://jira.greenpeace.org/browse/PLANET-6787) - Add white to our theme color palette
+* [PLANET-6784](https://jira.greenpeace.org/browse/PLANET-6784) - Remove the WP core colors palette from core blocks
 
 ### Bug Fixes
 
-- [PLANET-6771](https://jira.greenpeace.org/browse/PLANET-6771) - EN Form styles loaded twice
-- [PLANET-6749](https://jira.greenpeace.org/browse/PLANET-6749) - Analytics & Tracking: Global Project menu is empty
-- [PLANET-6720](https://jira.greenpeace.org/browse/PLANET-6720) - Articles block: Manual override returns no posts
+* [PLANET-6771](https://jira.greenpeace.org/browse/PLANET-6771) - EN Form styles loaded twice
+* [PLANET-6749](https://jira.greenpeace.org/browse/PLANET-6749) - Analytics & Tracking: Global Project menu is empty
+* [PLANET-6720](https://jira.greenpeace.org/browse/PLANET-6720) - Articles block: Manual override returns no posts
 
 ## 2.80.1 - 2022-05-19
 
