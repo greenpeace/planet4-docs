@@ -10,6 +10,18 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 2.83.0 - 2022-06-27
+
+### Features
+
+- [PLANET-5913](https://jira.greenpeace.org/browse/PLANET-5913) - Test and upgrade wp-stateless to 3.2.x
+
+### Bug Fixes
+
+- [PLANET-6827](https://jira.greenpeace.org/browse/PLANET-6827) - Copy paste content in the EN Form add unexpected <br> in preview
+- [PLANET-6802](https://jira.greenpeace.org/browse/PLANET-6802) - Copy-pasting a paragraph text preserves shows markup in the frontend
+- [PLANET-6617](https://jira.greenpeace.org/browse/PLANET-6617) - Covers Carousel Layout: Implement resize handler
+
 ## 2.82.1 - 2022-06-21
 
 ### Features
