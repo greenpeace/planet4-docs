@@ -458,6 +458,10 @@ Login username is `admin` and the password is `admin`.
 
 You can also use this setup to work on an NRO site.
 
+{% hint style="info" %}
+For DB import to work you need [gsutil](https://cloud.google.com/storage/docs/gsutil\_install) to be installed in your machine and ask the P4 team to give you access to your database backups.
+{% endhint %}
+
 **First, create/edit `Makefile.include`** to contain:
 
 ```bash
@@ -531,10 +535,15 @@ NRO variables:
 
 ### Database download and import
 
-A database backup can be automatically downloaded and imported, if variable `NRO_DB_VERSION` is provided. It can take a version number `NRO_DB_VERSION ?= 1.6`, or a keyword **latest** `NRO_DB_VERSION ?= latest` that will try to get the latest file.\
-&#x20;It uses `gsutil`, so you need to install gcloud locally, see [https://cloud.google.com/storage/docs/gsutil\_install](https://cloud.google.com/storage/docs/gsutil\_install) , and authenticate with `gcloud auth login`.\
-&#x20;Alternatively, you can download a dump manually and specify it with `NRO_DB_DUMP ?= my-db.sql.gz`. If the file does not exist, the command will try to download it from gcloud.\
-&#x20;NRO databases are imported in a different database than the default one, the name of the database is `planet4_$(NRO_NAME)`. This means you can have multiple databases living in the db container. If a database with this name already exists and has wordpress tables, the script will prompt for your approval before overwriting it.
+A database backup can be automatically downloaded and imported, if variable `NRO_DB_VERSION` is provided. It can take a version number `NRO_DB_VERSION ?= 1.6`, or a keyword **latest** `NRO_DB_VERSION ?= latest` that will try to get the latest file.
+
+\
+It uses [gsutil](https://cloud.google.com/storage/docs/gsutil\_install), so you need to install gcloud locally, and authenticate with `gcloud auth login`.&#x20;
+
+Alternatively, if you have a db dump locally you can specify it with `NRO_DB_DUMP ?= my-db.sql.gz`. If the file does not exist, the command will try to download it from gcloud.
+
+\
+NRO databases are imported in a different database than the default one, the name of the database is `planet4_$(NRO_NAME)`. This means you can have multiple databases living in the db container. If a database with this name already exists and has wordpress tables, the script will prompt for your approval before overwriting it.
 
 It is possible to specify a different gcloud project `NRO_DB_PROJECT` and bucket `NRO_DB_BUCKET` if the default configuration doesn't fit your need.
 
