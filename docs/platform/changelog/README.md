@@ -10,6 +10,18 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 2.83.1 - 2022-06-30
+
+### Features
+
+- [PLANET-6833](https://jira.greenpeace.org/browse/PLANET-6833) - Upgrade WPML to 4.5.8
+- [PLANET-6781](https://jira.greenpeace.org/browse/PLANET-6781) - Blocks Usage Report/API: extend to track block styles
+- [PLANET-6723](https://jira.greenpeace.org/browse/PLANET-6723) - Allow Articles block in Posts
+
+### Bug Fixes
+
+- [PLANET-6794](https://jira.greenpeace.org/browse/PLANET-6794) - Language switcher overflows when many nav items exist
+
 ## 2.83.0 - 2022-06-27
 
 ### Features
