@@ -14,25 +14,27 @@ Items with a 🔑 icon are not enabled by default, but instead they are released
 
 ### Features
 
-- [PLANET-6833](https://jira.greenpeace.org/browse/PLANET-6833) - Upgrade WPML to 4.5.8
-- [PLANET-6781](https://jira.greenpeace.org/browse/PLANET-6781) - Blocks Usage Report/API: extend to track block styles
-- [PLANET-6723](https://jira.greenpeace.org/browse/PLANET-6723) - Allow Articles block in Posts
+* [PLANET-6833](https://jira.greenpeace.org/browse/PLANET-6833) - Upgrade WPML to 4.5.8
+* [PLANET-6781](https://jira.greenpeace.org/browse/PLANET-6781) - Blocks Usage Report/API: extend to track block styles
+* [PLANET-6723](https://jira.greenpeace.org/browse/PLANET-6723) - Allow Articles block in Posts
 
 ### Bug Fixes
 
-- [PLANET-6794](https://jira.greenpeace.org/browse/PLANET-6794) - Language switcher overflows when many nav items exist
+* [PLANET-6794](https://jira.greenpeace.org/browse/PLANET-6794) - Language switcher overflows when many nav items exist
+* [PLANET-6831](https://jira.greenpeace.org/browse/PLANET-6831) - Pdf attachment pages are missing image link to the asset
 
 ## 2.83.0 - 2022-06-27
 
 ### Features
 
-- [PLANET-5913](https://jira.greenpeace.org/browse/PLANET-5913) - Test and upgrade wp-stateless to 3.2.x
+* [PLANET-5913](https://jira.greenpeace.org/browse/PLANET-5913) - Test and upgrade wp-stateless to 3.2.x
 
 ### Bug Fixes
 
-- [PLANET-6827](https://jira.greenpeace.org/browse/PLANET-6827) - Copy paste content in the EN Form add unexpected <br> in preview
-- [PLANET-6802](https://jira.greenpeace.org/browse/PLANET-6802) - Copy-pasting a paragraph text preserves shows markup in the frontend
-- [PLANET-6617](https://jira.greenpeace.org/browse/PLANET-6617) - Covers Carousel Layout: Implement resize handler
+* [PLANET-6827](https://jira.greenpeace.org/browse/PLANET-6827) - Copy paste content in the EN Form add unexpected\
+  in preview
+* [PLANET-6802](https://jira.greenpeace.org/browse/PLANET-6802) - Copy-pasting a paragraph text preserves shows markup in the frontend
+* [PLANET-6617](https://jira.greenpeace.org/browse/PLANET-6617) - Covers Carousel Layout: Implement resize handler
 
 ## 2.82.1 - 2022-06-21
 
