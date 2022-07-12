@@ -258,6 +258,8 @@ Install `envsubst`
 brew install gettext
 brew link --force gettext
 ```
+
+_Mac users with a M1 chip should refer to the_ [_M1 architecture_](installation.md#m1-architecture) _section of the documentation for additional installation instructions._
 {% endtab %}
 {% endtabs %}
 
@@ -270,6 +272,8 @@ The following dependencies are required only if you want to contribute to the do
 * [node/npm](https://nodejs.org/)
 
 ## First run
+
+_NRO developer ? You can jump directly to the_ [_NRO section_](installation.md#nro-sites) _for configuration and then use the_ [_fast install command_](installation.md#fast-install-1) _!_
 
 The first time you'll need to follow the steps below, in order to clone this repo and build the containers.
 
@@ -774,3 +778,17 @@ A more robust solution for hosting multiple services on port 80 is to use a reve
 ### Traefik administration
 
 Traefik comes with a simple admin interface accessible at [www.planet4.test:8080](http://www.planet4.test:8080/).
+
+### M1 architecture
+
+Mac with M1 processor requires a little more configuration to specify the platform used for various docker images.
+
+In your `Makefile.include` file, add the following lines:
+
+```
+DOCKER_DEFAULT_PLATFORM := linux/amd64
+REDIS_IMAGE := arm64v8/redis:4-stretch
+```
+
+If you tried to run installation before, clean your local install and images with `make clean && docker system prune` and retry to run the installation process.\
+If this doesn't work, try cleaning again and using those variables inline like so `DOCKER_DEFAULT_PLATFORM=linux/amd64 REDIS_IMAGE=arm64v8/redis:4-stretch make nro-from-release.`
