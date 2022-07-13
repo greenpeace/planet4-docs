@@ -10,6 +10,24 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 2.84.0 - 2022-07-13
+
+### Features
+
+- [PLANET-6837](https://jira.greenpeace.org/browse/PLANET-6837) - Image Archive API changes for new version
+- [PLANET-6825](https://jira.greenpeace.org/browse/PLANET-6825) - Add integration for Page Create Patterns
+- [PLANET-6803](https://jira.greenpeace.org/browse/PLANET-6803) - Add forms Capabilities for Editors
+- [PLANET-6782](https://jira.greenpeace.org/browse/PLANET-6782) - Blocks Usage API: extend to track block patterns
+- [PLANET-6645](https://jira.greenpeace.org/browse/PLANET-6645) - Listing pages: Add pagination to Post loops 🔑
+- [PLANET-6523](https://jira.greenpeace.org/browse/PLANET-6523) - Create Get informed block pattern layout
+
+### Bug Fixes
+
+- [PLANET-6845](https://jira.greenpeace.org/browse/PLANET-6845) - Navigation Bar: max chars and multi line validation don't work on WPML sites
+- [PLANET-6844](https://jira.greenpeace.org/browse/PLANET-6844) - Anti-flicker snippet does not load properly 
+- [PLANET-6832](https://jira.greenpeace.org/browse/PLANET-6832) - Articles block not loaded when page contains a GravityForm
+- [PLANET-6829](https://jira.greenpeace.org/browse/PLANET-6829) - Some blocks are missing style previews
+
 ## 2.83.1 - 2022-06-30
 
 ### Features
