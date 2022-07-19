@@ -10,6 +10,14 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 2.84.1 - 2022-07-19
+
+### Features
+
+- [PLANET-6847](https://jira.greenpeace.org/browse/PLANET-6847) - Patterns: Improve the Add Patterns Modal layout
+- [PLANET-6841](https://jira.greenpeace.org/browse/PLANET-6841) - Exclude GF forms from prod > dev/stage sync script
+- [PLANET-6817](https://jira.greenpeace.org/browse/PLANET-6817) - Create an animated hover state for rounded images
+
 ## 2.84.0 - 2022-07-13
 
 ### Features
