@@ -10,6 +10,17 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 2.84.2 - 2022-08-02
+
+### Features
+
+- [PLANET-6850](https://jira.greenpeace.org/browse/PLANET-6850) - Upgrade to Composer 2.3.x
+- [PLANET-6698](https://jira.greenpeace.org/browse/PLANET-6698) - Remove the Donate button styles and classes
+
+### Bug Fixes
+
+- [PLANET-6846](https://jira.greenpeace.org/browse/PLANET-6846) - Articles: manual override not working on Posts
+
 ## 2.84.1 - 2022-07-19
 
 ### Features
