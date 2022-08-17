@@ -10,6 +10,16 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 2.86.0 - 2022-08-17
+
+### Features
+
+- [PLANET-6737](https://jira.greenpeace.org/browse/PLANET-6737) - Create the "High-level topic" block pattern layout
+- [PLANET-6724](https://jira.greenpeace.org/browse/PLANET-6724) - Listing pages: implement UI design to pagination
+- [PLANET-6569](https://jira.greenpeace.org/browse/PLANET-6569) - Create a setting for specifying form type for each form
+- [PLANET-6529](https://jira.greenpeace.org/browse/PLANET-6529) - Create the "Action" block pattern layout
+- [PLANET-6524](https://jira.greenpeace.org/browse/PLANET-6524) - Create the "Homepage" block pattern layout
+
 ## 2.84.2 - 2022-08-02
 
 ### Features
