@@ -14,7 +14,7 @@ Installation and updates of plugins is happening via the composer scripts. All t
 
 Open source plugins are being pulled from [wpackagist.org](https://wpackagist.org/). To add a plugin, you have to find the correct wpackagist record, copy the line and insert it in the composer file as the loco translate example above.
 
-![](../.gitbook/assets/wpackagist-loco.png)
+![](<../.gitbook/assets/wpackagist-loco (1).png>)
 
 ## The P4 Plugin review process
 

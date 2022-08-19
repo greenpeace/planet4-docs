@@ -14,58 +14,59 @@ Items with a 🔑 icon are not enabled by default, but instead they are released
 
 ### Features
 
-- [PLANET-6737](https://jira.greenpeace.org/browse/PLANET-6737) - Create the "High-level topic" block pattern layout
-- [PLANET-6724](https://jira.greenpeace.org/browse/PLANET-6724) - Listing pages - implement UI design to pagination
-- [PLANET-6569](https://jira.greenpeace.org/browse/PLANET-6569) - Create a setting for specifying form type for each form
-- [PLANET-6529](https://jira.greenpeace.org/browse/PLANET-6529) - Create the "Action" block pattern layout
-- [PLANET-6524](https://jira.greenpeace.org/browse/PLANET-6524) - Create the "Homepage" block pattern layout
+* [PLANET-6737](https://jira.greenpeace.org/browse/PLANET-6737) - Create the "High-level topic" block pattern layout
+* [PLANET-6724](https://jira.greenpeace.org/browse/PLANET-6724) - Listing pages - implement UI design to pagination
+* [PLANET-6569](https://jira.greenpeace.org/browse/PLANET-6569) - Create a setting for specifying form type for each form
+* [PLANET-6529](https://jira.greenpeace.org/browse/PLANET-6529) - Create the "Action" block pattern layout
+* [PLANET-6524](https://jira.greenpeace.org/browse/PLANET-6524) - Create the "Homepage" block pattern layout
+* [PLANET-6680](https://jira.greenpeace.org/browse/PLANET-6680) - Create "Page Header" block patterns
 
 ## 2.86.0 - 2022-08-17
 
 ### Features
 
-- [PLANET-6737](https://jira.greenpeace.org/browse/PLANET-6737) - Create the "High-level topic" block pattern layout
-- [PLANET-6724](https://jira.greenpeace.org/browse/PLANET-6724) - Listing pages: implement UI design to pagination
-- [PLANET-6569](https://jira.greenpeace.org/browse/PLANET-6569) - Create a setting for specifying form type for each form
-- [PLANET-6529](https://jira.greenpeace.org/browse/PLANET-6529) - Create the "Action" block pattern layout
-- [PLANET-6524](https://jira.greenpeace.org/browse/PLANET-6524) - Create the "Homepage" block pattern layout
+* [PLANET-6737](https://jira.greenpeace.org/browse/PLANET-6737) - Create the "High-level topic" block pattern layout
+* [PLANET-6724](https://jira.greenpeace.org/browse/PLANET-6724) - Listing pages: implement UI design to pagination
+* [PLANET-6569](https://jira.greenpeace.org/browse/PLANET-6569) - Create a setting for specifying form type for each form
+* [PLANET-6529](https://jira.greenpeace.org/browse/PLANET-6529) - Create the "Action" block pattern layout
+* [PLANET-6524](https://jira.greenpeace.org/browse/PLANET-6524) - Create the "Homepage" block pattern layout
 
 ## 2.84.2 - 2022-08-02
 
 ### Features
 
-- [PLANET-6850](https://jira.greenpeace.org/browse/PLANET-6850) - Upgrade to Composer 2.3.x
-- [PLANET-6698](https://jira.greenpeace.org/browse/PLANET-6698) - Remove the Donate button styles and classes
+* [PLANET-6850](https://jira.greenpeace.org/browse/PLANET-6850) - Upgrade to Composer 2.3.x
+* [PLANET-6698](https://jira.greenpeace.org/browse/PLANET-6698) - Remove the Donate button styles and classes
 
 ### Bug Fixes
 
-- [PLANET-6846](https://jira.greenpeace.org/browse/PLANET-6846) - Articles: manual override not working on Posts
+* [PLANET-6846](https://jira.greenpeace.org/browse/PLANET-6846) - Articles: manual override not working on Posts
 
 ## 2.84.1 - 2022-07-19
 
 ### Features
 
-- [PLANET-6847](https://jira.greenpeace.org/browse/PLANET-6847) - Patterns: Improve the Add Patterns Modal layout
-- [PLANET-6841](https://jira.greenpeace.org/browse/PLANET-6841) - Exclude GF forms from prod > dev/stage sync script
-- [PLANET-6817](https://jira.greenpeace.org/browse/PLANET-6817) - Create an animated hover state for rounded images
+* [PLANET-6847](https://jira.greenpeace.org/browse/PLANET-6847) - Patterns: Improve the Add Patterns Modal layout
+* [PLANET-6841](https://jira.greenpeace.org/browse/PLANET-6841) - Exclude GF forms from prod > dev/stage sync script
+* [PLANET-6817](https://jira.greenpeace.org/browse/PLANET-6817) - Create an animated hover state for rounded images
 
 ## 2.84.0 - 2022-07-13
 
 ### Features
 
-- [PLANET-6837](https://jira.greenpeace.org/browse/PLANET-6837) - Image Archive API changes for new version
-- [PLANET-6825](https://jira.greenpeace.org/browse/PLANET-6825) - Add integration for Page Create Patterns
-- [PLANET-6803](https://jira.greenpeace.org/browse/PLANET-6803) - Add forms Capabilities for Editors
-- [PLANET-6782](https://jira.greenpeace.org/browse/PLANET-6782) - Blocks Usage API: extend to track block patterns
-- [PLANET-6645](https://jira.greenpeace.org/browse/PLANET-6645) - Listing pages: Add pagination to Post loops 🔑
-- [PLANET-6523](https://jira.greenpeace.org/browse/PLANET-6523) - Create Get informed block pattern layout
+* [PLANET-6837](https://jira.greenpeace.org/browse/PLANET-6837) - Image Archive API changes for new version
+* [PLANET-6825](https://jira.greenpeace.org/browse/PLANET-6825) - Add integration for Page Create Patterns
+* [PLANET-6803](https://jira.greenpeace.org/browse/PLANET-6803) - Add forms Capabilities for Editors
+* [PLANET-6782](https://jira.greenpeace.org/browse/PLANET-6782) - Blocks Usage API: extend to track block patterns
+* [PLANET-6645](https://jira.greenpeace.org/browse/PLANET-6645) - Listing pages: Add pagination to Post loops 🔑
+* [PLANET-6523](https://jira.greenpeace.org/browse/PLANET-6523) - Create Get informed block pattern layout
 
 ### Bug Fixes
 
-- [PLANET-6845](https://jira.greenpeace.org/browse/PLANET-6845) - Navigation Bar: max chars and multi line validation don't work on WPML sites
-- [PLANET-6844](https://jira.greenpeace.org/browse/PLANET-6844) - Anti-flicker snippet does not load properly 
-- [PLANET-6832](https://jira.greenpeace.org/browse/PLANET-6832) - Articles block not loaded when page contains a GravityForm
-- [PLANET-6829](https://jira.greenpeace.org/browse/PLANET-6829) - Some blocks are missing style previews
+* [PLANET-6845](https://jira.greenpeace.org/browse/PLANET-6845) - Navigation Bar: max chars and multi line validation don't work on WPML sites
+* [PLANET-6844](https://jira.greenpeace.org/browse/PLANET-6844) - Anti-flicker snippet does not load properly
+* [PLANET-6832](https://jira.greenpeace.org/browse/PLANET-6832) - Articles block not loaded when page contains a GravityForm
+* [PLANET-6829](https://jira.greenpeace.org/browse/PLANET-6829) - Some blocks are missing style previews
 
 ## 2.83.1 - 2022-06-30
 
