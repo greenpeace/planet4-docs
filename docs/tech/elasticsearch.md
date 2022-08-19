@@ -230,7 +230,7 @@ Retrieve general information about the cluster (e.g. current ES version is 6.3.1
 curl -XGET localhost:9200/
 ```
 
-![request](<../.gitbook/assets/request1 (3) (3) (3) (3) (3) (1) (1) (1) (1).png>)
+![request](<../.gitbook/assets/request1 (3) (3) (3) (3) (3) (1) (1) (1) (1) (1).png>)
 
 Retrieve a list of all the existing nodes
 
@@ -270,7 +270,7 @@ View all existing documents of an index in our local Docker-cluster
 curl -XGET 172.25.0.2:9200/planet4test8000-1/\_search?pretty
 ```
 
-![request](<../.gitbook/assets/request6 (1) (1) (1) (1) (1) (1).png>)
+![request](<../.gitbook/assets/request6 (1) (1) (1) (1) (1) (2).png>)
 
 Get information about all shards in all indices (type, status, …)
 
@@ -278,7 +278,7 @@ Get information about all shards in all indices (type, status, …)
 curl -XGET localhost:9200/\_cat/shards?h=index,shard,prirep,state,unassigned.reason
 ```
 
-![request](<../.gitbook/assets/request7 (2) (1) (1) (1) (1) (1) (1).png>)
+![request](<../.gitbook/assets/request7 (2) (1) (1) (1) (1) (1) (2).png>)
 
 Check value of a setting (can use wildcards)
 
@@ -286,7 +286,7 @@ Check value of a setting (can use wildcards)
 curl -XGET localhost:9200/\_nodes?filter\_path=\*\*.mlockall | jq
 ```
 
-![request](<../.gitbook/assets/request8 (3) (1) (1) (1) (1) (1) (1).png>)
+![request](<../.gitbook/assets/request8 (3) (1) (1) (1) (1) (1) (2).png>)
 
 List all existing indices along with info about their health, documents count, size, etc...
 
@@ -294,7 +294,7 @@ List all existing indices along with info about their health, documents count, s
 curl -XGET localhost:9200/_cat/indices?v
 ```
 
-![request](<../.gitbook/assets/request9 (3) (2) (1) (1) (1) (1) (1).png>)
+![request](<../.gitbook/assets/request9 (3) (2) (1) (1) (1) (1) (2).png>)
 
 ## Links & resources
 

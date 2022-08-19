@@ -96,7 +96,7 @@ To trigger a **production** deployment you need to create a new tag. You can do 
 
 Check [CI](https://circleci.com/gh/greenpeace/workflows/planet4-base) for the `production` pipeline. It will be "On Hold" waiting for a manual approval. Approve that and it will trigger the production pipeline on all websites.
 
-![](<../.gitbook/assets/hold-trigger-sites (3) (1) (1) (1) (1) (1) (2).png>)
+![](<../.gitbook/assets/hold-trigger-sites (3) (1) (1) (1) (1) (1) (1).png>)
 
 On the NRO production pipelines there is a "hold-promote" job there that controls whether the pipeline will continue deploying from stage to production. This job will be approved automatically (from the "promote" job) if all tests pass successfully.
 
@@ -106,7 +106,7 @@ You will only need to manual approve that in two cases:
 2. Visual Regression tests failed on a specific website. You can use [this spreadsheet](https://docs.google.com/spreadsheets/d/1uAmZLIWYsxrBByqbhoF\_vVtSM7WGebYWIc0xftPRPwE/edit#gid=390993139) and run: Planet 4 > Update CircleCI. This will update the CircleCI sheet using CircleCI’s API. You can then open just the ones that are on hold. Alternatively you can keep an eye on the `#p4-activity-ci` channel.
 3. You can then check the tests report to confirm that the visual differences are acceptable.
 
-![](<../.gitbook/assets/hold-promote (5) (8) (1) (1) (1) (1) (12).png>)
+![](<../.gitbook/assets/hold-promote (5) (8) (1) (1) (1) (1) (2).png>)
 
 {% hint style="info" %}
 🐞 If you discover a bug during the Regression Tests report, you can open a ticket.
