@@ -10,6 +10,16 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 2.87.0 - 2022-08-22
+
+### Features
+
+- [PLANET-6868](https://jira.greenpeace.org/browse/PLANET-6868) - Improve block reports API responsiveness
+- [PLANET-6738](https://jira.greenpeace.org/browse/PLANET-6738) - Create the Deep Dive Topic block pattern layout
+- [PLANET-6666](https://jira.greenpeace.org/browse/PLANET-6666) - Ensure GravityForms scripts/styles are loaded only when a form in on page
+- [PLANET-6528](https://jira.greenpeace.org/browse/PLANET-6528) - Create the Campaign block pattern layout
+- [PLANET-6525](https://jira.greenpeace.org/browse/PLANET-6525) - Create the Take Action block pattern layout
+
 ## 2.86.0 - 2022-08-17
 
 ### Features
