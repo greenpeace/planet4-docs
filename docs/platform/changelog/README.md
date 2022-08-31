@@ -10,6 +10,20 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 2.87.1 - 2022-08-31
+
+### Features
+
+- [PLANET-6895](https://jira.greenpeace.org/browse/PLANET-6895) - Use Opengraph title for title tag
+- [PLANET-6876](https://jira.greenpeace.org/browse/PLANET-6876) - Header block pattern: allow 2 more lines of description text
+- [PLANET-6861](https://jira.greenpeace.org/browse/PLANET-6861) - Add add helper text on Form Type field
+- [PLANET-6854](https://jira.greenpeace.org/browse/PLANET-6854) - Disconnect Gravity Forms from external integrations on staging/dev sites
+
+### Bug Fixes
+
+- [PLANET-6873](https://jira.greenpeace.org/browse/PLANET-6873) - Visited links in the footer shouldn't be purple
+- [PLANET-6828](https://jira.greenpeace.org/browse/PLANET-6828) - Covers carousel layout doesn't work in Safari
+
 ## 2.87.0 - 2022-08-22
 
 ### Features
