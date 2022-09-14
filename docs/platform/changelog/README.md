@@ -10,6 +10,18 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 2.88.0 - 2022-09-14
+
+### Features
+
+- [PLANET-6890](https://jira.greenpeace.org/browse/PLANET-6890) - Actions: add option to hide title
+- [PLANET-6839](https://jira.greenpeace.org/browse/PLANET-6839) - Deprecate new Navbar and Country Selector feature flags
+- [PLANET-6808](https://jira.greenpeace.org/browse/PLANET-6808) - Gravity forms - Implement the front-end design for the 'thank you/share' message
+
+### Bug Fixes
+
+- [PLANET-6902](https://jira.greenpeace.org/browse/PLANET-6902) - Site name appears twice in html title tag
+
 ## 2.87.1 - 2022-08-31
 
 ### Features
