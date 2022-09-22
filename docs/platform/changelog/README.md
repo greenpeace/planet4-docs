@@ -10,6 +10,30 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 2.89.0 - 2022-09-22
+
+### Features
+
+- [PLANET-6867](https://jira.greenpeace.org/browse/PLANET-6867) - Support File filed type on all forms
+- [PLANET-6853](https://jira.greenpeace.org/browse/PLANET-6853) - Add a parallax effect to the Page Header pattern image
+- [PLANET-6851](https://jira.greenpeace.org/browse/PLANET-6851) - Gravity Forms - Implement the admin settings for form share buttons
+- [PLANET-6527](https://jira.greenpeace.org/browse/PLANET-6527) - Style the default Posts listing page (MVP)
+
+### Bug Fixes
+
+- [PLANET-6897](https://jira.greenpeace.org/browse/PLANET-6897) - On small screens, opening the side menu scrolls page back to top
+- [PLANET-6859](https://jira.greenpeace.org/browse/PLANET-6859) - EN Form: Empty fields display as undefined
+- [PLANET-6405](https://jira.greenpeace.org/browse/PLANET-6405) - PDF link/button icons not showing in later shown search results
+
+### Infrastructure
+
+- [PLANET-6894](https://jira.greenpeace.org/browse/PLANET-6894) - Update Cert-Manager
+- [PLANET-6880](https://jira.greenpeace.org/browse/PLANET-6880) - Upgrade static charts to Helm3 
+- [PLANET-6878](https://jira.greenpeace.org/browse/PLANET-6878) - Update Production Kubernetes cluster to 1.23
+- [PLANET-6877](https://jira.greenpeace.org/browse/PLANET-6877) - Deploy Promtail to P4 clusters
+- [PLANET-6856](https://jira.greenpeace.org/browse/PLANET-6856) - Update redis chart dependency
+- [PLANET-6354](https://jira.greenpeace.org/browse/PLANET-6354) - Clean old container images from storage bucket to reduce costs
+
 ## 2.88.0 - 2022-09-14
 
 ### Features
