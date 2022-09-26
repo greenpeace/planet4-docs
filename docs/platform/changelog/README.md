@@ -10,6 +10,18 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 2.89.1 - 2022-09-26
+
+### Features
+
+- [PLANET-6908](https://jira.greenpeace.org/browse/PLANET-6908) - Remove slide animation from the Cookie Box
+- [PLANET-6891](https://jira.greenpeace.org/browse/PLANET-6891) - Actions: enable the Opengraph metabox
+- [PLANET-6875](https://jira.greenpeace.org/browse/PLANET-6875) - Quick Links: Start from 9 items by default
+
+### Bug Fixes
+
+- [PLANET-6915](https://jira.greenpeace.org/browse/PLANET-6915) - GF Forms not embedded properly on Posts
+
 ## 2.89.0 - 2022-09-22
 
 ### Features
