@@ -10,6 +10,16 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 2.89.2 - 2022-10-12
+
+### Features
+
+- [PLANET-6913](https://jira.greenpeace.org/browse/PLANET-6913) - Show primary buttons for Actions in search results
+
+### Bug Fixes
+
+- [PLANET-6862](https://jira.greenpeace.org/browse/PLANET-6862) - Reusable Blocks menu not visible for Editors
+
 ## 2.89.1 - 2022-09-26
 
 ### Features
