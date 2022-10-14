@@ -16,7 +16,7 @@ From the moment some new Code is pushed to one of our repositories till that bei
 
 ## Git branching model
 
-Our Git branching strategy is following Github-flow, where there is only one main branch \(master\). That branch always has code ready to be deployed in production.
+Our Git branching strategy is following Github-flow, where there is only one main branch \(main\). That branch always has code ready to be deployed in production.
 
 ![Github Flow](../.gitbook/assets/github-flow.png)
 
