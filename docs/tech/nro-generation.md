@@ -16,13 +16,13 @@ description: How to create a new P4 NRO instance
 ### Permissions and repositories
 
 * Google Cloud Project access in the development (`planet-4-151612`) and production (`planet4-production`) projects.
-* Git repositories checked out (master branch)
+* Git repositories checked out (main branch)
   * [planet4-nro-generator](https://github.com/greenpeace/planet4-nro-generator/)
   * [planett4-helper-scripts](https://github.com/greenpeace/planet4-helper-scripts)
 
 ## Build the configuration
 
-Get inside the planet-nro-generator repository and follow the instructions on [README.md](https://github.com/greenpeace/planet4-nro-generator/blob/master/README.md). In a nutsell:
+Get inside the planet-nro-generator repository and follow the instructions on [README.md](https://github.com/greenpeace/planet4-nro-generator/blob/main/README.md). In a nutsell:
 
 ```
 ./configure.sh
