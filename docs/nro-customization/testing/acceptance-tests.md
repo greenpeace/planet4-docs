@@ -13,7 +13,7 @@ But you can also add extra scenarios to test other parts of your website's funct
 
 To create tests for your site you have to do the following:
 
-1. In your planet4-nro repository, create a folder called "tests", like the example in the [planet4-netherlands](https://github.com/greenpeace/planet4-netherlands/tree/master/tests) repository.
+1. In your planet4-nro repository, create a folder called "tests", like the example in the [planet4-netherlands](https://github.com/greenpeace/planet4-netherlands/tree/main/tests) repository.
 
 ![nro tests folder](<../../.gitbook/assets/nro-tests-folder (1) (1) (1) (3) (3) (3) (3) (3) (1) (1) (1) (1) (1).png>)
 
