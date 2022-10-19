@@ -31,7 +31,7 @@ Some relevant info:
 
 Example of failed tests on the release workflow. The hold-promote job that would usually allow you to deploy to production is not triggered, as it is blocked by the test-release job failing
 
-![nro test release failure](<../../.gitbook/assets/nro-test-release-failure (1) (1) (3) (3) (1) (1) (1) (1) (1) (2).png>)
+![nro test release failure](<../../.gitbook/assets/nro-test-release-failure (1) (1) (3) (3) (1) (1) (1) (1) (1) (2) (1).png>)
 
 Example of successful tests on the release workflow. Tests succeeded, so hold-promote is available.
 
