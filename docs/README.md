@@ -4,8 +4,6 @@ description: Welcome to our Technical Documentation
 
 # Planet 4
 
-![](.gitbook/assets/planet4-1.png)
-
 Navigate to the proper section **through the sidebar** or simply **search** for what you are looking for using the search field at the top right corner of the window.
 
 Or start from the beginning and learn how you can contribute to the project:
