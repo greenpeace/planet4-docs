@@ -10,6 +10,15 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 2.90.0 - 2022-10-24
+
+### Features
+
+- [PLANET-6901](https://jira.greenpeace.org/browse/PLANET-6901) - Move Page Header metabox on the sidebar
+- [PLANET-6872](https://jira.greenpeace.org/browse/PLANET-6872) - Add our custom margins to core Media & Text block
+- [PLANET-6843](https://jira.greenpeace.org/browse/PLANET-6843) - Enforce Ajax submission in GF Forms
+- [PLANET-4444](https://jira.greenpeace.org/browse/PLANET-4444) - Allow customization of Take Action Covers buttons text per Action
+
 ## 2.89.2 - 2022-10-12
 
 ### Features
