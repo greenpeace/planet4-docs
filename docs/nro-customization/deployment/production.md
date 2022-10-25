@@ -6,7 +6,7 @@ description: How to deploy to your production environment
 
 Production CI pipeline is a bit more complicated than development, since it provides more control steps.
 
-In order to trigger a new production deployment you need to create a new tag in your `planet4-<nro>` repository. Once this is done you can monitor the [CI](https://app.circleci.com/projects/project-dashboard/github/greenpeace) production pipeline.
+**In order to trigger a new production deployment you need to create a new tag in your `planet4-<nro>` repository.** Once this is done you can monitor the [CI](https://app.circleci.com/projects/project-dashboard/github/greenpeace) production pipeline.
 
 There is a `hold-production` job there that controls whether the pipeline will continue deploying on production. This job will be approved automatically if all tests pass successfully.
 
