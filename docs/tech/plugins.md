@@ -21,24 +21,28 @@ Open source plugins are being pulled from [wpackagist.org](https://wpackagist.or
 The philosophy of adding plugins to a Planet 4 website can be summarized in the following:
 
 * WordPress is not inherently unsafe. **The vast majority of security or incompatibility issues on WordPress sites come from badly written or not maintained plugins.**
-* [Don’t choose plugins, implement features](https://en.wikipedia.org/wiki/XY_problem).
+* [Don’t choose plugins, implement features](https://en.wikipedia.org/wiki/XY\_problem).
 
 We have described a process that should be followed every time a plugin is considered to be included in Planet 4:
 
 1. Decide on the features you want
 2. Investigate if these can be done by WordPress core
 3. If not, investigate what 3rd party plugins exist, and a do a functional fit analysis
-4. Do a security analysis of the selected plugins, including reputation, maintenance history, and code analysis (see [template](https://docs.google.com/document/d/1p_WB-Cr-1fnURgkXNZKQk8NUGaBjA5bJSg7wNO5xn2s/edit)). Document this process [for each plugin](https://drive.google.com/drive/folders/15G7jyR51EZx2liWhDX_UjRK8EIm517p9).
+4. Do a security analysis of the selected plugins, including reputation, maintenance history, and code analysis (see [template](https://docs.google.com/document/d/1p\_WB-Cr-1fnURgkXNZKQk8NUGaBjA5bJSg7wNO5xn2s/edit)). Document this process [for each plugin](https://drive.google.com/drive/folders/15G7jyR51EZx2liWhDX\_UjRK8EIm517p9).
 5. Install them locally or on a test/dev site and do a thorough testing (using both automatic testing and manual testing) to see if they create problems in other areas of Planet 4.
 6. Get them installed on the relevant site, by having them being added to the relevant composer file.
 
 ## Best practices
 
-This is a collection of best practices we gathered through the years and the process of developing Planet 4 themes and plugins. Reach out to the Planet 4 team if you need more help with any of these topics.
+This is a collection of best practices we gathered through the years of developing Planet 4 themes and plugins. Reach out to the Planet 4 team if you need more help with any of these topics.
 
 ### License
 
-Planet 4 is an Open Source project and the plugins being developed by us should also be. Publishing the code on Github is not enough. All repositories should include a `LICENSE` file, indicating which Open Source license is being used for that particular plugin. If you are writting your own plugin, you can [choose any open source license](https://choosealicense.com/). In Planet 4 we use GPL, so you can just copy [its text version](https://www.gnu.org/licenses/gpl-3.0.txt) into a LICENSE file in your repository. When initially creating the repository, Github also prompts you to pick one and if you do it will add this LICENSE file in the repository.
+Planet 4 is an Open Source project and all the themes and plugins being developed by us should also be. Publishing the code on Github is not enough. All repositories should include a `LICENSE` file, indicating which Open Source license is being used for that particular repository.&#x20;
+
+If you are developing your own plugin, you can [choose any open source license](https://choosealicense.com/). In Planet 4 we use GPL, so you can just copy [its text version](https://www.gnu.org/licenses/gpl-3.0.txt) into a LICENSE file in your repository.&#x20;
+
+When initially creating the repository, Github also prompts you to pick one and if you do it will add this LICENSE file in the repository.
 
 ### Open Source
 
@@ -48,19 +52,19 @@ Open Source is not just about the license. If you think your plugin can potentia
 
 Planet 4 has defined some coding standards for php, javascript and css code. Below are some pointers to files you can include in your repository root folder. This will help other contributors but also your code editor.
 
-- [Editorconfig example](https://github.com/greenpeace/wp-gravityforms-controlshift/blob/main/.editorconfig). You can check if your editor needs [a plugin](https://editorconfig.org/#download) for this.
-- [PHP coding standards example](https://github.com/greenpeace/wp-gravityforms-controlshift/blob/main/phpcs.xml)
-- Stylelint (CSS) coding standards example](https://github.com/greenpeace/planet4-master-theme/blob/main/.stylelintrc)
-- [Eslint (Javascript) coding standards example](https://github.com/greenpeace/planet4-master-theme/blob/main/.eslintrc.json)
+* [Editorconfig example](https://github.com/greenpeace/wp-gravityforms-controlshift/blob/main/.editorconfig) (you can check if your editor needs [a plugin](https://editorconfig.org/#download) for this)
+* [PHP coding standards example](https://github.com/greenpeace/wp-gravityforms-controlshift/blob/main/phpcs.xml)
+* [Stylelint (CSS) coding standards example](https://github.com/greenpeace/planet4-master-theme/blob/main/.stylelintrc)
+* [Eslint (Javascript) coding standards example](https://github.com/greenpeace/planet4-master-theme/blob/main/.eslintrc.json)
 
 ### Composer
 
-Each plugin needs a `composer.json` file. This is required for adding the plugin to packagist. Below is a very simple example of how this could look. For more detailed examples, check [composer's relevant documentation](https://getcomposer.org/doc/04-schema.md).
+Each plugin needs a `composer.json` file. This is required for adding the plugin to [packagist](../nro-customization/development/package-registry.md). Below is a very simple example of how this could look. For more detailed examples, check [composer's relevant documentation](https://getcomposer.org/doc/04-schema.md).
 
 ```json
 {
   "name": "greenpeace/planet4-plugin-blocks",
-  "description": "Provides Planet4 content blocks",
+  "description": "Provides Planet 4 content blocks",
   "type": "wordpress-plugin",
   "license": "GPL-3.0+"
 }
@@ -68,11 +72,19 @@ Each plugin needs a `composer.json` file. This is required for adding the plugin
 
 ### Naming
 
-All Planet 4 specific repositories should be prefixed with `planet4-`, the NRO abbreviation (eg. `gpca-`) and its Wordpress function (eg. `plugin-`). Then you just add the name that best describes what it does (eg. `planet4-gpch-plugin-blocks`). If you are developing a plugin that can be used by the wider Wordpress community, you can instead prefix it with `wp-` (eg. `wp-gravityforms-controlshift`).
+All Planet 4 specific repositories should be prefixed with `planet4-`, the NRO abbreviation (eg. `gpca-`) and its Wordpress function (eg. `plugin-`).&#x20;
+
+Then you just add the name that best describes what it does (eg. `planet4-gpch-plugin-blocks`).&#x20;
+
+If you are developing a plugin that can be used by the wider Wordpress community, you can instead prefix it with `wp-` (eg. `wp-gravityforms-controlshift`).
 
 ### Branches
 
-Most of our repositories use the [Github Flow](https://docs.github.com/en/get-started/quickstart/github-flow) git branch workflow. In practice that means that we start from one `main` branch that reflects the current state of development that can be deployed in a dev instance. Any new feature is being developer in a new branch that is being merged to `main` when is completed. A new tag is being create when the code is considered stable enough to be deployed in production. Check deployment documentation on how we define what is being depoyed in which environment.
+Most of our repositories use the [Github Flow](https://docs.github.com/en/get-started/quickstart/github-flow) git branch workflow. In practice that means that we start from one `main` branch that reflects the current state of development which can be deployed in a dev environment.&#x20;
+
+Any new feature is being developer in a new branch that is being merged to `main` when is completed. A new tag is being create when the code is considered stable enough to be deployed in production.&#x20;
+
+Check [deployment documentation](../nro-customization/deployment/) on how you can define what is being depoyed in which environment.
 
 ## Plugins used in all websites
 
@@ -90,12 +102,11 @@ CMB2 will create metaboxes and forms with custom fields that will blow your mind
 
 ### ElasticPress
 
-Offers enhanced search capabilites and performance by integrating with [Elasticsearch](https://www.elastic.co/what-is/elasticsearch).
+Offers enhanced search capabilities and performance by integrating with [Elasticsearch](https://www.elastic.co/what-is/elasticsearch).
 
 ### Gravity Forms
 
 The core plugin that our [Form Builder feature](https://planet4.greenpeace.org/manage/integrate/form-builder/build-a-form-in-gravity-forms/) is built upon.
-
 
 ### Google Apps Login
 
@@ -112,7 +123,6 @@ Required by the Planet4 master theme. The WordPress Timber Library allows you to
 ### Sentry
 
 Reporting PHP and JavaScript issues to Sentry, a monitoring and error tracking software.
-
 
 ### WP Redis
 
