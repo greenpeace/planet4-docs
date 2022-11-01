@@ -10,7 +10,7 @@ You can access the list of Plugins of your P4 instance from your Admin **Dashboa
 DO NOT Enable automatic updates of any plugin. Updates are done via Composer for all P4 sites.
 {% endhint %}
 
-Installation and updates of plugins is happening via the composer scripts. All the plugins that are present in all installations are defined in the common [composer file](https://github.com/greenpeace/planet4-base/blob/develop/composer.json#L25). Additionally, plugins that are installed only on a specific P4 site is defined in the composer file for that site. For example, Loco Translate is only installed on the handbook site, and is defined in the handbook [composer](https://github.com/greenpeace/planet4-handbook/blob/develop/composer-local.json#L8) file.
+Installation and updates of plugins is happening via the composer scripts. All the plugins that are present in all installations are defined in the common [composer file](https://github.com/greenpeace/planet4-base/blob/2bcfbf7c3abd862f88e103b155f6bb282c573dca/composer.json#L155). Additionally, plugins that are installed only on a specific P4 site is defined in the composer file for that site. For example, Loco Translate is only installed on the handbook site, and is defined in the handbook [composer](https://github.com/greenpeace/planet4-handbook/blob/main/composer-local.json) file.
 
 Open source plugins are being pulled from [wpackagist.org](https://wpackagist.org/). To add a plugin, you have to find the correct wpackagist record, copy the line and insert it in the composer file as the loco translate example above.
 
