@@ -10,6 +10,18 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 2.91.0 - 2022-11-03
+
+### Features
+
+- [PLANET-6948](https://jira.greenpeace.org/browse/PLANET-6948) - Increase the size of the navigation bar drop-down menu 
+- [PLANET-6900](https://jira.greenpeace.org/browse/PLANET-6900) - Move Opengraph metabox on the sidebar
+- [PLANET-6678](https://jira.greenpeace.org/browse/PLANET-6678) - Alphabetically order Planet 4 settings menu
+
+### Bug Fixes
+
+- [PLANET-6929](https://jira.greenpeace.org/browse/PLANET-6929) - Gravity Forms confirmation message share buttons don't show when using merge tags
+
 ## 2.90.0 - 2022-10-24
 
 ### Features
