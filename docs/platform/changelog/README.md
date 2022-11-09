@@ -10,6 +10,19 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 2.91.1 - 2022-11-09
+
+### Features
+
+- [PLANET-6947](https://jira.greenpeace.org/browse/PLANET-6947) - Editor sidebar: show list of existing tags
+- [PLANET-6918](https://jira.greenpeace.org/browse/PLANET-6918) - Style the default Actions listing page (MVP)
+
+### Bug Fixes
+
+- [PLANET-6951](https://jira.greenpeace.org/browse/PLANET-6951) - Fix query pagination when there is only one page rendered
+- [PLANET-6950](https://jira.greenpeace.org/browse/PLANET-6950) - Navbar links have visited color on Take Action pages
+- [PLANET-6930](https://jira.greenpeace.org/browse/PLANET-6930) - Gravity Forms share text issues 
+
 ## 2.91.0 - 2022-11-03
 
 ### Features
