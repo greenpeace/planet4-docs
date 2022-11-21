@@ -19,3 +19,9 @@ If we need to test a different version (eg. when a new release comes out) we can
   }
 }
 ```
+
+## Settings & Styles (theme.json)
+
+(Coming soon)
+
+\
