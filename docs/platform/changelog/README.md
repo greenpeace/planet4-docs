@@ -10,6 +10,18 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 2.92.0 - 2022-11-22
+
+### Features
+
+- [PLANET-6952](https://jira.greenpeace.org/browse/PLANET-6952) - Update layout  to default and category listing pages
+- [PLANET-6914](https://jira.greenpeace.org/browse/PLANET-6914) - Upgrade to Wordpress 6.1.1
+- [PLANET-6892](https://jira.greenpeace.org/browse/PLANET-6892) - Actions: offer option to localize the default slug
+
+### Bug Fixes
+
+- [PLANET-6961](https://jira.greenpeace.org/browse/PLANET-6961) - Action Type listing page empty when no pagination is selected
+
 ## 2.91.1 - 2022-11-09
 
 ### Features
