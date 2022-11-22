@@ -19,7 +19,7 @@ To create tests for your site you have to do the following:
 
 1. Inside that directory, write tests, following the [Codeception](https://codeception.com/) syntax, in php files.
 
-![nro test file](<../../.gitbook/assets/nro-tests-file (3) (2) (1) (1) (1) (1) (1) (1) (1) (2) (2).png>)
+![nro test file](<../../.gitbook/assets/nro-tests-file (3) (2) (1) (1) (1) (1) (1) (1) (1) (2) (1).png>)
 
 Some relevant info:
 
@@ -31,7 +31,7 @@ Some relevant info:
 
 Example of failed tests on the release workflow. The hold-promote job that would usually allow you to deploy to production is not triggered, as it is blocked by the test-release job failing
 
-![nro test release failure](<../../.gitbook/assets/nro-test-release-failure (1) (1) (3) (3) (1) (1) (1) (1) (1) (1) (1) (2) (1).png>)
+![nro test release failure](<../../.gitbook/assets/nro-test-release-failure (1) (1) (3) (3) (1) (1) (1) (1) (1) (1) (1) (2) (1) (1).png>)
 
 Example of successful tests on the release workflow. Tests succeeded, so hold-promote is available.
 
