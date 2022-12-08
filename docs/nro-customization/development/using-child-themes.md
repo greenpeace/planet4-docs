@@ -58,6 +58,13 @@ Assuming we want to display more metadata to the pages content, we would have to
 {% endraw %}
 ```
 
+## Settings & Styles (theme.json)
+
+In order to follow WordPress guidelines and simplify our code, we are moving a lot of styling options to the [theme.json](https://github.com/greenpeace/planet4-master-theme/blob/main/theme.json) file. If you want to override and/or add some of these settings for your site, you can create your own `theme.json` file with your customisations in the root folder of your child theme. For implementation help, or just to understand better how this works, here are some useful links:
+
+* WordPress' [relevant documentation](https://developer.wordpress.org/block-editor/how-to-guides/themes/theme-json/), including the [schema for the file](https://schemas.wp.org/trunk/theme.json)
+* [Full site editing course](https://fullsiteediting.com/courses/full-site-editing-for-theme-developers/) for developers
+
 ## Live Examples
 
 Since we already have some production running websites that use their own customized child-theme we can use them as a guide for more advanced and specific tweaks. Besides screenshots and live examples provided here, you can also check the code on the relevant child theme of the NRO.
