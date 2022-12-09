@@ -8,6 +8,13 @@ description: Customize P4 using a child theme
 **Please** [**talk to the P4 Team**](mailto:planet4-pm-group@greenpeace.org) **before doing custom development and theming. If we are ever going to reach the full potential of Greenpeace’s engagement platform it is absolutely essential that we work TOGETHER.**
 {% endhint %}
 
+## Settings & Styles (theme.json)
+
+In order to follow WordPress guidelines and simplify our code, we are moving a lot of styling options to the [theme.json](https://github.com/greenpeace/planet4-master-theme/blob/main/theme.json) file. If you want to override and/or add some of these settings for your site, you can create your own `theme.json` file with your customisations in the root folder of your child theme. For implementation help, or just to understand better how this works, here are some useful links:
+
+* WordPress' [relevant documentation](https://developer.wordpress.org/block-editor/how-to-guides/themes/theme-json/), including the [schema for the file](https://schemas.wp.org/trunk/theme.json)
+* [Full site editing course](https://fullsiteediting.com/courses/full-site-editing-for-theme-developers/) for developers
+
 ## CSS
 
 All css changes should happen inside `style.css` that lies on the root of the child theme and initially is empty. This css code is loaded after the master-theme’s css, so anything put in there will override the corresponding class or element.
@@ -57,13 +64,6 @@ Assuming we want to display more metadata to the pages content, we would have to
 {% endblock %}
 {% endraw %}
 ```
-
-## Settings & Styles (theme.json)
-
-In order to follow WordPress guidelines and simplify our code, we are moving a lot of styling options to the [theme.json](https://github.com/greenpeace/planet4-master-theme/blob/main/theme.json) file. If you want to override and/or add some of these settings for your site, you can create your own `theme.json` file with your customisations in the root folder of your child theme. For implementation help, or just to understand better how this works, here are some useful links:
-
-* WordPress' [relevant documentation](https://developer.wordpress.org/block-editor/how-to-guides/themes/theme-json/), including the [schema for the file](https://schemas.wp.org/trunk/theme.json)
-* [Full site editing course](https://fullsiteediting.com/courses/full-site-editing-for-theme-developers/) for developers
 
 ## Live Examples
 
