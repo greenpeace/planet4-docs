@@ -10,6 +10,14 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 2.94.0 - 2022-12-12
+
+### Bug Fixes
+
+- [PLANET-6980](https://jira.greenpeace.org/browse/PLANET-6980) - Tags panel shows up twice for non-admins, and they can create tags
+- [PLANET-6954](https://jira.greenpeace.org/browse/PLANET-6954) - Adding a custom CSS class through the admin panel is not reflected in the frontend when inspecting the page.
+- [PLANET-6931](https://jira.greenpeace.org/browse/PLANET-6931) - Navigation submenu items that are anchors are not clickable
+
 ## 2.92.0 - 2022-11-22
 
 ### Features
