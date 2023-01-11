@@ -10,6 +10,15 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 2.95.0 - 2023-01-11
+
+### Features
+
+- [PLANET-6983](https://jira.greenpeace.org/browse/PLANET-6983) - Actions: remove tags from header
+- [PLANET-6968](https://jira.greenpeace.org/browse/PLANET-6968) - Move typography settings to theme.json
+- [PLANET-6960](https://jira.greenpeace.org/browse/PLANET-6960) - Add sidebar option to define canonical link
+- [PLANET-6936](https://jira.greenpeace.org/browse/PLANET-6936) - Remove jQuery on the frontend
+
 ## 2.94.0 - 2022-12-12
 
 ### Bug Fixes
