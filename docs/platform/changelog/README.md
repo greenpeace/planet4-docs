@@ -10,6 +10,22 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 2.96.0 - 2023-01-26
+
+### Features
+
+- [PLANET-7038](https://jira.greenpeace.org/browse/PLANET-7038) - Render line breaks in Spreadsheet Block
+- [PLANET-7011](https://jira.greenpeace.org/browse/PLANET-7011) - Action post type should only have one action type
+- [PLANET-6965](https://jira.greenpeace.org/browse/PLANET-6965) - Add Actions pattern layout to Actions post type
+- [PLANET-6963](https://jira.greenpeace.org/browse/PLANET-6963) - Enable navigation dropdown submenus
+- [PLANET-6957](https://jira.greenpeace.org/browse/PLANET-6957) - Remove action-type string from Action Type permalink url
+- [PLANET-6956](https://jira.greenpeace.org/browse/PLANET-6956) - Use Action Type slug on Actions permalink url
+
+### Bug Fixes
+
+- [PLANET-7027](https://jira.greenpeace.org/browse/PLANET-7027) - Tag listing page not behaving as expected
+- [PLANET-6923](https://jira.greenpeace.org/browse/PLANET-6923) - Image credit missing when importing from media library
+
 ## 2.95.0 - 2023-01-11
 
 ### Features
