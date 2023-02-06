@@ -234,7 +234,7 @@ As an example, you can see the [handbook child theme](https://github.com/greenpe
 
 ### Using underline titles effect
 
-![](<../../.gitbook/assets/gplux-title-underline (1) (2) (2) (4) (4) (4) (3) (1) (1) (1) (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/gplux-title-underline (1) (2) (2) (4) (4) (4) (3) (1) (1) (1) (1) (1) (1) (1) (2).png>)
 
 [Luxembourg](https://www.greenpeace.org/luxembourg/fr/) child theme implements a short css section to underline titles with a green gradient line. We had an unexpected good feedback on this effect thus we share the code here:
 
@@ -270,7 +270,7 @@ If you don’t use postcss prefix you can use this code:
 
 You will find on GP Luxembourg a custom [contact form](https://www.greenpeace.org/luxembourg/fr/contact/). On this form, changing the input _Objet de votre message_ will open many different use cases for the user (like changing his bank account). An e-mail is sent to the admin on submit.
 
-![](<../../.gitbook/assets/contact-form-gp-lux (1) (1) (2) (2) (4) (4) (4) (4) (4) (1) (1) (1) (1) (1) (1) (1).jpg>)
+![](<../../.gitbook/assets/contact-form-gp-lux (1) (1) (2) (2) (4) (4) (4) (4) (4) (1) (1) (1) (1) (1) (1) (1) (2).jpg>)
 
 If you want to reproduce this form you can simply grab the code here:
 

@@ -294,7 +294,7 @@ List all existing indices along with info about their health, documents count, s
 curl -XGET localhost:9200/_cat/indices?v
 ```
 
-![request](<../.gitbook/assets/request9 (3) (2) (1) (1) (1) (1) (1) (1) (1).png>)
+![request](<../.gitbook/assets/request9 (3) (2) (1) (1) (1) (1) (1) (1) (1) (1).png>)
 
 ## Links & resources
 

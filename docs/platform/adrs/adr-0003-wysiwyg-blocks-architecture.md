@@ -2,7 +2,7 @@
 description: Turn P4 Blocks into WYSIWYG blocks.
 ---
 
-# \[ADR-0016] WYSIWYG Blocks
+# \[ADR-0003] WYSIWYG Blocks Architecture
 
 * Status: accepted
 * Deciders: Development & Design teams
