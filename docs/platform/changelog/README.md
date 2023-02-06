@@ -10,6 +10,19 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 2.97.0 - 2023-02-06
+
+### Features
+
+- [PLANET-7029](https://jira.greenpeace.org/browse/PLANET-7029) - Create default Action type: petitions
+- [PLANET-6982](https://jira.greenpeace.org/browse/PLANET-6982) - Implement GF plugin translations workflow
+- [PLANET-6964](https://jira.greenpeace.org/browse/PLANET-6964) - Remove listing pages background image
+- [PLANET-6864](https://jira.greenpeace.org/browse/PLANET-6864) - Implement localization support for js file translatable strings in Master theme
+
+### Bug Fixes
+
+- [PLANET-7056](https://jira.greenpeace.org/browse/PLANET-7056) - Form submissions are not enforced as Ajax
+
 ## 2.96.0 - 2023-01-26
 
 ### Features
