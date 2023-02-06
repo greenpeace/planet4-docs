@@ -43,7 +43,7 @@ npx playwright test tests/e2e/404.spec.js
 
 ### Test failures
 
-If a test fails you'll get a report of the issues inside the `playwright-report` folder (it should also automatically open in a browser window for you to check out).
+If a test fails you'll get a report of the issues inside the `e2e-report` folder (it should also automatically open in a browser window for you to check out).
 
 If there are additional artifacts such as screenshots/videos they will be in the `e2e-results` folder. You can specify which artifacts you want to get in the `playwright.config.js` file.
 

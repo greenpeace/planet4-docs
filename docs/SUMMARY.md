@@ -16,6 +16,7 @@
 * [Testing](ci-cd/testing/README.md)
   * [Acceptance Tests](ci-cd/testing/acceptance-tests.md)
   * [Visual Regression Tests](ci-cd/testing/visual-regression-tests.md)
+  * [End-to-end Tests](ci-cd/testing/end-to-end.md)
 
 ## NRO Customization
 
