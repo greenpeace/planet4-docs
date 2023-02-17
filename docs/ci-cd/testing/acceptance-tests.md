@@ -39,6 +39,12 @@ This only needs to happen once:
 make test-install
 ```
 
+Make sure the Selenium container is running:
+
+```bash
+make selenium-run
+```
+
 To run the tests next time just run:
 
 ```bash
@@ -65,7 +71,7 @@ tests/vendor/bin/codecept run tests/acceptance/HomePageCept.php
 
 ### Troubleshooting
 
-* In case you don't find the Codeception binary \(`tests/vendor/bin/codecept`\), run:
+* In case you don't find the Codeception binary (`tests/vendor/bin/codecept`), run:
 
 ```bash
 cd tests
@@ -184,7 +190,7 @@ $I->havePageInDatabase([
 $I->amOnPage('/' . $slug);
 ```
 
-Any created database content is automatically cleaned up at the end of the test \(although sometimes this does not happen\).
+Any created database content is automatically cleaned up at the end of the test (although sometimes this does not happen).
 
 ### Helper methods
 
@@ -216,11 +222,11 @@ vendor/bin/codecept run --debug tests/acceptance/YourTestCept.php
 
 ### Using Gherkin
 
-Planet4 uses \[Gherkin\]\([https://en.wikipedia.org/wiki/Cucumber\_\(software\)\#Gherkin\_language](https://en.wikipedia.org/wiki/Cucumber_%28software%29#Gherkin_language)\) to describe some features. Gherkin is [supported by Codeception](https://codeception.com/docs/07-BDD#Gherkin) natively, and **features are played with the other acceptance tests**.
+Planet4 uses \[Gherkin]\([https://en.wikipedia.org/wiki/Cucumber\_(software)#Gherkin\_language](https://en.wikipedia.org/wiki/Cucumber\_\(software\)#Gherkin\_language)) to describe some features. Gherkin is [supported by Codeception](https://codeception.com/docs/07-BDD#Gherkin) natively, and **features are played with the other acceptance tests**.
 
 To describe a new Feature, create a file `acceptance/myfeature.feature`. It should include a description and at least one scenario. A short example:
 
-```text
+```
 Feature: writing posts
   In order to publish content
   I need to be able to create posts
@@ -244,10 +250,10 @@ To implement those tests:
 
 * **Steps** are described in `_support/Step/Acceptance`
   * [Use annotations](https://codeception.com/docs/07-BDD#Step-Definitions) to match steps and methods
-  * Any step with parameters should include an example \(using `@example` annotation\)
+  * Any step with parameters should include an example (using `@example` annotation)
   * New step files have to be listed in `acceptance.suite.yml`, in section `gherkin.contexts.default`
-* Other **Pages** interactions \(anything but Steps\) go into `_support/Page/Acceptance`
-* **Selectors** \(CSS, XPath\) should be extracted in constant files in `_support/Selector`
+* Other **Pages** interactions (anything but Steps) go into `_support/Page/Acceptance`
+* **Selectors** (CSS, XPath) should be extracted in constant files in `_support/Selector`
 
 You can list available steps with:
 
@@ -287,11 +293,10 @@ make ci
 
 The NRO-specific tests are a simplified version of the main tests. In particular:
 
-* only one suite \(an acceptance suite named "tests"\)
+* only one suite (an acceptance suite named "tests")
 * mainly designed to run against the gcloud deployed environments
 * NRO repos contain no codeception configuration, only a `tests/` directory, with the tests directly in
 * when executed the codeception configuration is copied into the directory
 * configuration and dependencies are defined in [greenpeace/planet4-circleci-codeception](https://github.com/greenpeace/planet4-circleci-codeception)
 * `codeceptionify.sh <destination>` script copies the needed configuration files into `<destination>`
-* only base codeception modules are available \(i.e. nothing from [lucatume/wp-browser](https://github.com/lucatume/wp-browser)\) - so no direct db access or content seeding
-
+* only base codeception modules are available (i.e. nothing from [lucatume/wp-browser](https://github.com/lucatume/wp-browser)) - so no direct db access or content seeding
