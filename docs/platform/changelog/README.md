@@ -10,6 +10,22 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 2.98.0 - 2023-02-20
+
+### Features
+
+- [PLANET-7055](https://jira.greenpeace.org/browse/PLANET-7055) - Integrate Playwright testing framework into our application repositories
+- [PLANET-7044](https://jira.greenpeace.org/browse/PLANET-7044) - Create a feature toggle that enables all the IA features
+- [PLANET-7005](https://jira.greenpeace.org/browse/PLANET-7005) - Refactor Analytics sidebar option to use native settings panel UI
+
+### Bug Fixes
+
+- [PLANET-7077](https://jira.greenpeace.org/browse/PLANET-7077) - Featured img not picked up / missing when sharing on socials
+- [PLANET-7073](https://jira.greenpeace.org/browse/PLANET-7073) - Posts listing page pagination redirects to an article that has a title which starts with the same number
+- [PLANET-7041](https://jira.greenpeace.org/browse/PLANET-7041) - Search not working properly in Thai 
+- [PLANET-7033](https://jira.greenpeace.org/browse/PLANET-7033) - Lists block: Adding new items with Enter key does not work
+- [PLANET-6473](https://jira.greenpeace.org/browse/PLANET-6473) - Checkbox doesn't show focus state
+
 ## 2.97.0 - 2023-02-06
 
 ### Features
