@@ -10,6 +10,17 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 2.98.1 - 2023-02-28
+
+### Features
+
+- [PLANET-7092](https://jira.greenpeace.org/browse/PLANET-7092) - Purge cache on pages that include a form when the form is updated
+- [PLANET-7021](https://jira.greenpeace.org/browse/PLANET-7021) - Remove the core colors from the block patterns
+
+### Bug Fixes
+
+- [PLANET-7025](https://jira.greenpeace.org/browse/PLANET-7025) - Covers block "Load more" button text not translated on frontend
+
 ## 2.98.0 - 2023-02-20
 
 ### Features
