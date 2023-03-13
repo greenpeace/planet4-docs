@@ -10,6 +10,22 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 2.99.0 - 2023-03-13
+
+### Features
+
+- [PLANET-7087](https://jira.greenpeace.org/browse/PLANET-7087) - Retire old Blocks report and move the new one out of Beta
+- [PLANET-7020](https://jira.greenpeace.org/browse/PLANET-7020) - Create a feature toggle to activate the new identity styles
+- [PLANET-7012](https://jira.greenpeace.org/browse/PLANET-7012) - Remove jQuery library from main theme
+- [PLANET-6989](https://jira.greenpeace.org/browse/PLANET-6989) - Apply the new UI for the share buttons
+- [PLANET-6984](https://jira.greenpeace.org/browse/PLANET-6984) - Apply the new grey color to headings + body text 🔑
+- [PLANET-6977](https://jira.greenpeace.org/browse/PLANET-6977) - Disable option for WPML footer language switcher
+
+### Bug Fixes
+
+- [PLANET-7094](https://jira.greenpeace.org/browse/PLANET-7094) - Broken hover animation for rounded images in Safari
+- [PLANET-7013](https://jira.greenpeace.org/browse/PLANET-7013) - Rounded images are distorted in certain viewports
+
 ## 2.98.1 - 2023-02-28
 
 ### Features
