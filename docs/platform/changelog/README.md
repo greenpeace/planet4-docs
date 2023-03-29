@@ -10,6 +10,15 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 2.100.0 - 2023-03-29
+
+### Bug Fixes
+
+- [PLANET-7000](https://jira.greenpeace.org/browse/PLANET-7000) - Posts report spinner file is not found
+- [PLANET-6978](https://jira.greenpeace.org/browse/PLANET-6978) - YouTube embed fullscreen functionality not available on Chrome
+- [PLANET-6970](https://jira.greenpeace.org/browse/PLANET-6970) - WPML option disabling access to WordPress admin panel
+- [PLANET-6874](https://jira.greenpeace.org/browse/PLANET-6874) - Gallery Slider block style doesn't show in the frontend
+
 ## 2.99.0 - 2023-03-13
 
 ### Features
