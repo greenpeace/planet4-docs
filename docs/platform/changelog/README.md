@@ -10,6 +10,14 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 2.101.0 - 2023-04-04
+
+### Features
+
+- [PLANET-7075](https://jira.greenpeace.org/browse/PLANET-7075) - Add a new DLV that tracks which blocks are being used on a page
+- [PLANET-7028](https://jira.greenpeace.org/browse/PLANET-7028) - Gravity Forms: Automatically add and populate Analytics Feed and DLV values
+- [PLANET-7003](https://jira.greenpeace.org/browse/PLANET-7003) - Implement client-side dynamic population on form fields
+
 ## 2.100.0 - 2023-03-29
 
 ### Bug Fixes
