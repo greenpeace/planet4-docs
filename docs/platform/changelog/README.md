@@ -10,6 +10,12 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 2.101.1 - 2023-04-10
+
+### Bug Fixes
+
+- [PLANET-7119](https://jira.greenpeace.org/browse/PLANET-7119) - Infinite scrolling of Covers block
+
 ## 2.101.0 - 2023-04-04
 
 ### Features
