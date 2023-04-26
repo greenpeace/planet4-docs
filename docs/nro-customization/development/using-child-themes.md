@@ -93,9 +93,9 @@ Many NROs have decided to change their primary navigation toolbar, below a full 
 * GP Nordics ([Denmark](https://www.greenpeace.org/denmark/), [Greenland](https://www.greenpeace.org/greenland/da/), [Finland](https://www.greenpeace.org/finland/), [Norway](https://www.greenpeace.org/norway/), [Sweden](https://www.greenpeace.org/sweden/)) and [GPCH](https://www.greenpeace.ch/fr/) opted for a transparent white nav bar.
 * [GP Netherlands](https://www.greenpeace.org/nl/) opted for a full white nav bar.
 
-![](<../../.gitbook/assets/nordic (1) (1) (2) (2) (4) (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (2).png>)
+![](<../../.gitbook/assets/nordic (1) (1) (2) (2) (4) (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (2) (1).png>)
 
-![](<../../.gitbook/assets/nl (1) (2) (2) (4) (4) (4) (4) (4) (1) (1) (1) (1) (1) (1) (1) (1) (3).png>)
+![](<../../.gitbook/assets/nl (1) (2) (2) (4) (4) (4) (4) (4) (1) (1) (1) (1) (1) (1) (1) (1) (2) (1).png>)
 
 * GP East Asia ([Taiwan](https://www.greenpeace.org/taiwan/), [HK](https://www.greenpeace.org/hongkong/) and [Korea](https://www.greenpeace.org/korea/)) opted for a full green navigation bar.
 
@@ -234,7 +234,7 @@ As an example, you can see the [handbook child theme](https://github.com/greenpe
 
 ### Using underline titles effect
 
-![](<../../.gitbook/assets/gplux-title-underline (1) (2) (2) (4) (4) (4) (3) (1) (1) (1) (1) (1) (1) (1) (1) (2).png>)
+![](<../../.gitbook/assets/gplux-title-underline (1) (2) (2) (4) (4) (4) (3) (1) (1) (1) (1) (1) (1) (1) (1) (2) (1).png>)
 
 [Luxembourg](https://www.greenpeace.org/luxembourg/fr/) child theme implements a short css section to underline titles with a green gradient line. We had an unexpected good feedback on this effect thus we share the code here:
 

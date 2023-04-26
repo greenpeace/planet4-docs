@@ -158,4 +158,4 @@ Planet 4 has no SEO plugin installed or recommended. SEO plugins do a lot of thi
 
 We have identified several features that are also being offered by some SEO plugins, such as open graph data (documented at [PLANET-1888](https://jira.greenpeace.org/browse/PLANET-1888) or write beautiful URLs (using core WP functionality with small taxonomy modifications documented at [PLANET-1879](https://jira.greenpeace.org/browse/PLANET-1879).
 
-Our choice of operation is **not** "There is a plugin, let’s install it and see what it does", but “We need feature A, let’s find the best way to deliver its functionality”.
+There are however several SEO features available on Planet 4. These include a specific title, description and image for social media, canonical links, excerpts and more. In case you're missing SEO features, do let them know in the [Feature Requests](https://planet4.greenpeace.org/contribute/improve/?showing=recent\&status=open\&tag=All\&custom=) page of the P4 Handbook. Please note: Our choice of operation is **not** "There is a plugin, let’s install it and see what it does", but “We need feature A, let’s find the best way to deliver its functionality”.

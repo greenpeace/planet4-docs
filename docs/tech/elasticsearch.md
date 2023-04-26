@@ -186,7 +186,7 @@ We have configured docker-compose [here](https://github.com/greenpeace/planet4-d
 
 We also have added [here](https://github.com/greenpeace/planet4-docker-compose/blob/master/docker-compose.yml#L137) an ElasticHQ container which allows us to access the ElasticHQ tool in [http://localhost:5000/](http://localhost:5000/). Visit this URL and give http:/elasticsearch:9200/ and click Connect so that ElasticHQ will connect with the docker-cluster. You should see something like this
 
-![docker ESHQ](<../.gitbook/assets/p4-docker-elastichq (3) (3) (3) (3) (3) (1) (1) (1) (1) (1) (1) (1) (1).png>)
+![docker ESHQ](<../.gitbook/assets/p4-docker-elastichq (3) (3) (3) (3) (3) (1) (1) (1) (1) (1) (1) (1) (1) (2) (2).png>)
 
 In this example there is 1 node & 2 indices (.elastichq is there by default and planet4test-1 or planet4test8000-1 if you use another port like me). You can get valuable information about your nodes/indices from this tool. If you see only .elastichq index then you have not run an indexing process for your local environment. You can do this via the EP plugin page or with `make elastic` command.
 
@@ -230,7 +230,7 @@ Retrieve general information about the cluster (e.g. current ES version is 6.3.1
 curl -XGET localhost:9200/
 ```
 
-![request](<../.gitbook/assets/request1 (3) (3) (3) (3) (3) (1) (1) (1) (1) (1) (1) (1) (1).png>)
+![request](<../.gitbook/assets/request1 (3) (3) (3) (3) (3) (1) (1) (1) (1) (1) (1) (1) (1) (2) (2).png>)
 
 Retrieve a list of all the existing nodes
 
@@ -238,7 +238,7 @@ Retrieve a list of all the existing nodes
 curl -XGET localhost:9200/_cat/nodes?v
 ```
 
-![request](<../.gitbook/assets/request2 (3) (3) (3) (3) (3) (1) (1) (1) (1) (1) (1) (1) (1).png>)
+![request](<../.gitbook/assets/request2 (3) (3) (3) (3) (3) (1) (1) (1) (1) (1) (1) (1) (1) (2) (2).png>)
 
 Check cluster health status
 
@@ -262,7 +262,7 @@ Check health status for each index
 curl -XGET localhost:9200/\_cluster/health?level=indices | jq
 ```
 
-![request](<../.gitbook/assets/request5 (1) (3) (3) (3) (3) (3) (1) (1) (1) (1) (1) (1) (1) (1) (2).png>)
+![request](<../.gitbook/assets/request5 (1) (3) (3) (3) (3) (3) (1) (1) (1) (1) (1) (1) (1) (1) (2) (1).png>)
 
 View all existing documents of an index in our local Docker-cluster
 
@@ -270,7 +270,7 @@ View all existing documents of an index in our local Docker-cluster
 curl -XGET 172.25.0.2:9200/planet4test8000-1/\_search?pretty
 ```
 
-![request](<../.gitbook/assets/request6 (1) (1) (1) (1) (1) (1) (1) (1) (2).png>)
+![request](<../.gitbook/assets/request6 (1) (1) (1) (1) (1) (1) (1) (1) (1) (2).png>)
 
 Get information about all shards in all indices (type, status, …)
 
@@ -278,7 +278,7 @@ Get information about all shards in all indices (type, status, …)
 curl -XGET localhost:9200/\_cat/shards?h=index,shard,prirep,state,unassigned.reason
 ```
 
-![request](<../.gitbook/assets/request7 (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (2).png>)
+![request](<../.gitbook/assets/request7 (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (2) (1).png>)
 
 Check value of a setting (can use wildcards)
 
@@ -286,7 +286,7 @@ Check value of a setting (can use wildcards)
 curl -XGET localhost:9200/\_nodes?filter\_path=\*\*.mlockall | jq
 ```
 
-![request](<../.gitbook/assets/request8 (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (2).png>)
+![request](<../.gitbook/assets/request8 (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (2) (1).png>)
 
 List all existing indices along with info about their health, documents count, size, etc...
 
@@ -294,7 +294,7 @@ List all existing indices along with info about their health, documents count, s
 curl -XGET localhost:9200/_cat/indices?v
 ```
 
-![request](<../.gitbook/assets/request9 (3) (2) (1) (1) (1) (1) (1) (1) (1) (2).png>)
+![request](<../.gitbook/assets/request9 (3) (2) (1) (1) (1) (1) (1) (1) (1) (1) (2) (1).png>)
 
 ## Links & resources
 
