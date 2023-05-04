@@ -10,6 +10,22 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 2.103.0 - 2023-05-04
+
+### Features
+
+- [PLANET-7124](https://jira.greenpeace.org/browse/PLANET-7124) - Fix gGoal values in Gravity Forms 
+- [PLANET-7109](https://jira.greenpeace.org/browse/PLANET-7109) - Remove the GFTrackEvent DLV event 
+- [PLANET-6975](https://jira.greenpeace.org/browse/PLANET-6975) - Disable Background updates check in Site health
+
+### Bug Fixes
+
+- [PLANET-7133](https://jira.greenpeace.org/browse/PLANET-7133) - Links in Primary / Secondary Footer don't open in a new tab
+
+### Infrastructure
+
+- [PLANET-7107](https://jira.greenpeace.org/browse/PLANET-7107) - Rotate Kubernetes Credentials
+
 ## 2.101.0 - 2023-04-04
 
 ### Features
