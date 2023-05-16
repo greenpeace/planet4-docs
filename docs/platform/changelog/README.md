@@ -10,6 +10,18 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 2.104.0 - 2023-05-16
+
+### Features
+
+- [PLANET-7157](https://jira.greenpeace.org/browse/PLANET-7157) - Harmonise search input clear buttons
+- [PLANET-7111](https://jira.greenpeace.org/browse/PLANET-7111) - Upgrade to Wordpress 6.2
+
+### Bug Fixes
+
+- [PLANET-7149](https://jira.greenpeace.org/browse/PLANET-7149) - Form submit button lacks styling
+- [PLANET-7143](https://jira.greenpeace.org/browse/PLANET-7143) - Paginated listing pages spacing issue in RTL sites
+
 ## 2.103.0 - 2023-05-04
 
 ### Features
