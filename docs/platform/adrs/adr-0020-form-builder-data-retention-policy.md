@@ -19,7 +19,7 @@ At the same time we should aim for respecting GDPR requirements for the period o
 
 #### **Data retention**
 
-Enforce a 3 months retention policy. All submission entries will be automatically deleted after point. It would be up to NRO admins to export any submission data that are not synced to another external system if they wish to.
+Enforce a 90 days retention policy. All submission entries will be automatically deleted after point. It would be up to NRO admins to export any submission data that are not synced to another external system if they wish to.
 
 <figure><img src="../../.gitbook/assets/form-builder-retention.png" alt=""><figcaption></figcaption></figure>
 
