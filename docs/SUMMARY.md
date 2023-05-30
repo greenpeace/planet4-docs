@@ -46,6 +46,7 @@
   * [\[ADR-0014\] Choose a ticketing system](platform/adrs/adr-0014-choose-a-ticketing-system.md)
   * [\[ADR-0018\] Choose a testing framework](platform/adrs/adr-0018-choose-a-testing-framework.md)
   * [\[ADR-0019\] Use block templates to build block patterns](platform/adrs/adr-0019-use-block-templates-to-build-block-patterns.md)
+  * [\[ADR-0020\] Form Builder data retention policy](platform/adrs/adr-0020-form-builder-data-retention-policy.md)
 * [Changelog](platform/changelog/README.md)
   * [2021](platform/changelog/changelog-2021.md)
   * [2020](platform/changelog/changelog-2020.md)
