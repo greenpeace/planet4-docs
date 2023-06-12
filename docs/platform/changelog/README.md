@@ -10,6 +10,20 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 2.106.0 - 2023-06-12
+
+### Features
+
+- [PLANET-7154](https://jira.greenpeace.org/browse/PLANET-7154) - Form Builder: duplicate Feeds on form duplication
+- [PLANET-7148](https://jira.greenpeace.org/browse/PLANET-7148) - Form Builder: Enforce data retention policy
+- [PLANET-7147](https://jira.greenpeace.org/browse/PLANET-7147) - Form Builder: Enable integration with native export tool
+- [PLANET-7146](https://jira.greenpeace.org/browse/PLANET-7146) - Form Builder: Disable IP address retention during submission
+- [PLANET-6235](https://jira.greenpeace.org/browse/PLANET-6235) - Upgrade ElasticPress to 4.5.x
+
+### Bug Fixes
+
+- [PLANET-7156](https://jira.greenpeace.org/browse/PLANET-7156) - Strings in Gravity forms not translated
+
 ## 2.104.0 - 2023-05-16
 
 ### Features
