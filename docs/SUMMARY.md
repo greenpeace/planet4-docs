@@ -48,6 +48,7 @@
   * [\[ADR-0019\] Use block templates to build block patterns](platform/adrs/adr-0019-use-block-templates-to-build-block-patterns.md)
   * [\[ADR-0020\] Form Builder data retention policy](platform/adrs/adr-0020-form-builder-data-retention-policy.md)
 * [Changelog](platform/changelog/README.md)
+  * [2022](platform/changelog/changelog-2022.md)
   * [2021](platform/changelog/changelog-2021.md)
   * [2020](platform/changelog/changelog-2020.md)
   * [2019](platform/changelog/changelog-2019.md)
