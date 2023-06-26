@@ -10,6 +10,22 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 2.107.0 - 2023-06-26
+
+### Features
+
+- [PLANET-7176](https://jira.greenpeace.org/browse/PLANET-7176) - Add GPSA into the footer country selector
+- [PLANET-7131](https://jira.greenpeace.org/browse/PLANET-7131) - Change the sync mechanism for Global Project Standards (Analytics Field) 
+- [PLANET-7105](https://jira.greenpeace.org/browse/PLANET-7105) - Automatically fire data layer script on GF donation confirmation Pages
+
+### Bug Fixes
+
+- [PLANET-7179](https://jira.greenpeace.org/browse/PLANET-7179) - Blocks report API throws an exception in some websites
+
+### Infrastructure
+
+- [PLANET-7181](https://jira.greenpeace.org/browse/PLANET-7181) - Upgrade Ubuntu base image to 22.04
+
 ## 2.106.0 - 2023-06-12
 
 ### Features
