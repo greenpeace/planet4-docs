@@ -16,8 +16,8 @@ The format and available options can be seen at the [backstopjs documentation](h
     {
       "label": "Planet4 NRO Explore page",
       "url": "https://APP_HOSTNAME/APP_HOSTPATH/explore/",
-      "delay": 3000,
-      "misMatchThreshold": 1.5
+      "delay": 4000,
+      "misMatchThreshold": 3
     }
   ]
 }
@@ -26,4 +26,3 @@ The format and available options can be seen at the [backstopjs documentation](h
 {% hint style="info" %}
 It's important to add these delay and misMatchThreshold values. These have been tested to be sane defaults.
 {% endhint %}
-

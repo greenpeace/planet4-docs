@@ -14,9 +14,8 @@
 * [Test Instances](ci-cd/test-environments.md)
 * [Deployment](ci-cd/deployment.md)
 * [Testing](ci-cd/testing/README.md)
-  * [Acceptance Tests](ci-cd/testing/acceptance-tests.md)
-  * [Visual Regression Tests](ci-cd/testing/visual-regression-tests.md)
   * [End-to-end Tests](ci-cd/testing/end-to-end.md)
+  * [Visual Regression Tests](ci-cd/testing/visual-regression-tests.md)
 
 ## NRO Customization
 
@@ -25,7 +24,6 @@
   * [Package Registry](nro-customization/development/package-registry.md)
   * [Plugins](nro-customization/development/plugins.md)
 * [Testing](nro-customization/testing/README.md)
-  * [Acceptance Tests](nro-customization/testing/acceptance-tests.md)
   * [Visual Regression Tests](nro-customization/testing/visual-regression-tests.md)
 * [Deployment](nro-customization/deployment/README.md)
   * [Production](nro-customization/deployment/production.md)
