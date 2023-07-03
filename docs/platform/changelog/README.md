@@ -10,6 +10,17 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 2.107.2 - 2023-07-03
+
+### Features
+
+- [PLANET-7180](https://jira.greenpeace.org/browse/PLANET-7180) - Integrate Profile pictures from Google profile
+
+### Bug Fixes
+
+- [PLANET-7103](https://jira.greenpeace.org/browse/PLANET-7103) - Login text is overlapping the Leave your reply
+- [PLANET-5789](https://jira.greenpeace.org/browse/PLANET-5789) - Hide Post Report from the Subscriber user 
+
 ## 2.107.1 - 2023-06-26
 
 ### Bug Fixes
