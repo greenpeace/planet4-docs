@@ -10,6 +10,18 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 2.108.0 - 2023-07-20
+
+### Features
+
+- [PLANET-7186](https://jira.greenpeace.org/browse/PLANET-7186) - Add setting for Hubspot tracking code
+- [PLANET-7172](https://jira.greenpeace.org/browse/PLANET-7172) - Apply the new visual identity to the Handbook side menu
+- [PLANET-7171](https://jira.greenpeace.org/browse/PLANET-7171) - Use WordPress Playwright E2E test utils package
+
+### Bug Fixes
+
+- [PLANET-7169](https://jira.greenpeace.org/browse/PLANET-7169) - Analytics Field tracking ID(i.e projectID) is not saved on add/edit of page/posts
+
 ## 2.107.2 - 2023-07-03
 
 ### Features
