@@ -10,6 +10,18 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 2.109.0 - 2023-08-02
+
+### Features
+
+- [PLANET-7198](https://jira.greenpeace.org/browse/PLANET-7198) - Add self-reference canonical urls to listing pages
+- [PLANET-7047](https://jira.greenpeace.org/browse/PLANET-7047) - Migrate Donate button setting to a menu
+- [PLANET-7045](https://jira.greenpeace.org/browse/PLANET-7045) - Create settings options for new IA pages
+
+### Bug Fixes
+
+- [PLANET-7203](https://jira.greenpeace.org/browse/PLANET-7203) - Menu validation is repeated when checking options several times
+
 ## 2.108.0 - 2023-07-20
 
 ### Features
