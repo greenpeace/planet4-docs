@@ -10,6 +10,14 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 2.110.0 - 2023-08-08
+
+### Features
+
+- [PLANET-7137](https://jira.greenpeace.org/browse/PLANET-7137) - Enable new Greenpeace visual identity
+- [PLANET-7102](https://jira.greenpeace.org/browse/PLANET-7102) - Add categories DLV for tracking High Level topics on Posts
+- [PLANET-7046](https://jira.greenpeace.org/browse/PLANET-7046) - Align Tag listing page with new design
+
 ## 2.109.0 - 2023-08-02
 
 ### Features
