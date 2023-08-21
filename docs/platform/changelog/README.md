@@ -10,6 +10,22 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 2.111.0 - 2023-08-21
+
+### Features
+
+- [PLANET-7209](https://jira.greenpeace.org/browse/PLANET-7209) - Move Reading Time option to Reading settings
+- [PLANET-7177](https://jira.greenpeace.org/browse/PLANET-7177) - Move Default P4 Post Type setting under Settings > Writing
+- [PLANET-6677](https://jira.greenpeace.org/browse/PLANET-6677) - Move Comments option to Discussion settings
+
+### Bug Fixes
+
+- [PLANET-7222](https://jira.greenpeace.org/browse/PLANET-7222) - Donate button dropdown goes off screen in small desktop sizes
+
+### Infrastructure
+
+- [PLANET-6871](https://jira.greenpeace.org/browse/PLANET-6871) - Disable list view permission from public stateless buckets
+
 ## 2.110.0 - 2023-08-08
 
 ### Features
