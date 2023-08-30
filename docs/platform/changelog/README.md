@@ -14,137 +14,137 @@ Items with a 🔑 icon are not enabled by default, but instead they are released
 
 ### Features
 
-- [PLANET-7215](https://jira.greenpeace.org/browse/PLANET-7215) - Apply the new design for the Submenu block
-- [PLANET-6793](https://jira.greenpeace.org/browse/PLANET-6793) - Sitemap page for new IA: display pages following native taxonomies
+* [PLANET-7215](https://jira.greenpeace.org/browse/PLANET-7215) - Apply the new design for the Submenu block
+* [PLANET-6793](https://jira.greenpeace.org/browse/PLANET-6793) - Sitemap page for new IA: display pages following native taxonomies
+* [PLANET-7219](https://jira.greenpeace.org/browse/PLANET-7219) - Apply new identity link styles to Author page/block and 404 page
 
 ### Bug Fixes
 
-- [PLANET-7219](https://jira.greenpeace.org/browse/PLANET-7219) - Apply new identity link styles to Author page/block and 404 page
-- [PLANET-7217](https://jira.greenpeace.org/browse/PLANET-7217) - Home page carousel header banner flickers when you swipe
-- [PLANET-6855](https://jira.greenpeace.org/browse/PLANET-6855) - Covers block thumbnails are lower resolution than they should
+* [PLANET-7217](https://jira.greenpeace.org/browse/PLANET-7217) - Home page carousel header banner flickers when you swipe
+* [PLANET-6855](https://jira.greenpeace.org/browse/PLANET-6855) - Covers block thumbnails are lower resolution than they should
 
 ## 2.111.0 - 2023-08-21
 
 ### Features
 
-- [PLANET-7209](https://jira.greenpeace.org/browse/PLANET-7209) - Move Reading Time option to Reading settings
-- [PLANET-7177](https://jira.greenpeace.org/browse/PLANET-7177) - Move Default P4 Post Type setting under Settings > Writing
-- [PLANET-6677](https://jira.greenpeace.org/browse/PLANET-6677) - Move Comments option to Discussion settings
+* [PLANET-7209](https://jira.greenpeace.org/browse/PLANET-7209) - Move Reading Time option to Reading settings
+* [PLANET-7177](https://jira.greenpeace.org/browse/PLANET-7177) - Move Default P4 Post Type setting under Settings > Writing
+* [PLANET-6677](https://jira.greenpeace.org/browse/PLANET-6677) - Move Comments option to Discussion settings
 
 ### Bug Fixes
 
-- [PLANET-7222](https://jira.greenpeace.org/browse/PLANET-7222) - Donate button dropdown goes off screen in small desktop sizes
+* [PLANET-7222](https://jira.greenpeace.org/browse/PLANET-7222) - Donate button dropdown goes off screen in small desktop sizes
 
 ### Infrastructure
 
-- [PLANET-6871](https://jira.greenpeace.org/browse/PLANET-6871) - Disable list view permission from public stateless buckets
+* [PLANET-6871](https://jira.greenpeace.org/browse/PLANET-6871) - Disable list view permission from public stateless buckets
 
 ## 2.110.0 - 2023-08-08
 
 ### Features
 
-- [PLANET-7137](https://jira.greenpeace.org/browse/PLANET-7137) - Enable new Greenpeace visual identity
-- [PLANET-7102](https://jira.greenpeace.org/browse/PLANET-7102) - Add categories DLV for tracking High Level topics on Posts
-- [PLANET-7046](https://jira.greenpeace.org/browse/PLANET-7046) - Align Tag listing page with new design
+* [PLANET-7137](https://jira.greenpeace.org/browse/PLANET-7137) - Enable new Greenpeace visual identity
+* [PLANET-7102](https://jira.greenpeace.org/browse/PLANET-7102) - Add categories DLV for tracking High Level topics on Posts
+* [PLANET-7046](https://jira.greenpeace.org/browse/PLANET-7046) - Align Tag listing page with new design
 
 ## 2.109.0 - 2023-08-02
 
 ### Features
 
-- [PLANET-7198](https://jira.greenpeace.org/browse/PLANET-7198) - Add self-reference canonical urls to listing pages
-- [PLANET-7047](https://jira.greenpeace.org/browse/PLANET-7047) - Migrate Donate button setting to a menu
-- [PLANET-7045](https://jira.greenpeace.org/browse/PLANET-7045) - Create settings options for new IA pages
+* [PLANET-7198](https://jira.greenpeace.org/browse/PLANET-7198) - Add self-reference canonical urls to listing pages
+* [PLANET-7047](https://jira.greenpeace.org/browse/PLANET-7047) - Migrate Donate button setting to a menu
+* [PLANET-7045](https://jira.greenpeace.org/browse/PLANET-7045) - Create settings options for new IA pages
 
 ### Bug Fixes
 
-- [PLANET-7203](https://jira.greenpeace.org/browse/PLANET-7203) - Menu validation is repeated when checking options several times
+* [PLANET-7203](https://jira.greenpeace.org/browse/PLANET-7203) - Menu validation is repeated when checking options several times
 
 ## 2.108.0 - 2023-07-20
 
 ### Features
 
-- [PLANET-7186](https://jira.greenpeace.org/browse/PLANET-7186) - Add setting for Hubspot tracking code
-- [PLANET-7172](https://jira.greenpeace.org/browse/PLANET-7172) - Apply the new visual identity to the Handbook side menu
-- [PLANET-7171](https://jira.greenpeace.org/browse/PLANET-7171) - Use WordPress Playwright E2E test utils package
+* [PLANET-7186](https://jira.greenpeace.org/browse/PLANET-7186) - Add setting for Hubspot tracking code
+* [PLANET-7172](https://jira.greenpeace.org/browse/PLANET-7172) - Apply the new visual identity to the Handbook side menu
+* [PLANET-7171](https://jira.greenpeace.org/browse/PLANET-7171) - Use WordPress Playwright E2E test utils package
 
 ### Bug Fixes
 
-- [PLANET-7169](https://jira.greenpeace.org/browse/PLANET-7169) - Analytics Field tracking ID(i.e projectID) is not saved on add/edit of page/posts
+* [PLANET-7169](https://jira.greenpeace.org/browse/PLANET-7169) - Analytics Field tracking ID(i.e projectID) is not saved on add/edit of page/posts
 
 ## 2.107.2 - 2023-07-03
 
 ### Features
 
-- [PLANET-7180](https://jira.greenpeace.org/browse/PLANET-7180) - Integrate Profile pictures from Google profile
+* [PLANET-7180](https://jira.greenpeace.org/browse/PLANET-7180) - Integrate Profile pictures from Google profile
 
 ### Bug Fixes
 
-- [PLANET-7103](https://jira.greenpeace.org/browse/PLANET-7103) - Login text is overlapping the Leave your reply
-- [PLANET-5789](https://jira.greenpeace.org/browse/PLANET-5789) - Hide Post Report from the Subscriber user 
+* [PLANET-7103](https://jira.greenpeace.org/browse/PLANET-7103) - Login text is overlapping the Leave your reply
+* [PLANET-5789](https://jira.greenpeace.org/browse/PLANET-5789) - Hide Post Report from the Subscriber user
 
 ## 2.107.1 - 2023-06-26
 
 ### Bug Fixes
 
-- [PLANET-7183](https://jira.greenpeace.org/browse/PLANET-7183) - Search: not all the results are clickable
+* [PLANET-7183](https://jira.greenpeace.org/browse/PLANET-7183) - Search: not all the results are clickable
 
 ## 2.107.0 - 2023-06-26
 
 ### Features
 
-- [PLANET-7176](https://jira.greenpeace.org/browse/PLANET-7176) - Add GPSA into the footer country selector
-- [PLANET-7131](https://jira.greenpeace.org/browse/PLANET-7131) - Change the sync mechanism for Global Project Standards (Analytics Field) 
-- [PLANET-7105](https://jira.greenpeace.org/browse/PLANET-7105) - Automatically fire data layer script on GF donation confirmation Pages
+* [PLANET-7176](https://jira.greenpeace.org/browse/PLANET-7176) - Add GPSA into the footer country selector
+* [PLANET-7131](https://jira.greenpeace.org/browse/PLANET-7131) - Change the sync mechanism for Global Project Standards (Analytics Field)
+* [PLANET-7105](https://jira.greenpeace.org/browse/PLANET-7105) - Automatically fire data layer script on GF donation confirmation Pages
 
 ### Bug Fixes
 
-- [PLANET-7179](https://jira.greenpeace.org/browse/PLANET-7179) - Blocks report API throws an exception in some websites
+* [PLANET-7179](https://jira.greenpeace.org/browse/PLANET-7179) - Blocks report API throws an exception in some websites
 
 ### Infrastructure
 
-- [PLANET-7181](https://jira.greenpeace.org/browse/PLANET-7181) - Upgrade Ubuntu base image to 22.04
+* [PLANET-7181](https://jira.greenpeace.org/browse/PLANET-7181) - Upgrade Ubuntu base image to 22.04
 
 ## 2.106.0 - 2023-06-12
 
 ### Features
 
-- [PLANET-7154](https://jira.greenpeace.org/browse/PLANET-7154) - Form Builder: duplicate Feeds on form duplication
-- [PLANET-7148](https://jira.greenpeace.org/browse/PLANET-7148) - Form Builder: Enforce data retention policy
-- [PLANET-7147](https://jira.greenpeace.org/browse/PLANET-7147) - Form Builder: Enable integration with native export tool
-- [PLANET-7146](https://jira.greenpeace.org/browse/PLANET-7146) - Form Builder: Disable IP address retention during submission
-- [PLANET-6235](https://jira.greenpeace.org/browse/PLANET-6235) - Upgrade ElasticPress to 4.5.x
+* [PLANET-7154](https://jira.greenpeace.org/browse/PLANET-7154) - Form Builder: duplicate Feeds on form duplication
+* [PLANET-7148](https://jira.greenpeace.org/browse/PLANET-7148) - Form Builder: Enforce data retention policy
+* [PLANET-7147](https://jira.greenpeace.org/browse/PLANET-7147) - Form Builder: Enable integration with native export tool
+* [PLANET-7146](https://jira.greenpeace.org/browse/PLANET-7146) - Form Builder: Disable IP address retention during submission
+* [PLANET-6235](https://jira.greenpeace.org/browse/PLANET-6235) - Upgrade ElasticPress to 4.5.x
 
 ### Bug Fixes
 
-- [PLANET-7156](https://jira.greenpeace.org/browse/PLANET-7156) - Strings in Gravity forms not translated
+* [PLANET-7156](https://jira.greenpeace.org/browse/PLANET-7156) - Strings in Gravity forms not translated
 
 ## 2.104.0 - 2023-05-16
 
 ### Features
 
-- [PLANET-7157](https://jira.greenpeace.org/browse/PLANET-7157) - Harmonise search input clear buttons
-- [PLANET-7111](https://jira.greenpeace.org/browse/PLANET-7111) - Upgrade to Wordpress 6.2
+* [PLANET-7157](https://jira.greenpeace.org/browse/PLANET-7157) - Harmonise search input clear buttons
+* [PLANET-7111](https://jira.greenpeace.org/browse/PLANET-7111) - Upgrade to Wordpress 6.2
 
 ### Bug Fixes
 
-- [PLANET-7149](https://jira.greenpeace.org/browse/PLANET-7149) - Form submit button lacks styling
-- [PLANET-7143](https://jira.greenpeace.org/browse/PLANET-7143) - Paginated listing pages spacing issue in RTL sites
+* [PLANET-7149](https://jira.greenpeace.org/browse/PLANET-7149) - Form submit button lacks styling
+* [PLANET-7143](https://jira.greenpeace.org/browse/PLANET-7143) - Paginated listing pages spacing issue in RTL sites
 
 ## 2.103.0 - 2023-05-04
 
 ### Features
 
-- [PLANET-7124](https://jira.greenpeace.org/browse/PLANET-7124) - Fix gGoal values in Gravity Forms 
-- [PLANET-7109](https://jira.greenpeace.org/browse/PLANET-7109) - Remove the GFTrackEvent DLV event 
-- [PLANET-6975](https://jira.greenpeace.org/browse/PLANET-6975) - Disable Background updates check in Site health
+* [PLANET-7124](https://jira.greenpeace.org/browse/PLANET-7124) - Fix gGoal values in Gravity Forms
+* [PLANET-7109](https://jira.greenpeace.org/browse/PLANET-7109) - Remove the GFTrackEvent DLV event
+* [PLANET-6975](https://jira.greenpeace.org/browse/PLANET-6975) - Disable Background updates check in Site health
 
 ### Bug Fixes
 
-- [PLANET-7133](https://jira.greenpeace.org/browse/PLANET-7133) - Links in Primary / Secondary Footer don't open in a new tab
+* [PLANET-7133](https://jira.greenpeace.org/browse/PLANET-7133) - Links in Primary / Secondary Footer don't open in a new tab
 
 ### Infrastructure
 
-- [PLANET-7107](https://jira.greenpeace.org/browse/PLANET-7107) - Rotate Kubernetes Credentials
+* [PLANET-7107](https://jira.greenpeace.org/browse/PLANET-7107) - Rotate Kubernetes Credentials
 
 ## 2.101.0 - 2023-04-04
 
