@@ -10,6 +10,19 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 2.111.1 - 2023-08-30
+
+### Features
+
+- [PLANET-7215](https://jira.greenpeace.org/browse/PLANET-7215) - Apply the new design for the Submenu block
+- [PLANET-6793](https://jira.greenpeace.org/browse/PLANET-6793) - Sitemap page for new IA: display pages following native taxonomies
+
+### Bug Fixes
+
+- [PLANET-7219](https://jira.greenpeace.org/browse/PLANET-7219) - Apply new identity link styles to Author page/block and 404 page
+- [PLANET-7217](https://jira.greenpeace.org/browse/PLANET-7217) - Home page carousel header banner flickers when you swipe
+- [PLANET-6855](https://jira.greenpeace.org/browse/PLANET-6855) - Covers block thumbnails are lower resolution than they should
+
 ## 2.111.0 - 2023-08-21
 
 ### Features
