@@ -10,6 +10,19 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 2.112.0 - 2023-09-04
+
+### Features
+
+- [PLANET-7241](https://jira.greenpeace.org/browse/PLANET-7241) - Submenu block:  Replace the GP Sans typeface for links with Source Sans 3
+- [PLANET-7035](https://jira.greenpeace.org/browse/PLANET-7035) - Add new Page Types to the Data Layer values
+
+### Bug Fixes
+
+- [PLANET-7246](https://jira.greenpeace.org/browse/PLANET-7246) - Donate submenu covers donate button
+- [PLANET-7191](https://jira.greenpeace.org/browse/PLANET-7191) - Search: Action type or Content type filters toggle the same section
+- [PLANET-6927](https://jira.greenpeace.org/browse/PLANET-6927) - Page header pattern excessive spacing on tablet and mobile devices
+
 ## 2.111.1 - 2023-08-30
 
 ### Features
