@@ -60,3 +60,4 @@
 * [ElasticSearch](tech/elasticsearch.md)
 * [CSS variables](tech/css-variables.md)
 * [NRO Generation](tech/nro-generation.md)
+* [Maintenance page](tech/maintenance-page.md)
