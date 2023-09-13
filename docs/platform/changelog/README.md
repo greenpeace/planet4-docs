@@ -10,6 +10,18 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 2.112.1 - 2023-09-13
+
+### Features
+
+- [PLANET-7072](https://jira.greenpeace.org/browse/PLANET-7072) - Set PageType for High Level & Deep Dive Topic pages
+
+### Bug Fixes
+
+- [PLANET-7252](https://jira.greenpeace.org/browse/PLANET-7252) - Incorrect typeface used for caption in Gallery Carousel block 
+- [PLANET-7247](https://jira.greenpeace.org/browse/PLANET-7247) - Tag listing page not showing all posts
+- [PLANET-7242](https://jira.greenpeace.org/browse/PLANET-7242) - Header title: the text is covered by the background of the following lines
+
 ## 2.112.0 - 2023-09-04
 
 ### Features
