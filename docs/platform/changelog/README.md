@@ -10,6 +10,19 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 2.113.0 - 2023-09-25
+
+### Features
+
+- [PLANET-5727](https://jira.greenpeace.org/browse/PLANET-5727) - Limit the number of Post revisions
+
+### Bug Fixes
+
+- [PLANET-7267](https://jira.greenpeace.org/browse/PLANET-7267) - Text links are not visible in the editor
+- [PLANET-7262](https://jira.greenpeace.org/browse/PLANET-7262) - Refactor ENForm to not have h2 nested in h4
+- [PLANET-7256](https://jira.greenpeace.org/browse/PLANET-7256) - Saved Post Types don't appear in Post editor
+- [PLANET-7243](https://jira.greenpeace.org/browse/PLANET-7243) - The Active state of the secondary button still shows the old dark blue color
+
 ## 2.112.1 - 2023-09-13
 
 ### Features
