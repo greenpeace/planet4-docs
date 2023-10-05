@@ -7,6 +7,7 @@
 * [Contribute](development/contribute.md)
 * [Installation](development/installation.md)
 * [Git Guidelines](development/git-guidelines.md)
+* [Coding Standards](development/coding-standards.md)
 * [Continuous Delivery](development/cd.md)
 
 ## CI/CD
