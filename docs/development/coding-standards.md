@@ -42,6 +42,10 @@ Besides using vanilla CSS, when the complexity increases we rely on [Sass](https
 
 We include a [.stylelintrc](https://github.com/greenpeace/planet4-master-theme/blob/main/.stylelintrc) file to enforce linting and certain syntax rules.
 
+## Security & Analysis
+
+We use [SonarCloud](https://sonarcloud.io/) for automated auditing of new code during our Pull Requests pipelines. We also have enabled vulnerability scanning and automated packages security updates on GitHub.
+
 ## Testing
 
 We use [Playwright](https://playwright.dev/) for “end to end” testing. It’s a Javascript based framework, used also by Wordpress.
