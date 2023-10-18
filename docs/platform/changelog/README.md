@@ -10,6 +10,19 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 2.114.0 - 2023-10-18
+
+### Features
+
+- [PLANET-7268](https://jira.greenpeace.org/browse/PLANET-7268) - Add meta and opengraph html tags on listing pages
+- [PLANET-7227](https://jira.greenpeace.org/browse/PLANET-7227) - Enable new Media Archive implementation
+- [PLANET-7178](https://jira.greenpeace.org/browse/PLANET-7178) - Add footer settings under navigation
+
+### Bug Fixes
+
+- [PLANET-7287](https://jira.greenpeace.org/browse/PLANET-7287) - Social Media block crashes in the editor
+- [PLANET-7281](https://jira.greenpeace.org/browse/PLANET-7281) - Add trailing slash to self assigned canonical URLs
+
 ## 2.113.0 - 2023-09-25
 
 ### Features
