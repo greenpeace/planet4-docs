@@ -10,6 +10,17 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 2.114.1 - 2023-10-24
+
+### Features
+
+- [PLANET-7250](https://jira.greenpeace.org/browse/PLANET-7250) - Add Actions List to Post Report
+- [PLANET-7240](https://jira.greenpeace.org/browse/PLANET-7240) - Replace GP Sans with Source Sans 3 on Listing pages
+
+### Bug Fixes
+
+- [PLANET-7299](https://jira.greenpeace.org/browse/PLANET-7299) - Reduce image size imported from Media Archive
+
 ## 2.114.0 - 2023-10-18
 
 ### Features
