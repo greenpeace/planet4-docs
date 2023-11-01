@@ -10,6 +10,13 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 2.115.0 - 2023-11-01
+
+### Bug Fixes
+
+- [PLANET-7315](https://jira.greenpeace.org/browse/PLANET-7315) - Hubspot API breaking change: lifecycle stage in forms
+- [PLANET-7313](https://jira.greenpeace.org/browse/PLANET-7313) - Fix PageHeader cut off texts
+
 ## 2.114.1 - 2023-10-24
 
 ### Features
