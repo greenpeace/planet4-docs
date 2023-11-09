@@ -14,70 +14,71 @@ Items with a 🔑 icon are not enabled by default, but instead they are released
 
 ### Bug Fixes
 
-- [PLANET-7315](https://jira.greenpeace.org/browse/PLANET-7315) - Hubspot API breaking change: lifecycle stage in forms
-- [PLANET-7313](https://jira.greenpeace.org/browse/PLANET-7313) - Fix PageHeader cut off texts
+* [PLANET-7315](https://jira.greenpeace.org/browse/PLANET-7315) - Hubspot API breaking change: lifecycle stage in forms
+* [PLANET-7313](https://jira.greenpeace.org/browse/PLANET-7313) - Fix PageHeader cut off texts
 
 ## 2.114.1 - 2023-10-24
 
 ### Features
 
-- [PLANET-7250](https://jira.greenpeace.org/browse/PLANET-7250) - Add Actions List to Post Report
-- [PLANET-7240](https://jira.greenpeace.org/browse/PLANET-7240) - Replace GP Sans with Source Sans 3 on Listing pages
+* [PLANET-7250](https://jira.greenpeace.org/browse/PLANET-7250) - Add Actions List to Post Report
+* [PLANET-7240](https://jira.greenpeace.org/browse/PLANET-7240) - Replace GP Sans with Source Sans 3 on Listing pages
+* [PLANET-7239](https://jira.greenpeace.org/browse/PLANET-7239) -  Unify Tag listing pages UI and refactor template code
 
 ### Bug Fixes
 
-- [PLANET-7299](https://jira.greenpeace.org/browse/PLANET-7299) - Reduce image size imported from Media Archive
+* [PLANET-7299](https://jira.greenpeace.org/browse/PLANET-7299) - Reduce image size imported from Media Archive
 
 ## 2.114.0 - 2023-10-18
 
 ### Features
 
-- [PLANET-7268](https://jira.greenpeace.org/browse/PLANET-7268) - Add meta and opengraph html tags on listing pages
-- [PLANET-7227](https://jira.greenpeace.org/browse/PLANET-7227) - Enable new Media Archive implementation
-- [PLANET-7178](https://jira.greenpeace.org/browse/PLANET-7178) - Add footer settings under navigation
+* [PLANET-7268](https://jira.greenpeace.org/browse/PLANET-7268) - Add meta and opengraph html tags on listing pages
+* [PLANET-7227](https://jira.greenpeace.org/browse/PLANET-7227) - Enable new Media Archive implementation
+* [PLANET-7178](https://jira.greenpeace.org/browse/PLANET-7178) - Add footer settings under navigation
 
 ### Bug Fixes
 
-- [PLANET-7287](https://jira.greenpeace.org/browse/PLANET-7287) - Social Media block crashes in the editor
-- [PLANET-7281](https://jira.greenpeace.org/browse/PLANET-7281) - Add trailing slash to self assigned canonical URLs
+* [PLANET-7287](https://jira.greenpeace.org/browse/PLANET-7287) - Social Media block crashes in the editor
+* [PLANET-7281](https://jira.greenpeace.org/browse/PLANET-7281) - Add trailing slash to self assigned canonical URLs
 
 ## 2.113.0 - 2023-09-25
 
 ### Features
 
-- [PLANET-5727](https://jira.greenpeace.org/browse/PLANET-5727) - Limit the number of Post revisions
+* [PLANET-5727](https://jira.greenpeace.org/browse/PLANET-5727) - Limit the number of Post revisions
 
 ### Bug Fixes
 
-- [PLANET-7267](https://jira.greenpeace.org/browse/PLANET-7267) - Text links are not visible in the editor
-- [PLANET-7262](https://jira.greenpeace.org/browse/PLANET-7262) - Refactor ENForm to not have h2 nested in h4
-- [PLANET-7256](https://jira.greenpeace.org/browse/PLANET-7256) - Saved Post Types don't appear in Post editor
-- [PLANET-7243](https://jira.greenpeace.org/browse/PLANET-7243) - The Active state of the secondary button still shows the old dark blue color
+* [PLANET-7267](https://jira.greenpeace.org/browse/PLANET-7267) - Text links are not visible in the editor
+* [PLANET-7262](https://jira.greenpeace.org/browse/PLANET-7262) - Refactor ENForm to not have h2 nested in h4
+* [PLANET-7256](https://jira.greenpeace.org/browse/PLANET-7256) - Saved Post Types don't appear in Post editor
+* [PLANET-7243](https://jira.greenpeace.org/browse/PLANET-7243) - The Active state of the secondary button still shows the old dark blue color
 
 ## 2.112.1 - 2023-09-13
 
 ### Features
 
-- [PLANET-7072](https://jira.greenpeace.org/browse/PLANET-7072) - Set PageType for High Level & Deep Dive Topic pages
+* [PLANET-7072](https://jira.greenpeace.org/browse/PLANET-7072) - Set PageType for High Level & Deep Dive Topic pages
 
 ### Bug Fixes
 
-- [PLANET-7252](https://jira.greenpeace.org/browse/PLANET-7252) - Incorrect typeface used for caption in Gallery Carousel block 
-- [PLANET-7247](https://jira.greenpeace.org/browse/PLANET-7247) - Tag listing page not showing all posts
-- [PLANET-7242](https://jira.greenpeace.org/browse/PLANET-7242) - Header title: the text is covered by the background of the following lines
+* [PLANET-7252](https://jira.greenpeace.org/browse/PLANET-7252) - Incorrect typeface used for caption in Gallery Carousel block
+* [PLANET-7247](https://jira.greenpeace.org/browse/PLANET-7247) - Tag listing page not showing all posts
+* [PLANET-7242](https://jira.greenpeace.org/browse/PLANET-7242) - Header title: the text is covered by the background of the following lines
 
 ## 2.112.0 - 2023-09-04
 
 ### Features
 
-- [PLANET-7241](https://jira.greenpeace.org/browse/PLANET-7241) - Submenu block:  Replace the GP Sans typeface for links with Source Sans 3
-- [PLANET-7035](https://jira.greenpeace.org/browse/PLANET-7035) - Add new Page Types to the Data Layer values
+* [PLANET-7241](https://jira.greenpeace.org/browse/PLANET-7241) - Submenu block: Replace the GP Sans typeface for links with Source Sans 3
+* [PLANET-7035](https://jira.greenpeace.org/browse/PLANET-7035) - Add new Page Types to the Data Layer values
 
 ### Bug Fixes
 
-- [PLANET-7246](https://jira.greenpeace.org/browse/PLANET-7246) - Donate submenu covers donate button
-- [PLANET-7191](https://jira.greenpeace.org/browse/PLANET-7191) - Search: Action type or Content type filters toggle the same section
-- [PLANET-6927](https://jira.greenpeace.org/browse/PLANET-6927) - Page header pattern excessive spacing on tablet and mobile devices
+* [PLANET-7246](https://jira.greenpeace.org/browse/PLANET-7246) - Donate submenu covers donate button
+* [PLANET-7191](https://jira.greenpeace.org/browse/PLANET-7191) - Search: Action type or Content type filters toggle the same section
+* [PLANET-6927](https://jira.greenpeace.org/browse/PLANET-6927) - Page header pattern excessive spacing on tablet and mobile devices
 
 ## 2.111.1 - 2023-08-30
 
