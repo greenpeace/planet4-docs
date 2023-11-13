@@ -10,6 +10,17 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 2.116.0 - 2023-11-13
+
+### Features
+
+- [PLANET-7291](https://jira.greenpeace.org/browse/PLANET-7291) - Replace Twitter icon with X
+- [PLANET-7285](https://jira.greenpeace.org/browse/PLANET-7285) - Align listing pages grid view with design system 🔑
+
+### Bug Fixes
+
+- [PLANET-7309](https://jira.greenpeace.org/browse/PLANET-7309) - Related Articles block missing from Posts
+
 ## 2.115.0 - 2023-11-01
 
 ### Bug Fixes
