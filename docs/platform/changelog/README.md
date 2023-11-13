@@ -14,12 +14,13 @@ Items with a 🔑 icon are not enabled by default, but instead they are released
 
 ### Features
 
-- [PLANET-7291](https://jira.greenpeace.org/browse/PLANET-7291) - Replace Twitter icon with X
-- [PLANET-7285](https://jira.greenpeace.org/browse/PLANET-7285) - Align listing pages grid view with design system 🔑
+* [PLANET-7291](https://jira.greenpeace.org/browse/PLANET-7291) - Replace Twitter icon with X
+* [PLANET-7285](https://jira.greenpeace.org/browse/PLANET-7285) - Align listing pages grid view with design system 🔑
 
 ### Bug Fixes
 
-- [PLANET-7309](https://jira.greenpeace.org/browse/PLANET-7309) - Related Articles block missing from Posts
+* [PLANET-7309](https://jira.greenpeace.org/browse/PLANET-7309) - Related Articles block missing from Posts
+* [PLANET-7310](https://jira.greenpeace.org/browse/PLANET-7310) - Update the secondary buttons on the P4 Columns block, Tasks style on mobile devices
 
 ## 2.115.0 - 2023-11-01
 
@@ -34,7 +35,7 @@ Items with a 🔑 icon are not enabled by default, but instead they are released
 
 * [PLANET-7250](https://jira.greenpeace.org/browse/PLANET-7250) - Add Actions List to Post Report
 * [PLANET-7240](https://jira.greenpeace.org/browse/PLANET-7240) - Replace GP Sans with Source Sans 3 on Listing pages
-* [PLANET-7239](https://jira.greenpeace.org/browse/PLANET-7239) -  Unify Tag listing pages UI and refactor template code
+* [PLANET-7239](https://jira.greenpeace.org/browse/PLANET-7239) - Unify Tag listing pages UI and refactor template code
 
 ### Bug Fixes
 
