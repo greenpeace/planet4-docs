@@ -10,6 +10,19 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 2.116.1 - 2023-11-21
+
+### Features
+
+- [PLANET-7308](https://jira.greenpeace.org/browse/PLANET-7308) - Automatically create a News & Stories page
+- [PLANET-7275](https://jira.greenpeace.org/browse/PLANET-7275) - Update login button color to reflect new visual identity
+
+### Bug Fixes
+
+- [PLANET-7331](https://jira.greenpeace.org/browse/PLANET-7331) - Blocks report API times out
+- [PLANET-7330](https://jira.greenpeace.org/browse/PLANET-7330) - Sorting manually the Actions does not work in Covers block
+- [PLANET-7326](https://jira.greenpeace.org/browse/PLANET-7326) - Carousel Header in a reusable block does not load Hammer
+
 ## 2.116.0 - 2023-11-13
 
 ### Features
