@@ -10,6 +10,27 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 2.117.0 - 2023-12-04
+
+### Features
+
+- [PLANET-7340](https://jira.greenpeace.org/browse/PLANET-7340) - Make Post title mandatory for publishing
+- [PLANET-7196](https://jira.greenpeace.org/browse/PLANET-7196) - Upgrade WPML to 4.6.6
+- [PLANET-7192](https://jira.greenpeace.org/browse/PLANET-7192) - Upgrade ElasticPress to 4.7.x
+
+### Bug Fixes
+
+- [PLANET-7349](https://jira.greenpeace.org/browse/PLANET-7349) - Category tag wrong order and the arrow points backwards in RTL sites
+- [PLANET-7334](https://jira.greenpeace.org/browse/PLANET-7334) - Hubspot form button can be hidden behind footer in Happy Point 
+- [PLANET-7333](https://jira.greenpeace.org/browse/PLANET-7333) - Profile picture URL is trimmed too much
+- [PLANET-7329](https://jira.greenpeace.org/browse/PLANET-7329) - Take action boxout looks weird on smaller viewport
+- [PLANET-7320](https://jira.greenpeace.org/browse/PLANET-7320) - Migrate old background and text colors
+- [PLANET-7297](https://jira.greenpeace.org/browse/PLANET-7297) - Opening 2 slides at the same time in the editor makes CarouselHeader go wild
+
+### Infrastructure
+
+- [PLANET-7288](https://jira.greenpeace.org/browse/PLANET-7288) - Upgrade sqlproxy to a maintainable version
+
 ## 2.116.1 - 2023-11-21
 
 ### Features
