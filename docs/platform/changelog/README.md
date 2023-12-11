@@ -10,6 +10,25 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 2.118.0 - 2023-12-11
+
+### Features
+
+- [PLANET-7277](https://jira.greenpeace.org/browse/PLANET-7277) - Listing pages: add a featured Action section
+- [PLANET-7273](https://jira.greenpeace.org/browse/PLANET-7273) - Listing pages: Add toggle buttons to show the list or the grid view
+- [PLANET-7237](https://jira.greenpeace.org/browse/PLANET-7237) - Apply the design tokens and new font properties on certain blocks
+
+### Bug Fixes
+
+- [PLANET-7363](https://jira.greenpeace.org/browse/PLANET-7363) - Media Library search no longer works
+
+### Infrastructure
+
+- [PLANET-7364](https://jira.greenpeace.org/browse/PLANET-7364) - Upgrade all P4 clusters and node-pools to v1.25
+- [PLANET-7358](https://jira.greenpeace.org/browse/PLANET-7358) - Update blackbox-exporter
+- [PLANET-7356](https://jira.greenpeace.org/browse/PLANET-7356) - Clean up old apm+kibana services
+- [PLANET-7289](https://jira.greenpeace.org/browse/PLANET-7289) - Upgrade the elastic stack to a maintainable version
+
 ## 2.117.0 - 2023-12-04
 
 ### Features
