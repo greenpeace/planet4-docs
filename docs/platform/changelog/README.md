@@ -10,6 +10,20 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 2.120.0 - 2024-01-08
+
+### Features
+
+- [PLANET-7276](https://jira.greenpeace.org/browse/PLANET-7276) - Listing pages: add a back link to News & Stories page
+
+### Bug Fixes
+
+- [PLANET-7376](https://jira.greenpeace.org/browse/PLANET-7376) - Readabillity issue with 404 pages
+- [PLANET-7352](https://jira.greenpeace.org/browse/PLANET-7352) - New forms are created with empty notification entries
+- [PLANET-7314](https://jira.greenpeace.org/browse/PLANET-7314) - PageHeader looks off in screens < 360px
+- [PLANET-7286](https://jira.greenpeace.org/browse/PLANET-7286) - Media & text block with parallax effect breaks the design
+- [PLANET-6795](https://jira.greenpeace.org/browse/PLANET-6795) - Content not sticking to top above first block
+
 ## 2.118.0 - 2023-12-11
 
 ### Features
