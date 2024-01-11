@@ -10,6 +10,12 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 2.120.1 - 2024-01-11
+
+### Features
+
+- [PLANET-7350](https://jira.greenpeace.org/browse/PLANET-7350) - Upgrade PHP to 8.1
+
 ## 2.120.0 - 2024-01-08
 
 ### Features
