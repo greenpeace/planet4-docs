@@ -153,7 +153,14 @@ git clone https://github.com/greenpeace/planet4-develop/
 * Set node version:
 
 ```bash
+# nvm will automatically select the right version based on the `.nvmrc` file
 nvm use
+```
+
+* Install npm packages:
+
+```bash
+npm install
 ```
 
 * Check the requirements:
@@ -162,11 +169,7 @@ nvm use
 npm run env:requirements
 ```
 
-* Install npm packages:
 
-```bash
-npm install
-```
 
 ### Installation
 
@@ -178,8 +181,11 @@ npm run env:install
 
 For NRO developers, use instead:
 
-```
-npm run nro:install <your nro name>
+```bash
+# NRO name is the name used for your deployment repo (repo -> name to use):
+# planet4-international -> international
+# planet4-australiapacific -> australiapacific
+npm run nro:install <nro name>
 ```
 
 ### Clean up
