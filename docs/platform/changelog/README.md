@@ -10,6 +10,16 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 2.120.2 - 2024-01-16
+
+### Features
+
+- [PLANET-7238](https://jira.greenpeace.org/browse/PLANET-7238) - Upgrade to Wordpress 6.4
+
+### Bug Fixes
+
+- [PLANET-6924](https://jira.greenpeace.org/browse/PLANET-6924) - Console error when trying to select tag or post type using the enter key
+
 ## 2.120.1 - 2024-01-11
 
 ### Features
