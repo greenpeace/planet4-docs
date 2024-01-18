@@ -11,7 +11,7 @@ We are using [`wp-env`](https://github.com/WordPress/gutenberg/blob/trunk/packag
 * [docker](https://docs.docker.com/get-docker/) and [docker-compose](https://docs.docker.com/compose/reference/)
 * [node/npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) and [nvm](https://github.com/nvm-sh/nvm)
 * curl
-* _optional:_ [_gsutil_](https://cloud.google.com/storage/docs/gsutil\_install)
+* _optional:_ [_gcloud_](https://cloud.google.com/sdk/gcloud)
 
 #### Platform specific steps
 
