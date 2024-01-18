@@ -67,7 +67,7 @@ Assuming we want to display more metadata to the pages content, we would have to
 
 ## Live Examples
 
-Since we already have some production running websites that use their own customized child-theme we can use them as a guide for more advanced and specific tweaks. Besides screenshots and live examples provided here, you can also check the code on the relevant child theme of the NRO.
+Below are examples of customizations made by various offices which use Planet 4. For more advanced topics or specific tweaks, you can refer to the customized child-theme code from any of office running Planet 4 (which you can find in Github via [this search](https://github.com/search?q=org%3Agreenpeace+planet4-child-theme&type=repositories)). 
 
 ### Change default font
 
