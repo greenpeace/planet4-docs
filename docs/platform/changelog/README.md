@@ -10,6 +10,13 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 2.121.0 - 2024-01-18
+
+### Bug Fixes
+
+- [PLANET-7408](https://jira.greenpeace.org/browse/PLANET-7408) - Carousel Header: no focus point and no button link options
+- [PLANET-7394](https://jira.greenpeace.org/browse/PLANET-7394) - Missing Icon in carousel header block
+
 ## 2.120.2 - 2024-01-16
 
 ### Features
