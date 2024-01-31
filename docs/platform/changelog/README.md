@@ -10,6 +10,14 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 2.121.1 - 2024-01-31
+
+### Features
+
+- [PLANET-7388](https://jira.greenpeace.org/browse/PLANET-7388) - Upgrade affected plugins and dependencies following php8 upgrade
+- [PLANET-7343](https://jira.greenpeace.org/browse/PLANET-7343) - Unify Post breadcrumbs structure
+- [PLANET-7324](https://jira.greenpeace.org/browse/PLANET-7324) - Unify listing pages UI and refactor template code
+
 ## 2.121.0 - 2024-01-18
 
 ### Bug Fixes
