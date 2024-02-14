@@ -10,6 +10,18 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 2.122.0 - 2024-02-14
+
+### Features
+
+- [PLANET-7411](https://jira.greenpeace.org/browse/PLANET-7411) - Change name of Media Archive to Greenpeace Media
+
+### Bug Fixes
+
+- [PLANET-7425](https://jira.greenpeace.org/browse/PLANET-7425) - Fix "ignore_categories" behaviour for the Articles block
+- [PLANET-7405](https://jira.greenpeace.org/browse/PLANET-7405) - Gravity Forms: Hubspot feeds stay connected on duplicated form
+- [PLANET-7404](https://jira.greenpeace.org/browse/PLANET-7404) - Post Type rss feed is 404 on Nordic websites
+
 ## 2.121.1 - 2024-01-31
 
 ### Features
