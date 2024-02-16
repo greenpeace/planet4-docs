@@ -60,6 +60,7 @@
 * [Blocks](tech/blocks.md)
 * [Plugins](tech/plugins.md)
 * [ElasticSearch](tech/elasticsearch.md)
+* [Data migrations](tech/data-migrations.md)
 * [CSS variables](tech/css-variables.md)
 * [NRO Generation](tech/nro-generation.md)
 * [Maintenance page](tech/maintenance-page.md)

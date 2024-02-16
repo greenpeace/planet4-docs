@@ -47,6 +47,7 @@ So for instance, If we want to adjust the default page template we have to copy 
   </div>
 {% endblock %}
 {% endraw %}
+
 ```
 
 Assuming we want to display more metadata to the pages content, we would have to use the same code and do any additions (or deletions) we want.
@@ -63,11 +64,12 @@ Assuming we want to display more metadata to the pages content, we would have to
   </div>
 {% endblock %}
 {% endraw %}
+
 ```
 
 ## Live Examples
 
-Below are examples of customizations made by various offices which use Planet 4. For more advanced topics or specific tweaks, you can refer to the customized child-theme code from any of office running Planet 4 (which you can find in Github via [this search](https://github.com/search?q=org%3Agreenpeace+planet4-child-theme&type=repositories)). 
+Below are examples of customizations made by various offices which use Planet 4. For more advanced topics or specific tweaks, you can refer to the customized child-theme code from any of office running Planet 4 (which you can find in Github via [this search](https://github.com/search?q=org%3Agreenpeace+planet4-child-theme\&type=repositories)).
 
 ### Change default font
 
@@ -133,6 +135,7 @@ To move the selector you need to:
 {% raw %}
 {% include 'countries.twig' %}
 {% endraw %}
+
 ```
 
 * copy the footer template from the [main theme](https://github.com/greenpeace/planet4-master-theme/blob/master/templates/footer.twig).
@@ -150,7 +153,8 @@ To move the selector you need to:
         <span class="screen-reader-text">{{ __( 'Selected', 'planet4-master-theme' ) }}:</span> {{ website_navbar_title }}
         <span class="screen-reader-text">{{ __( 'Change Country', 'planet4-master-theme' ) }}</span>
     </button>
-    {% raw %}
+    
+{% raw %}
 {% include 'countries.twig' %}
 {% endraw %}
 </ul>
@@ -277,7 +281,7 @@ If you want to reproduce this form you can simply grab the code here:
 * The [frontend code](https://github.com/greenpeace/planet4-child-theme-luxembourg/blob/master/templates/contact.twig).
 * and the [js code](https://github.com/greenpeace/planet4-child-theme-luxembourg/blob/master/src/gplu.js) which handles all forms actions, field filtering and event triggered.
 * on server side, the [code](https://github.com/greenpeace/planet4-child-theme-luxembourg/blob/master/functions.php) is in the function.php file the `gpf_form_submit` function.
-* and optionally the [css](https://github.com/greenpeace/planet4-child-theme-luxembourg/blob/master/src/contact.scss). (please note scss is compiled with [a webpack script](https://github.com/greenpeace/planet4-child-theme-luxembourg/blob/master/webpack.config.js)  to minified scripts and scss in the /dist folder)
+* and optionally the [css](https://github.com/greenpeace/planet4-child-theme-luxembourg/blob/master/src/contact.scss). (please note scss is compiled with [a webpack script](https://github.com/greenpeace/planet4-child-theme-luxembourg/blob/master/webpack.config.js) to minified scripts and scss in the /dist folder)
 
 ### Adding scripts
 

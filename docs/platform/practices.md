@@ -54,7 +54,7 @@ This is for Sprint related discussions. That includes Daily Standup updates (we 
 
 ## Documentation&#x20;
 
-All of Planet 4 technical documentation lives on [Gitbook](http://127.0.0.1:5000/o/-LMm4Q4AuKcwl38JYrxF/s/-M15KrJzoMvhbv4NcO9o/), divided in categories that make it easier for certain user groups (NROs, Volunteers, etc) to follow through.&#x20;
+All of Planet 4 technical documentation lives on [Gitbook](https://app.gitbook.com/o/-LMm4Q4AuKcwl38JYrxF/s/-M15KrJzoMvhbv4NcO9o/), divided in categories that make it easier for certain user groups (NROs, Volunteers, etc) to follow through.&#x20;
 
 ## Events&#x20;
 
