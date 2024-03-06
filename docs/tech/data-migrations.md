@@ -14,6 +14,22 @@ The [migrations](https://github.com/greenpeace/planet4-master-theme/tree/v1.281.
 
 Since migrations run only once it can be challenging to test a new one. As you gradually doing changes on your branch you want to be able to run them every time on a fresh database. To do that you need to rollback on a database state before you run the migration.
 
+#### Local development environment
+
+Testing a data migration locally is the ideal workflow since it's faster to iterate and fix any code issues. To apply a new data migration, assuming the environment is already running, we need to run the [Activator](https://github.com/greenpeace/planet4-master-theme/blob/v1.282.0/src/Commands/RunActivator.php).
+
+```bash
+npx wp-env run cli wp p4-run-activator
+```
+
+After doing some additional code changes to that data migration, we can apply it again. But first we need to reset the environment database back to the [latest defaultcontent database](https://github.com/greenpeace/planet4-develop/blob/v0.11.0/.p4-env.json#L4). Keep in mind, that this will also discard any content changes we may have done since the last database import.
+
+```bash
+npm run db:reset
+```
+
+Then we can use the previous command to apply the data migration again.
+
 #### Pull requests & test instances
 
 When we open a new PR that introduces a new data migration, a test instance is assigned and the branch code will be deployed running the first iteration of the data migration.
