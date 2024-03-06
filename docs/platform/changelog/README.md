@@ -10,6 +10,13 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 2.124.0 - 2024-03-06
+
+### Features
+
+- [PLANET-7428](https://jira.greenpeace.org/browse/PLANET-7428) - Add survey to WP Dashboard - Message Board
+- [PLANET-7409](https://jira.greenpeace.org/browse/PLANET-7409) - Implement new parameters on Google Consent Mode script
+
 ## 2.122.0 - 2024-02-14
 
 ### Features
