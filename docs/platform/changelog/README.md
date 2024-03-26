@@ -10,6 +10,20 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 2.125.0 - 2024-03-26
+
+### Features
+
+- [PLANET-7426](https://jira.greenpeace.org/browse/PLANET-7426) - Create Reading_Time dataLayer Variable for Posts
+- [PLANET-7413](https://jira.greenpeace.org/browse/PLANET-7413) - Redirect Import button to Media Archive
+- [PLANET-7348](https://jira.greenpeace.org/browse/PLANET-7348) - Migrate Page Header options to Page Header block pattern
+
+### Bug Fixes
+
+- [PLANET-7447](https://jira.greenpeace.org/browse/PLANET-7447) - Unescape HTML entities in Carousel header title
+- [PLANET-7444](https://jira.greenpeace.org/browse/PLANET-7444) - Left/Right aligned images don't work on non-posts
+- [PLANET-7443](https://jira.greenpeace.org/browse/PLANET-7443) - ElasticPress exclude from search button not working as expected
+
 ## 2.124.0 - 2024-03-06
 
 ### Features
