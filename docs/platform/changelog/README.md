@@ -10,6 +10,17 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 2.126.0 - 2024-04-01
+
+### Features
+
+- [PLANET-7478](https://jira.greenpeace.org/browse/PLANET-7478) - Remove skewed-overlay styles
+
+### Bug Fixes
+
+- [PLANET-7431](https://jira.greenpeace.org/browse/PLANET-7431) - Author profile page returning all posts by Editor
+- [PLANET-7430](https://jira.greenpeace.org/browse/PLANET-7430) - Elastic Search not returning correct results
+
 ## 2.125.0 - 2024-03-26
 
 ### Features
