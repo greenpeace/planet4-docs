@@ -4,7 +4,7 @@ description: How to add extra visual regression tests for your website
 
 # Visual Regression Tests
 
-Planet 4 is setup to run [automated visual regression](https://github.com/greenpeace/planet4-docs/tree/f47a83652efd39701815e84b4a20837d990689a7/docs/nro-customization/ci-cd/testing/visual-regression-tests.md) tests on each deployment pipeline.
+Planet 4 is setup to run [automated visual regression](https://support.greenpeace.org/planet4/ci-cd/testing/visual-regression-tests) tests on each deployment pipeline.
 
 But you can also add extra scenarios to test other parts of your website. To do so add a file called `backstop-pages.json` with a scenarios array. There is probably already one.
 
