@@ -10,6 +10,17 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 2.127.0 - 2024-04-17
+
+### Features
+
+- [PLANET-7344](https://jira.greenpeace.org/browse/PLANET-7344) - Make Post featured image mandatory for publishing
+
+### Bug Fixes
+
+- [PLANET-7486](https://jira.greenpeace.org/browse/PLANET-7486) - Page Header pattern looks off in RTL sites
+- [PLANET-7175](https://jira.greenpeace.org/browse/PLANET-7175) - The timeline block breaks the editor
+
 ## 2.126.0 - 2024-04-01
 
 ### Features
