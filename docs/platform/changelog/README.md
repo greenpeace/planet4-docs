@@ -10,6 +10,20 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 2.128.0 - 2024-05-08
+
+### Features
+
+- [PLANET-7507](https://jira.greenpeace.org/browse/PLANET-7507) - Add a setting to load Tag Manager scripts from a custom domain
+- [PLANET-7490](https://jira.greenpeace.org/browse/PLANET-7490) - Change search limit from 6 to 8 on Greenpeace Media
+- [PLANET-7453](https://jira.greenpeace.org/browse/PLANET-7453) - Implement new dataLayer variable for email in Gravity Forms (form_submission event)
+- [PLANET-7410](https://jira.greenpeace.org/browse/PLANET-7410) - Update the default and update consent mode scripts
+
+### Bug Fixes
+
+- [PLANET-7495](https://jira.greenpeace.org/browse/PLANET-7495) - Highlight markup adds extra spacing on text
+- [PLANET-7199](https://jira.greenpeace.org/browse/PLANET-7199) - Update caption/credit under images to be inline to match gallery block
+
 ## 2.127.0 - 2024-04-17
 
 ### Features
