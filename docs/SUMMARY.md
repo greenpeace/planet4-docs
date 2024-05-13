@@ -63,6 +63,7 @@
 * [Wordpress](tech/wordpress.md)
 * [Blocks](tech/blocks.md)
 * [Plugins](tech/plugins.md)
+* [Hooks](tech/hooks.md)
 * [ElasticSearch](tech/elasticsearch.md)
 * [Data migrations](tech/data-migrations.md)
 * [CSS variables](tech/css-variables.md)
