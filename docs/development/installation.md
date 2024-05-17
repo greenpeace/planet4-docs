@@ -223,6 +223,9 @@ npm run
 - shell:mysql                       Access MySQL console (current database)
 - elastic:activate                  Activate ElasticSearch container and plugin
 - elastic:deactivate                Deactivate ElasticSearch container and plugin
+- xdebug:install                    Install Xdebug in WordPress container
+- xdebug:configure                  Rewrite Xdebug configuration and reload server
+- xdebug:flamegraph <trace>         Generate a flamegraph from a Xdebug trace file
 ```
 
 ### Workflow
