@@ -10,6 +10,18 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 2.129.0 - 2024-05-22
+
+### Features
+
+- [PLANET-7494](https://jira.greenpeace.org/browse/PLANET-7494) - Upgrade to Wordpress 6.5
+- [PLANET-7366](https://jira.greenpeace.org/browse/PLANET-7366) - Add a filter for overriding Sendgrid from address
+
+### Bug Fixes
+
+- [PLANET-7503](https://jira.greenpeace.org/browse/PLANET-7503) - Submenu block show's its title in lists of submenus/headers
+- [PLANET-7488](https://jira.greenpeace.org/browse/PLANET-7488) - Search results don't follow custom search results configuration
+
 ## 2.128.0 - 2024-05-08
 
 ### Features
