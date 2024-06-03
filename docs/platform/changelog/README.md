@@ -10,6 +10,19 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 2.130.0 - 2024-06-03
+
+### Features
+
+- [PLANET-7532](https://jira.greenpeace.org/browse/PLANET-7532) - Retire unused feature flags
+- [PLANET-7509](https://jira.greenpeace.org/browse/PLANET-7509) - Enable Sendgrid integration on all websites
+- [PLANET-7505](https://jira.greenpeace.org/browse/PLANET-7505) - Adjust width of the search bar/keyword buttons on the Greenpeace Media backend 
+
+### Bug Fixes
+
+- [PLANET-7533](https://jira.greenpeace.org/browse/PLANET-7533) - Comment edit page in admin throughs error
+- [PLANET-7461](https://jira.greenpeace.org/browse/PLANET-7461) - Remove caption Image block setting crashes in the editor
+
 ## 2.129.0 - 2024-05-22
 
 ### Features
