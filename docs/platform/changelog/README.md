@@ -10,6 +10,24 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 2.131.0 - 2024-06-13
+
+### Features
+
+- [PLANET-7538](https://jira.greenpeace.org/browse/PLANET-7538) - Add hook to modify the formSubmission event parameters
+- [PLANET-7536](https://jira.greenpeace.org/browse/PLANET-7536) - Add share text to WhatsApp share button
+- [PLANET-7381](https://jira.greenpeace.org/browse/PLANET-7381) - Hide Page title by default when a pattern layout is being used
+- [PLANET-7380](https://jira.greenpeace.org/browse/PLANET-7380) - Drop Campaigns theme customizer
+- [PLANET-7263](https://jira.greenpeace.org/browse/PLANET-7263) - Greenpeace Media: add in editor option for P4 blocks
+
+### Bug Fixes
+
+- [PLANET-7535](https://jira.greenpeace.org/browse/PLANET-7535) - Credit is removed when caption is edited
+
+### Infrastructure
+
+- [PLANET-7470](https://jira.greenpeace.org/browse/PLANET-7470) - Migrate wordpress HPA autoscaling/v1 to autoscaling/v2
+
 ## 2.130.0 - 2024-06-03
 
 ### Features
