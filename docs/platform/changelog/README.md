@@ -10,6 +10,17 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 2.132.0 - 2024-06-26
+
+### Features
+
+- [PLANET-7524](https://jira.greenpeace.org/browse/PLANET-7524) - Add noindex meta tag on pages that are excluded from search
+- [PLANET-7212](https://jira.greenpeace.org/browse/PLANET-7212) - Test and install WPML ElasticPress add-on
+
+### Bug Fixes
+
+- [PLANET-7537](https://jira.greenpeace.org/browse/PLANET-7537) - Australia-Pacific NRO site Cloudflare cache not being cleared, causing site-wide changes to not be reflected
+
 ## 2.131.0 - 2024-06-13
 
 ### Features
