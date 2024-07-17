@@ -10,6 +10,15 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 2.133.0 - 2024-07-17
+
+### Features
+
+- [PLANET-7547](https://jira.greenpeace.org/browse/PLANET-7547) - Generate an email hash on formSubmission events and set it in dataLayer/Cookie
+- [PLANET-7531](https://jira.greenpeace.org/browse/PLANET-7531) - Posts/Actions blocks: Show message when no posts found
+- [PLANET-7513](https://jira.greenpeace.org/browse/PLANET-7513) - Remove the style section from the Carousel Header backend experience
+- [PLANET-7497](https://jira.greenpeace.org/browse/PLANET-7497) - Backend Text Changes on Counter Block
+
 ## 2.132.0 - 2024-06-26
 
 ### Features
