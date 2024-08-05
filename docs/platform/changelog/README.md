@@ -10,6 +10,15 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 2.135.0 - 2024-08-05
+
+### Features
+
+- [PLANET-7543](https://jira.greenpeace.org/browse/PLANET-7543) - Add native loading circle to the Greenpeace Media when searching for images
+- [PLANET-7515](https://jira.greenpeace.org/browse/PLANET-7515) - Accordion block design fixes on mobile
+- [PLANET-7500](https://jira.greenpeace.org/browse/PLANET-7500) - Backend Text Changes on Happy Point
+- [PLANET-7496](https://jira.greenpeace.org/browse/PLANET-7496) - Backend Text Changes on Submenu Block
+
 ## 2.133.0 - 2024-07-17
 
 ### Features
