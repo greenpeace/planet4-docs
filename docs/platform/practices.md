@@ -65,15 +65,15 @@ Twice per week we do Daily Standups on a short 15’ Zoom call, following the st
 Daily Standup Rituals:
 
 1. We start our updates by first sharing a quick update on how we are, how we spent our weekend, etc.&#x20;
-2. If it’s possible we participate in this meeting by standing up, like we would do if we were doing our Daily Standups in the same physical room.&#x20;
-
-### Backlog Grooming
-
-Before the next sprint begins, the Tech Lead, Design Lead, and Product Manager meet to discuss and prioritise tickets in the Backlog. This ensures that we are all on the same page about the urgency of different tickets - what needs to happen in the next sprint vs what can come later.&#x20;
+2. Optiona people can participate by standing up, like we would do if we were doing our Daily Standups in the same physical room.&#x20;
 
 ### Backlog Refinement
 
-Once per sprint, and closely to the next sprint planning. This is the main event where ticket estimation (see above) takes place. The agenda of this meeting is determined by the “Triaged” section of the Refinement board. To add a ticket there we just add the “triaged” label, to determine which ones are prioritized and need further discussion and refinement by the team. We try to keep the lead time between a ticket being refined and being added to a sprint as fast as possible. In some sprint cycles we may skip this meeting if the Scrum backlog already has a sufficient amount of tickets for the next sprint. This is just one of our ways for refining a ticket. We generally encourage ongoing refinement throughout the lifecycle of a ticket, either because we may need some design input or certain technical implications get more clear during the initial development phase.&#x20;
+Before the next sprint begins, the Product Manager, Tech Lead, Design Lead, and Community Manager meet to discuss and prioritise tickets in the Backlog. This ensures that we are all on the same page about the urgency of different tickets - what needs to happen in the next sprint vs what can come later.&#x20;
+
+### Backlog Refinement
+
+Once per sprint (or when needed), and closely to the next sprint planning. This is the main event where ticket estimation (see above) takes place. The agenda of this meeting is determined by the “Triaged” section of the Refinement board. To add a ticket there we just add the “triaged” label, to determine which ones are prioritized and need further discussion and refinement by the team. We try to keep the lead time between a ticket being refined and being added to a sprint as fast as possible. In some sprint cycles we may skip this meeting if the Scrum backlog already has a sufficient amount of tickets for the next sprint. This is just one of our ways for refining a ticket. We generally encourage ongoing refinement throughout the lifecycle of a ticket, either because we may need some design input or certain technical implications get more clear during the initial development phase.&#x20;
 
 ### Sprint Review&#x20;
 
