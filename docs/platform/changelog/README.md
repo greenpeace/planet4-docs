@@ -10,6 +10,20 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 2.136.0 - 2024-08-28
+
+### Features
+
+- [PLANET-7573](https://jira.greenpeace.org/browse/PLANET-7573) - Upgrade ElasticPress to version 5.*
+- [PLANET-7565](https://jira.greenpeace.org/browse/PLANET-7565) - Upgrade to Wordpress 6.6
+- [PLANET-7556](https://jira.greenpeace.org/browse/PLANET-7556) - Implement purchase dataLayer event for forms without redirect 
+- [PLANET-7499](https://jira.greenpeace.org/browse/PLANET-7499) - Backend Text Changes on Gallery Block
+- [PLANET-7389](https://jira.greenpeace.org/browse/PLANET-7389) - Add php 8.3 tests pipeline
+
+### Bug Fixes
+
+- [PLANET-7557](https://jira.greenpeace.org/browse/PLANET-7557) - Author Page: Pagination not working
+
 ## 2.135.0 - 2024-08-05
 
 ### Features
