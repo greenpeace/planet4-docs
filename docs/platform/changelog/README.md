@@ -10,6 +10,22 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 2.137.0 - 2024-09-10
+
+### Features
+
+- [PLANET-7534](https://jira.greenpeace.org/browse/PLANET-7534) - Make TA Boxout Available on All Planet 4 Pages
+- [PLANET-7512](https://jira.greenpeace.org/browse/PLANET-7512) - Update the design of the TA boxout block
+
+### Bug Fixes
+
+- [PLANET-7606](https://jira.greenpeace.org/browse/PLANET-7606) - Cookies block crashes in the frontend
+- [PLANET-7602](https://jira.greenpeace.org/browse/PLANET-7602) - Fix link hover color
+
+### Infrastructure
+
+- [PLANET-7600](https://jira.greenpeace.org/browse/PLANET-7600) - Upgrade planet4 clusters to k8s v1.28
+
 ## 2.136.0 - 2024-08-28
 
 ### Features
