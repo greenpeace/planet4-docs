@@ -10,6 +10,22 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 2.138.0 - 2024-09-26
+
+### Features
+
+- [PLANET-7617](https://jira.greenpeace.org/browse/PLANET-7617) - Apply caption styles to all figcaption elements
+- [PLANET-7610](https://jira.greenpeace.org/browse/PLANET-7610) - Rename the Submenu block as Table of Contents
+- [PLANET-7563](https://jira.greenpeace.org/browse/PLANET-7563) - Apply New Link Style to the rest of the body text Links
+- [PLANET-7454](https://jira.greenpeace.org/browse/PLANET-7454) - Implement GF variables in page load (make available before form submissions)
+- [PLANET-7220](https://jira.greenpeace.org/browse/PLANET-7220) - Add definitions / handbook links to backend custom block settings
+
+### Bug Fixes
+
+- [PLANET-7604](https://jira.greenpeace.org/browse/PLANET-7604) - Beta blocks category appears multiple times in editor
+- [PLANET-7560](https://jira.greenpeace.org/browse/PLANET-7560) - Can't publish/update reusable blocks (patterns)
+- [PLANET-7501](https://jira.greenpeace.org/browse/PLANET-7501) - Image block credits don't show in the editor when there is no caption
+
 ## 2.137.0 - 2024-09-10
 
 ### Features
