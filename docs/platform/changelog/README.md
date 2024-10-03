@@ -10,6 +10,21 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 2.138.1 - 2024-10-03
+
+### Features
+
+- [PLANET-7598](https://jira.greenpeace.org/browse/PLANET-7598) - Form Builder: Add a petition counter id field 
+- [PLANET-7568](https://jira.greenpeace.org/browse/PLANET-7568) - Small style fixes for the Gravity Forms multiple file upload
+
+### Bug Fixes
+
+- [PLANET-7597](https://jira.greenpeace.org/browse/PLANET-7597) - Block Usage Report - Group by post ID links broken
+
+### Infrastructure
+
+- [PLANET-7621](https://jira.greenpeace.org/browse/PLANET-7621) - Upgrade planet4 clusters to k8s v1.29
+
 ## 2.138.0 - 2024-09-26
 
 ### Features
