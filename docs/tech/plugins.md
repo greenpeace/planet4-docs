@@ -104,6 +104,10 @@ CMB2 will create metaboxes and forms with custom fields that will blow your mind
 
 Offers enhanced search capabilities and performance by integrating with [Elasticsearch](https://www.elastic.co/what-is/elasticsearch).
 
+### Google Profile Avatars
+
+Display users' Google profile image as their avatar in WordPress blog posts and admin.
+
 ### Gravity Forms
 
 The core plugin that our [Form Builder feature](https://planet4.greenpeace.org/manage/integrate/form-builder/build-a-form-in-gravity-forms/) is built upon.
@@ -112,13 +116,13 @@ The core plugin that our [Form Builder feature](https://planet4.greenpeace.org/m
 
 Simple secure login for WordPress through users’ Google Apps accounts (uses secure OAuth2, and MFA if enabled). More info in [Login to P4](https://planet4.greenpeace.org/handbook/login/) or in the [wp.org plugin page](https://wordpress.org/plugins/google-apps-login/).
 
+### Post Type Switcher
+
+A simple way to change a post's type (eg. a Page to Action). Particular useful while adopting the new Information Architecture.
+
 ### Redirection
 
 Manage all your 301 redirects and monitor 404 errors. More on Redirects on the [wp.org plugin page.](https://wordpress.org/plugins/redirection/)
-
-### Timber
-
-Required by the Planet4 master theme. The WordPress Timber Library allows you to write themes using the power of Twig templates. More info on the [wp.org plugin page](https://wordpress.org/plugins/timber-library/).
 
 ### Sentry
 
