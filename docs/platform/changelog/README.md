@@ -10,6 +10,18 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 2.139.0 - 2024-10-17
+
+### Features
+
+- [PLANET-7575](https://jira.greenpeace.org/browse/PLANET-7575) - Rename Social Share event and Add to Gravity Forms 
+- [PLANET-7521](https://jira.greenpeace.org/browse/PLANET-7521) - Migrate Media Block to Audio/Video blocks
+
+### Bug Fixes
+
+- [PLANET-7631](https://jira.greenpeace.org/browse/PLANET-7631) - Twitter embed doesn't work in the frontend
+- [PLANET-7607](https://jira.greenpeace.org/browse/PLANET-7607) - Cookies block doesn't always work depending on analytical cookies settings
+
 ## 2.138.1 - 2024-10-03
 
 ### Features
