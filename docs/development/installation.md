@@ -198,6 +198,7 @@ npm run env:clean
 
 ```
 npm run
+- env:usage                         Get information about all commands
 - env:requirements                  Check requirements
 - env:install                       Install default Planet 4 theme and database
 - env:start                         Start the environment
