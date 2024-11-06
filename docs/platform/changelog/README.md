@@ -10,6 +10,21 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 2.140.0 - 2024-11-06
+
+### Features
+
+- [PLANET-7643](https://jira.greenpeace.org/browse/PLANET-7643) - Media Library: Show restrictions on imported media
+- [PLANET-7605](https://jira.greenpeace.org/browse/PLANET-7605) - Implement page_date dataLayer variable on page load for Posts
+- [PLANET-7564](https://jira.greenpeace.org/browse/PLANET-7564) - Implement file replacement feature
+- [PLANET-7525](https://jira.greenpeace.org/browse/PLANET-7525) - Add Greenpeace Media import support on Featured Image
+
+### Bug Fixes
+
+- [PLANET-7637](https://jira.greenpeace.org/browse/PLANET-7637) - Gallery Block: block validation error
+- [PLANET-7636](https://jira.greenpeace.org/browse/PLANET-7636) - Remove editor sidebar labels uppercase
+- [PLANET-7446](https://jira.greenpeace.org/browse/PLANET-7446) - Image block: Respect the Expand on click option for the Lightbox
+
 ## 2.139.0 - 2024-10-17
 
 ### Features
