@@ -10,6 +10,15 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 2.141.0 - 2024-11-13
+
+### Features
+
+- [PLANET-7614](https://jira.greenpeace.org/browse/PLANET-7614) - News & Stories: implement categories filter
+- [PLANET-7567](https://jira.greenpeace.org/browse/PLANET-7567) - Remove plain text email address from dataLayer in formSubmission event
+- [PLANET-7530](https://jira.greenpeace.org/browse/PLANET-7530) - Update Node.js to ≤18
+- [PLANET-7445](https://jira.greenpeace.org/browse/PLANET-7445) - Migrate Split Two Columns block existing content
+
 ## 2.140.0 - 2024-11-06
 
 ### Features
