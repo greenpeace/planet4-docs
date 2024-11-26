@@ -33,6 +33,7 @@
 ## Infrastructure
 
 * [NRO Generation](infrastructure/nro-generation.md)
+* [Cloudflare](infrastructure/cloudflare.md)
 
 ## Platform
 

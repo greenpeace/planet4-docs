@@ -6,12 +6,14 @@ description: List of the Planet 4 hooks
 
 This document outlines custom hooks added to the Planet4 theme for extending functionality.
 
-### planet4_sendgrid_sender
-- Description: This filter hook allows modification of Sendgrid from address.
-- Parameters: `$sender` (type: string).
-- Usage: Use this hook to change the SENDER value for Sendgrid PHPMailer integration.
-- Example:
-```php// The filter callback function.
+### planet4\_sendgrid\_sender
+
+* Description: This filter hook allows modification of Sendgrid from address.
+* Parameters: `$sender` (type: string).
+* Usage: Use this hook to change the SENDER value for Sendgrid PHPMailer integration.
+* Example:
+
+```php
 function update_planet4_sendgrid_sender( $sender ) {
     // (maybe) change $sender.
     return $sender;
