@@ -10,6 +10,21 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 2.142.0 - 2024-11-27
+
+### Features
+
+- [PLANET-7648](https://jira.greenpeace.org/browse/PLANET-7648) - Add an opt-in Archive notice on old Posts
+- [PLANET-7523](https://jira.greenpeace.org/browse/PLANET-7523) - Social Media block: Remove Twitter/X option and rename to Meta block
+
+### Bug Fixes
+
+- [PLANET-7674](https://jira.greenpeace.org/browse/PLANET-7674) - Tags list not working as expected through the Covers block
+- [PLANET-7672](https://jira.greenpeace.org/browse/PLANET-7672) - Custom image of the TA boxout does not scale right
+- [PLANET-7670](https://jira.greenpeace.org/browse/PLANET-7670) - Author Override not working properly in Related Posts section
+- [PLANET-7618](https://jira.greenpeace.org/browse/PLANET-7618) - Navigation submenu items length should be limited to 2 lines
+- [PLANET-7135](https://jira.greenpeace.org/browse/PLANET-7135) - Footer country selector tab behaviour is broken
+
 ## 2.141.0 - 2024-11-13
 
 ### Features
