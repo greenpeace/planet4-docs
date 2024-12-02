@@ -10,6 +10,18 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 2.142.1 - 2024-12-02
+
+### Features
+
+- [PLANET-7679](https://jira.greenpeace.org/browse/PLANET-7679) - Add Bluesky icon for footer social media
+- [PLANET-7489](https://jira.greenpeace.org/browse/PLANET-7489) - Migrate Campaign Covers to P4 Columns block
+
+### Bug Fixes
+
+- [PLANET-7651](https://jira.greenpeace.org/browse/PLANET-7651) - Page header pattern is looking off on tablet
+- [PLANET-7482](https://jira.greenpeace.org/browse/PLANET-7482) - Author bio: HTML formatting not working as expected
+
 ## 2.142.0 - 2024-11-27
 
 ### Features
