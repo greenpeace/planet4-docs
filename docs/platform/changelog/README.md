@@ -10,6 +10,17 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 3.1.0 - 2025-01-22
+
+### Features
+
+- [PLANET-7646](https://jira.greenpeace.org/browse/PLANET-7646) - Add placeholder image to Author block
+- [PLANET-6692](https://jira.greenpeace.org/browse/PLANET-6692) - Create the Topic Link block
+
+### Bug Fixes
+
+- [PLANET-7730](https://jira.greenpeace.org/browse/PLANET-7730) - Bottom page navigation block: WPML makrup shows up on frontend
+
 ## 3.0.0 - 2025-01-14
 
 ### Features
