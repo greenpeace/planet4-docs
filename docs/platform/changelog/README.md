@@ -10,6 +10,13 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 3.1.1 - 2025-01-29
+
+### Features
+
+- [PLANET-7735](https://jira.greenpeace.org/browse/PLANET-7735) - Register footer menus as theme locations
+- [PLANET-7721](https://jira.greenpeace.org/browse/PLANET-7721) - Upgrade WPML to 4.6.15
+
 ## 3.1.0 - 2025-01-22
 
 ### Features
