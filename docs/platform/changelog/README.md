@@ -10,6 +10,14 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 3.2.0 - 2025-02-10
+
+### Features
+
+- [PLANET-7681](https://jira.greenpeace.org/browse/PLANET-7681) - Make existing social share buttons configurable
+- [PLANET-7647](https://jira.greenpeace.org/browse/PLANET-7647) - Enforce consistency on default favicon
+- [PLANET-7578](https://jira.greenpeace.org/browse/PLANET-7578) - Migrate Covers Content block to Posts List block
+
 ## 3.1.1 - 2025-01-29
 
 ### Features
