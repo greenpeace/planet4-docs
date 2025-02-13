@@ -198,7 +198,7 @@ npm run env:clean
 
 ```
 npm run
-- env:usage                         Get information about all commands
+- usage                             Get information about all commands
 - env:requirements                  Check requirements
 - env:install                       Install default Planet 4 theme and database
 - env:start                         Start the environment
@@ -222,6 +222,8 @@ npm run
 - db:use <db name>                  Switch to database
 - shell:php                         Access PHP shell (WordPress container)
 - shell:mysql                       Access MySQL console (current database)
+- logs:mysql                        Shows logs from the mysql container
+- logs:php                          Shows logs from the php (wordpress) container
 - elastic:activate                  Activate ElasticSearch container and plugin
 - elastic:deactivate                Deactivate ElasticSearch container and plugin
 - xdebug:install                    Install Xdebug in WordPress container
