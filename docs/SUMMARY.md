@@ -33,7 +33,13 @@
 ## Infrastructure
 
 * [NRO Generation](infrastructure/nro-generation.md)
+* [ElasticSearch](infrastructure/elasticsearch.md)
 * [Cloudflare](infrastructure/cloudflare.md)
+
+## Recipes
+
+* [Maintenance page](recipes/maintenance-page.md)
+* [Production sync](recipes/production-sync.md)
 
 ## Platform
 
@@ -68,7 +74,5 @@
 * [Blocks](tech/blocks.md)
 * [Plugins](tech/plugins.md)
 * [Hooks](tech/hooks.md)
-* [ElasticSearch](tech/elasticsearch.md)
 * [Data migrations](tech/data-migrations.md)
 * [CSS variables](tech/css-variables.md)
-* [Maintenance page](tech/maintenance-page.md)

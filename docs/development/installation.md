@@ -179,6 +179,8 @@ Install default developer environment with:
 npm run env:install
 ```
 
+#### NRO environment
+
 For NRO developers, use instead:
 
 ```bash
