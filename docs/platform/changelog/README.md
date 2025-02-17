@@ -10,6 +10,15 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 3.3.0 - 2025-02-17
+
+### Features
+
+- [PLANET-7761](https://jira.greenpeace.org/browse/PLANET-7761) - Add new Portugal website to NRO footer selector
+- [PLANET-7711](https://jira.greenpeace.org/browse/PLANET-7711) - Update Author Name Text Link Color for Accessibility
+- [PLANET-7706](https://jira.greenpeace.org/browse/PLANET-7706) - Preserve News & Stories page layout when reloading/filtering
+- [PLANET-7436](https://jira.greenpeace.org/browse/PLANET-7436) - Add search_results DataLayer Variable
+
 ## 3.2.0 - 2025-02-10
 
 ### Features
