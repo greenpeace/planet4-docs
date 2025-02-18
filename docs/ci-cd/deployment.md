@@ -47,11 +47,9 @@ Once merged a new tag will be created in the base repository and its CI pipeline
 
 Our main orchestration repository for triggering deployment pipelines is [planet4-base](https://github.com/greenpeace/planet4-base).  But before we make any change there we need first to prepare the application repositories.
 
-### Application Repositories
+### Theme Repository
 
-The only change that it's actually needed is to tag the repositories that have new code since the previous release.
-
-So check [master-theme](https://github.com/greenpeace/planet4-master-theme) and [plugin-gutenberg-blocks](https://github.com/greenpeace/planet4-plugin-gutenberg-blocks). If they have commits on `main` branch since last tag (probably both have) the you need to create a new tag. You can do that directly from Github interface or locally as shown below.
+The only change that it's actually needed is to tag the theme repository.  You can do that directly from Github interface or locally as shown below.
 
 ```bash
 git tag -a vX.XX -m "vX.XX"
@@ -78,8 +76,7 @@ So if you updated application repos on the previous step, you should update the 
 ```javascript
 {
   "require": {
-    "greenpeace/planet4-master-theme" : "v1.145",
-    "greenpeace/planet4-plugin-gutenberg-blocks" : "v0.84"
+    "greenpeace/planet4-master-theme" : "v1.145"
   }
 }
 ```
@@ -103,7 +100,7 @@ On the NRO production pipelines there is a "hold-promote" job there that control
 You will only need to manual approve that in two cases:
 
 1. You added a `[HOLD]` on your commit message on base. This will require manual approval on all websites.
-2. Visual Regression tests failed on a specific website. You can use [this spreadsheet](https://docs.google.com/spreadsheets/d/1uAmZLIWYsxrBByqbhoF\_vVtSM7WGebYWIc0xftPRPwE/edit#gid=390993139) and run: Planet 4 > Update CircleCI. This will update the CircleCI sheet using CircleCI’s API. You can then open just the ones that are on hold. Alternatively you can keep an eye on the `#p4-activity-ci` channel.
+2. Visual Regression tests failed on a specific website. You can use [this spreadsheet](https://docs.google.com/spreadsheets/d/1uAmZLIWYsxrBByqbhoF_vVtSM7WGebYWIc0xftPRPwE/edit#gid=390993139) and run: Planet 4 > Update CircleCI. This will update the CircleCI sheet using CircleCI’s API. You can then open just the ones that are on hold. Alternatively you can keep an eye on the `#p4-activity-ci` channel.
 3. You can then check the tests report to confirm that the visual differences are acceptable.
 
 ![](<../.gitbook/assets/hold-promote (5) (8) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (9).png>)
