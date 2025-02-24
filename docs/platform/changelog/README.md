@@ -10,6 +10,18 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 3.3.1 - 2025-02-24
+
+### Features
+
+- [PLANET-7755](https://jira.greenpeace.org/browse/PLANET-7755) - Add option for applying social share settings to Posts and Forms
+- [PLANET-7715](https://jira.greenpeace.org/browse/PLANET-7715) - Make skip links more visible
+- [PLANET-7645](https://jira.greenpeace.org/browse/PLANET-7645) - Media Library: image replacement
+
+### Bug Fixes
+
+- [PLANET-7764](https://jira.greenpeace.org/browse/PLANET-7764) - Posts List: Author override name is not updated
+
 ## 3.3.0 - 2025-02-17
 
 ### Features
