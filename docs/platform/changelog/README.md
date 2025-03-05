@@ -10,6 +10,20 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 3.4.0 - 2025-03-05
+
+### Features
+
+- [PLANET-7703](https://jira.greenpeace.org/browse/PLANET-7703) - Fix Footer's Country Selector Close Button (No Visible Focus Ring)
+- [PLANET-7701](https://jira.greenpeace.org/browse/PLANET-7701) - Fix Main Navigation Menu Accessibility Issues
+- [PLANET-7520](https://jira.greenpeace.org/browse/PLANET-7520) - Redirect attachment pages to media url
+
+### Bug Fixes
+
+- [PLANET-7775](https://jira.greenpeace.org/browse/PLANET-7775) - Favicon looks blurred
+- [PLANET-7773](https://jira.greenpeace.org/browse/PLANET-7773) - Fix error in the toggleCommentSubmit script
+- [PLANET-7744](https://jira.greenpeace.org/browse/PLANET-7744) - The image and text block content is breaking the design on bigger screen resolutions
+
 ## 3.3.1 - 2025-02-24
 
 ### Features
