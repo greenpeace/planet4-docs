@@ -10,6 +10,20 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 3.5.0 - 2025-03-17
+
+### Features
+
+- [PLANET-7782](https://jira.greenpeace.org/browse/PLANET-7782) - Add standalone link styles to comments
+- [PLANET-7756](https://jira.greenpeace.org/browse/PLANET-7756) - Navigation Menu: fix accessibility issues on mobile
+- [PLANET-7702](https://jira.greenpeace.org/browse/PLANET-7702) - Add Actions List Block CTA text for Screen Reader
+- [PLANET-7603](https://jira.greenpeace.org/browse/PLANET-7603) - Add an option to Take Action boxout block backend to change the heading size
+
+### Bug Fixes
+
+- [PLANET-7769](https://jira.greenpeace.org/browse/PLANET-7769) - Page Header Block Pattern: white line appears on colored background header
+- [PLANET-7738](https://jira.greenpeace.org/browse/PLANET-7738) - Small design issues with the comments form
+
 ## 3.4.0 - 2025-03-05
 
 ### Features
