@@ -10,6 +10,14 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 3.5.1 - 2025-03-19
+
+### Features
+
+- [PLANET-7752](https://jira.greenpeace.org/browse/PLANET-7752) - Table of Contents Block: Make linkable by default
+- [PLANET-7749](https://jira.greenpeace.org/browse/PLANET-7749) - Add Bluesky share button
+- [PLANET-7716](https://jira.greenpeace.org/browse/PLANET-7716) - Listing pages: make the layout toggle button operable by screen readers and keyboard
+
 ## 3.5.0 - 2025-03-17
 
 ### Features
