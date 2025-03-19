@@ -40,6 +40,7 @@
 
 * [Maintenance page](recipes/maintenance-page.md)
 * [Production sync](recipes/production-sync.md)
+* [Running commands](recipes/running-commands.md)
 
 ## Platform
 
