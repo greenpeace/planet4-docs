@@ -8,6 +8,10 @@ We have a way of [running scripts](https://github.com/greenpeace/planet4-base/tr
 
 Below is a full script showing how to trigger a new sync for ElasticSearch across all websites. With some modifications this script can also be used for running a command in just a few of them.
 
+{% hint style="danger" %}
+Running a command on live websites can also be risky. We should only use that method for operations that are harmless (like the one below) or to retrieve some information (eg. wp option pluck planet4\_options new\_ia). And in general not for operations that alter the database, especially if there is no rollback option.
+{% endhint %}
+
 ```bash
 #!/usr/bin/env bash
 
