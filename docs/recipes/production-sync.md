@@ -10,7 +10,7 @@ As part of the new Information Architecture project it's often easier for NROs t
 
 Till we have an automated way of doing this type of sync, below are the manual steps needed to make it work.
 
-## Preperation
+## Preparation
 
 ### Maintenance page
 
