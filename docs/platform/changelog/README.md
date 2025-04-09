@@ -10,6 +10,24 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 3.6.0 - 2025-04-09
+
+### Features
+
+- [PLANET-7772](https://jira.greenpeace.org/browse/PLANET-7772) - Listing pages: dynamic layout switch without reloading the page
+- [PLANET-7718](https://jira.greenpeace.org/browse/PLANET-7718) - Accessibility and Usability Improvements for the Search Page Results
+- [PLANET-7707](https://jira.greenpeace.org/browse/PLANET-7707) - Update Node.js to v20
+- [PLANET-7676](https://jira.greenpeace.org/browse/PLANET-7676) - Change Anti-Flicker Snippet to VWO
+- [PLANET-7587](https://jira.greenpeace.org/browse/PLANET-7587) - News & Stories Page: Featured posts section
+
+### Bug Fixes
+
+- [PLANET-7796](https://jira.greenpeace.org/browse/PLANET-7796) - Investigate Local Project sync
+- [PLANET-7781](https://jira.greenpeace.org/browse/PLANET-7781) - Media & Text block: image is not displayed on Arabic language
+- [PLANET-7762](https://jira.greenpeace.org/browse/PLANET-7762) - Posts List: item titles are not clickable
+- [PLANET-7659](https://jira.greenpeace.org/browse/PLANET-7659) - Hide empty restrictions text in the library
+- [PLANET-7546](https://jira.greenpeace.org/browse/PLANET-7546) - Page header cuts headings on mobile with ellipsis
+
 ## 3.5.1 - 2025-03-19
 
 ### Features
