@@ -6,11 +6,34 @@ description: How to run a command across all websites
 
 We have a way of [running scripts](https://github.com/greenpeace/planet4-base/tree/main/tasks/post-deploy) as part of the deployment process, but sometimes we may need to run a command across all running websites to get some data or do a simple action using [wp-cli](https://wp-cli.org/).
 
-Below is a full script showing how to trigger a new sync for ElasticSearch across all websites. With some modifications this script can also be used for running a command in just a few of them.
-
 {% hint style="danger" %}
 Running a command on live websites can also be risky. We should only use that method for operations that are harmless (like the one below) or to retrieve some information (eg. wp option pluck planet4\_options new\_ia). And in general not for operations that alter the database, especially if there is no rollback option.
 {% endhint %}
+
+### Single website
+
+As an example, here is is a simple script of how to trigger a new sync for ElasticSearch on a particular website.
+
+```bash
+#!/usr/bin/env bash
+
+GCLOUD_ZONE="us-central1-a"
+# Replace both with planet4-production for production
+GCLOUD_CLUSTER="p4-development"
+GOOGLE_PROJECT_ID="planet-4-151612"
+
+HELM_NAMESPACE=international # Check website's CI config variables for the exact value
+
+gcloud container clusters get-credentials "${GCLOUD_CLUSTER}" --zone "${GCLOUD_ZONE}" --project "${GOOGLE_PROJECT_ID}"
+
+php=$(kubectl get pods --namespace "${HELM_NAMESPACE}" -l "component=php" -o jsonpath="{.items[-1:].metadata.name}")
+
+kubectl -n "${HELM_NAMESPACE}" exec "${php}" -- wp elasticpress sync --setup --yes --force
+```
+
+### All websites
+
+Below is a script showing how to trigger a new sync for ElasticSearch across all websites.
 
 ```bash
 #!/usr/bin/env bash
