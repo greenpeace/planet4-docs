@@ -10,6 +10,21 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 3.7.0 - 2025-04-23
+
+### Features
+
+- [PLANET-7791](https://jira.greenpeace.org/browse/PLANET-7791) - Create url_passthrough setting
+- [PLANET-7790](https://jira.greenpeace.org/browse/PLANET-7790) - Counter Block: update design with new colors & typography
+- [PLANET-7713](https://jira.greenpeace.org/browse/PLANET-7713) - Make comments form more accessible
+- [PLANET-7699](https://jira.greenpeace.org/browse/PLANET-7699) - Add description and Learn More section to the Topic Link block
+
+### Bug Fixes
+
+- [PLANET-7483](https://jira.greenpeace.org/browse/PLANET-7483) - Buttons have too large of a line-height
+- [PLANET-7101](https://jira.greenpeace.org/browse/PLANET-7101) - Lightbox shows all images for Gallery 3 columns style
+- [PLANET-7034](https://jira.greenpeace.org/browse/PLANET-7034) - P4 Column block: columns rendered full-width when less than 4 columns
+
 ## 3.6.0 - 2025-04-09
 
 ### Features
