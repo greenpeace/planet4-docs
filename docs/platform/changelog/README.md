@@ -14,117 +14,118 @@ Items with a 🔑 icon are not enabled by default, but instead they are released
 
 ### Features
 
-- [PLANET-7791](https://jira.greenpeace.org/browse/PLANET-7791) - Create url_passthrough setting
-- [PLANET-7790](https://jira.greenpeace.org/browse/PLANET-7790) - Counter Block: update design with new colors & typography
-- [PLANET-7713](https://jira.greenpeace.org/browse/PLANET-7713) - Make comments form more accessible
-- [PLANET-7699](https://jira.greenpeace.org/browse/PLANET-7699) - Add description and Learn More section to the Topic Link block
+* [PLANET-7791](https://jira.greenpeace.org/browse/PLANET-7791) - Create url\_passthrough setting
+* [PLANET-7790](https://jira.greenpeace.org/browse/PLANET-7790) - Counter Block: update design with new colors & typography
+* [PLANET-7713](https://jira.greenpeace.org/browse/PLANET-7713) - Make comments form more accessible
+* [PLANET-7699](https://jira.greenpeace.org/browse/PLANET-7699) - Add description and Learn More section to the Topic Link block
+* [PLANET-7686](https://jira.greenpeace.org/browse/PLANET-7686) - Test and upgrade wp-stateless to 4.1.x
 
 ### Bug Fixes
 
-- [PLANET-7483](https://jira.greenpeace.org/browse/PLANET-7483) - Buttons have too large of a line-height
-- [PLANET-7101](https://jira.greenpeace.org/browse/PLANET-7101) - Lightbox shows all images for Gallery 3 columns style
-- [PLANET-7034](https://jira.greenpeace.org/browse/PLANET-7034) - P4 Column block: columns rendered full-width when less than 4 columns
+* [PLANET-7483](https://jira.greenpeace.org/browse/PLANET-7483) - Buttons have too large of a line-height
+* [PLANET-7101](https://jira.greenpeace.org/browse/PLANET-7101) - Lightbox shows all images for Gallery 3 columns style
+* [PLANET-7034](https://jira.greenpeace.org/browse/PLANET-7034) - P4 Column block: columns rendered full-width when less than 4 columns
 
 ## 3.6.0 - 2025-04-09
 
 ### Features
 
-- [PLANET-7772](https://jira.greenpeace.org/browse/PLANET-7772) - Listing pages: dynamic layout switch without reloading the page
-- [PLANET-7718](https://jira.greenpeace.org/browse/PLANET-7718) - Accessibility and Usability Improvements for the Search Page Results
-- [PLANET-7707](https://jira.greenpeace.org/browse/PLANET-7707) - Update Node.js to v20
-- [PLANET-7676](https://jira.greenpeace.org/browse/PLANET-7676) - Change Anti-Flicker Snippet to VWO
-- [PLANET-7587](https://jira.greenpeace.org/browse/PLANET-7587) - News & Stories Page: Featured posts section
+* [PLANET-7772](https://jira.greenpeace.org/browse/PLANET-7772) - Listing pages: dynamic layout switch without reloading the page
+* [PLANET-7718](https://jira.greenpeace.org/browse/PLANET-7718) - Accessibility and Usability Improvements for the Search Page Results
+* [PLANET-7707](https://jira.greenpeace.org/browse/PLANET-7707) - Update Node.js to v20
+* [PLANET-7676](https://jira.greenpeace.org/browse/PLANET-7676) - Change Anti-Flicker Snippet to VWO
+* [PLANET-7587](https://jira.greenpeace.org/browse/PLANET-7587) - News & Stories Page: Featured posts section
 
 ### Bug Fixes
 
-- [PLANET-7796](https://jira.greenpeace.org/browse/PLANET-7796) - Investigate Local Project sync
-- [PLANET-7781](https://jira.greenpeace.org/browse/PLANET-7781) - Media & Text block: image is not displayed on Arabic language
-- [PLANET-7762](https://jira.greenpeace.org/browse/PLANET-7762) - Posts List: item titles are not clickable
-- [PLANET-7659](https://jira.greenpeace.org/browse/PLANET-7659) - Hide empty restrictions text in the library
-- [PLANET-7546](https://jira.greenpeace.org/browse/PLANET-7546) - Page header cuts headings on mobile with ellipsis
+* [PLANET-7796](https://jira.greenpeace.org/browse/PLANET-7796) - Investigate Local Project sync
+* [PLANET-7781](https://jira.greenpeace.org/browse/PLANET-7781) - Media & Text block: image is not displayed on Arabic language
+* [PLANET-7762](https://jira.greenpeace.org/browse/PLANET-7762) - Posts List: item titles are not clickable
+* [PLANET-7659](https://jira.greenpeace.org/browse/PLANET-7659) - Hide empty restrictions text in the library
+* [PLANET-7546](https://jira.greenpeace.org/browse/PLANET-7546) - Page header cuts headings on mobile with ellipsis
 
 ## 3.5.1 - 2025-03-19
 
 ### Features
 
-- [PLANET-7752](https://jira.greenpeace.org/browse/PLANET-7752) - Table of Contents Block: Make linkable by default
-- [PLANET-7749](https://jira.greenpeace.org/browse/PLANET-7749) - Add Bluesky share button
-- [PLANET-7716](https://jira.greenpeace.org/browse/PLANET-7716) - Listing pages: make the layout toggle button operable by screen readers and keyboard
+* [PLANET-7752](https://jira.greenpeace.org/browse/PLANET-7752) - Table of Contents Block: Make linkable by default
+* [PLANET-7749](https://jira.greenpeace.org/browse/PLANET-7749) - Add Bluesky share button
+* [PLANET-7716](https://jira.greenpeace.org/browse/PLANET-7716) - Listing pages: make the layout toggle button operable by screen readers and keyboard
 
 ## 3.5.0 - 2025-03-17
 
 ### Features
 
-- [PLANET-7782](https://jira.greenpeace.org/browse/PLANET-7782) - Add standalone link styles to comments
-- [PLANET-7756](https://jira.greenpeace.org/browse/PLANET-7756) - Navigation Menu: fix accessibility issues on mobile
-- [PLANET-7702](https://jira.greenpeace.org/browse/PLANET-7702) - Add Actions List Block CTA text for Screen Reader
-- [PLANET-7603](https://jira.greenpeace.org/browse/PLANET-7603) - Add an option to Take Action boxout block backend to change the heading size
+* [PLANET-7782](https://jira.greenpeace.org/browse/PLANET-7782) - Add standalone link styles to comments
+* [PLANET-7756](https://jira.greenpeace.org/browse/PLANET-7756) - Navigation Menu: fix accessibility issues on mobile
+* [PLANET-7702](https://jira.greenpeace.org/browse/PLANET-7702) - Add Actions List Block CTA text for Screen Reader
+* [PLANET-7603](https://jira.greenpeace.org/browse/PLANET-7603) - Add an option to Take Action boxout block backend to change the heading size
 
 ### Bug Fixes
 
-- [PLANET-7769](https://jira.greenpeace.org/browse/PLANET-7769) - Page Header Block Pattern: white line appears on colored background header
-- [PLANET-7738](https://jira.greenpeace.org/browse/PLANET-7738) - Small design issues with the comments form
+* [PLANET-7769](https://jira.greenpeace.org/browse/PLANET-7769) - Page Header Block Pattern: white line appears on colored background header
+* [PLANET-7738](https://jira.greenpeace.org/browse/PLANET-7738) - Small design issues with the comments form
 
 ## 3.4.0 - 2025-03-05
 
 ### Features
 
-- [PLANET-7703](https://jira.greenpeace.org/browse/PLANET-7703) - Fix Footer's Country Selector Close Button (No Visible Focus Ring)
-- [PLANET-7701](https://jira.greenpeace.org/browse/PLANET-7701) - Fix Main Navigation Menu Accessibility Issues
-- [PLANET-7520](https://jira.greenpeace.org/browse/PLANET-7520) - Redirect attachment pages to media url
+* [PLANET-7703](https://jira.greenpeace.org/browse/PLANET-7703) - Fix Footer's Country Selector Close Button (No Visible Focus Ring)
+* [PLANET-7701](https://jira.greenpeace.org/browse/PLANET-7701) - Fix Main Navigation Menu Accessibility Issues
+* [PLANET-7520](https://jira.greenpeace.org/browse/PLANET-7520) - Redirect attachment pages to media url
 
 ### Bug Fixes
 
-- [PLANET-7775](https://jira.greenpeace.org/browse/PLANET-7775) - Favicon looks blurred
-- [PLANET-7773](https://jira.greenpeace.org/browse/PLANET-7773) - Fix error in the toggleCommentSubmit script
-- [PLANET-7744](https://jira.greenpeace.org/browse/PLANET-7744) - The image and text block content is breaking the design on bigger screen resolutions
+* [PLANET-7775](https://jira.greenpeace.org/browse/PLANET-7775) - Favicon looks blurred
+* [PLANET-7773](https://jira.greenpeace.org/browse/PLANET-7773) - Fix error in the toggleCommentSubmit script
+* [PLANET-7744](https://jira.greenpeace.org/browse/PLANET-7744) - The image and text block content is breaking the design on bigger screen resolutions
 
 ## 3.3.1 - 2025-02-24
 
 ### Features
 
-- [PLANET-7755](https://jira.greenpeace.org/browse/PLANET-7755) - Add option for applying social share settings to Posts and Forms
-- [PLANET-7715](https://jira.greenpeace.org/browse/PLANET-7715) - Make skip links more visible
-- [PLANET-7645](https://jira.greenpeace.org/browse/PLANET-7645) - Media Library: image replacement
+* [PLANET-7755](https://jira.greenpeace.org/browse/PLANET-7755) - Add option for applying social share settings to Posts and Forms
+* [PLANET-7715](https://jira.greenpeace.org/browse/PLANET-7715) - Make skip links more visible
+* [PLANET-7645](https://jira.greenpeace.org/browse/PLANET-7645) - Media Library: image replacement
 
 ### Bug Fixes
 
-- [PLANET-7764](https://jira.greenpeace.org/browse/PLANET-7764) - Posts List: Author override name is not updated
+* [PLANET-7764](https://jira.greenpeace.org/browse/PLANET-7764) - Posts List: Author override name is not updated
 
 ## 3.3.0 - 2025-02-17
 
 ### Features
 
-- [PLANET-7761](https://jira.greenpeace.org/browse/PLANET-7761) - Add new Portugal website to NRO footer selector
-- [PLANET-7711](https://jira.greenpeace.org/browse/PLANET-7711) - Update Author Name Text Link Color for Accessibility
-- [PLANET-7706](https://jira.greenpeace.org/browse/PLANET-7706) - Preserve News & Stories page layout when reloading/filtering
-- [PLANET-7436](https://jira.greenpeace.org/browse/PLANET-7436) - Add search_results DataLayer Variable
+* [PLANET-7761](https://jira.greenpeace.org/browse/PLANET-7761) - Add new Portugal website to NRO footer selector
+* [PLANET-7711](https://jira.greenpeace.org/browse/PLANET-7711) - Update Author Name Text Link Color for Accessibility
+* [PLANET-7706](https://jira.greenpeace.org/browse/PLANET-7706) - Preserve News & Stories page layout when reloading/filtering
+* [PLANET-7436](https://jira.greenpeace.org/browse/PLANET-7436) - Add search\_results DataLayer Variable
 
 ## 3.2.0 - 2025-02-10
 
 ### Features
 
-- [PLANET-7681](https://jira.greenpeace.org/browse/PLANET-7681) - Make existing social share buttons configurable
-- [PLANET-7647](https://jira.greenpeace.org/browse/PLANET-7647) - Enforce consistency on default favicon
-- [PLANET-7578](https://jira.greenpeace.org/browse/PLANET-7578) - Migrate Covers Content block to Posts List block
+* [PLANET-7681](https://jira.greenpeace.org/browse/PLANET-7681) - Make existing social share buttons configurable
+* [PLANET-7647](https://jira.greenpeace.org/browse/PLANET-7647) - Enforce consistency on default favicon
+* [PLANET-7578](https://jira.greenpeace.org/browse/PLANET-7578) - Migrate Covers Content block to Posts List block
 
 ## 3.1.1 - 2025-01-29
 
 ### Features
 
-- [PLANET-7735](https://jira.greenpeace.org/browse/PLANET-7735) - Register footer menus as theme locations
-- [PLANET-7721](https://jira.greenpeace.org/browse/PLANET-7721) - Upgrade WPML to 4.6.15
+* [PLANET-7735](https://jira.greenpeace.org/browse/PLANET-7735) - Register footer menus as theme locations
+* [PLANET-7721](https://jira.greenpeace.org/browse/PLANET-7721) - Upgrade WPML to 4.6.15
 
 ## 3.1.0 - 2025-01-22
 
 ### Features
 
-- [PLANET-7646](https://jira.greenpeace.org/browse/PLANET-7646) - Add placeholder image to Author block
-- [PLANET-6692](https://jira.greenpeace.org/browse/PLANET-6692) - Create the Topic Link block
+* [PLANET-7646](https://jira.greenpeace.org/browse/PLANET-7646) - Add placeholder image to Author block
+* [PLANET-6692](https://jira.greenpeace.org/browse/PLANET-6692) - Create the Topic Link block
 
 ### Bug Fixes
 
-- [PLANET-7730](https://jira.greenpeace.org/browse/PLANET-7730) - Bottom page navigation block: WPML makrup shows up on frontend
+* [PLANET-7730](https://jira.greenpeace.org/browse/PLANET-7730) - Bottom page navigation block: WPML makrup shows up on frontend
 
 ## 3.0.0 - 2025-01-14
 
