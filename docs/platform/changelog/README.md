@@ -12,6 +12,8 @@ Items with a 🔑 icon are not enabled by default, but instead they are released
 
 ## 3.9.0 - 2025-05-16
 
+### Bug Fixes
+
 * [PLANET-7811](https://jira.greenpeace.org/browse/PLANET-7811) - Manual Override not working properly in Frontend of Posts List block
 
 ## 3.8.0 - 2025-05-07
