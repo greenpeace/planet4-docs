@@ -10,22 +10,26 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 3.9.0 - 2025-05-16
+
+* [PLANET-7811](https://jira.greenpeace.org/browse/PLANET-7811) - Manual Override not working properly in Frontend of Posts List block
+
 ## 3.8.0 - 2025-05-07
 
 ### Features
 
-- [PLANET-7778](https://jira.greenpeace.org/browse/PLANET-7778) - Posts/Actions List: add them to the blocks report
-- [PLANET-7720](https://jira.greenpeace.org/browse/PLANET-7720) - Use semantic HTML to convey content meaning
-- [PLANET-7432](https://jira.greenpeace.org/browse/PLANET-7432) - Reduce Typographic Weight of non-links on Article Block
+* [PLANET-7778](https://jira.greenpeace.org/browse/PLANET-7778) - Posts/Actions List: add them to the blocks report
+* [PLANET-7720](https://jira.greenpeace.org/browse/PLANET-7720) - Use semantic HTML to convey content meaning
+* [PLANET-7432](https://jira.greenpeace.org/browse/PLANET-7432) - Reduce Typographic Weight of non-links on Article Block
 
 ### Bug Fixes
 
-- [PLANET-7803](https://jira.greenpeace.org/browse/PLANET-7803) - Mobile tabs no longer have a smooth transition when scrolling
-- [PLANET-7802](https://jira.greenpeace.org/browse/PLANET-7802) - Fix gallery warning message
-- [PLANET-7801](https://jira.greenpeace.org/browse/PLANET-7801) - Take Action boxout has unwanted margin when sticking to bottom
-- [PLANET-7776](https://jira.greenpeace.org/browse/PLANET-7776) - Remove the link styles from the Quick Links & Deep Dive patterns
-- [PLANET-7665](https://jira.greenpeace.org/browse/PLANET-7665) - Fix visual errors in the Search Results page
-- [PLANET-7650](https://jira.greenpeace.org/browse/PLANET-7650) - News & stories listing page title has too much spacing on mobile/tablet
+* [PLANET-7803](https://jira.greenpeace.org/browse/PLANET-7803) - Mobile tabs no longer have a smooth transition when scrolling
+* [PLANET-7802](https://jira.greenpeace.org/browse/PLANET-7802) - Fix gallery warning message
+* [PLANET-7801](https://jira.greenpeace.org/browse/PLANET-7801) - Take Action boxout has unwanted margin when sticking to bottom
+* [PLANET-7776](https://jira.greenpeace.org/browse/PLANET-7776) - Remove the link styles from the Quick Links & Deep Dive patterns
+* [PLANET-7665](https://jira.greenpeace.org/browse/PLANET-7665) - Fix visual errors in the Search Results page
+* [PLANET-7650](https://jira.greenpeace.org/browse/PLANET-7650) - News & stories listing page title has too much spacing on mobile/tablet
 
 ## 3.7.0 - 2025-04-23
 
