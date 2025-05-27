@@ -10,6 +10,14 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 3.9.1 - 2025-05-27
+
+### Bug Fixes
+
+- [PLANET-7792](https://jira.greenpeace.org/browse/PLANET-7792) - Planet 4 patterns are no longer categorised (except Page Headers)
+- [PLANET-7456](https://jira.greenpeace.org/browse/PLANET-7456) - Text links in lists are not underlined
+- [PLANET-7321](https://jira.greenpeace.org/browse/PLANET-7321) - Reduce/Fix font weight for post metabox headers
+
 ## 3.9.0 - 2025-05-16
 
 ### Bug Fixes
