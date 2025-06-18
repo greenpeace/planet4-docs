@@ -10,6 +10,14 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 3.10.0 - 2025-06-18
+
+### Features
+
+- [PLANET-7817](https://jira.greenpeace.org/browse/PLANET-7817) - Enable Wordpress builtin Cover block
+- [PLANET-7807](https://jira.greenpeace.org/browse/PLANET-7807) - Phaseout the progress dial style in Counter's block
+- [PLANET-7683](https://jira.greenpeace.org/browse/PLANET-7683) - Quote Block Re-Design
+
 ## 3.9.1 - 2025-05-27
 
 ### Bug Fixes
