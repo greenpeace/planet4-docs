@@ -10,6 +10,24 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 3.11 - 2025-06-23
+
+### Features
+
+- [PLANET-7840](https://jira.greenpeace.org/browse/PLANET-7840) - Integrate core Cover block to use GP Media
+- [PLANET-7812](https://jira.greenpeace.org/browse/PLANET-7812) - Post List Block: move See All Post link under the last item of the list.
+- [PLANET-7809](https://jira.greenpeace.org/browse/PLANET-7809) - Posts List: Show tags on list layout
+- [PLANET-7808](https://jira.greenpeace.org/browse/PLANET-7808) - Add a global setting for major taxonomy breadcrumb
+- [PLANET-7798](https://jira.greenpeace.org/browse/PLANET-7798) - Upgrade to Wordpress 6.8.1
+- [PLANET-7777](https://jira.greenpeace.org/browse/PLANET-7777) - Transparent background effect for the homepage navigation menu
+- [PLANET-7745](https://jira.greenpeace.org/browse/PLANET-7745) - Actions/Posts List blocks: adjust taxonomy breadcrumbs
+- [PLANET-7579](https://jira.greenpeace.org/browse/PLANET-7579) - Migrate Covers Take Action block to Actions List block
+- [PLANET-7511](https://jira.greenpeace.org/browse/PLANET-7511) - Migrate Articles block to Posts List block
+
+### Bug Fixes
+
+- [PLANET-7810](https://jira.greenpeace.org/browse/PLANET-7810) - Theme translations are loaded too early
+
 ## 3.10.0 - 2025-06-18
 
 ### Features
