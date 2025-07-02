@@ -10,6 +10,13 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 3.11.1 - 2025-07-02
+
+### Features
+
+- [PLANET-7805](https://jira.greenpeace.org/browse/PLANET-7805) - Fix mobile navigation tabbing behaviour
+- [PLANET-7698](https://jira.greenpeace.org/browse/PLANET-7698) - Allow using the Greenpeace Media in the Topic Link block
+
 ## 3.11 - 2025-06-23
 
 ### Features
