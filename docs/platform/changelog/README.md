@@ -10,6 +10,12 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 3.12.0 - 2025-07-07
+
+### Features
+
+- [PLANET-7843](https://jira.greenpeace.org/browse/PLANET-7843) - Preserve meaningful metadata when uploading to Media Library
+
 ## 3.11.1 - 2025-07-02
 
 ### Features
