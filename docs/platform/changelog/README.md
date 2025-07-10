@@ -10,6 +10,13 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 3.12.1 - 2025-07-10
+
+### Features
+
+- [PLANET-7846](https://jira.greenpeace.org/browse/PLANET-7846) - Minor design adjustments in Action List Block
+- [PLANET-7827](https://jira.greenpeace.org/browse/PLANET-7827) - Gravity Forms: Install Survey Add On
+
 ## 3.12.0 - 2025-07-07
 
 ### Features
