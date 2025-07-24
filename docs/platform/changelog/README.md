@@ -10,6 +10,20 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 3.13.0 - 2025-07-24
+
+### Features
+
+- [PLANET-7855](https://jira.greenpeace.org/browse/PLANET-7855) - Posts List Block: Manual Override should not sort chronologically
+- [PLANET-7829](https://jira.greenpeace.org/browse/PLANET-7829) - Enable Wordpress builtin Footnotes block
+- [PLANET-7823](https://jira.greenpeace.org/browse/PLANET-7823) - Enable Wordpress builtin Details block
+- [PLANET-7820](https://jira.greenpeace.org/browse/PLANET-7820) - Reflected Cross-Site Scripting
+
+### Bug Fixes
+
+- [PLANET-7872](https://jira.greenpeace.org/browse/PLANET-7872) - Imported images are displayed in low resolution on Carousel Header
+- [PLANET-7866](https://jira.greenpeace.org/browse/PLANET-7866) - Fix Broken File Upload Links in Gravity Forms Emails
+
 ## 3.12.1 - 2025-07-10
 
 ### Features
