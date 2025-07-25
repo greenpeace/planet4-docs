@@ -38,13 +38,13 @@ Next we need to add it in our [docker repository](https://github.com/greenpeace/
 
 `src/planet-4-151612/wordpress/templates/Dockerfile.in`; inside the `ENV` block:
 
-```
+```docker
 MY_API_KEY=""
 ```
 
 `src/planet-4-151612/wordpress/wp-config.php.tmpl`:
 
-```tt2
+```php
 {{ if .Env.MY_API_KEY }}
 define( 'MY_API_KEY', '{{ .Env.MY_API_KEY }}' ); 
 {{ end }}
@@ -60,13 +60,13 @@ We need to use the new Helm chart version, so it's important to wait for the cha
 
 `src/var/secrets.yaml.in`:
 
-```
+```yaml
 myApiKey: '${MY_API_KEY}'
 ```
 
 `src/Makefile`: adding the new helm chart version:
 
-```
+```makefile
 CHART_VERSION ?= 0.8.34
 ```
 
