@@ -10,6 +10,19 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 3.13.1 - 2025-07-28
+
+### Features
+
+- [PLANET-7863](https://jira.greenpeace.org/browse/PLANET-7863) - News and Stories: Add a dropdown for tags
+- [PLANET-7861](https://jira.greenpeace.org/browse/PLANET-7861) - Tag description field not visible on Mobile on Tag Listing Page
+- [PLANET-7857](https://jira.greenpeace.org/browse/PLANET-7857) - Posts List: adjust See all posts link based on taxonomy filters
+- [PLANET-7719](https://jira.greenpeace.org/browse/PLANET-7719) - Gallery block Carousel style: screen reader should announce image alt text
+
+### Bug Fixes
+
+- [PLANET-7880](https://jira.greenpeace.org/browse/PLANET-7880) - Search UI failing on the new transparent home design
+
 ## 3.12.1 - 2025-07-10
 
 ### Features
