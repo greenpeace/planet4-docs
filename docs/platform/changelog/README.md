@@ -14,68 +14,82 @@ Items with a 🔑 icon are not enabled by default, but instead they are released
 
 ### Features
 
-- [PLANET-7863](https://jira.greenpeace.org/browse/PLANET-7863) - News and Stories: Add a dropdown for tags
-- [PLANET-7861](https://jira.greenpeace.org/browse/PLANET-7861) - Tag description field not visible on Mobile on Tag Listing Page
-- [PLANET-7857](https://jira.greenpeace.org/browse/PLANET-7857) - Posts List: adjust See all posts link based on taxonomy filters
-- [PLANET-7719](https://jira.greenpeace.org/browse/PLANET-7719) - Gallery block Carousel style: screen reader should announce image alt text
+* [PLANET-7863](https://jira.greenpeace.org/browse/PLANET-7863) - News and Stories: Add a dropdown for tags
+* [PLANET-7861](https://jira.greenpeace.org/browse/PLANET-7861) - Tag description field not visible on Mobile on Tag Listing Page
+* [PLANET-7857](https://jira.greenpeace.org/browse/PLANET-7857) - Posts List: adjust See all posts link based on taxonomy filters
+* [PLANET-7719](https://jira.greenpeace.org/browse/PLANET-7719) - Gallery block Carousel style: screen reader should announce image alt text
 
 ### Bug Fixes
 
-- [PLANET-7880](https://jira.greenpeace.org/browse/PLANET-7880) - Search UI failing on the new transparent home design
+* [PLANET-7880](https://jira.greenpeace.org/browse/PLANET-7880) - Search UI failing on the new transparent home design
+
+## 3.13.0 - 2025-07-24
+
+### Features
+
+* [PLANET-7820](https://jira.greenpeace.org/browse/PLANET-7820) - Reflected Cross-Site Scripting
+* [PLANET-7823](https://jira.greenpeace.org/browse/PLANET-7823) - Enable Wordpress builtin Details block
+* [PLANET-7829](https://jira.greenpeace.org/browse/PLANET-7829) - Enable Wordpress builtin Footnotes block
+* [PLANET-7855](https://jira.greenpeace.org/browse/PLANET-7855) - Posts List Block: Manual Override should not sort chronologically
+
+### Bug Fixes
+
+* [PLANET-7866](https://jira.greenpeace.org/browse/PLANET-7866) - Fix Broken File Upload Links in Gravity Forms Emails
+* [PLANET-7872](https://jira.greenpeace.org/browse/PLANET-7872) - Imported images are displayed in low resolution on Carousel Header
 
 ## 3.12.1 - 2025-07-10
 
 ### Features
 
-- [PLANET-7846](https://jira.greenpeace.org/browse/PLANET-7846) - Minor design adjustments in Action List Block
-- [PLANET-7827](https://jira.greenpeace.org/browse/PLANET-7827) - Gravity Forms: Install Survey Add On
+* [PLANET-7846](https://jira.greenpeace.org/browse/PLANET-7846) - Minor design adjustments in Action List Block
+* [PLANET-7827](https://jira.greenpeace.org/browse/PLANET-7827) - Gravity Forms: Install Survey Add On
 
 ## 3.12.0 - 2025-07-07
 
 ### Features
 
-- [PLANET-7843](https://jira.greenpeace.org/browse/PLANET-7843) - Preserve meaningful metadata when uploading to Media Library
+* [PLANET-7843](https://jira.greenpeace.org/browse/PLANET-7843) - Preserve meaningful metadata when uploading to Media Library
 
 ## 3.11.1 - 2025-07-02
 
 ### Features
 
-- [PLANET-7805](https://jira.greenpeace.org/browse/PLANET-7805) - Fix mobile navigation tabbing behaviour
-- [PLANET-7698](https://jira.greenpeace.org/browse/PLANET-7698) - Allow using the Greenpeace Media in the Topic Link block
+* [PLANET-7805](https://jira.greenpeace.org/browse/PLANET-7805) - Fix mobile navigation tabbing behaviour
+* [PLANET-7698](https://jira.greenpeace.org/browse/PLANET-7698) - Allow using the Greenpeace Media in the Topic Link block
 
 ## 3.11 - 2025-06-23
 
 ### Features
 
-- [PLANET-7840](https://jira.greenpeace.org/browse/PLANET-7840) - Integrate core Cover block to use GP Media
-- [PLANET-7812](https://jira.greenpeace.org/browse/PLANET-7812) - Post List Block: move See All Post link under the last item of the list.
-- [PLANET-7809](https://jira.greenpeace.org/browse/PLANET-7809) - Posts List: Show tags on list layout
-- [PLANET-7808](https://jira.greenpeace.org/browse/PLANET-7808) - Add a global setting for major taxonomy breadcrumb
-- [PLANET-7798](https://jira.greenpeace.org/browse/PLANET-7798) - Upgrade to Wordpress 6.8.1
-- [PLANET-7777](https://jira.greenpeace.org/browse/PLANET-7777) - Transparent background effect for the homepage navigation menu
-- [PLANET-7745](https://jira.greenpeace.org/browse/PLANET-7745) - Actions/Posts List blocks: adjust taxonomy breadcrumbs
-- [PLANET-7579](https://jira.greenpeace.org/browse/PLANET-7579) - Migrate Covers Take Action block to Actions List block
-- [PLANET-7511](https://jira.greenpeace.org/browse/PLANET-7511) - Migrate Articles block to Posts List block
+* [PLANET-7840](https://jira.greenpeace.org/browse/PLANET-7840) - Integrate core Cover block to use GP Media
+* [PLANET-7812](https://jira.greenpeace.org/browse/PLANET-7812) - Post List Block: move See All Post link under the last item of the list.
+* [PLANET-7809](https://jira.greenpeace.org/browse/PLANET-7809) - Posts List: Show tags on list layout
+* [PLANET-7808](https://jira.greenpeace.org/browse/PLANET-7808) - Add a global setting for major taxonomy breadcrumb
+* [PLANET-7798](https://jira.greenpeace.org/browse/PLANET-7798) - Upgrade to Wordpress 6.8.1
+* [PLANET-7777](https://jira.greenpeace.org/browse/PLANET-7777) - Transparent background effect for the homepage navigation menu
+* [PLANET-7745](https://jira.greenpeace.org/browse/PLANET-7745) - Actions/Posts List blocks: adjust taxonomy breadcrumbs
+* [PLANET-7579](https://jira.greenpeace.org/browse/PLANET-7579) - Migrate Covers Take Action block to Actions List block
+* [PLANET-7511](https://jira.greenpeace.org/browse/PLANET-7511) - Migrate Articles block to Posts List block
 
 ### Bug Fixes
 
-- [PLANET-7810](https://jira.greenpeace.org/browse/PLANET-7810) - Theme translations are loaded too early
+* [PLANET-7810](https://jira.greenpeace.org/browse/PLANET-7810) - Theme translations are loaded too early
 
 ## 3.10.0 - 2025-06-18
 
 ### Features
 
-- [PLANET-7817](https://jira.greenpeace.org/browse/PLANET-7817) - Enable Wordpress builtin Cover block
-- [PLANET-7807](https://jira.greenpeace.org/browse/PLANET-7807) - Phaseout the progress dial style in Counter's block
-- [PLANET-7683](https://jira.greenpeace.org/browse/PLANET-7683) - Quote Block Re-Design
+* [PLANET-7817](https://jira.greenpeace.org/browse/PLANET-7817) - Enable Wordpress builtin Cover block
+* [PLANET-7807](https://jira.greenpeace.org/browse/PLANET-7807) - Phaseout the progress dial style in Counter's block
+* [PLANET-7683](https://jira.greenpeace.org/browse/PLANET-7683) - Quote Block Re-Design
 
 ## 3.9.1 - 2025-05-27
 
 ### Bug Fixes
 
-- [PLANET-7792](https://jira.greenpeace.org/browse/PLANET-7792) - Planet 4 patterns are no longer categorised (except Page Headers)
-- [PLANET-7456](https://jira.greenpeace.org/browse/PLANET-7456) - Text links in lists are not underlined
-- [PLANET-7321](https://jira.greenpeace.org/browse/PLANET-7321) - Reduce/Fix font weight for post metabox headers
+* [PLANET-7792](https://jira.greenpeace.org/browse/PLANET-7792) - Planet 4 patterns are no longer categorised (except Page Headers)
+* [PLANET-7456](https://jira.greenpeace.org/browse/PLANET-7456) - Text links in lists are not underlined
+* [PLANET-7321](https://jira.greenpeace.org/browse/PLANET-7321) - Reduce/Fix font weight for post metabox headers
 
 ## 3.9.0 - 2025-05-16
 
