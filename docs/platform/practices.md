@@ -14,7 +14,7 @@ Any new ticket starts from the Refinement board. In case of bugs, we try to repr
 
 ### Estimation&#x20;
 
-We use Story Points to estimate the tickets. During the Development refinement session we are using the Zoom poll feature to do [Scrum Poker](https://en.wikipedia.org/wiki/Planning\_poker) for each ticket. Estimates are not meant to be used as a deadline, but instead it’s a tool to help us plan for each sprint and also share an understanding on the effort required by a ticket.
+We use Story Points to estimate the tickets. During the Development refinement session we are using the Zoom poll feature to do [Scrum Poker](https://en.wikipedia.org/wiki/Planning_poker) for each ticket. Estimates are not meant to be used as a deadline, but instead it’s a tool to help us plan for each sprint and also share an understanding on the effort required by a ticket.
 
 To estimate we take these three factors into account:
 
@@ -34,7 +34,16 @@ Below you can see the full lifecycle of a ticket:
 
 ## Release Management&#x20;
 
-We have [adopted Continuous Delivery](https://medium.com/planet4/moving-planet-4-from-weekly-releases-to-continuous-delivery-db1e4f9b097c) practices, so releases are not scheduled but can happen at any time during the sprint. Although the process itself is automated, triggering a new release deployment requires a manual step.&#x20;
+We have [adopted Continuous Delivery](https://medium.com/planet4/moving-planet-4-from-weekly-releases-to-continuous-delivery-db1e4f9b097c) practices, so releases are not scheduled but can happen at any time during the sprint. Although the process itself is automated, triggering a new release deployment requires a manual step.
+
+### Versioning Scheme
+
+Although most of our code repositories are using a [semantic versioning scheme](https://semver.org/) (mostly to accommodate CI automations) the platform releases naming scheme is currently closer to a [calendar versioning scheme](https://calver.org/).
+
+This scheme combines year, sprint number, and an [incremental](https://www.scrum.org/resources/what-is-an-increment) number (`YY.Sprint.Increment`). The goal is to make it easy to understand when something was shipped just by looking at its version.
+
+> ℹ️ Example:\
+> `25.7.2` → Year **2025**, Sprint **7**, Release #**2**
 
 ### Changelog&#x20;
 
