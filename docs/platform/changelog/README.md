@@ -10,6 +10,18 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 25.14.0 - 2025-08-13
+
+### Features
+
+- [PLANET-7909](https://greenpeace-planet4.atlassian.net//browse/PLANET-7909) - Add environment variable for NRO form encryption key
+- [PLANET-7862](https://greenpeace-planet4.atlassian.net//browse/PLANET-7862) - Linked Text in the Description Field of Listing Pages should show link design
+
+### Bug Fixes
+
+- [PLANET-7895](https://greenpeace-planet4.atlassian.net//browse/PLANET-7895) - Actions List: sort items by user choice on manual override
+- [PLANET-7770](https://greenpeace-planet4.atlassian.net//browse/PLANET-7770) - Wrong icon on link embed
+
 ## 3.13.1 - 2025-07-28
 
 ### Features
