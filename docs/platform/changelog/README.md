@@ -10,6 +10,17 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 25.15.0 - 2025-08-14
+
+### Features
+
+- [PLANET-7845](https://greenpeace-planet4.atlassian.net//browse/PLANET-7845) - Make Text "Comments" Bold in Posts
+- [PLANET-7821](https://greenpeace-planet4.atlassian.net//browse/PLANET-7821) - ElasticPress: add automatic sync when index is gone
+
+### Bug Fixes
+
+- [PLANET-7914](https://greenpeace-planet4.atlassian.net//browse/PLANET-7914) - Actions List: sort items by date desc
+
 ## 25.14.0 - 2025-08-13
 
 ### Features
