@@ -10,6 +10,18 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 25.15.1 - 2025-08-26
+
+### Features
+
+- [PLANET-7877](https://greenpeace-planet4.atlassian.net//browse/PLANET-7877) - Related Posts: customise See All link based on taxonomies
+- [PLANET-7865](https://greenpeace-planet4.atlassian.net//browse/PLANET-7865) - Actions List Block: Enable Load More functionality in Grid Version
+- [PLANET-7608](https://greenpeace-planet4.atlassian.net//browse/PLANET-7608) - Quick links block: enhance carousel visibility on small screens
+
+### Bug Fixes
+
+- [PLANET-7869](https://greenpeace-planet4.atlassian.net//browse/PLANET-7869) - Fix duplicated (featured) posts within the News & stories page
+
 ## 25.15.0 - 2025-08-14
 
 ### Features
