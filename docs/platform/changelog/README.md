@@ -10,6 +10,19 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 25.16.0 - 2025-09-09
+
+### Features
+
+- [PLANET-7917](https://greenpeace-planet4.atlassian.net//browse/PLANET-7917) - Retire Tags redirection option in favor of the redirection tool
+- [PLANET-7905](https://greenpeace-planet4.atlassian.net//browse/PLANET-7905) - Modernize HTTP security headers usage
+
+### Bug Fixes
+
+- [PLANET-7921](https://greenpeace-planet4.atlassian.net//browse/PLANET-7921) - The manual override shows different articles than the one set up in the Post lists block
+- [PLANET-7904](https://greenpeace-planet4.atlassian.net//browse/PLANET-7904) - TypeError: p4_client_side_gravityforms_prefill(): Return value must be of type array, bool returned
+- [PLANET-7902](https://greenpeace-planet4.atlassian.net//browse/PLANET-7902) - TypeError: enqueue_share_buttons(): $social_data must be of type array, null given
+
 ## 25.15.1 - 2025-08-26
 
 ### Features
