@@ -10,6 +10,18 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 25.16.1 - 2025-09-23
+
+### Features
+
+- [PLANET-7907](https://greenpeace-planet4.atlassian.net//browse/PLANET-7907) - Strengthen Account Password Policy
+- [PLANET-7766](https://greenpeace-planet4.atlassian.net//browse/PLANET-7766) - Purge Cloudflare cache on file replacement
+
+### Bug Fixes
+
+- [PLANET-7932](https://greenpeace-planet4.atlassian.net//browse/PLANET-7932) - Actions block: Load More Button is not clickable in some cases
+- [PLANET-7927](https://greenpeace-planet4.atlassian.net//browse/PLANET-7927) - Can't edit the Actions block manual override
+
 ## 25.16.0 - 2025-09-09
 
 ### Features
