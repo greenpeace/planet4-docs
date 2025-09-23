@@ -63,12 +63,12 @@
   * [\[ADR-0017\] Move blocks into the theme](platform/adrs/adr-0017-move-blocks-into-the-theme.md)
 * [Changelog](platform/changelog/README.md)
   * [2024](platform/changelog/2024.md)
-  * [2023](platform/changelog/changelog-2023.md)
-  * [2022](platform/changelog/changelog-2022.md)
-  * [2021](platform/changelog/changelog-2021.md)
-  * [2020](platform/changelog/changelog-2020.md)
-  * [2019](platform/changelog/changelog-2019.md)
-  * [2018](platform/changelog/changelog-2018.md)
+  * [2023](platform/changelog/2023.md)
+  * [2022](platform/changelog/2022.md)
+  * [2021](platform/changelog/2021.md)
+  * [2020](platform/changelog/2020.md)
+  * [2019](platform/changelog/2019.md)
+  * [2018](platform/changelog/2018.md)
 
 ## Tech
 

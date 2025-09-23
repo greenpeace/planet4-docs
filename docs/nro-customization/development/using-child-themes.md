@@ -38,7 +38,6 @@ Inside that folder, we create a twig template with the same name it has on the m
 So for instance, If we want to adjust the default page template we have to copy the one from the master-theme that exists at `templates/page.twig` and at the moment contains this code:
 
 ```markup
-{% raw %}
 {% extends "base.twig" %}
 
 {% block content %}
@@ -46,14 +45,12 @@ So for instance, If we want to adjust the default page template we have to copy 
     {{ post.content|raw }}
   </div>
 {% endblock %}
-{% endraw %}
 
 ```
 
 Assuming we want to display more metadata to the pages content, we would have to use the same code and do any additions (or deletions) we want.
 
 ```markup
-{% raw %}
 {% extends "base.twig" %}
 
 {% block content %}
@@ -63,7 +60,6 @@ Assuming we want to display more metadata to the pages content, we would have to
     {{ post.content|raw }}
   </div>
 {% endblock %}
-{% endraw %}
 
 ```
 
@@ -113,7 +109,7 @@ Full code for this example can be found at the [planet4-child-theme-handbook](ht
 
 If you need more space in the top bar navigation (for instance you have a multilingual site and need a language switcher at the top), you might need to move the GPI NRO selector from the top bar to the bottom of the page like on [GPLux website](https://www.greenpeace.org/luxembourg/fr/).
 
-![](<../../.gitbook/assets/gplux-country\_selector (1) (1) (2) (2) (2) (2) (2) (2) (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/gplux-country_selector (1) (1) (2) (2) (2) (2) (2) (2) (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
 
 To move the selector you need to:
 
@@ -132,9 +128,7 @@ To move the selector you need to:
     <span class="screen-reader-text">{{ __( 'Selected', 'planet4-master-theme' ) }}:</span> {{ website_navbar_title }}
     <span class="screen-reader-text">{{ __( 'Change Country', 'planet4-master-theme' ) }}</span>
 </button>
-{% raw %}
 {% include 'countries.twig' %}
-{% endraw %}
 
 ```
 
@@ -154,9 +148,7 @@ To move the selector you need to:
         <span class="screen-reader-text">{{ __( 'Change Country', 'planet4-master-theme' ) }}</span>
     </button>
     
-{% raw %}
 {% include 'countries.twig' %}
-{% endraw %}
 </ul>
 ```
 

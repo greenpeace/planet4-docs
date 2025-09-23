@@ -10,65 +10,65 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
-## 25.16.1 - 2025-09-23
+## 25.17.0 - 2025-09-23
 
 ### Features
 
-- [PLANET-7907](https://greenpeace-planet4.atlassian.net//browse/PLANET-7907) - Strengthen Account Password Policy
-- [PLANET-7766](https://greenpeace-planet4.atlassian.net//browse/PLANET-7766) - Purge Cloudflare cache on file replacement
+* [PLANET-7907](https://greenpeace-planet4.atlassian.net/browse/PLANET-7907) - Strengthen Account Password Policy
+* [PLANET-7766](https://greenpeace-planet4.atlassian.net/browse/PLANET-7766) - Purge Cloudflare cache on file replacement
 
 ### Bug Fixes
 
-- [PLANET-7932](https://greenpeace-planet4.atlassian.net//browse/PLANET-7932) - Actions block: Load More Button is not clickable in some cases
-- [PLANET-7927](https://greenpeace-planet4.atlassian.net//browse/PLANET-7927) - Can't edit the Actions block manual override
+* [PLANET-7932](https://greenpeace-planet4.atlassian.net/browse/PLANET-7932) - Actions block: Load More Button is not clickable in some cases
+* [PLANET-7927](https://greenpeace-planet4.atlassian.net/browse/PLANET-7927) - Can't edit the Actions block manual override
 
 ## 25.16.0 - 2025-09-09
 
 ### Features
 
-- [PLANET-7917](https://greenpeace-planet4.atlassian.net//browse/PLANET-7917) - Retire Tags redirection option in favor of the redirection tool
-- [PLANET-7905](https://greenpeace-planet4.atlassian.net//browse/PLANET-7905) - Modernize HTTP security headers usage
+* [PLANET-7917](https://greenpeace-planet4.atlassian.net/browse/PLANET-7917) - Retire Tags redirection option in favor of the redirection tool
+* [PLANET-7905](https://greenpeace-planet4.atlassian.net/browse/PLANET-7905) - Modernize HTTP security headers usage
 
 ### Bug Fixes
 
-- [PLANET-7921](https://greenpeace-planet4.atlassian.net//browse/PLANET-7921) - The manual override shows different articles than the one set up in the Post lists block
-- [PLANET-7904](https://greenpeace-planet4.atlassian.net//browse/PLANET-7904) - TypeError: p4_client_side_gravityforms_prefill(): Return value must be of type array, bool returned
-- [PLANET-7902](https://greenpeace-planet4.atlassian.net//browse/PLANET-7902) - TypeError: enqueue_share_buttons(): $social_data must be of type array, null given
+* [PLANET-7921](https://greenpeace-planet4.atlassian.net/browse/PLANET-7921) - The manual override shows different articles than the one set up in the Post lists block
+* [PLANET-7904](https://greenpeace-planet4.atlassian.net/browse/PLANET-7904) - TypeError: p4\_client\_side\_gravityforms\_prefill(): Return value must be of type array, bool returned
+* [PLANET-7902](https://greenpeace-planet4.atlassian.net/browse/PLANET-7902) - TypeError: enqueue\_share\_buttons(): $social\_data must be of type array, null given
 
 ## 25.15.1 - 2025-08-26
 
 ### Features
 
-- [PLANET-7877](https://greenpeace-planet4.atlassian.net//browse/PLANET-7877) - Related Posts: customise See All link based on taxonomies
-- [PLANET-7865](https://greenpeace-planet4.atlassian.net//browse/PLANET-7865) - Actions List Block: Enable Load More functionality in Grid Version
-- [PLANET-7608](https://greenpeace-planet4.atlassian.net//browse/PLANET-7608) - Quick links block: enhance carousel visibility on small screens
+* [PLANET-7877](https://greenpeace-planet4.atlassian.net/browse/PLANET-7877) - Related Posts: customise See All link based on taxonomies
+* [PLANET-7865](https://greenpeace-planet4.atlassian.net/browse/PLANET-7865) - Actions List Block: Enable Load More functionality in Grid Version
+* [PLANET-7608](https://greenpeace-planet4.atlassian.net/browse/PLANET-7608) - Quick links block: enhance carousel visibility on small screens
 
 ### Bug Fixes
 
-- [PLANET-7869](https://greenpeace-planet4.atlassian.net//browse/PLANET-7869) - Fix duplicated (featured) posts within the News & stories page
+* [PLANET-7869](https://greenpeace-planet4.atlassian.net/browse/PLANET-7869) - Fix duplicated (featured) posts within the News & stories page
 
 ## 25.15.0 - 2025-08-14
 
 ### Features
 
-- [PLANET-7845](https://greenpeace-planet4.atlassian.net//browse/PLANET-7845) - Make Text "Comments" Bold in Posts
-- [PLANET-7821](https://greenpeace-planet4.atlassian.net//browse/PLANET-7821) - ElasticPress: add automatic sync when index is gone
+* [PLANET-7845](https://greenpeace-planet4.atlassian.net/browse/PLANET-7845) - Make Text "Comments" Bold in Posts
+* [PLANET-7821](https://greenpeace-planet4.atlassian.net/browse/PLANET-7821) - ElasticPress: add automatic sync when index is gone
 
 ### Bug Fixes
 
-- [PLANET-7914](https://greenpeace-planet4.atlassian.net//browse/PLANET-7914) - Actions List: sort items by date desc
+* [PLANET-7914](https://greenpeace-planet4.atlassian.net/browse/PLANET-7914) - Actions List: sort items by date desc
 
 ## 25.14.0 - 2025-08-13
 
 ### Features
 
-- [PLANET-7909](https://greenpeace-planet4.atlassian.net//browse/PLANET-7909) - Add environment variable for NRO form encryption key
-- [PLANET-7862](https://greenpeace-planet4.atlassian.net//browse/PLANET-7862) - Linked Text in the Description Field of Listing Pages should show link design
+* [PLANET-7909](https://greenpeace-planet4.atlassian.net/browse/PLANET-7909) - Add environment variable for NRO form encryption key
+* [PLANET-7862](https://greenpeace-planet4.atlassian.net/browse/PLANET-7862) - Linked Text in the Description Field of Listing Pages should show link design
 
 ### Bug Fixes
 
-- [PLANET-7895](https://greenpeace-planet4.atlassian.net//browse/PLANET-7895) - Actions List: sort items by user choice on manual override
-- [PLANET-7770](https://greenpeace-planet4.atlassian.net//browse/PLANET-7770) - Wrong icon on link embed
+* [PLANET-7895](https://greenpeace-planet4.atlassian.net/browse/PLANET-7895) - Actions List: sort items by user choice on manual override
+* [PLANET-7770](https://greenpeace-planet4.atlassian.net/browse/PLANET-7770) - Wrong icon on link embed
 
 ## 3.13.1 - 2025-07-28
 
