@@ -10,6 +10,20 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 25.18.0 - 2025-09-30
+
+### Features
+
+- [PLANET-7938](https://greenpeace-planet4.atlassian.net//browse/PLANET-7938) - Retire 50y Guestbook block
+- [PLANET-7898](https://greenpeace-planet4.atlassian.net//browse/PLANET-7898) - Hide the Remember checkbox on login screen
+- [PLANET-7779](https://greenpeace-planet4.atlassian.net//browse/PLANET-7779) - Posts List: fix cards height to avoid arrows bouncing on carousel layout
+- [PLANET-6530](https://greenpeace-planet4.atlassian.net//browse/PLANET-6530) - New block: Secondary navigation menu
+
+### Bug Fixes
+
+- [PLANET-7919](https://greenpeace-planet4.atlassian.net//browse/PLANET-7919) - ErrorException: Warning: Undefined array key post__in
+- [PLANET-7903](https://greenpeace-planet4.atlassian.net//browse/PLANET-7903) - TypeError: array_values(): $array must be of type array, string given
+
 ## 25.17.0 - 2025-09-23
 
 ### Features
