@@ -10,17 +10,18 @@ Our main orchestration repository is [planet4-base](https://github.com/greenpeac
 
 The process is automated, but still has some manual approval checkpoints. In a nutshell, a new release deployment requires just these steps:
 
-1. Press the "Release" button on Jira.
-2. Approve the Pull Request on base repository a couple of minutes later.
-3. Approve the Changelog CI job, once you have at least a half of sites being released in production.
+1. Pick the next release number in Jira and mark it as "Released".
+2. Approve the "promote" pipeline on CircleCI and then review, approve and merge the Pull Request on the base repository a few minutes later.
+3. Once the Pull Request is merged approve the "release" pipeline that would start the deployment process for each website.
+4. Approve "changelog" job in the same "release" pipeline, once you have at least a half of sites being released in production.
 
 Below you can see a more detailed documentation of these steps, but **these steps above is actually all you have to do**.
 
 ### Jira
 
-The first action to trigger a new release is to just press the "Release" button on Jira.
+The first action to trigger a new release is to just mark it as "Released" from the dropdown menu at top-right. You can add the release date and auto-create Jira's release notes when prompted.
 
-![Press the "Release" button on the top-right.](../.gitbook/assets/jira-release.jpg)
+<figure><img src="../.gitbook/assets/Screenshot 2025-10-03 at 10.52.44.png" alt="Jira&#x27;s release management" width="375"><figcaption><p>Jira's release management</p></figcaption></figure>
 
 This will trigger a [webhook listener](https://github.com/greenpeace/planet4-release) that will trigger a new CI pipeline which [does 4 things](https://github.com/greenpeace/planet4-base/blob/main/bin/promote.py):
 
