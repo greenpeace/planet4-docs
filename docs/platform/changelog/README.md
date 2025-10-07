@@ -10,6 +10,19 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 25.18.1 - 2025-10-07
+
+### Features
+
+- [PLANET-7937](https://greenpeace-planet4.atlassian.net//browse/PLANET-7937) - Integrate Cloudflare Turnstile to Comments form section 🔑
+- [PLANET-7908](https://greenpeace-planet4.atlassian.net//browse/PLANET-7908) - Weak Authentication Lockout Threshold
+- [PLANET-7899](https://greenpeace-planet4.atlassian.net//browse/PLANET-7899) - Add Sub-Resource Integrity check on 3rd-party scripts
+- [PLANET-7896](https://greenpeace-planet4.atlassian.net//browse/PLANET-7896) - Prevent login screen user enumeration
+
+### Bug Fixes
+
+- [PLANET-7649](https://greenpeace-planet4.atlassian.net//browse/PLANET-7649) - Fix lightbox not using largest image
+
 ## 25.18.0 - 2025-09-30
 
 ### Features
