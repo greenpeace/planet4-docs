@@ -10,6 +10,20 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 25.19.0 - 2025-10-22
+
+### Features
+
+- [PLANET-7956](https://greenpeace-planet4.atlassian.net//browse/PLANET-7956) - Exclude listing pages from search engines indexing
+- [PLANET-7952](https://greenpeace-planet4.atlassian.net//browse/PLANET-7952) - Elasticsearch: clean up unused features
+- [PLANET-7926](https://greenpeace-planet4.atlassian.net//browse/PLANET-7926) - Enforce lazy YouTube player feature
+- [PLANET-7916](https://greenpeace-planet4.atlassian.net//browse/PLANET-7916) - Planet 4 Columns: Resizing the No-Image-Style Gutter 
+- [PLANET-7712](https://greenpeace-planet4.atlassian.net//browse/PLANET-7712) - Carousel Header: add pause button and enhance keyboard navigation accessibility
+
+### Bug Fixes
+
+- [PLANET-7959](https://greenpeace-planet4.atlassian.net//browse/PLANET-7959) - Data Protection: Comment Notification Email
+
 ## 25.18.1 - 2025-10-07
 
 ### Features
