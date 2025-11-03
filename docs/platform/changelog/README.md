@@ -10,6 +10,13 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 25.20.0 - 2025-11-03
+
+### Features
+
+- [PLANET-7942](https://greenpeace-planet4.atlassian.net//browse/PLANET-7942) - Media Replacer: UX/performance enhancements
+- [PLANET-7390](https://greenpeace-planet4.atlassian.net//browse/PLANET-7390) - Upgrade to Timber 2.0.x
+
 ## 25.19.0 - 2025-10-22
 
 ### Features
