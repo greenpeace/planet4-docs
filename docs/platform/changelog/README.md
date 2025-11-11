@@ -10,6 +10,16 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 25.21.0 - 2025-11-11
+
+### Features
+
+- [PLANET-7594](https://greenpeace-planet4.atlassian.net//browse/PLANET-7594) - Sitemap: show all pages per category for new IA
+
+### Bug Fixes
+
+- [PLANET-8006](https://greenpeace-planet4.atlassian.net//browse/PLANET-8006) - Timeline block: ReferenceError: TL is not defined
+
 ## 25.20.0 - 2025-11-03
 
 ### Features
