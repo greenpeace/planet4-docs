@@ -10,6 +10,17 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 25.21.1 - 2025-11-13
+
+### Features
+
+- [PLANET-7953](https://greenpeace-planet4.atlassian.net//browse/PLANET-7953) - Pick up Global Project Standards when Local Project is not set
+
+### Bug Fixes
+
+- [PLANET-8012](https://greenpeace-planet4.atlassian.net//browse/PLANET-8012) - Posts Comments are not appearing
+- [PLANET-7941](https://greenpeace-planet4.atlassian.net//browse/PLANET-7941) - Media Replacer: big images when scaled are not replaced
+
 ## 25.21.0 - 2025-11-11
 
 ### Features
