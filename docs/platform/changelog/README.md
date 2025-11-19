@@ -10,6 +10,17 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 25.21.2 - 2025-11-19
+
+### Features
+
+- [PLANET-5729](https://greenpeace-planet4.atlassian.net//browse/PLANET-5729) - Add content-visibility to lazy load below the fold elements
+
+### Bug Fixes
+
+- [PLANET-7970](https://greenpeace-planet4.atlassian.net//browse/PLANET-7970) - RTL: Credit lines are in the wrong direction
+- [PLANET-7951](https://greenpeace-planet4.atlassian.net//browse/PLANET-7951) - Local Projects Standards: space between words breaks tracking
+
 ## 25.21.1 - 2025-11-13
 
 ### Features
