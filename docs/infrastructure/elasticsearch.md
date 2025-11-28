@@ -8,7 +8,7 @@ description: An intro to the ElasticSearch technology and how Planet 4 uses it.
 
 For P4 we have an ES cluster in [Google Kubernetes Engine](https://console.cloud.google.com/kubernetes/workload?authuser=0\&project=planet-4-151612\&workload_list_tablesize=50) (GKE). Our cluster’s name is "elasticsearch" and consists of a total of 7 nodes which are 3 master-eligible nodes, 2 data nodes and 2 client nodes. At any given time only one of the master-eligible nodes is elected as actual Master node. Each data node of our cluster has multiple Indices (one for each P4 website). Each Index has 5 primary shards and 5 replica shards. The primary and the replica shards are stored in separate data nodes, so that if one of them drops then the other one can be used to continue operating without problems.
 
-![GKE ES](<../.gitbook/assets/google-kubernetes-engine-es-cluster (3) (3) (3) (3) (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
+![GKE ES](<../.gitbook/assets/google-kubernetes-engine-es-cluster (3) (3) (3) (3) (3) (1).png>)
 
 In order to talk to the ES cluster and send requests to it, we need to forward our local port 9200 to the Kubernetes pod with these two commands:
 

@@ -70,7 +70,7 @@ wsl -l -v
 
 You should see the distro you installed in the list, with the WSL version: `Ubuntu 20.04 - 2`
 
-#### Make sure WSL is enabled
+**Make sure WSL is enabled**
 
 Look here for more details. and set version for a specific distribution:
 
@@ -78,11 +78,11 @@ Look here for more details. and set version for a specific distribution:
 wsl --set-version Ubuntu-20.04 2
 ```
 
-#### Install docker
+**Install docker**
 
 Follow official documentation on [Docker on WSL2](https://learn.microsoft.com/en-us/windows/wsl/tutorials/wsl-containers).
 
-#### Troubleshooting
+**Troubleshooting**
 
 In case the WSL version for your distro is 1, you can update it using:
 
@@ -169,8 +169,6 @@ npm install
 npm run env:requirements
 ```
 
-
-
 ### Installation
 
 Install default developer environment with:
@@ -228,6 +226,8 @@ npm run
 - logs:php                          Shows logs from the php (wordpress) container
 - elastic:activate                  Activate ElasticSearch container and plugin
 - elastic:deactivate                Deactivate ElasticSearch container and plugin
+- phpmyadmin:activate               Activate phpMyAdmin container
+- phpmyadmin:deactivate             Deactivate phpMyAdmin container
 - xdebug:install                    Install Xdebug in WordPress container
 - xdebug:configure                  Rewrite Xdebug configuration and reload server
 - xdebug:flamegraph <trace>         Generate a flamegraph from a Xdebug trace file
