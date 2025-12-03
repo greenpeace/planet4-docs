@@ -10,6 +10,12 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 25.22.0 - 2025-12-03
+
+### Features
+
+- [PLANET-7966](https://greenpeace-planet4.atlassian.net//browse/PLANET-7966) - Listing pages: allow first page to be indexed
+
 ## 25.21.2 - 2025-11-19
 
 ### Features
