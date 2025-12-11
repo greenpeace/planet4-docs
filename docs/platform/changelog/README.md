@@ -10,6 +10,18 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 25.23.0 - 2025-12-11
+
+### Features
+
+- [PLANET-8032](https://greenpeace-planet4.atlassian.net//browse/PLANET-8032) - Search field: add aria-expanded to announce open/closed state of the mobile search on mobile
+- [PLANET-7973](https://greenpeace-planet4.atlassian.net//browse/PLANET-7973) - Upgrade ElasticPress to version 5.3.*
+- [PLANET-7860](https://greenpeace-planet4.atlassian.net//browse/PLANET-7860) - Optimize Block Report Functionality for Memory Usage
+
+### Bug Fixes
+
+- [PLANET-8051](https://greenpeace-planet4.atlassian.net//browse/PLANET-8051) - Error: Attempt to assign property display_name on null
+
 ## 25.22.0 - 2025-12-03
 
 ### Features
