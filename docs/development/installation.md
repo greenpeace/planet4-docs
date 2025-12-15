@@ -185,7 +185,7 @@ For NRO developers, use instead:
 # NRO name is the name used for your deployment repo (repo -> name to use):
 # planet4-international -> international
 # planet4-australiapacific -> australiapacific
-npm run nro:install <nro name>
+npm run env:install <nro name>
 ```
 
 ### Clean up
@@ -201,6 +201,7 @@ npm run
 - usage                             Get information about all commands
 - env:requirements                  Check requirements
 - env:install                       Install default Planet 4 theme and database
+- env:install <?nro>                Install NRO theme and database
 - env:start                         Start the environment
 - env:stop                          Stop the environment
 - env:clean                         Clean wp-env and delete all Planet 4 files
@@ -212,10 +213,6 @@ npm run
 - env:status                        Status of docker containers
 - env:e2e-install                   Install E2E tests dependencies
 - env:e2e                           Run E2E tests on local instance
-- nro:install <?nro>                Install NRO theme and database
-- nro:enable                        Enable installed NRO theme and database
-- nro:disable                       Switch back to default theme and database
-- nro:theme <?nro>                  Clone NRO theme in themes dir
 - build:assets                      Build main repos assets
 - build:repos                       Clone and install main repos
 - db:import <dump path> <db name>   Import database dump (gzip)
