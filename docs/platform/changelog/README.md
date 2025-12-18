@@ -10,6 +10,13 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 25.23.1 - 2025-12-18
+
+### Features
+
+- [PLANET-8028](https://greenpeace-planet4.atlassian.net//browse/PLANET-8028) - Main navigation  menu: collapsed menu on mobile must not be reachable by screen readers
+- [PLANET-8008](https://greenpeace-planet4.atlassian.net//browse/PLANET-8008) - Prevent Sentry SDK Javascript library from being a render blocking resource
+
 ## 25.23.0 - 2025-12-11
 
 ### Features
