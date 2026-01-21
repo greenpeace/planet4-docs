@@ -62,6 +62,7 @@
   * [\[ADR-0016\] Form Builder data retention policy](platform/adrs/adr-0016-form-builder-data-retention-policy.md)
   * [\[ADR-0017\] Move blocks into the theme](platform/adrs/adr-0017-move-blocks-into-the-theme.md)
 * [Changelog](platform/changelog/README.md)
+  * [2025](platform/changelog/2025.md)
   * [2024](platform/changelog/2024.md)
   * [2023](platform/changelog/2023.md)
   * [2022](platform/changelog/2022.md)
