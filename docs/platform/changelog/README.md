@@ -10,125 +10,110 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
-## 26.1.0 - 2026-01-20
-
-### Features
-
-- [PLANET-8086](https://greenpeace-planet4.atlassian.net//browse/PLANET-8086) - Display P4 announcements in the Admin dashboard
-- [PLANET-8042](https://greenpeace-planet4.atlassian.net//browse/PLANET-8042) - Footer block accessibility: On mobile, name the opened panel: Worldwide site list
-- [PLANET-8029](https://greenpeace-planet4.atlassian.net//browse/PLANET-8029) - Main navigation  menu accessibility: add a clear accessible name to the <nav> landmark
-- [PLANET-8027](https://greenpeace-planet4.atlassian.net//browse/PLANET-8027) - Main navigation menu: ensure screen readers do not announce a generic landmark on visible nav links
-- [PLANET-7983](https://greenpeace-planet4.atlassian.net//browse/PLANET-7983) - Header logo: Use specific - Greenpeace [site name] home - screen reader label across all sites
-
-### Bug Fixes
-
-- [PLANET-8077](https://greenpeace-planet4.atlassian.net//browse/PLANET-8077) - Error: Class CF\Integration\DefaultConfig not found
-- [PLANET-8067](https://greenpeace-planet4.atlassian.net//browse/PLANET-8067) - Small design issues with the Actions List block
-
 ## 25.23.1 - 2025-12-18
 
 ### Features
 
-- [PLANET-8028](https://greenpeace-planet4.atlassian.net//browse/PLANET-8028) - Main navigation  menu: collapsed menu on mobile must not be reachable by screen readers
-- [PLANET-8008](https://greenpeace-planet4.atlassian.net//browse/PLANET-8008) - Prevent Sentry SDK Javascript library from being a render blocking resource
+* [PLANET-8028](https://greenpeace-planet4.atlassian.net/browse/PLANET-8028) - Main navigation menu: collapsed menu on mobile must not be reachable by screen readers
+* [PLANET-8008](https://greenpeace-planet4.atlassian.net/browse/PLANET-8008) - Prevent Sentry SDK Javascript library from being a render blocking resource
 
 ## 25.23.0 - 2025-12-11
 
 ### Features
 
-- [PLANET-8032](https://greenpeace-planet4.atlassian.net//browse/PLANET-8032) - Search field: add aria-expanded to announce open/closed state of the mobile search on mobile
-- [PLANET-7973](https://greenpeace-planet4.atlassian.net//browse/PLANET-7973) - Upgrade ElasticPress to version 5.3.*
-- [PLANET-7860](https://greenpeace-planet4.atlassian.net//browse/PLANET-7860) - Optimize Block Report Functionality for Memory Usage
+* [PLANET-8032](https://greenpeace-planet4.atlassian.net/browse/PLANET-8032) - Search field: add aria-expanded to announce open/closed state of the mobile search on mobile
+* [PLANET-7973](https://greenpeace-planet4.atlassian.net/browse/PLANET-7973) - Upgrade ElasticPress to version 5.3.\*
+* [PLANET-7860](https://greenpeace-planet4.atlassian.net/browse/PLANET-7860) - Optimize Block Report Functionality for Memory Usage
 
 ### Bug Fixes
 
-- [PLANET-8051](https://greenpeace-planet4.atlassian.net//browse/PLANET-8051) - Error: Attempt to assign property display_name on null
+* [PLANET-8051](https://greenpeace-planet4.atlassian.net/browse/PLANET-8051) - Error: Attempt to assign property display\_name on null
 
 ## 25.22.0 - 2025-12-03
 
 ### Features
 
-- [PLANET-7966](https://greenpeace-planet4.atlassian.net//browse/PLANET-7966) - Listing pages: allow first page to be indexed
+* [PLANET-7966](https://greenpeace-planet4.atlassian.net/browse/PLANET-7966) - Listing pages: allow first page to be indexed
 
 ## 25.21.2 - 2025-11-19
 
 ### Features
 
-- [PLANET-5729](https://greenpeace-planet4.atlassian.net//browse/PLANET-5729) - Add content-visibility to lazy load below the fold elements
+* [PLANET-5729](https://greenpeace-planet4.atlassian.net/browse/PLANET-5729) - Add content-visibility to lazy load below the fold elements
 
 ### Bug Fixes
 
-- [PLANET-7970](https://greenpeace-planet4.atlassian.net//browse/PLANET-7970) - RTL: Credit lines are in the wrong direction
-- [PLANET-7951](https://greenpeace-planet4.atlassian.net//browse/PLANET-7951) - Local Projects Standards: space between words breaks tracking
+* [PLANET-7970](https://greenpeace-planet4.atlassian.net/browse/PLANET-7970) - RTL: Credit lines are in the wrong direction
+* [PLANET-7951](https://greenpeace-planet4.atlassian.net/browse/PLANET-7951) - Local Projects Standards: space between words breaks tracking
 
 ## 25.21.1 - 2025-11-13
 
 ### Features
 
-- [PLANET-7953](https://greenpeace-planet4.atlassian.net//browse/PLANET-7953) - Pick up Global Project Standards when Local Project is not set
+* [PLANET-7953](https://greenpeace-planet4.atlassian.net/browse/PLANET-7953) - Pick up Global Project Standards when Local Project is not set
 
 ### Bug Fixes
 
-- [PLANET-8012](https://greenpeace-planet4.atlassian.net//browse/PLANET-8012) - Posts Comments are not appearing
-- [PLANET-7941](https://greenpeace-planet4.atlassian.net//browse/PLANET-7941) - Media Replacer: big images when scaled are not replaced
+* [PLANET-8012](https://greenpeace-planet4.atlassian.net/browse/PLANET-8012) - Posts Comments are not appearing
+* [PLANET-7941](https://greenpeace-planet4.atlassian.net/browse/PLANET-7941) - Media Replacer: big images when scaled are not replaced
 
 ## 25.21.0 - 2025-11-11
 
 ### Features
 
-- [PLANET-7594](https://greenpeace-planet4.atlassian.net//browse/PLANET-7594) - Sitemap: show all pages per category for new IA
+* [PLANET-7594](https://greenpeace-planet4.atlassian.net/browse/PLANET-7594) - Sitemap: show all pages per category for new IA
 
 ### Bug Fixes
 
-- [PLANET-8006](https://greenpeace-planet4.atlassian.net//browse/PLANET-8006) - Timeline block: ReferenceError: TL is not defined
+* [PLANET-8006](https://greenpeace-planet4.atlassian.net/browse/PLANET-8006) - Timeline block: ReferenceError: TL is not defined
 
 ## 25.20.0 - 2025-11-03
 
 ### Features
 
-- [PLANET-7942](https://greenpeace-planet4.atlassian.net//browse/PLANET-7942) - Media Replacer: UX/performance enhancements
-- [PLANET-7390](https://greenpeace-planet4.atlassian.net//browse/PLANET-7390) - Upgrade to Timber 2.0.x
+* [PLANET-7942](https://greenpeace-planet4.atlassian.net/browse/PLANET-7942) - Media Replacer: UX/performance enhancements
+* [PLANET-7390](https://greenpeace-planet4.atlassian.net/browse/PLANET-7390) - Upgrade to Timber 2.0.x
 
 ## 25.19.0 - 2025-10-22
 
 ### Features
 
-- [PLANET-7956](https://greenpeace-planet4.atlassian.net//browse/PLANET-7956) - Exclude listing pages from search engines indexing
-- [PLANET-7952](https://greenpeace-planet4.atlassian.net//browse/PLANET-7952) - Elasticsearch: clean up unused features
-- [PLANET-7926](https://greenpeace-planet4.atlassian.net//browse/PLANET-7926) - Enforce lazy YouTube player feature
-- [PLANET-7916](https://greenpeace-planet4.atlassian.net//browse/PLANET-7916) - Planet 4 Columns: Resizing the No-Image-Style Gutter 
-- [PLANET-7712](https://greenpeace-planet4.atlassian.net//browse/PLANET-7712) - Carousel Header: add pause button and enhance keyboard navigation accessibility
+* [PLANET-7956](https://greenpeace-planet4.atlassian.net/browse/PLANET-7956) - Exclude listing pages from search engines indexing
+* [PLANET-7952](https://greenpeace-planet4.atlassian.net/browse/PLANET-7952) - Elasticsearch: clean up unused features
+* [PLANET-7926](https://greenpeace-planet4.atlassian.net/browse/PLANET-7926) - Enforce lazy YouTube player feature
+* [PLANET-7916](https://greenpeace-planet4.atlassian.net/browse/PLANET-7916) - Planet 4 Columns: Resizing the No-Image-Style Gutter
+* [PLANET-7712](https://greenpeace-planet4.atlassian.net/browse/PLANET-7712) - Carousel Header: add pause button and enhance keyboard navigation accessibility
 
 ### Bug Fixes
 
-- [PLANET-7959](https://greenpeace-planet4.atlassian.net//browse/PLANET-7959) - Data Protection: Comment Notification Email
+* [PLANET-7959](https://greenpeace-planet4.atlassian.net/browse/PLANET-7959) - Data Protection: Comment Notification Email
 
 ## 25.18.1 - 2025-10-07
 
 ### Features
 
-- [PLANET-7937](https://greenpeace-planet4.atlassian.net//browse/PLANET-7937) - Integrate Cloudflare Turnstile to Comments form section 🔑
-- [PLANET-7908](https://greenpeace-planet4.atlassian.net//browse/PLANET-7908) - Weak Authentication Lockout Threshold
-- [PLANET-7899](https://greenpeace-planet4.atlassian.net//browse/PLANET-7899) - Add Sub-Resource Integrity check on 3rd-party scripts
-- [PLANET-7896](https://greenpeace-planet4.atlassian.net//browse/PLANET-7896) - Prevent login screen user enumeration
+* [PLANET-7937](https://greenpeace-planet4.atlassian.net/browse/PLANET-7937) - Integrate Cloudflare Turnstile to Comments form section 🔑
+* [PLANET-7908](https://greenpeace-planet4.atlassian.net/browse/PLANET-7908) - Weak Authentication Lockout Threshold
+* [PLANET-7899](https://greenpeace-planet4.atlassian.net/browse/PLANET-7899) - Add Sub-Resource Integrity check on 3rd-party scripts
+* [PLANET-7896](https://greenpeace-planet4.atlassian.net/browse/PLANET-7896) - Prevent login screen user enumeration
 
 ### Bug Fixes
 
-- [PLANET-7649](https://greenpeace-planet4.atlassian.net//browse/PLANET-7649) - Fix lightbox not using largest image
+* [PLANET-7649](https://greenpeace-planet4.atlassian.net/browse/PLANET-7649) - Fix lightbox not using largest image
 
 ## 25.18.0 - 2025-09-30
 
 ### Features
 
-- [PLANET-7938](https://greenpeace-planet4.atlassian.net//browse/PLANET-7938) - Retire 50y Guestbook block
-- [PLANET-7898](https://greenpeace-planet4.atlassian.net//browse/PLANET-7898) - Hide the Remember checkbox on login screen
-- [PLANET-7779](https://greenpeace-planet4.atlassian.net//browse/PLANET-7779) - Posts List: fix cards height to avoid arrows bouncing on carousel layout
-- [PLANET-6530](https://greenpeace-planet4.atlassian.net//browse/PLANET-6530) - New block: Secondary navigation menu
+* [PLANET-7938](https://greenpeace-planet4.atlassian.net/browse/PLANET-7938) - Retire 50y Guestbook block
+* [PLANET-7898](https://greenpeace-planet4.atlassian.net/browse/PLANET-7898) - Hide the Remember checkbox on login screen
+* [PLANET-7779](https://greenpeace-planet4.atlassian.net/browse/PLANET-7779) - Posts List: fix cards height to avoid arrows bouncing on carousel layout
+* [PLANET-6530](https://greenpeace-planet4.atlassian.net/browse/PLANET-6530) - New block: Secondary navigation menu
 
 ### Bug Fixes
 
-- [PLANET-7919](https://greenpeace-planet4.atlassian.net//browse/PLANET-7919) - ErrorException: Warning: Undefined array key post__in
-- [PLANET-7903](https://greenpeace-planet4.atlassian.net//browse/PLANET-7903) - TypeError: array_values(): $array must be of type array, string given
+* [PLANET-7919](https://greenpeace-planet4.atlassian.net/browse/PLANET-7919) - ErrorException: Warning: Undefined array key post\_\_in
+* [PLANET-7903](https://greenpeace-planet4.atlassian.net/browse/PLANET-7903) - TypeError: array\_values(): $array must be of type array, string given
 
 ## 25.17.0 - 2025-09-23
 

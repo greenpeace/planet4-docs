@@ -15,7 +15,7 @@ Sometimes when an NRO wants to do big content or taxonomy changes in their live 
 There is [a plugin](https://wordpress.org/plugins/maintenance/) that seems to fulfill all the requirements for this task.Although it has a paid version, the free tier seems sufficient for our needs. The plugin should be installed and activated temporarily only in the website that is needed. To install the plugin we just need to adjust `composer-local.json` in the website deployment repository.
 
 ```json
-"wpackagist-plugin/maintenance": "4.*"
+"wpackagist-plugin/maintenance": "4.12"
 ```
 
 Then create a new tag to trigger a new production deployment.
@@ -61,8 +61,7 @@ Below are the various options we need to change in the plugin configuration page
 
 Once everything is done from the NRO, de-activating the plugin is enough to disable the maintenance page.
 
-After confirming that everything looks good, the plugin should also be removed from the website `composer-local.json` file so it’s being removed in the next release.\
-
+After confirming that everything looks good, the plugin should also be removed from the website `composer-local.json` file so it’s being removed in the next release.\\
 
 \
-\
+\\
