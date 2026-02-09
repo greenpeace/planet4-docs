@@ -10,6 +10,15 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 26.2.1 - 2026-02-09
+
+### Features
+
+- [PLANET-8100](https://greenpeace-planet4.atlassian.net//browse/PLANET-8100) - Remove the obsolete list of Analytics Global Projects
+- [PLANET-8087](https://greenpeace-planet4.atlassian.net//browse/PLANET-8087) - Remove country selector text P4 setting
+- [PLANET-8071](https://greenpeace-planet4.atlassian.net//browse/PLANET-8071) - Listing pages: add feature flag to allow search engines indexing
+- [PLANET-8031](https://greenpeace-planet4.atlassian.net//browse/PLANET-8031) - Search accessibility: Use a simple and clear name for the submit icon
+
 ## 26.2.0 - 2026-02-03
 
 ### Features
