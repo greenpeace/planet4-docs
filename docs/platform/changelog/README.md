@@ -10,6 +10,30 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 26.3.0 - 2026-02-25
+
+### Features
+
+- [PLANET-8112](https://greenpeace-planet4.atlassian.net//browse/PLANET-8112) - Add option for allowing external domains to CSP headers
+- [PLANET-8091](https://greenpeace-planet4.atlassian.net//browse/PLANET-8091) - Footer block accessibility: Focus is trapped on a hidden close button after opening and closing the drop-down on mobile.
+- [PLANET-8049](https://greenpeace-planet4.atlassian.net//browse/PLANET-8049) - Phase out username/password login form
+- [PLANET-8017](https://greenpeace-planet4.atlassian.net//browse/PLANET-8017) - News & Stories page accessibility: Add screen-reader-only H2 Filtered results before the filtered posts
+- [PLANET-8015](https://greenpeace-planet4.atlassian.net//browse/PLANET-8015) - News & Stories page accessibility: Change Apply button text to Apply filters
+- [PLANET-8007](https://greenpeace-planet4.atlassian.net//browse/PLANET-8007) - Carousel header accessibility: treat slide images as decorative
+- [PLANET-8004](https://greenpeace-planet4.atlassian.net//browse/PLANET-8004) - Carousel header accessibility: Add a consistent label of the pause/play button
+- [PLANET-7999](https://greenpeace-planet4.atlassian.net//browse/PLANET-7999) - Search Results page accessibility: Fix focus trap inside the filter modal
+- [PLANET-7994](https://greenpeace-planet4.atlassian.net//browse/PLANET-7994) - Search page accessibility: fix Apply filter focus so users land in results, not lost outside the modal
+- [PLANET-7993](https://greenpeace-planet4.atlassian.net//browse/PLANET-7993) - Search page accessibility: announce Load more results and move focus to first new item
+- [PLANET-7990](https://greenpeace-planet4.atlassian.net//browse/PLANET-7990) - Fix skip links on mobile so they move keyboard focus correctly when activated
+
+### Bug Fixes
+
+- [PLANET-8127](https://greenpeace-planet4.atlassian.net//browse/PLANET-8127) - Exporting Posts returns Internal Server Error (500)
+- [PLANET-8124](https://greenpeace-planet4.atlassian.net//browse/PLANET-8124) - Admin not able to update other users role
+- [PLANET-8121](https://greenpeace-planet4.atlassian.net//browse/PLANET-8121) - Carousel Header design breaks if content is too long
+- [PLANET-8111](https://greenpeace-planet4.atlassian.net//browse/PLANET-8111) - Burger menu sub items are using the wrong font family
+- [PLANET-8060](https://greenpeace-planet4.atlassian.net//browse/PLANET-8060) - Take Action Boxout: Takes too much time to populate Actions
+
 ## 26.2.1 - 2026-02-09
 
 ### Features
