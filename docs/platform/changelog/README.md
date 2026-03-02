@@ -10,6 +10,16 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 26.4.0 - 2026-03-02
+
+### Features
+
+- [PLANET-8014](https://greenpeace-planet4.atlassian.net//browse/PLANET-8014) - News & Stories page accessibility: move Featured News block and H1 heading into <main>
+
+### Bug Fixes
+
+- [PLANET-8123](https://greenpeace-planet4.atlassian.net//browse/PLANET-8123) - Unable to remove certain blocks in the editor
+
 ## 26.3.0 - 2026-02-25
 
 ### Features
