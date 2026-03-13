@@ -25,7 +25,7 @@ add_filter( 'planet4_sendgrid_sender', 'update_planet4_sendgrid_sender', 10, 1 )
 * Description: This filter hook allows overriding the Permissions-Policy HTTP response header value set by the theme. Return an empty string to disable the header entirely.
 * Parameters: `$policy` (type: string).
 * Usage: Use this hook to replace the default Permissions-Policy header with a custom value, or to disable the header when not needed.
-* Default value(if the filter is not used):
+* Default value (if the filter is not used):
   `geolocation=(),sync-xhr=(self),microphone=(self),camera=(self),payment=()`
 * Example:
 ```php
@@ -103,7 +103,7 @@ add_filter( 'planet4_form_cache_purge_post_types', 'update_planet4_form_cache_pu
 * Description: This filter hook allows overriding the admin menu editor configuration, which controls the maximum depth and item/character limits per menu location.
 * Parameters: `$conf` (type: array) — associative array of menu location configurations keyed by menu location slug.
 * Usage: Use this hook to adjust menu constraints for the navigation-bar-menu or donate-menu locations, or to add configuration for custom menu locations.
-* Default value(if the filter is not used):
+* Default value (if the filter is not used):
 ```php
 // Configuration per menu location.
 $default_conf = [
