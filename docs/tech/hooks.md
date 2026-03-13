@@ -41,7 +41,7 @@ add_filter( 'planet4_permissions_policy_header', 'update_planet4_permissions_pol
 * Description: This filter hook allows adding trusted domains to the frame-ancestors directive of the `Content-Security-Policy` header. When additional ancestors are provided, the X-Frame-Options header is omitted.
 * Parameters: `$additional_allowed_frame_ancestors` (type: array) — array of domain strings to whitelist as frame ancestors.
 * Usage: Use this hook to allow your site to be embedded inside iframes from trusted external domains.
-* Default value: [] (only 'self' is allowed by default)
+* Default value: `[]` (only 'self' is allowed by default)
 * Example:
 ```php
 function update_planet4_csp_allowed_frame_ancestors( $ancestors ) {
@@ -81,6 +81,21 @@ function update_planet4_datalayer_form_submission( $event_parameters, $form, $en
   return $event_parameters;
 }
 add_filter( 'planet4_datalayer_form_submission', 'update_planet4_datalayer_form_submission', 10, 3 );
+```
+
+### planet4\_form\_cache\_purge\_post\_types
+
+* Description: This filter hook allows modification of the post types that are checked for cache clearing when a Gravity Form is updated.
+* Parameters: `$post_types` (type: array) — array of post type slugs to scan for embedded forms.
+* Usage: Use this hook to add custom post types that embed Gravity Forms so their cache is correctly purged on form change. **Requires Gravity Forms plugin to be active.**
+* Default value: `['page', 'post', 'campaign', 'p4_action']`
+* Example:
+```php
+function update_planet4_form_cache_purge_post_types( $post_types ) {
+  $post_types[] = 'my_custom_post_type';
+  return $post_types;
+}
+add_filter( 'planet4_form_cache_purge_post_types', 'update_planet4_form_cache_purge_post_types', 10, 1 );
 ```
 
 ## Links & resources
