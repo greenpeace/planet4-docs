@@ -66,6 +66,23 @@ function update_planet4_youtube_embed_parameters( $query_string ) {
 add_filter( 'planet4_youtube_embed_parameters', 'update_planet4_youtube_embed_parameters', 10, 1 );
 ```
 
+### planet4\_datalayer\_form\_submission
+
+* Description: This filter hook allows modification of the dataLayer event parameters pushed to Google Tag Manager on Gravity Forms submission.
+* Parameters:
+* `$event_parameters` (type: array) — the dataLayer event data to be pushed.
+* `$form` (type: array) — the Gravity Forms form object.
+* `$entry` (type: array) — the Gravity Forms entry object.
+* Usage: Use this hook to add, remove, or modify tracking parameters sent to the dataLayer on form submission. **Requires Gravity Forms plugin to be active**.
+* Example:
+```php
+function update_planet4_datalayer_form_submission( $event_parameters, $form, $entry ) {
+  // (maybe) change $event_parameters.
+  return $event_parameters;
+}
+add_filter( 'planet4_datalayer_form_submission', 'update_planet4_datalayer_form_submission', 10, 3 );
+```
+
 ## Links & resources
 
 * [Hooks](https://developer.wordpress.org/plugins/hooks/)
