@@ -144,6 +144,20 @@ function update_planet4_menu_config( $conf ) {
 add_filter( 'planet4_menu_config', 'update_planet4_menu_config', 10, 1 );
 ```
 
+### planet4\_feature\_\_{$name}
+
+* Description: This dynamic filter hook allows enabling or disabling a specific Planet4 feature flag from code, bypassing the admin UI setting. Replace {$name} with the name of the feature flag (e.g. `planet4_feature__cloudflare_deploy_purge`).
+* Parameters: `$active` (type: bool) — the current active state of the feature as stored in the database.
+* Usage: Use this hook to force-enable or force-disable a feature flag during a release to avoid a chicken-and-egg problem when code changes depend on the feature being active.
+* Example:
+```php
+// Force-enable a specific feature flag.
+add_filter( 'planet4_feature__my_feature_id', '__return_true' );
+
+// Force-disable a specific feature flag.
+add_filter( 'planet4_feature__my_feature_id', '__return_false' );
+```
+
 ## Links & resources
 
 * [Hooks](https://developer.wordpress.org/plugins/hooks/)
