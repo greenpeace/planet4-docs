@@ -38,6 +38,22 @@ function update_planet4_permissions_policy_header( $policy ) {
 add_filter( 'planet4_permissions_policy_header', 'update_planet4_permissions_policy_header', 10, 1 );
 ```
 
+### planet4\_csp\_allowed\_frame\_ancestors
+
+* Description: This filter hook allows adding trusted domains to the frame-ancestors directive of the `Content-Security-Policy` header. When additional ancestors are provided, the X-Frame-Options header is omitted.
+* Parameters: `$additional_allowed_frame_ancestors` (type: array) — array of domain strings to whitelist as frame ancestors.
+* Usage: Use this hook to allow your site to be embedded inside iframes from trusted external domains.
+* Default value: [] (only 'self' is allowed by default)
+* Example:
+
+```
+function update_planet4_csp_allowed_frame_ancestors( $ancestors ) {
+  $ancestors[] = 'https://trusted-domain.com';
+  return $ancestors;
+}
+add_filter( 'planet4_csp_allowed_frame_ancestors', 'update_planet4_csp_allowed_frame_ancestors', 10, 1 );
+```
+
 ## Links & resources
 
 * [Hooks](https://developer.wordpress.org/plugins/hooks/)
