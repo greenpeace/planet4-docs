@@ -98,6 +98,52 @@ function update_planet4_form_cache_purge_post_types( $post_types ) {
 add_filter( 'planet4_form_cache_purge_post_types', 'update_planet4_form_cache_purge_post_types', 10, 1 );
 ```
 
+### planet4\_menu\_config
+
+* Description: This filter hook allows overriding the admin menu editor configuration, which controls the maximum depth and item/character limits per menu location.
+* Parameters: `$conf` (type: array) — associative array of menu location configurations keyed by menu location slug.
+* Usage: Use this hook to adjust menu constraints for the navigation-bar-menu or donate-menu locations, or to add configuration for custom menu locations.
+* Default value(if the filter is not used):
+```php
+// Configuration per menu location.
+$default_conf = [
+    'navigation-bar-menu' => [
+        'maxDepth' => 1,
+        'depthConf' => [
+            0 => [
+                'maxItems' => 5,
+                'maxChars' => 18,
+            ],
+            1 => [
+                'maxItems' => 10,
+                'maxChars' => 32,
+            ],
+        ],
+    ],
+    'donate-menu' => [
+        'maxDepth' => 1,
+        'depthConf' => [
+            0 => [
+                'maxItems' => 1,
+                'maxChars' => 18,
+            ],
+            1 => [
+                'maxItems' => 10,
+                'maxChars' => 32,
+            ],
+        ],
+    ],
+];
+```
+* Example:
+```php
+function update_planet4_menu_config( $conf ) {
+  // (maybe) change $conf.
+  return $conf;
+}
+add_filter( 'planet4_menu_config', 'update_planet4_menu_config', 10, 1 );
+```
+
 ## Links & resources
 
 * [Hooks](https://developer.wordpress.org/plugins/hooks/)
