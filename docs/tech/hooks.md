@@ -12,7 +12,6 @@ This document outlines custom hooks added to the Planet4 theme for extending fun
 * Parameters: `$sender` (type: string).
 * Usage: Use this hook to change the SENDER value for Sendgrid PHPMailer integration.
 * Example:
-
 ```php
 function update_planet4_sendgrid_sender( $sender ) {
     // (maybe) change $sender.
@@ -29,7 +28,6 @@ add_filter( 'planet4_sendgrid_sender', 'update_planet4_sendgrid_sender', 10, 1 )
 * Default value(if the filter is not used):
   `geolocation=(),sync-xhr=(self),microphone=(self),camera=(self),payment=()`
 * Example:
-
 ```php
 function update_planet4_permissions_policy_header( $policy ) {
   // (maybe) change $policy.
@@ -45,13 +43,27 @@ add_filter( 'planet4_permissions_policy_header', 'update_planet4_permissions_pol
 * Usage: Use this hook to allow your site to be embedded inside iframes from trusted external domains.
 * Default value: [] (only 'self' is allowed by default)
 * Example:
-
-```
+```php
 function update_planet4_csp_allowed_frame_ancestors( $ancestors ) {
   $ancestors[] = 'https://trusted-domain.com';
   return $ancestors;
 }
 add_filter( 'planet4_csp_allowed_frame_ancestors', 'update_planet4_csp_allowed_frame_ancestors', 10, 1 );
+```
+
+### planet4\_youtube\_embed\_parameters
+
+* Description: This filter hook allows modification of the query string parameters appended to YouTube embed URLs.
+* Parameters: `$query_string` (type: string) — the URL query string appended to the YouTube embed.
+* Usage: Use this hook to add or change YouTube embed parameters such as autoplay, controls, rel, etc.
+* Default value: `rel=0`
+* Example:
+```php
+function update_planet4_youtube_embed_parameters( $query_string ) {
+  // (maybe) change $query_string.
+  return $query_string;
+}
+add_filter( 'planet4_youtube_embed_parameters', 'update_planet4_youtube_embed_parameters', 10, 1 );
 ```
 
 ## Links & resources
