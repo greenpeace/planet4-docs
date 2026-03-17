@@ -10,6 +10,21 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 26.5.0 - 2026-03-17
+
+### Features
+
+- [PLANET-8128](https://greenpeace-planet4.atlassian.net//browse/PLANET-8128) - Add Permissions-Policy header and a hook to override them
+- [PLANET-8114](https://greenpeace-planet4.atlassian.net//browse/PLANET-8114) - Upgrade to PHP 8.3
+- [PLANET-8030](https://greenpeace-planet4.atlassian.net//browse/PLANET-8030) - Search field accessibilty: make the text input the first focusable element (before the icon)
+- [PLANET-8026](https://greenpeace-planet4.atlassian.net//browse/PLANET-8026) - Main navigation menu accessibility: move focus into the expanded menu on mobile and trap it until closed
+- [PLANET-8001](https://greenpeace-planet4.atlassian.net//browse/PLANET-8001) - Carousel header accessibility: wrap entire carousel in a labeled landmark
+- [PLANET-7978](https://greenpeace-planet4.atlassian.net//browse/PLANET-7978) - Cookie notice accessibility: ensure focus is moved correctly for keyboard and screen reader users
+
+### Bug Fixes
+
+- [PLANET-8142](https://greenpeace-planet4.atlassian.net//browse/PLANET-8142) - Hydration errors in the Gallery block
+
 ## 26.4.0 - 2026-03-02
 
 ### Features
