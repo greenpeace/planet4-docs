@@ -10,6 +10,20 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 26.6.0 - 2026-03-31
+
+### Features
+
+- [PLANET-8019](https://greenpeace-planet4.atlassian.net//browse/PLANET-8019) - Main navigation  menu accessibility: Enter and Space do not open dropdown
+- [PLANET-8002](https://greenpeace-planet4.atlassian.net//browse/PLANET-8002) - Carousel header accessibility: group left/right arrows in a labeled navigation region
+- [PLANET-7998](https://greenpeace-planet4.atlassian.net//browse/PLANET-7998) - Search Results page accessibility: remove duplicate labels on checkboxes
+- [PLANET-7977](https://greenpeace-planet4.atlassian.net//browse/PLANET-7977) - Actions List carousel accessibility: unexpected Back to list announcement after carousel items
+
+### Bug Fixes
+
+- [PLANET-8144](https://greenpeace-planet4.atlassian.net//browse/PLANET-8144) - Fix the first element of the mobile navigation from being cut off 
+- [PLANET-8127](https://greenpeace-planet4.atlassian.net//browse/PLANET-8127) - Exporting Posts returns Internal Server Error (500)
+
 ## 26.5.0 - 2026-03-17
 
 ### Features
