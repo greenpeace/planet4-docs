@@ -10,6 +10,18 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 26.6.1 - 2026-04-08
+
+### Features
+
+- [PLANET-8009](https://greenpeace-planet4.atlassian.net//browse/PLANET-8009) - Carousel header accessibility: place the auto-play control earlier in the reading order
+- [PLANET-7976](https://greenpeace-planet4.atlassian.net//browse/PLANET-7976) - Actions List accessibility: remove unnecessary links (featured image, category)
+
+### Bug Fixes
+
+- [PLANET-8150](https://greenpeace-planet4.atlassian.net//browse/PLANET-8150) - Take Action Boxout doesn't work with new IA if Take Action page is not set
+- [PLANET-8149](https://greenpeace-planet4.atlassian.net//browse/PLANET-8149) - Posts show wrong publish date in certain timezones
+
 ## 26.6.0 - 2026-03-31
 
 ### Features
