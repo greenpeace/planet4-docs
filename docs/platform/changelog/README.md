@@ -10,6 +10,25 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 26.8.0 - 2026-05-05
+
+### Features
+
+- [PLANET-8139](https://greenpeace-planet4.atlassian.net//browse/PLANET-8139) - Add data attributes to Posts List block 
+- [PLANET-8138](https://greenpeace-planet4.atlassian.net//browse/PLANET-8138) - Add data attributes to Actions List block and TAB blocks
+- [PLANET-8078](https://greenpeace-planet4.atlassian.net//browse/PLANET-8078) - Make the Language selector operable via keyboard
+- [PLANET-8068](https://greenpeace-planet4.atlassian.net//browse/PLANET-8068) - Patterns accessibility: fix skipped heading levels across blocks
+- [PLANET-8020](https://greenpeace-planet4.atlassian.net//browse/PLANET-8020) - Main navigation  menu accessibility: Improve dropdown trigger label to reference its parent and state
+- [PLANET-8016](https://greenpeace-planet4.atlassian.net//browse/PLANET-8016) - News & Stories accessibility: make Prev non-focusable when disabled
+- [PLANET-8013](https://greenpeace-planet4.atlassian.net//browse/PLANET-8013) - News & Stories accessibility: add an h2 heading (screen-reader only) before the filters
+- [PLANET-7975](https://greenpeace-planet4.atlassian.net//browse/PLANET-7975) - Actions List carousel accessibility: navigation arrows in a labeled nav region
+
+### Bug Fixes
+
+- [PLANET-8159](https://greenpeace-planet4.atlassian.net//browse/PLANET-8159) - Resistance Hub: Actions List card layout UI looks off
+- [PLANET-8156](https://greenpeace-planet4.atlassian.net//browse/PLANET-8156) - Posts list block shows todays date for all posts
+- [PLANET-8134](https://greenpeace-planet4.atlassian.net//browse/PLANET-8134) - Image captions are displaying breaking html
+
 ## 26.6.1 - 2026-04-08
 
 ### Features
