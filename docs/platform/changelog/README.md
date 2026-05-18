@@ -10,6 +10,18 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 26.9.0 - 2026-05-18
+
+### Features
+
+- [PLANET-8045](https://greenpeace-planet4.atlassian.net//browse/PLANET-8045) - Forms accessibility: enable validation errors summary
+- [PLANET-8003](https://greenpeace-planet4.atlassian.net//browse/PLANET-8003) - Carousel header accessibility: move focus into active slide when slide button is selected
+- [PLANET-7974](https://greenpeace-planet4.atlassian.net//browse/PLANET-7974) - Actions List accessibility: Add live region and clear slide context for screen readers
+
+### Bug Fixes
+
+- [PLANET-8147](https://greenpeace-planet4.atlassian.net//browse/PLANET-8147) - Carousel Header: automatically scrolls page up on slide change
+
 ## 26.8.0 - 2026-05-05
 
 ### Features
