@@ -158,6 +158,42 @@ add_filter( 'planet4_feature__my_feature_id', '__return_true' );
 add_filter( 'planet4_feature__my_feature_id', '__return_false' );
 ```
 
+### planet4\_master\_theme\_process\_buffer
+
+* Description: This filter allows developers to enable or disable processing of the output buffer by the  `HTMLPostProcessor`. Returning false prevents any further modifications to the buffered HTML content.
+* Parameters:
+  - `$should_process` (type: bool) — Whether the output buffer should be processed. Defaults to true.
+  - `$context` (type: array) — Optional contextual information about the current request:
+    - `template` (type: string) — The slug of the current page template.
+    - `post_id` (type: int|null) — The ID of the current post.
+    - `post_type` (type: string|null) — The post type of the current post.
+* Usage: Use this hook to selectively disable HTML post-processing for specific templates, post types, or pages where the processor may interfere with custom markup, such as embedded forms or third-party widgets.
+* Example:
+```php
+// Prevent HTML post-processing from modifying all buffered output.
+add_filter('planet4_master_theme_process_buffer', function ($should_process) {
+  return false;
+});
+
+// Prevent processing only on pages using a particular template.
+add_filter('planet4_master_theme_process_buffer', function ($should_process, $context) {
+    if (isset($context['template']) && 'example.php' === $context['template']) {
+        return false;
+    }
+
+    return $should_process;
+}, 10, 2);
+
+// Prevent processing for all pages of the "campaign" post type.
+add_filter('planet4_master_theme_process_buffer', function ($should_process, $context) {
+    if (isset($context['post_type']) && 'campaign' === $context['post_type']) {
+        return false;
+    }
+
+    return $should_process;
+}, 10, 2);
+```
+
 ## Links & resources
 
 * [Hooks](https://developer.wordpress.org/plugins/hooks/)
