@@ -10,6 +10,17 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 26.10.0 - 2026-06-02
+
+### Features
+
+- [PLANET-8154](https://greenpeace-planet4.atlassian.net//browse/PLANET-8154) - GP Media alt-text accessibility adjustments
+- [PLANET-7940](https://greenpeace-planet4.atlassian.net//browse/PLANET-7940) - Actions List block: UX fixes and adjustments
+
+### Bug Fixes
+
+- [PLANET-8166](https://greenpeace-planet4.atlassian.net//browse/PLANET-8166) - Carousel Header UI adjustments
+
 ## 26.9.0 - 2026-05-18
 
 ### Features
