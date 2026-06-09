@@ -10,6 +10,13 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 26.11.0 - 2026-06-09
+
+### Bug Fixes
+
+- [PLANET-8190](https://greenpeace-planet4.atlassian.net//browse/PLANET-8190) - Google Profile Avatars: Author images not appearing
+- [PLANET-8187](https://greenpeace-planet4.atlassian.net//browse/PLANET-8187) - Gallery Block: Images slider not sliding
+
 ## 26.10.0 - 2026-06-02
 
 ### Features
