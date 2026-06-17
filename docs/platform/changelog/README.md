@@ -10,6 +10,18 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 26.11.1 - 2026-06-17
+
+### Features
+
+- [PLANET-8145](https://greenpeace-planet4.atlassian.net//browse/PLANET-8145) - Enforce image size in carousel header
+- [PLANET-8129](https://greenpeace-planet4.atlassian.net//browse/PLANET-8129) - Meta block: refactor embed integration and fix broken use cases
+
+### Bug Fixes
+
+- [PLANET-8191](https://greenpeace-planet4.atlassian.net//browse/PLANET-8191) - Page Publish Validation Errors Prevent Creating and Editing Custom Templates
+- [PLANET-8186](https://greenpeace-planet4.atlassian.net//browse/PLANET-8186) - Creating or editing patterns fails because of Featured image being mandatory
+
 ## 26.11.0 - 2026-06-09
 
 ### Bug Fixes
