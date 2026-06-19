@@ -32,3 +32,7 @@ In general we try to stick as close as possible to [WordPress Coding Standards](
 ## Code Of Conduct
 
 In the interest of fostering an open, inclusive and welcoming environment, our project is following a [Contributor Code of Conduct](https://www.contributor-covenant.org/version/1/4/code-of-conduct).
+
+## Automation/AI policy
+
+Every contribution to Planet 4 (code, design, documentation, or even communication here on GitHub or elsewhere) must always have a [responsible person in the loop](https://en.wikipedia.org/wiki/Human-in-the-loop) who is accountable for that contribution and reviews it before submission, regardless of the use of automated tooling. The submitting author is ultimately accountable for the accuracy, safety, and quality of their contribution and must review and understand all automated output before submission.
