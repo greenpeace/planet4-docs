@@ -10,6 +10,18 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 26.12.0 - 2026-06-29
+
+### Features
+
+- [PLANET-8165](https://greenpeace-planet4.atlassian.net//browse/PLANET-8165) - Serve Hubspot pages under P4 domain and path
+- [PLANET-8025](https://greenpeace-planet4.atlassian.net//browse/PLANET-8025) - Optimize Database Queries: Navigation menus
+- [PLANET-8005](https://greenpeace-planet4.atlassian.net//browse/PLANET-8005) - Carousel header accessibility: On mobile prevent the current slide announcements on auto-play
+
+### Bug Fixes
+
+- [PLANET-7630](https://greenpeace-planet4.atlassian.net//browse/PLANET-7630) - Shared links and meta tags dont show all special characters properly
+
 ## 26.11.1 - 2026-06-17
 
 ### Features
