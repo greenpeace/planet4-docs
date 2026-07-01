@@ -10,6 +10,13 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 26.12.1 - 2026-07-01
+
+### Features
+
+- [PLANET-8195](https://greenpeace-planet4.atlassian.net//browse/PLANET-8195) - Greenpeace Media: Allow Authors to import new media files
+- [PLANET-8173](https://greenpeace-planet4.atlassian.net//browse/PLANET-8173) - Carousel header accessibility: Fix off-Screen Focus on mobile
+
 ## 26.12.0 - 2026-06-29
 
 ### Features
