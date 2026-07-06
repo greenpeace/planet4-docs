@@ -10,6 +10,16 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 26.13.0 - 2026-07-06
+
+### Features
+
+- [PLANET-8024](https://greenpeace-planet4.atlassian.net//browse/PLANET-8024) - Optimize Database Queries: News & Stories
+
+### Bug Fixes
+
+- [PLANET-8213](https://greenpeace-planet4.atlassian.net//browse/PLANET-8213) - Footer menu showing the wrong language
+
 ## 26.12.1 - 2026-07-01
 
 ### Features
