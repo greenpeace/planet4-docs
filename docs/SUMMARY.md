@@ -32,6 +32,7 @@
 
 ## Infrastructure
 
+* [Kubernetes](infrastructure/kubernetes.md)
 * [NRO Generation](infrastructure/nro-generation.md)
 * [ElasticSearch](infrastructure/elasticsearch.md)
 * [Cloudflare](infrastructure/cloudflare.md)

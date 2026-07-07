@@ -16,7 +16,7 @@ We are using [`wp-env`](https://github.com/WordPress/gutenberg/blob/trunk/packag
 #### Platform specific steps
 
 {% tabs %}
-{% tab title="Linux" %}
+{% tab title="Linux" icon="linux" %}
 Install basic system dependencies:
 
 ```bash
@@ -51,7 +51,27 @@ docker run hello-world
 ```
 {% endtab %}
 
-{% tab title="Windows" %}
+{% tab title="MacOS" icon="apple" %}
+**Mac with Apple silicon (M1, M2, etc.)**
+
+Install Rosetta 2:
+
+```shell-session
+softwareupdate --install-rosetta
+```
+
+then download and install Docker Desktop from the official documentation:
+
+[https://docs.docker.com/desktop/install/mac-install/](https://docs.docker.com/desktop/install/mac-install/)
+
+**Mac with Intel chip**
+
+Download and install Docker Desktop from the official documentation:
+
+[https://docs.docker.com/desktop/install/mac-install/](https://docs.docker.com/desktop/install/mac-install/)
+{% endtab %}
+
+{% tab title="Windows" icon="windows" %}
 In order to run the Planet4 development environment in Windows you'll need to enable **Windows Subsystem for Linux (WSL)**. WSL allows you to run a Linux environment within Windows. You'll need to enable WSL and install Ubuntu. The current version (WSL 2) comes with a lot of enhancements and better disk performance.\
 \
 You can follow the installation instructions [here](https://ubuntu.com/wsl).
@@ -119,26 +139,6 @@ Segmentation fault
 [wsl2]
 kernelCommandLine = vsyscall=emulate
 ```
-{% endtab %}
-
-{% tab title="MacOS" %}
-**Mac with Apple silicon (M1, M2, etc.)**
-
-Install Rosetta 2:
-
-```shell-session
-softwareupdate --install-rosetta
-```
-
-then download and install Docker Desktop from the official documentation:
-
-[https://docs.docker.com/desktop/install/mac-install/](https://docs.docker.com/desktop/install/mac-install/)
-
-**Mac with Intel chip**
-
-Download and install Docker Desktop from the official documentation:
-
-[https://docs.docker.com/desktop/install/mac-install/](https://docs.docker.com/desktop/install/mac-install/)
 {% endtab %}
 {% endtabs %}
 
