@@ -10,6 +10,13 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 26.13.1 - 2026-07-15
+
+### Features
+
+- [PLANET-8226](https://greenpeace-planet4.atlassian.net//browse/PLANET-8226) - Take Action Boxout: add option for opening Actions in a new tab
+- [PLANET-8189](https://greenpeace-planet4.atlassian.net//browse/PLANET-8189) - Actions: implement automation for importing external landing pages with redirection
+
 ## 26.13.0 - 2026-07-06
 
 ### Features
