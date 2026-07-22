@@ -10,6 +10,14 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 26.14.0 - 2026-07-22
+
+### Features
+
+- [PLANET-8182](https://greenpeace-planet4.atlassian.net//browse/PLANET-8182) - Upgrade to Wordpress 7.0.2
+- [PLANET-8046](https://greenpeace-planet4.atlassian.net//browse/PLANET-8046) - Forms accessibility: on submission focus should not move at the top of the page
+- [PLANET-7915](https://greenpeace-planet4.atlassian.net//browse/PLANET-7915) - Planet 4 Columns: enable image upload directly from Greenpeace Media
+
 ## 26.13.1 - 2026-07-15
 
 ### Features
