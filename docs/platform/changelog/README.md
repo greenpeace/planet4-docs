@@ -10,6 +10,18 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 26.15.0 - 2026-08-06
+
+### Features
+
+- [PLANET-8212](https://greenpeace-planet4.atlassian.net//browse/PLANET-8212) - Mobile Enhancements: Display Donate Button on Mobile
+- [PLANET-8181](https://greenpeace-planet4.atlassian.net//browse/PLANET-8181) - News & Stories: dynamically reload Posts on filters selection
+- [PLANET-7774](https://greenpeace-planet4.atlassian.net//browse/PLANET-7774) - Implement the new Timeline block 
+
+### Bug Fixes
+
+- [PLANET-8192](https://greenpeace-planet4.atlassian.net//browse/PLANET-8192) - Fix patterns skipping the block editor validations
+
 ## 26.14.0 - 2026-07-22
 
 ### Features
