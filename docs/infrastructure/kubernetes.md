@@ -83,13 +83,17 @@ Connect to development cluster:
 gcloud container clusters get-credentials p4-development --zone us-central1-a --project planet-4-151612
 ```
 
-Verify available clusters:
+Connect to production cluster:
+
+```shellscript
+gcloud container clusters get-credentials planet4-production --zone us-central1-a --project planet4-productionVerify available clusters:
+```
 
 ```shellscript
 kubectl config get-contexts
 ```
 
-Rename content to a human readable alias:
+Rename contents to a human readable alias. Example:
 
 ```shellscript
 kubectl config rename-context [long-cluster-name] p4-development

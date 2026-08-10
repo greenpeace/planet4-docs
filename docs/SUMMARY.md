@@ -35,8 +35,8 @@
 * [Kubernetes](infrastructure/kubernetes.md)
 * [NRO Generation](infrastructure/nro-generation.md)
 * [ElasticSearch](infrastructure/elasticsearch.md)
-* [Cloudflare](infrastructure/cloudflare.md)
-* [Environment Variables](infrastructure/environment-variables.md)
+* [Environment Variables](infrastructure/environment-variables/README.md)
+  * [Cloudflare](infrastructure/environment-variables/cloudflare.md)
 
 ## Recipes
 
