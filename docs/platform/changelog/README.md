@@ -10,6 +10,18 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 26.16.0 - 2026-08-18
+
+### Features
+
+- [PLANET-8246](https://greenpeace-planet4.atlassian.net//browse/PLANET-8246) - Timeline Block: add support for videos
+- [PLANET-8237](https://greenpeace-planet4.atlassian.net//browse/PLANET-8237) - Main nav: State for main navigation dropdown buttons
+- [PLANET-8151](https://greenpeace-planet4.atlassian.net//browse/PLANET-8151) - Adjust CSP headers to a more strict configuration
+
+### Bug Fixes
+
+- [PLANET-8254](https://greenpeace-planet4.atlassian.net//browse/PLANET-8254) - Donate button on mobile is very close to the logo on RTL sites
+
 ## 26.15.0 - 2026-08-06
 
 ### Features
