@@ -10,6 +10,19 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 26.17.0 - 2026-09-09
+
+### Features
+
+- [PLANET-8261](https://greenpeace-planet4.atlassian.net//browse/PLANET-8261) - Analytics: add data attributes to new Timeline block
+- [PLANET-8250](https://greenpeace-planet4.atlassian.net//browse/PLANET-8250) - Footer accessibility: Give context to social media buttons
+- [PLANET-8238](https://greenpeace-planet4.atlassian.net//browse/PLANET-8238) - Main navigation accessibility: update names for all mobile submenus to use contextual labels
+- [PLANET-8235](https://greenpeace-planet4.atlassian.net//browse/PLANET-8235) - Homepage accessibility: add a visually hidden <h1> heading
+- [PLANET-8205](https://greenpeace-planet4.atlassian.net//browse/PLANET-8205) - Carrousel Header: occupy part of the image with a white background, just like Page Headers
+- [PLANET-8180](https://greenpeace-planet4.atlassian.net//browse/PLANET-8180) - Add preferred Google news source buttons to Posts
+- [PLANET-8023](https://greenpeace-planet4.atlassian.net//browse/PLANET-8023) - Optimize Database Queries: Single Posts
+- [PLANET-7830](https://greenpeace-planet4.atlassian.net//browse/PLANET-7830) - Limit blocks to be used within Quote block to just paragraph
+
 ## 26.16.0 - 2026-08-18
 
 ### Features
