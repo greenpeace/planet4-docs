@@ -10,6 +10,18 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 26.18.0 - 2026-09-17
+
+### Features
+
+- [PLANET-8249](https://greenpeace-planet4.atlassian.net//browse/PLANET-8249) - News & stories page accessibility: Screen Reader Heading for Featured section
+- [PLANET-8206](https://greenpeace-planet4.atlassian.net//browse/PLANET-8206) - New Timeline block: scroll to the right year on load based on URL
+
+### Bug Fixes
+
+- [PLANET-8282](https://greenpeace-planet4.atlassian.net//browse/PLANET-8282) - Timeline block: formatting of lists not aligned with design system
+- [PLANET-8268](https://greenpeace-planet4.atlassian.net//browse/PLANET-8268) - Main navigation items cannot be accessed when the secondary navigation is visible
+
 ## 26.17.0 - 2026-09-09
 
 ### Features
