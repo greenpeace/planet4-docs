@@ -10,6 +10,24 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 26.19.0 - 2026-09-29
+
+### Features
+
+- [PLANET-8264](https://greenpeace-planet4.atlassian.net//browse/PLANET-8264) - Add sidebar options for customizing meta tags
+- [PLANET-8251](https://greenpeace-planet4.atlassian.net//browse/PLANET-8251) - Upgrade Gravity Forms to 3.x
+- [PLANET-8241](https://greenpeace-planet4.atlassian.net//browse/PLANET-8241) - Action List block accessibility: fix screen reader announcement for categories
+- [PLANET-8210](https://greenpeace-planet4.atlassian.net//browse/PLANET-8210) - News & Stories page: Show the Featured section only when no filter is selected
+
+### Bug Fixes
+
+- [PLANET-8309](https://greenpeace-planet4.atlassian.net//browse/PLANET-8309) - RTL sites: when using English capital letters appear lowercase
+- [PLANET-8296](https://greenpeace-planet4.atlassian.net//browse/PLANET-8296) - Secondary navigation block: flickering when a Timeline block on the page
+- [PLANET-8290](https://greenpeace-planet4.atlassian.net//browse/PLANET-8290) - Quote Block UI  looks off in the editor
+- [PLANET-8196](https://greenpeace-planet4.atlassian.net//browse/PLANET-8196) - Fix inlined headings in the frontend
+- [PLANET-8076](https://greenpeace-planet4.atlassian.net//browse/PLANET-8076) - Block scrolling in background when search filters modal is open
+- [PLANET-7870](https://greenpeace-planet4.atlassian.net//browse/PLANET-7870) - Fix layout and image height issues in the Featured section
+
 ## 26.18.0 - 2026-09-17
 
 ### Features
