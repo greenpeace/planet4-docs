@@ -10,6 +10,20 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 26.20.0 - 2026-10-13
+
+### Features
+
+- [PLANET-8301](https://greenpeace-planet4.atlassian.net//browse/PLANET-8301) - Add data attributes to Preferred News Source button
+- [PLANET-8255](https://greenpeace-planet4.atlassian.net//browse/PLANET-8255) - Timeline Block: add support for Youtube videos
+- [PLANET-8243](https://greenpeace-planet4.atlassian.net//browse/PLANET-8243) - Footer accessibility: Give more context to the language selection links
+
+### Bug Fixes
+
+- [PLANET-8319](https://greenpeace-planet4.atlassian.net//browse/PLANET-8319) - Cut off text in Carousel Header in RTL sites
+- [PLANET-8308](https://greenpeace-planet4.atlassian.net//browse/PLANET-8308) - RTL header: Donate button and Search icon incorrectly aligned on tablet screen size
+- [PLANET-7947](https://greenpeace-planet4.atlassian.net//browse/PLANET-7947) - Posts List: long taxonomy names break UI
+
 ## 26.19.0 - 2026-09-29
 
 ### Features
