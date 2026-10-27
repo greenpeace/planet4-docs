@@ -10,6 +10,20 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 26.21.0 - 2026-10-27
+
+### Features
+
+- [PLANET-8332](https://greenpeace-planet4.atlassian.net//browse/PLANET-8332) - Media Replacer: add nonce, capability authorization and enforce filetype
+- [PLANET-8307](https://greenpeace-planet4.atlassian.net//browse/PLANET-8307) - Carousel Header: disable lazy-loading on first slide image
+- [PLANET-8298](https://greenpeace-planet4.atlassian.net//browse/PLANET-8298) - Disable Heading block level 1 in the editor
+- [PLANET-8276](https://greenpeace-planet4.atlassian.net//browse/PLANET-8276) - Upgrade to WordPress 7.1.x
+
+### Bug Fixes
+
+- [PLANET-8333](https://greenpeace-planet4.atlassian.net//browse/PLANET-8333) - Credit is shown in the editor even when we force no caption
+- [PLANET-8322](https://greenpeace-planet4.atlassian.net//browse/PLANET-8322) - Gallery block grid style doesn't display images in the frontend
+
 ## 26.20.0 - 2026-10-13
 
 ### Features
