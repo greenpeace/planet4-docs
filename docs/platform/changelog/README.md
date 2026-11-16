@@ -10,6 +10,18 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 26.22.0 - 2026-11-16
+
+### Features
+
+- [PLANET-8340](https://greenpeace-planet4.atlassian.net//browse/PLANET-8340) - Petitions global counter: adjust email hashing to strict mode
+- [PLANET-8181](https://greenpeace-planet4.atlassian.net//browse/PLANET-8181) - News & Stories: dynamically reload Posts on filters selection
+
+### Bug Fixes
+
+- [PLANET-8371](https://greenpeace-planet4.atlassian.net//browse/PLANET-8371) - Missing space between categories in listing pages
+- [PLANET-8329](https://greenpeace-planet4.atlassian.net//browse/PLANET-8329) - Actions list block: fails to fetch content in the backend
+
 ## 26.21.0 - 2026-10-27
 
 ### Features
