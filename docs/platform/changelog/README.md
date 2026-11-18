@@ -10,6 +10,12 @@ description: >-
 Items with a 🔑 icon are not enabled by default, but instead they are released with an admin option (feature flag) to opt-in.
 {% endhint %}
 
+## 26.22.1 - 2026-11-18
+
+### Bug Fixes
+
+- [PLANET-8378](https://greenpeace-planet4.atlassian.net//browse/PLANET-8378) - Happy Point block: background image broken on frontend
+
 ## 26.22.0 - 2026-11-16
 
 ### Features
